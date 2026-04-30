@@ -693,6 +693,7 @@ def create_page(item_data, media_type, is_trend=False):
     extra_content = v7_block + similar_html
 
     # ── Tags ──────────────────────────────────────────────────────────────────
+    tags = [type_label, f"⭐ {rating}", year] + genres_en[:3]
     tags_html = '<div class="series-tags">' + ''.join(f'<span class="tag">{t}</span>' for t in tags) + '</div>'
 
     # ── Full Schema.org JSON-LD ───────────────────────────────────────────────

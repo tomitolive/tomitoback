@@ -144,9 +144,13 @@ HERO_TEMPLATE = r'''
         <span style="background: #de6718; color: #fff; padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9rem; margin-inline-end: 10px;">{type_ar}</span>
         <span style="color: #de6718; font-weight: bold; font-size: 1.1rem;">★ {rating}</span>
       </div>
-      <div style="display: flex; gap: 15px;">
-        <a href="#watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
-        <a href="https://tv.tomito.xyz/" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>مشاهدة المزيد</span></a>
+      <div class="action-buttons" style="display: flex; gap: 15px; flex-wrap: wrap;">
+        <a href="https://tv.tomito.xyz/{folder}/{slug}" class="btn btn-watch" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+          <span class="btn-icon">▶</span> شاهد الآن — Watch Now
+        </a>
+        <a href="https://tv.tomito.xyz/{folder}/{slug}" class="btn btn-download" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+          <span class="btn-icon">⬇</span> تحميل — Download
+        </a>
       </div>
     </div>
   </div>
@@ -175,20 +179,26 @@ def patch_file(filepath):
     content = header_pattern.sub(new_header, content)
 
     # 2. Inject Hero Section for Detail Pages
-    if folder_name in ['movie', 'tv'] and 'v7-hero' not in content:
+    if folder_name in ['movie', 'tv']:
         # Find item in index
         item = next((i for i in LOCAL_INDEX if i.get('slug') == slug), None)
         if item:
             title = item.get('title', slug)
             title_en = title.split('/')[-1].strip() if '/' in title else title
             type_ar = "فيلم" if folder_name == 'movie' else "مسلسل"
+            # Update existing v7-hero with proper buttons linking to TV subdomain
             hero_html = HERO_TEMPLATE.format(
                 poster=item.get('poster', ''),
                 title=title,
                 title_en=title_en,
                 type_ar=type_ar,
-                rating=item.get('rating', '7.5')
+                rating=item.get('rating', '7.5'),
+                folder=folder_name,
+                slug=slug
             )
+            # Remove any existing v7-hero just to be safe and cleanly inject it once
+            content = re.sub(r'<section class="section v7-hero".*?</section>', '', content, flags=re.DOTALL)
+            
             # Inject before the first section (usually v7-intro)
             if '<section class="section v7-intro">' in content:
                 content = re.sub(r'(\s*<section class="section v7-intro">)', r'\n' + hero_html + r'\1', content, count=1)
@@ -200,15 +210,20 @@ def patch_file(filepath):
     if 'id="watch"' not in content:
         content = re.sub(r'<section class="section"', r'<section class="section" id="watch"', content, count=1)
     
-    # 6. Global Clean URL Enforcement
+    # 3. Clean URLs (No .html)
     def fix_link(match):
-        f, s = match.group(1), match.group(2)
-        if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}"'
-        return match.group(0)
-    # Fix absolute external-to-local transitions
-    content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
-    # Fix internal relative .html links
-    content = re.sub(r'href="\.\.?/(movie|tv)/([a-zA-Z0-9\-_]+)\.html"', r'href="../\1/\2"', content)
+        return f'href="{match.group(1)}"'
+        
+    content = re.sub(r'href="((\.\./|./)?(movie|tv|genre)/[a-zA-Z0-9\-_]+)\.html"', fix_link, content)
+    
+    # 3.5 Kill old templates (Breadcrumb and series-hero)
+    content = re.sub(r'<nav class="breadcrumb">.*?</nav>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<div class="series-hero">.*?</div>\s*</div>\s*(<section class="section v7-intro">)', r'\1', content, flags=re.DOTALL)
+    content = re.sub(r'<div class="series-hero">.*?(<section class="section v7-(intro|tech|hero)")', r'\1', content, flags=re.DOTALL)
+    content = content.replace("</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>", "")
+    content = re.sub(r'</div>\s*</div>\s*</div>\s*<section class="section v7-hero"', r'<section class="section v7-hero"', content)
+    
+    # 4. Force "Mazid" button to domain + add class
 
     # 4. Force "Mazid" button to domain + add class
     content = re.sub(r'href="https://tv\.tomito\.xyz/"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
