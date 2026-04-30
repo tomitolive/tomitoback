@@ -16,11 +16,9 @@ if os.path.exists(index_path):
         LOCAL_INDEX = json.load(f)
         LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_INDEX}
 
-def get_item_url(folder, slug, root="./"):
-    key = f"{folder}/{slug}"
-    if key in LOCAL_SLUGS:
-        return f"{root}{folder}/{slug}.html"
-    return f"https://tv.tomito.xyz/{folder}/{slug}"
+def get_item_url(slug, is_movie, root='./'):
+    folder = 'movie' if is_movie else 'tv'
+    return f"{root}{folder}/{slug}"
 
 # Import Google Indexing function
 try:
@@ -168,7 +166,7 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
   function getUrl(folder, slug, root = './') {
     const key = `${folder}/${slug}`;
     if (typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(key)) {
-      return `${root}${folder}/${slug}.html`;
+      return `${root}${folder}/${slug}`;
     }
     return `https://tv.tomito.xyz/${folder}/${slug}`;
   }
@@ -256,6 +254,18 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
 # --- Category Links Helper ---
 def get_category_links_html(root_path="./"):
     """Generates the HTML for the categories dropdown."""
+    return f"""
+    <a href="{root_path}genre/action">أكشن</a>
+    <a href="{root_path}genre/adventure">مغامرة</a>
+    <a href="{root_path}genre/animation">أنمي</a>
+    <a href="{root_path}genre/comedy">كوميديا</a>
+    <a href="{root_path}genre/drama">دراما</a>
+    <a href="{root_path}genre/thriller">إثارة</a>
+    <a href="{root_path}genre/sci-fi">خيال علمي</a>
+    <a href="{root_path}genre/romance">رومانسية</a>
+    <a href="{root_path}genre/horror">رعب</a>
+    <a href="{root_path}genre/netflix">نيتفلكس</a>
+    """
     try:
         from ai_engine import BOT_MISSIONS
     except ImportError:

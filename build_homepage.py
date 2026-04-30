@@ -235,7 +235,7 @@ def build():
     function getUrl(folder, slug, root = './') {
       const key = `${folder}/${slug}`;
       if (typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(key)) {
-        return `${root}${folder}/${slug}.html`;
+        return `${root}${folder}/${slug}`;
       }
       return `https://tv.tomito.xyz/${folder}/${slug}`;
     }
