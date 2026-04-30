@@ -19032,5 +19032,23 @@
       16
     ],
     "timestamp": 1777577209
+  },
+  {
+    "title": "ليلو وستيتش / Lilo Stitch",
+    "title_ar": "ليلو وستيتش",
+    "title_en": "Lilo Stitch",
+    "slug": "11544-lilo-stitch",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/6qBsL9AWlDEwnpXqLNKdDjmvnc.jpg",
+    "rating": 7.6,
+    "year": "2002",
+    "type": "movie",
+    "tmdb_id": 11544,
+    "genre_ids": [
+      16,
+      10751,
+      35
+    ],
+    "timestamp": 1777579124
   }
 ]
