@@ -191,10 +191,10 @@ def patch_file(filepath):
             )
             # Inject before the first section (usually v7-intro)
             if '<section class="section v7-intro">' in content:
-                content = content.replace('<section class="section v7-intro">', f'{hero_html}\n<section class="section v7-intro">')
+                content = re.sub(r'(\s*<section class="section v7-intro">)', r'\n' + hero_html + r'\1', content, count=1)
             else:
                 # Fallback to menu overlay anchor
-                content = re.sub(r'(id="menu-overlay">.*?</div>)', r'\1\n' + hero_html, content, flags=re.DOTALL)
+                content = re.sub(r'(id="menu-overlay">.*?</div>)', r'\1\n' + hero_html, content, flags=re.DOTALL, count=1)
 
     # 3. Clean URLs (No .html)
     def fix_link(match):
