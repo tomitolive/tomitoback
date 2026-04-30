@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PRCQVS90BX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-PRCQVS90BX');
@@ -26,29 +27,54 @@
   <meta name="twitter:image" content="/logo.png">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" href="../favicon.ico">
-  
+
+  <script src="../data/search_index.js"></script>
 </head>
+
 <body>
-  <header class="header">
-    <a href="../" class="logo-link">
-      <span class="logo-text">TOMITO</span>
-    </a>
-    <ul class="nav">
-      <li><a href="../#movies" class="nav-btn">أفلام</a></li>
-      <li><a href="../#series" class="nav-btn">مسلسلات</a></li>
-      <li><a href="../" class="nav-btn">البحث والتصنيفات</a></li>
-    </ul>
-    <a class="header-btn" href="https://tv.tomito.xyz">الموقع الرسمي</a>
-  </header>
+  <header class="tomito-header">
+  <div class="top-bar">
+    <div class="header-container">
+      <ul class="top-nav">
+        <li><a href="/">الرئيسية</a></li>
+        <li><a href="/#movies">أفلام</a></li>
+        <li><a href="/#series">مسلسلات</a></li>
+        <li><a href="/genre/animation">أنمي</a></li>
+        <li><a href="javascript:void(0)" onclick="toggleMenu()" class="categories-link">التصنيفات ▾</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://tv.tomito.xyz/" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+        <a href="https://tv.tomito.xyz/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <div class="header-container">
+      <div class="logo-and-menu">
+        <a href="/" class="logo-link">
+          <span class="logo-text">TOMITO</span>
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="القائمة">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+      <div class="header-search-wrapper">
+        <input type="text" id="site-search" placeholder="ابحث عن فيلم أو مسلسل..." onkeyup="siteSearch()" autocomplete="off">
+        <div class="search-icon-inside"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M21.71 20.29l-5.01-5.01C17.54 13.68 18 11.91 18 10c0-4.41-3.59-8-8-8S2 5.59 2 10s3.59 8 8 8c1.91 0 3.68-.46 5.28-1.3l5.01 5.01c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41zM4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z"/></svg></div>
+        <button class="search-btn" aria-label="بحث">بحث</button>
+        <div id="search-suggestions"></div>
+      </div>
+    </div>
+  </div>
+</header>
 
   <nav class="breadcrumb">
-    <a href="../">الرئيسية</a> &gt; 
-    <a href="../genre/action">تصنيف</a> &gt; 
+    <a href="../">الرئيسية</a> &gt;
+    <a href="../genre/action">تصنيف</a> &gt;
     <span>أكشن</span>
   </nav>
 
   <div class="series-hero">
-    <img src="/logo.png" alt="أكشن — مشاهدة وتحميل" loading="eager" class="series-poster">
     <div class="series-info">
       <h1 class="series-title">
         <span>أكشن</span>
@@ -58,180 +84,20 @@
         <p class="desc-en"></p>
         <p class="desc-ar">استمتع بمشاهدة أكشن بجودة عالية HD.</p>
       </div>
-      
 
-      <div class="action-buttons">
-        <a href="#" class="btn btn-watch">
-          <span class="btn-icon">▶</span> شاهد الآن — Watch Now
-        </a>
-        <a href="#" class="btn btn-download">
-          <span class="btn-icon">⬇</span> تحميل — Download
-        </a>
-      </div>
+
+
     </div>
   </div>
 
-  <div class="grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:15px; padding:20px;">
-            <a href="/movie/166426-pirates-of-the-caribbean-dead-men-tell-no-tales" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/6lAPOAFYFWIO3SQRemEY2wInQMC.jpg" alt="قراصنة الكاريبي - الموتى لا يروون حكايات" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">قراصنة الكاريبي - الموتى لا يروون حكايات</div>
-              </div>
-            </a>
-            <a href="/movie/5916-the-getaway" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/8SvnGUJsr16zUJ2CN7ONX1ZWtZ8.jpg" alt="The Getaway" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">The Getaway</div>
-              </div>
-            </a>
-            <a href="/movie/49529-john-carter" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/lCxz1Yus07QCQQCb6I0Dr3Lmqpx.jpg" alt="John Carter" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">John Carter</div>
-              </div>
-            </a>
-            <a href="/movie/1087891-the-amateur" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/eHYPC2OxV1YqTBKMp3xagYOAJkA.jpg" alt="الهاوي" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">الهاوي</div>
-              </div>
-            </a>
-            <a href="/movie/181812-star-wars-the-rise-of-skywalker" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg" alt="حرب النجوم: صعود سكاي ووكر" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">حرب النجوم: صعود سكاي ووكر</div>
-              </div>
-            </a>
-            <a href="/movie/49521-man-of-steel" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/kKfEMF3UKhZPQCJKNvdDVfbRngk.jpg" alt="رجل من الصلب" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">رجل من الصلب</div>
-              </div>
-            </a>
-            <a href="/movie/55846-blitz" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/qjqmhhc7uLub22mhu4V6DjOBwXM.jpg" alt="الهجوم السريع" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">الهجوم السريع</div>
-              </div>
-            </a>
-            <a href="/movie/5889-azumi" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/8EGNT2NzlfAsRp9hAVGpjObALOX.jpg" alt="あずみ" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">あずみ</div>
-              </div>
-            </a>
-            <a href="/movie/373200-detective-chinatown" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/zKQtRG6a53CI2NRi0gkrH3IoZ6D.jpg" alt="محقق الحي الصيني" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">محقق الحي الصيني</div>
-              </div>
-            </a>
-            <a href="/movie/474395-teen-titans-go-to-the-movies" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/mFHihhE9hlvJEk2f1AqdLRaYHd6.jpg" alt="Teen Titans Go! To the Movies" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Teen Titans Go! To the Movies</div>
-              </div>
-            </a>
-            <a href="/movie/105001-iceman" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/juAYTbpP05NR8co9GhDTPwEKqde.jpg" alt="冰封俠：重生之門" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">冰封俠：重生之門</div>
-              </div>
-            </a>
-            <a href="/movie/342521-keanu" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/dPWlBmCixh9k3Jjb7c7jkIaxBbL.jpg" alt="Keanu" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Keanu</div>
-              </div>
-            </a>
-            <a href="/movie/1051-the-french-connection" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/pH4saPwMjhnVGwmSH6RkMaHrt3s.jpg" alt="The French Connection" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">The French Connection</div>
-              </div>
-            </a>
-            <a href="/movie/1383731-protector" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/vVdxddwjZAL5MxwRU1yHBkTMWOo.jpg" alt="الحارسة" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">الحارسة</div>
-              </div>
-            </a>
-            <a href="/movie/1207162-rise-of-the-conqueror" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg" alt="Rise of the Conqueror" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Rise of the Conqueror</div>
-              </div>
-            </a>
-            <a href="/movie/1318447-apex" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/9iuGBLJBRuGKR6nRL4SxUV1tIdt.jpg" alt="المفترس الأقوى" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">المفترس الأقوى</div>
-              </div>
-            </a>
-            <a href="/movie/2024-the-patriot" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/fWZd815QxUCUcrWQZwUkAp9ljG.jpg" alt="The Patriot — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">The Patriot — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/1966-alexander" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/jrwQu72sGwGqwE8Ijne89PSIvhp.jpg" alt="Alexander — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Alexander — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/11362-the-count-of-monte-cristo" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/ifMgDAUXVQLY4DeOu3VTTi55jSP.jpg" alt="The Count of Monte Cristo — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">The Count of Monte Cristo — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/79-hero" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/1NBtOH3KPU9UUp1vzVHJ8qzdW88.jpg" alt="Hero — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Hero — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/676-pearl-harbor" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/y8A0Cvp8WQmZ3bjbnsL53lY0dsC.jpg" alt="Pearl Harbor — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Pearl Harbor — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/14537-harakiri" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/fRqVjso3rdEcxZHXWE2xazDAtjI.jpg" alt="Harakiri — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Harakiri — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/359724-ford-v-ferrari" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/i9FUL1B0ComrhEXnsCR3L5SlOJ7.jpg" alt="Ford v Ferrari — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Ford v Ferrari — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/855-black-hawk-down" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg" alt="Black Hawk Down — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Black Hawk Down — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/1328803-prisoner-of-war" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/4T4yRG6iskDcfMeoLuUZEJYCrjL.jpg" alt="Prisoner of War — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Prisoner of War — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a>
-            <a href="/movie/197-braveheart" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="https://image.tmdb.org/t/p/w500/or1gBugydmjToAEq7OZY0owwFk.jpg" alt="Braveheart — مشاهدة وتحميل مترجم HD" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">Braveheart — مشاهدة وتحميل مترجم HD</div>
-              </div>
-            </a></div>
+  <script src="../data/search_index.js"></script> (Fix offline search and UI consistency site-wide)
 
   <footer class="footer">
-    <p>© 2026 <a href="../" class="logo-link" style="display:inline-flex; vertical-align:middle; gap:0.25rem;"><span class="logo-text" style="font-size:1.1rem; filter:none;">TOMITO</span></a> — جميع الحقوق محفوظة | <a href="https://myactivity.google.com/">Google Activity</a> | مشاهدة افلام ومسلسلات اون لاين</p>
+    <p>© 2026 <a href="../" class="logo-link" style="display:inline-flex; vertical-align:middle; gap:0.25rem;"><span
+          class="logo-text" style="font-size:1.1rem; filter:none;">TOMITO</span></a> — جميع الحقوق محفوظة | <a
+        href="https://myactivity.google.com/">Google Activity</a> | مشاهدة افلام ومسلسلات اون لاين</p>
   </footer>
   <!-- No script needed -->
 </body>
+
 </html>

@@ -1,0 +1,172 @@
+import os
+import re
+
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+DIRS = ['movie', 'tv']
+
+SCRIPT_TAG = '  <script src="../data/search_index.js"></script>'
+
+NEW_HEADER_AND_MENU = """    <header class="tomito-header">
+  <div class="top-bar">
+    <div class="header-container">
+      <ul class="top-nav">
+        <li><a href="../">الرئيسية</a></li>
+        <li><a href="../#movies">أفلام</a></li>
+        <li><a href="../#series">مسلسلات</a></li>
+        <li><a href="../genre/animation">أنمي</a></li>
+        <li><a href="javascript:void(0)" onclick="toggleMenu()" class="categories-link">التصنيفات ▾</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://tv.tomito.xyz/" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+        <a href="https://tv.tomito.xyz/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <div class="header-container">
+      <div class="logo-and-menu">
+        <a href="../" class="logo-link">
+          <span class="logo-text">TOMITO</span>
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="القائمة">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+      <div class="header-search-wrapper">
+        <input type="text" id="site-search" placeholder="ابحث عن فيلم أو مسلسل..." onkeyup="siteSearch()" autocomplete="off">
+        <div class="search-icon-inside"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M21.71 20.29l-5.01-5.01C17.54 13.68 18 11.91 18 10c0-4.41-3.59-8-8-8S2 5.59 2 10s3.59 8 8 8c1.91 0 3.68-.46 5.28-1.3l5.01 5.01c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41zM4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z"/></svg></div>
+        <button class="search-btn" aria-label="بحث">بحث</button>
+        <div id="search-suggestions"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="menu-overlay" id="menu-overlay">
+  <div class="menu-categories">
+    <a href="../genre/action">أكشن</a>
+    <a href="../genre/adventure">مغامرة</a>
+    <a href="../genre/animation">أنمي</a>
+    <a href="../genre/comedy">كوميديا</a>
+    <a href="../genre/crime">جريمة</a>
+    <a href="../genre/documentary">وثائقي</a>
+    <a href="../genre/drama">دراما</a>
+    <a href="../genre/family">عائلي</a>
+    <a href="../genre/fantasy">خيال</a>
+    <a href="../genre/history">تاريخ</a>
+    <a href="../genre/horror">رعب</a>
+    <a href="../genre/music">موسيقى</a>
+    <a href="../genre/mystery">غموض</a>
+    <a href="../genre/romance">رومانسية</a>
+    <a href="../genre/science-fiction">خيال علمي</a>
+    <a href="../genre/tv-movie">فيلم تلفزيوني</a>
+    <a href="../genre/thriller">إثارة</a>
+    <a href="../genre/war">حرب</a>
+    <a href="../genre/western">غرب أمريكي</a>
+  </div>
+</div>
+"""
+
+UPDATED_SITE_SEARCH = """  <script>
+  async function siteSearch() {
+    const q = document.getElementById('site-search').value.toLowerCase();
+    const suggCont = document.getElementById('search-suggestions');
+    if (q.length < 1) { suggCont.style.display = 'none'; return; }
+
+    // FULL_INDEX is now loaded via search_index.js
+    if (typeof FULL_INDEX === 'undefined' || FULL_INDEX.length === 0) {
+      console.error("Search index not loaded.");
+      return;
+    }
+
+    const matches = FULL_INDEX.filter(item => {
+      const t = (item.title || "").toLowerCase();
+      const ta = (item.title_ar || "").toLowerCase();
+      const te = (item.title_en || "").toLowerCase();
+      return t.includes(q) || ta.includes(q) || te.includes(q);
+    });
+
+    matches.sort((a, b) => {
+      const aTitle = (a.title || "").toLowerCase();
+      const bTitle = (b.title || "").toLowerCase();
+      const aStarts = aTitle.startsWith(q);
+      const bStarts = bTitle.startsWith(q);
+      if (aStarts && !bStarts) return -1;
+      if (!aStarts && bStarts) return 1;
+      return 0;
+    });
+
+    const topMatches = matches.slice(0, 15);
+    if (topMatches.length > 0) {
+      suggCont.style.display = 'block';
+      suggCont.innerHTML = '';
+      topMatches.forEach(item => {
+        const title = item.title;
+        const folder = item.folder || 'movie';
+        const slug = item.slug;
+        const href = `../${folder}/${slug}`;
+        const img = item.poster;
+        const type = folder === 'movie' ? 'فيلم' : 'مسلسل';
+        const div = document.createElement('a');
+        div.className = 'suggestion-item';
+        div.href = href;
+        div.innerHTML = `<img src="${img}"> <div><div>${title}</div><span class="type">${type}</span></div>`;
+        suggCont.appendChild(div);
+      });
+    } else { suggCont.style.display = 'none'; }
+  }
+
+  function toggleMenu() {
+    const menu = document.getElementById('menu-overlay');
+    if (menu) menu.classList.toggle('active');
+    if (menu && menu.classList.contains('active')) {
+      const s = document.getElementById('site-search');
+      if (s) s.focus();
+    }
+  }
+
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('menu-overlay');
+    if (menu && !menu.contains(e.target) && !e.target.closest('.categories-link') && !e.target.closest('.mobile-menu-btn')) {
+      menu.classList.remove('active');
+    }
+    if (!e.target.closest('.header-search-wrapper')) {
+      const suggs = document.getElementById('search-suggestions');
+      if (suggs) suggs.style.display = 'none';
+    }
+  });
+  </script>"""
+
+def sync_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # 1. Inject script tag in <head> if not present
+    if 'search_index.js' not in content:
+        if '</head>' in content:
+            content = content.replace('</head>', f'{SCRIPT_TAG}\n</head>')
+
+    # 2. Update Header and Menu Overlay
+    # More aggressive replacement to fix broken structure
+    content = re.sub(r'<header.*?</header>(?:\s*<div.*?>\s*</div>)?', NEW_HEADER_AND_MENU, content, flags=re.DOTALL)
+
+    # 3. Update search script at the bottom
+    content = re.sub(r'<script>\s*(?:async function siteSearch.*?|function siteSearch.*?)</script>', UPDATED_SITE_SEARCH, content, flags=re.DOTALL)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+def main():
+    count = 0
+    for d in DIRS:
+        dir_path = os.path.join(BASE_PATH, d)
+        if not os.path.exists(dir_path): continue
+        for f in os.listdir(dir_path):
+            if f.endswith('.html'):
+                sync_file(os.path.join(dir_path, f))
+                count += 1
+                if count % 100 == 0:
+                    print(f"Updated {count} files...")
+    print(f"✅ Full UI sync complete. Total files updated: {count}")
+
+if __name__ == '__main__':
+    main()
