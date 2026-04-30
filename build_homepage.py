@@ -20,7 +20,7 @@ LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_DATA}
 def get_url(folder, slug, root="./"):
     key = f"{folder}/{slug}"
     if key in LOCAL_SLUGS:
-        return f"{root}{folder}/{slug}.html"
+        return f"{root}{folder}/{slug}"
     return f"https://tv.tomito.xyz/{folder}/{slug}"
 
 def card_html(item, root="./"):
