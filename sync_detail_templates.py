@@ -229,7 +229,7 @@ def patch_file(filepath):
     content = re.sub(r'href="https://tv\.tomito\.xyz/"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
     content = re.sub(r'class="load-more-btn"\s+href="https://tv\.tomito\.xyz/"', 'class="load-more-btn domine-button-js" href="https://tv.tomito.xyz/"', content)
     # Extra check for existing pages that might have different order
-    content = re.sub(r'href="\.\.?/genre/[a-zA-Z0-9\-_.]+"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
+    content = re.sub(r'href="\.\.?/genre/([a-zA-Z0-9\-_.]+)"\s+class="load-more-btn"', r'href="https://tv.tomito.xyz/genre/\1" class="load-more-btn domine-button-js"', content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)

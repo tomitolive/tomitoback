@@ -554,7 +554,7 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
     
     # Link "Mazid" button to genre or category
     redirect_slug = genre_slug or ("movie" if media_type == 'movie' else "tv-show")
-    html += f'''<div class="load-more-container"><a href="../genre/{redirect_slug}.html" class="load-more-btn"><span>مشاهدة المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></a></div>'''
+    html += f'''<div class="load-more-container"><a href="https://tv.tomito.xyz/genre/{redirect_slug}.html" class="load-more-btn"><span>مشاهدة المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></a></div>'''
     html += '</section>'
     return html
 
