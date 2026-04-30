@@ -1011,8 +1011,26 @@ def build_listing_pages():
               <div class="card-bottom"><div class="card-title">{t_ar}</div></div>
             </a>'''
         grid += "</div>"
+        
+        # Determine Redirect URL to tv.tomito.xyz
+        redirect_url = "https://tv.tomito.xyz/"
+        mission = next((m for m in BOT_MISSIONS if m['label'] == title), None)
+        if mission:
+            m_type = mission.get('type', 'genre')
+            m_id = mission.get('id')
+            redirect_url = f"https://tv.tomito.xyz/category/{m_type}/{m_id}"
+        elif "فيلم" in title or "الأفلام" in title:
+            redirect_url = "https://tv.tomito.xyz/movie"
+        elif "مسلسل" in title or "المسلسلات" in title:
+            redirect_url = "https://tv.tomito.xyz/tv"
+
         if len(items) > 20:
-            grid += '<div class="load-more-container"><button class="load-more-btn" onclick="showMoreCards(this)"><span>عرض المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button></div>'
+             # First button shows more local cards
+             grid += '<div class="load-more-container"><button class="load-more-btn" onclick="showMoreCards(this)"><span>عرض المزيد محلياً</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button></div>'
+        
+        # Final redirect button to external category
+        grid += f'<div class="load-more-container" style="margin-top:10px;"><a href="{redirect_url}" class="load-more-btn" style="background:#FF6D1F; color:#000;"><span>مشاهدة الكل على tv.tomito.xyz</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"/></svg></a></div>'
+        
         return html.replace('{{EXTRA_CONTENT}}', grid)
 
     # 1. Main Index (Removed: build_homepage.py handles this)
