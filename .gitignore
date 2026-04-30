@@ -1,0 +1,11 @@
+# Service Account Keys
+reference-fact-488823-b6-710a3997d9de.json
+
+# Python
+__pycache__/
+*.pyc
+mythical-module-493722-n6-e2da3325c496.json
+
+# Bot runtime files (local only)
+daily_seen_ids.json
+daily_run.log

@@ -1,0 +1,41 @@
+name: Google Indexing Mission
+
+on:
+  schedule:
+    - cron: "0 1 * * *"  # Once a day at 1 AM (after the main mission)
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  indexing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests google-auth google-api-python-client
+
+      - name: Run Google Indexer
+        env:
+          GCP_INDEXING_KEY: ${{ secrets.GCP_INDEXING_KEY }}
+        run: |
+          python3 google_indexer.py
+
+      - name: Commit and Push Progress
+        run: |
+          git config --local user.email "bot@tomito.xyz"
+          git config --local user.name "Indexing Bot"
+          git add indexer_progress.json
+          git commit -m "🤖 Indexing Progress Update [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push origin main
