@@ -126,31 +126,13 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 108181,
-    "title": "Imperfect Women",
-    "poster": "https://image.tmdb.org/t/p/w500/wW7rimhnokiQ8V6ha6VKIwHg8IV.jpg",
-    "year": "2026",
-    "rating": 6.0,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "108181-imperfect-women"
-  },
-  {
-    "tmdb_id": 96316,
-    "title": "Rent-a-Girlfriend",
-    "poster": "https://image.tmdb.org/t/p/w500/6ZpDPUNtVw6UdJoStvVlRZ62yAi.jpg",
-    "year": "2020",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "96316-rent-a-girlfriend"
-  },
-  {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "tv",
-    "slug": "287527-the-testaments"
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 202411,
@@ -162,13 +144,13 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 318262,
+    "title": "Should I Marry A Murderer?",
+    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
+    "year": "2026",
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "318262-should-i-marry-a-murderer"
   },
   {
     "tmdb_id": 261615,
@@ -178,5 +160,23 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "261615-envious"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
+    "tmdb_id": 287450,
+    "title": "Secret Service",
+    "poster": "https://image.tmdb.org/t/p/w500/xfMN8liyfR06b4yRg8bkZMV9KTQ.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "287450-secret-service"
   }
 ]

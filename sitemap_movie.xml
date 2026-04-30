@@ -3859,6 +3859,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/8920-garfield</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/8961-bad-boys-ii</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>

@@ -144,15 +144,6 @@
     "slug": "1304313-lee-cronins-the-mummy"
   },
   {
-    "tmdb_id": 1684737,
-    "title": "Ice-Pocalypse",
-    "poster": "https://image.tmdb.org/t/p/w500/7m7gQtWzHzazJSXoU5HuBCsxv8U.jpg",
-    "year": "2026",
-    "rating": 2.0,
-    "folder": "movie",
-    "slug": "1684737-ice-pocalypse"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -160,6 +151,15 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1684737,
+    "title": "Ice-Pocalypse",
+    "poster": "https://image.tmdb.org/t/p/w500/7m7gQtWzHzazJSXoU5HuBCsxv8U.jpg",
+    "year": "2026",
+    "rating": 2.0,
+    "folder": "movie",
+    "slug": "1684737-ice-pocalypse"
   },
   {
     "tmdb_id": 1325678,
