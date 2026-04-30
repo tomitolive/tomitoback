@@ -268,14 +268,18 @@ def main():
     print(f"💾 content_index.json updated ({len(all_index)} total entries)")
 
     # ── Rebuild homepage & sitemaps ──────────────────────────────────────────
+    # ── Rebuild homepage & sitemaps ──────────────────────────────────────────
     try:
-        from build_homepage import build, build_all_pages
-        build()
-        build_all_pages()
+        import build_homepage
+        build_homepage.build()
+        if hasattr(build_homepage, 'build_all_pages'):
+            build_homepage.build_all_pages()
+        
+        from mega_bot import build_listing_pages
         build_listing_pages()
-        print("🏗️  Homepage, all-pages & listing pages rebuilt.")
+        print("🏗️  Homepage and listing pages rebuilt.")
     except Exception as e:
-        log.warning(f"Homepage build warning: {e}")
+        log.warning(f"Rebuild warning: {e}")
 
     # ── Git push (local runs only — GitHub Actions handles its own push) ─────
     git_sync = os.path.join(BASE_PATH, 'git_sync.sh')

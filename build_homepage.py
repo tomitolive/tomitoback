@@ -321,5 +321,9 @@ def build():
     with open(os.path.join(BASE_PATH, 'index.html'), 'w', encoding='utf-8') as f: f.write(html)
     print(f"Built index.html with hybrid links.")
 
+def build_all_pages():
+    """Alias for daily_content compatibility."""
+    build()
+
 if __name__ == '__main__':
     build()
