@@ -18,15 +18,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -34,6 +25,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 270476,
@@ -90,15 +90,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
     "tmdb_id": 285838,
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
@@ -106,6 +97,15 @@
     "rating": 7.9,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 206484,
@@ -144,13 +144,13 @@
     "slug": "86031-dr-stone"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
+    "tmdb_id": 261615,
+    "title": "Envious",
+    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
     "year": "2024",
-    "rating": 6.2,
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "260807-mate"
+    "slug": "261615-envious"
   },
   {
     "tmdb_id": 318262,
@@ -162,13 +162,13 @@
     "slug": "318262-should-i-marry-a-murderer"
   },
   {
-    "tmdb_id": 261615,
-    "title": "Envious",
-    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
     "year": "2024",
-    "rating": 7.7,
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "261615-envious"
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 311858,
