@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Syncs all detail pages with hybrid link logic and premium header."""
+"""Syncs all detail pages with hybrid link logic, category redirects, and localized priority."""
 
 import os
 import json
@@ -14,16 +14,15 @@ def load_index():
             return json.load(f)
     return []
 
-LOCAL_DATA = load_index()
-LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_DATA}
+LOCAL_INDEX = load_index()
+LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_INDEX}
 LOCAL_PAGES_JSON = json.dumps(list(LOCAL_SLUGS))
 
 def get_category_links_html(root_path="./"):
     try:
         from mega_bot import get_category_links_html as gcl
         return gcl(root_path=root_path)
-    except:
-        return ""
+    except: return ""
 
 HEADER_HTML_TEMPLATE = r'''
 <header class="tomito-header">
@@ -130,34 +129,19 @@ JS_FUNCTIONS = r'''
       document.getElementById('search-suggestions').style.display = 'none';
     }
   });
-
-  function showMoreCards(btn) {
-    const section = btn.closest('.section') || btn.closest('.extra-content');
-    const grid = section.querySelector('.grid');
-    const hidden = grid.querySelectorAll('.card.hidden-card');
-    hidden.forEach((c, i) => {
-      if (i < 24) c.classList.remove('hidden-card');
-    });
-    if (grid.querySelectorAll('.card.hidden-card').length === 0) {
-      btn.parentElement.style.display = 'none';
-    }
-  }
 '''
 
 def patch_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Determing root path
-    root = "../" if "/movie/" in filepath or "/tv/" in filepath or "/genre/" in filepath else "./"
+    root = "../" if any(x in filepath for x in ["/movie/", "/tv/", "/genre/"]) else "./"
     
-    # 1. Update Head: script references
-    if '<script src="' + root + 'data/search_index.js"></script>' not in content:
-        content = content.replace('</head>', f'<script src="{root}data/search_index.js"></script>\n<script>const LOCAL_PAGES = {LOCAL_PAGES_JSON};</script>\n</head>')
-    elif 'LOCAL_PAGES =' not in content:
+    # 1. Update Scripts (Safe replacement using lambda)
+    if 'LOCAL_PAGES =' not in content:
         content = content.replace('search_index.js"></script>', f'search_index.js"></script>\n<script>const LOCAL_PAGES = {LOCAL_PAGES_JSON};</script>')
     else:
-         content = re.sub(r'const LOCAL_PAGES = \[.*?\];', f'const LOCAL_PAGES = {LOCAL_PAGES_JSON};', content)
+        content = re.sub(r'const LOCAL_PAGES = \[.*?\];', lambda m: f"const LOCAL_PAGES = {LOCAL_PAGES_JSON};", content)
 
     # 2. Update Header
     header_pattern = re.compile(r'<header.*?</header>\s*(<div class="menu-overlay" id="menu-overlay">.*?</div>)?', re.DOTALL)
@@ -165,26 +149,11 @@ def patch_file(filepath):
     new_header = HEADER_HTML_TEMPLATE.format(root=root, cat_links=cat_links)
     content = header_pattern.sub(new_header, content)
 
-    # 3. Update JavaScript functions
-    script_pattern = re.compile(r'<script>\s*(async function siteSearch.*?)\s*</script>', re.DOTALL)
-    if script_pattern.search(content):
-        content = script_pattern.sub(f'<script>\n{JS_FUNCTIONS}\n</script>', content)
-    else:
-        # Fallback: find any script block and replace it or append at end
-        if 'siteSearch' in content:
-             content = re.sub(r'async function siteSearch.*?\}', JS_FUNCTIONS, content, flags=re.DOTALL)
-
-    # 4. Hybrid Link Fix in Detail Page Similar Grids
-    # Find links like href="https://tv.tomito.xyz/movie/..." and fix them if local
+    # 3. Hybrid Link Fix for existing grids
     def fix_link(match):
-        prefix = match.group(1)
-        folder = match.group(1)
-        slug = match.group(2)
-        key = f"{folder}/{slug}"
-        if key in LOCAL_SLUGS:
-            return f'href="{root}{folder}/{slug}.html"'
+        f, s = match.group(1), match.group(2)
+        if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}.html"'
         return match.group(0)
-
     content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -192,28 +161,15 @@ def patch_file(filepath):
 
 def main():
     count = 0
-    # Detail pages
-    for folder in ['movie', 'tv']:
+    for folder in ['movie', 'tv', 'genre']:
         dir_path = os.path.join(BASE_PATH, folder)
-        if os.path.exists(dir_path):
-            for filename in os.listdir(dir_path):
-                if filename.endswith('.html'):
-                    patch_file(os.path.join(dir_path, filename))
-                    count += 1
-                    if count % 100 == 0: print(f"Updated {count} files...")
-    
-    # Genre pages
-    genre_path = os.path.join(BASE_PATH, 'genre')
-    if os.path.exists(genre_path):
-        for filename in os.listdir(genre_path):
+        if not os.path.exists(dir_path): continue
+        for filename in os.listdir(dir_path):
             if filename.endswith('.html'):
-                patch_file(os.path.join(genre_path, filename))
+                patch_file(os.path.join(dir_path, filename))
                 count += 1
-
-    # index.html (already built by build_homepage but let's be sure about head)
-    # patch_file(os.path.join(BASE_PATH, 'index.html'))
-    
-    print(f"✅ Total site-wide hybrid URL sync complete. Total files updated: {count}")
+                if count % 100 == 0: print(f"Updated {count} files...")
+    print(f"✅ Total site-wide category-redirect sync complete. Files: {count}")
 
 if __name__ == '__main__':
     main()
