@@ -379,7 +379,7 @@ def _build_v7_extra_content(
       </div>
       <p style="color: #eee; line-height: 1.8; font-size: 1.05rem; margin-bottom: 25px;">{page_intro or f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية..."}</p>
       <div style="display: flex; gap: 15px;">
-        <a href="#v7-watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
+        <a href="#watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
         <a href="#v7-tech" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>التفاصيل</span></a>
       </div>
     </div>
@@ -406,7 +406,7 @@ def _build_v7_extra_content(
     desc_en_safe  = desc_en  or f"Watch and download {title_en} ({year}) in full HD, translated, exclusively on TOMITO."
 
     lang_html = f"""
-<section class="section v7-lang-section">
+<section class="section v7-lang-section" id="watch-fallback">
   <div class="lang-switcher" role="tablist" aria-label="اختر اللغة">
     <button class="lang-btn active" onclick="switchLang('ar')" id="btn-ar">العربية</button>
     <button class="lang-btn" onclick="switchLang('en')" id="btn-en">English</button>
@@ -429,7 +429,7 @@ function switchLang(lang){{
     trailer_html = ""
     if youtube_key:
         trailer_html = f"""
-<section class="section v7-trailer">
+<section class="section v7-trailer" id="watch">
   <h2 class="section-title">الإعلان الرسمي — Official Trailer</h2>
   <div class="video-container">
     <iframe

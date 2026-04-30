@@ -145,7 +145,7 @@ HERO_TEMPLATE = r'''
         <span style="color: #de6718; font-weight: bold; font-size: 1.1rem;">★ {rating}</span>
       </div>
       <div style="display: flex; gap: 15px;">
-        <a href="#player" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
+        <a href="#watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
         <a href="https://tv.tomito.xyz/" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>مشاهدة المزيد</span></a>
       </div>
     </div>
@@ -196,7 +196,11 @@ def patch_file(filepath):
                 # Safe injection after known unique header element
                 content = content.replace('      <div id="search-suggestions"></div>', f'      <div id="search-suggestions"></div>\n{hero_html}')
 
-    # 3. Clean URLs (No .html)
+    # 5. Ensure functional button targets
+    if 'id="watch"' not in content:
+        content = re.sub(r'<section class="section"', r'<section class="section" id="watch"', content, count=1)
+    
+    # 6. Global Clean URL Enforcement
     def fix_link(match):
         f, s = match.group(1), match.group(2)
         if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}"'
