@@ -201,7 +201,10 @@ def patch_file(filepath):
         f, s = match.group(1), match.group(2)
         if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}"'
         return match.group(0)
+    # Fix absolute external-to-local transitions
     content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
+    # Fix internal relative .html links
+    content = re.sub(r'href="\.\.?/(movie|tv)/([a-zA-Z0-9\-_]+)\.html"', r'href="../\1/\2"', content)
 
     # 4. Force "Mazid" button to domain + add class
     content = re.sub(r'href="https://tv\.tomito\.xyz/"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
