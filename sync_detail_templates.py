@@ -131,32 +131,78 @@ JS_FUNCTIONS = r'''
   });
 '''
 
+HERO_TEMPLATE = r'''
+<section class="section v7-hero" style="padding-top: 20px; padding-bottom: 20px;">
+  <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="flex: 0 0 300px; max-width: 100%;">
+      <img src="{poster}" alt="{title} poster" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{title}</h1>
+      <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({type_ar})</h2>
+      <div style="margin-bottom: 20px;">
+        <span style="background: #de6718; color: #fff; padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9rem; margin-inline-end: 10px;">{type_ar}</span>
+        <span style="color: #de6718; font-weight: bold; font-size: 1.1rem;">★ {rating}</span>
+      </div>
+      <div style="display: flex; gap: 15px;">
+        <a href="#player" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
+        <a href="https://tv.tomito.xyz/" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>مشاهدة المزيد</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+'''
+
 def patch_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
+    folder_name = os.path.basename(os.path.dirname(filepath))
+    filename = os.path.basename(filepath)
+    slug = filename.replace('.html', '')
+    
     root = "../" if any(x in filepath for x in ["/movie/", "/tv/", "/genre/"]) else "./"
     
-    # 1. Update Scripts (Safe replacement using lambda)
+    # 1. Update Header & Search
     if 'LOCAL_PAGES =' not in content:
         content = content.replace('search_index.js"></script>', f'search_index.js"></script>\n<script>const LOCAL_PAGES = {LOCAL_PAGES_JSON};</script>')
     else:
         content = re.sub(r'const LOCAL_PAGES = \[.*?\];', lambda m: f"const LOCAL_PAGES = {LOCAL_PAGES_JSON};", content)
 
-    # 2. Update Header
     header_pattern = re.compile(r'<header.*?</header>\s*(<div class="menu-overlay" id="menu-overlay">.*?</div>)?', re.DOTALL)
     cat_links = get_category_links_html(root_path=root)
     new_header = HEADER_HTML_TEMPLATE.format(root=root, cat_links=cat_links)
     content = header_pattern.sub(new_header, content)
 
-    # 3. Hybrid Link Fix for existing grids
+    # 2. Inject Hero Section for Detail Pages
+    if folder_name in ['movie', 'tv'] and 'v7-hero' not in content:
+        # Find item in index
+        item = next((i for i in LOCAL_INDEX if i.get('slug') == slug), None)
+        if item:
+            title = item.get('title', slug)
+            title_en = title.split('/')[-1].strip() if '/' in title else title
+            type_ar = "فيلم" if folder_name == 'movie' else "مسلسل"
+            hero_html = HERO_TEMPLATE.format(
+                poster=item.get('poster', ''),
+                title=title,
+                title_en=title_en,
+                type_ar=type_ar,
+                rating=item.get('rating', '7.5')
+            )
+            # Inject after header/overlay
+            content = content.replace('</div>\n</div>\n\n  \n<section class="section v7-intro">', f'</div>\n</div>\n\n{hero_html}\n<section class="section v7-intro">')
+            # Fallback if the specific newline pattern doesn't match
+            if 'v7-hero' not in content:
+                content = re.sub(r'(id="menu-overlay">.*?</div>)', r'\1\n' + hero_html, content, flags=re.DOTALL)
+
+    # 3. Clean URLs (No .html)
     def fix_link(match):
         f, s = match.group(1), match.group(2)
         if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}"'
         return match.group(0)
     content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
 
-    # 4. Force "Mazid" button to external domain as requested (specifically load-more-btn)
+    # 4. Force "Mazid" button to domain
     content = re.sub(r'href="\.\.?/genre/[a-zA-Z0-9\-_.]+" class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn"', content)
     content = re.sub(r'class="load-more-btn" href="\.\.?/genre/[a-zA-Z0-9\-_.]+"', 'class="load-more-btn" href="https://tv.tomito.xyz/"', content)
 

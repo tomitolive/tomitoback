@@ -22,18 +22,21 @@ def rebuild():
     
     count = 0
     for item in data:
-        # mega_bot.create_page(item_data, media_type, is_trend=False)
-        # We need to make sure 'id' is in item (it's often 'tmdb_id' in our index, so we map it)
-        if 'id' not in item and 'tmdb_id' in item:
-            item['id'] = item['tmdb_id']
-            
+        tmdb_id = item.get('tmdb_id')
         media_type = 'movie' if item.get('folder') == 'movie' else 'tv'
         
+        if not tmdb_id: continue
+        
         try:
-            mega_bot.create_page(item, media_type)
-            count += 1
-            if count % 100 == 0:
-                log.info(f"Rebuilt {count} pages...")
+            # fetch_details handles cache/fetching
+            details = mega_bot.fetch_details(tmdb_id, media_type)
+            if details:
+                mega_bot.create_page(details, media_type)
+                count += 1
+                if count % 100 == 0:
+                    log.info(f"Rebuilt {count} pages...")
+            else:
+                log.error(f"Failed to fetch details for {item.get('slug')}")
         except Exception as e:
             log.error(f"Failed to rebuild {item.get('slug')}: {e}")
 
