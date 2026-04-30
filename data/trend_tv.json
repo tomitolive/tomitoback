@@ -18,15 +18,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 6.9,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -34,6 +25,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 124364,
@@ -54,15 +54,6 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -70,6 +61,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 95557,

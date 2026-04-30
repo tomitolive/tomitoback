@@ -2281,6 +2281,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/337401-mulan</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/337404-cruella</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
