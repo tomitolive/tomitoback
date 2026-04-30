@@ -18692,5 +18692,41 @@
       10749
     ],
     "timestamp": 1777534962
+  },
+  {
+    "title": "الدمى وترنيمة عيد الميلاد / The Muppet Christmas Carol",
+    "title_ar": "الدمى وترنيمة عيد الميلاد",
+    "title_en": "The Muppet Christmas Carol",
+    "slug": "10437-the-muppet-christmas-carol",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/ssrV29QSVVJuemBHho0Qx7pFYak.jpg",
+    "rating": 7.4,
+    "year": "1992",
+    "type": "movie",
+    "tmdb_id": 10437,
+    "genre_ids": [
+      10402,
+      35,
+      10751,
+      14,
+      18
+    ],
+    "timestamp": 1777543011
+  },
+  {
+    "title": "Battle of the Network Stars / Battle of the Network Stars",
+    "title_ar": "Battle of the Network Stars",
+    "title_en": "Battle of the Network Stars",
+    "slug": "11884-battle-of-the-network-stars",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/4KTe1voKfQOzLDKUsiejRjUUWO1.jpg",
+    "rating": 6.2,
+    "year": "1976",
+    "type": "tv",
+    "tmdb_id": 11884,
+    "genre_ids": [
+      35
+    ],
+    "timestamp": 1777543071
   }
 ]

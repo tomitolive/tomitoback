@@ -175,6 +175,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/10437-the-muppet-christmas-carol</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1047041-detective-conan-black-iron-submarine</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
