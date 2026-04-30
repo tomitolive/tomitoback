@@ -356,7 +356,8 @@ def _build_v7_extra_content(
     faq_html, youtube_key, media_type,
     poster_url=None,  # Added poster_url
     tomito_opinion=None,
-    page_intro=None, page_outro=None
+    page_intro=None, page_outro=None,
+    slug=None
 ):
     """Assembles the main V7 content block injected into {{EXTRA_CONTENT}}."""
     ar_type = "فيلم" if media_type == 'movie' else "مسلسل"
@@ -369,7 +370,6 @@ def _build_v7_extra_content(
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 0 0 300px; max-width: 100%;">
       <img src="{poster_url}" alt="{title_ar} poster" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
-    </div>
     <div style="flex: 1; min-width: 300px;">
       <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{title_ar}</h1>
       <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({year})</h2>
@@ -378,9 +378,13 @@ def _build_v7_extra_content(
         <span style="color: #de6718; font-weight: bold; font-size: 1.1rem;">★ {rating} <small style="color:#777; font-weight:normal;">({rating_count} تقييم)</small></span>
       </div>
       <p style="color: #eee; line-height: 1.8; font-size: 1.05rem; margin-bottom: 25px;">{page_intro or f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية..."}</p>
-      <div style="display: flex; gap: 15px;">
-        <a href="#watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
-        <a href="#v7-tech" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>التفاصيل</span></a>
+      <div class="action-buttons" style="display: flex; gap: 15px; flex-wrap: wrap;">
+        <a href="https://tv.tomito.xyz/{'movie' if media_type=='movie' else 'tv'}/{slug}" class="btn btn-watch" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+          <span class="btn-icon">▶</span> شاهد الآن — Watch Now
+        </a>
+        <a href="https://tv.tomito.xyz/{'movie' if media_type=='movie' else 'tv'}/{slug}" class="btn btn-download" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+          <span class="btn-icon">⬇</span> تحميل — Download
+        </a>
       </div>
     </div>
   </div>
@@ -680,14 +684,15 @@ def create_page(item_data, media_type, is_trend=False):
         desc_ar=desc_ar, desc_en=desc_en,
         faq_html=faq_html, youtube_key=youtube_key,
         media_type=media_type,
-        poster_url=poster_url,  # Passed poster_url
+        poster_url=poster_url,
         tomito_opinion=tomito_opinion,
-        page_intro=page_intro, page_outro=page_outro
+        page_intro=page_intro,
+        page_outro=page_outro,
+        slug=slug
     )
     extra_content = v7_block + similar_html
 
     # ── Tags ──────────────────────────────────────────────────────────────────
-    tags = [type_label, f"⭐ {rating}", year] + genres_en[:3]
     tags_html = '<div class="series-tags">' + ''.join(f'<span class="tag">{t}</span>' for t in tags) + '</div>'
 
     # ── Full Schema.org JSON-LD ───────────────────────────────────────────────
