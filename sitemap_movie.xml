@@ -2725,6 +2725,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/49529-john-carter</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/495764-birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
