@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 4.0,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -18,9 +9,18 @@
     "slug": "76479-the-boys"
   },
   {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 4.0,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/ve3LU1EY76XlTwgppNKYOjjuYxM.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
     "year": "2026",
     "rating": 6.9,
     "folder": "tv",
@@ -45,15 +45,6 @@
     "slug": "259702-the-house-of-the-spirits"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
+    "year": "2024",
+    "rating": 6.2,
+    "folder": "tv",
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 124364,
@@ -72,13 +72,22 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
-    "year": "2024",
-    "rating": 6.2,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "260807-mate"
+    "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 261615,
+    "title": "Envious",
+    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
+    "year": "2024",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "261615-envious"
   },
   {
     "tmdb_id": 37854,
@@ -99,6 +108,15 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "206484-jade-dynasty"
+  },
+  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -106,15 +124,6 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 318262,
-    "title": "Should I Marry A Murderer?",
-    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "318262-should-i-marry-a-murderer"
   },
   {
     "tmdb_id": 65942,
@@ -126,24 +135,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 261615,
-    "title": "Envious",
-    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
-    "year": "2024",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "261615-envious"
-  },
-  {
     "tmdb_id": 108181,
     "title": "Imperfect Women",
     "poster": "https://image.tmdb.org/t/p/w500/wW7rimhnokiQ8V6ha6VKIwHg8IV.jpg",
@@ -153,13 +144,22 @@
     "slug": "108181-imperfect-women"
   },
   {
-    "tmdb_id": 300529,
-    "title": "Straight to Hell",
-    "poster": "https://image.tmdb.org/t/p/w500/fRgQ7noEDUoP6w2EEQlQgvnrpiy.jpg",
+    "tmdb_id": 318262,
+    "title": "Should I Marry A Murderer?",
+    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "300529-straight-to-hell"
+    "slug": "318262-should-i-marry-a-murderer"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 287527,
@@ -171,12 +171,12 @@
     "slug": "287527-the-testaments"
   },
   {
-    "tmdb_id": 287450,
-    "title": "Secret Service",
-    "poster": "https://image.tmdb.org/t/p/w500/xfMN8liyfR06b4yRg8bkZMV9KTQ.jpg",
+    "tmdb_id": 295778,
+    "title": "Scrubs",
+    "poster": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg",
     "year": "2026",
-    "rating": 7.2,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "287450-secret-service"
+    "slug": "295778-scrubs"
   }
 ]
