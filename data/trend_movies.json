@@ -54,6 +54,15 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -70,15 +79,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
   },
   {
     "tmdb_id": 1450527,
@@ -126,13 +126,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 980431,
-    "title": "Avatar Aang: The Last Airbender",
-    "poster": "https://image.tmdb.org/t/p/w500/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
-    "year": "2026",
-    "rating": 0.0,
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
     "folder": "movie",
-    "slug": "980431-avatar-aang-the-last-airbender"
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 1325678,
@@ -144,15 +144,6 @@
     "slug": "1325678-sarahs-oil"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
     "tmdb_id": 938150,
     "title": "Wardriver",
     "poster": "https://image.tmdb.org/t/p/w500/ipTXhWCJgeg5RN0CpmFZYDzOzQi.jpg",
@@ -162,21 +153,30 @@
     "slug": "938150-wardriver"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
+    "year": "2026",
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
-    "tmdb_id": 1316092,
-    "title": "\"Wuthering Heights\"",
-    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "tmdb_id": 1421552,
+    "title": "Panda Plan: The Magical Tribe",
+    "poster": "https://image.tmdb.org/t/p/w500/asrLPsZMg75SxN1BooggGmpBwRO.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.9,
     "folder": "movie",
-    "slug": "1316092-wuthering-heights"
+    "slug": "1421552-panda-plan-the-magical-tribe"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
   }
 ]
