@@ -4,7 +4,7 @@
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 6.5,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
   },
@@ -27,6 +27,15 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -45,13 +54,13 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 687163,
@@ -61,15 +70,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1226863,
@@ -144,15 +144,6 @@
     "slug": "1304313-lee-cronins-the-mummy"
   },
   {
-    "tmdb_id": 1321179,
-    "title": "The King's Warden",
-    "poster": "https://image.tmdb.org/t/p/w500/3CnVA1jAA64Q3qNVAW8DekCu19b.jpg",
-    "year": "2026",
-    "rating": 6.9,
-    "folder": "movie",
-    "slug": "1321179-the-kings-warden"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -160,6 +151,15 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1321179,
+    "title": "The King's Warden",
+    "poster": "https://image.tmdb.org/t/p/w500/3CnVA1jAA64Q3qNVAW8DekCu19b.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "movie",
+    "slug": "1321179-the-kings-warden"
   },
   {
     "tmdb_id": 1684737,
@@ -171,12 +171,12 @@
     "slug": "1684737-ice-pocalypse"
   },
   {
-    "tmdb_id": 1325678,
-    "title": "Sarah's Oil",
-    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
-    "year": "2025",
-    "rating": 8.1,
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1325678-sarahs-oil"
+    "slug": "1297842-goat"
   }
 ]

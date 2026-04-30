@@ -144,6 +144,15 @@
     "slug": "318262-should-i-marry-a-murderer"
   },
   {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
     "tmdb_id": 311858,
     "title": "Prisoner",
     "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
@@ -160,15 +169,6 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "261615-envious"
-  },
-  {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 86031,
