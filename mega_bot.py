@@ -7,6 +7,21 @@ import logging
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Load local slugs for priority linking
+LOCAL_INDEX = []
+LOCAL_SLUGS = set()
+index_path = os.path.join(os.path.dirname(__file__), 'data', 'content_index.json')
+if os.path.exists(index_path):
+    with open(index_path, 'r', encoding='utf-8') as f:
+        LOCAL_INDEX = json.load(f)
+        LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_INDEX}
+
+def get_item_url(folder, slug, root="./"):
+    key = f"{folder}/{slug}"
+    if key in LOCAL_SLUGS:
+        return f"{root}{folder}/{slug}.html"
+    return f"https://tv.tomito.xyz/{folder}/{slug}"
+
 # Import Google Indexing function
 try:
     from google_indexer import index_new_page
@@ -97,6 +112,7 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
   <link rel="stylesheet" href="{{ROOT}}style.css">
   <link rel="icon" href="{{ROOT}}favicon.ico">
   <script src="{{ROOT}}data/search_index.js"></script>
+  <script>const LOCAL_PAGES = {{LOCAL_PAGES_JSON}};</script>
   {{JSON_LD}}
 </head>
 <body>
@@ -149,12 +165,19 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
   </footer>
 
   <script>
+  function getUrl(folder, slug, root = './') {
+    const key = `${folder}/${slug}`;
+    if (typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(key)) {
+      return `${root}${folder}/${slug}.html`;
+    }
+    return `https://tv.tomito.xyz/${folder}/${slug}`;
+  }
+
   async function siteSearch() {
     const q = document.getElementById('site-search').value.toLowerCase();
     const suggCont = document.getElementById('search-suggestions');
     if (q.length < 1) { suggCont.style.display = 'none'; return; }
 
-    // FULL_INDEX is now loaded via search_index.js
     if (typeof FULL_INDEX === 'undefined' || FULL_INDEX.length === 0) {
       console.error("Search index not loaded.");
       return;
@@ -168,12 +191,12 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
     });
 
     matches.sort((a, b) => {
-      const aTitle = (a.title || "").toLowerCase();
-      const bTitle = (b.title || "").toLowerCase();
-      const aStarts = aTitle.startsWith(q);
-      const bStarts = bTitle.startsWith(q);
-      if (aStarts && !bStarts) return -1;
-      if (!aStarts && bStarts) return 1;
+      const aKey = `${a.folder || 'movie'}/${a.slug}`;
+      const bKey = `${b.folder || 'movie'}/${b.slug}`;
+      const aLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(aKey);
+      const bLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(bKey);
+      if (aLocal && !bLocal) return -1;
+      if (!aLocal && bLocal) return 1;
       return 0;
     });
 
@@ -182,16 +205,15 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
       suggCont.style.display = 'block';
       suggCont.innerHTML = '';
       topMatches.forEach(item => {
-        const title = item.title;
         const folder = item.folder || 'movie';
         const slug = item.slug;
-        const href = `{{ROOT}}${folder}/${slug}`;
+        const href = getUrl(folder, slug, '{{ROOT}}');
         const img = item.poster;
         const type = folder === 'movie' ? 'فيلم' : 'مسلسل';
         const div = document.createElement('a');
         div.className = 'suggestion-item';
         div.href = href;
-        div.innerHTML = `<img src="${img}"> <div><div>${title}</div><span class="type">${type}</span></div>`;
+        div.innerHTML = `<img src="${img}"> <div><div>${item.title}</div><span class="type">${type}</span></div>`;
         suggCont.appendChild(div);
       });
     } else { suggCont.style.display = 'none'; }
@@ -216,6 +238,17 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
       if (suggs) suggs.style.display = 'none';
     }
   });
+
+  function showMoreCards(btn) {
+    const section = btn.closest('.section');
+    const hidden = section.querySelectorAll('.card.hidden-card');
+    hidden.forEach((c, i) => {
+      if (i < 20) c.classList.remove('hidden-card');
+    });
+    if (section.querySelectorAll('.card.hidden-card').length === 0) {
+      btn.parentElement.style.display = 'none';
+    }
+  }
   </script>
 </body>
 </html>"""
@@ -776,7 +809,7 @@ def build_filmography_html(movies, tv_shows):
         badge = f"{rating}⭐" if rating else year
         
         # Using exact same card structure as the homepage `build_homepage.py`
-        return f'''    <a class="card" href="../{folder}/{slug}">
+        return f'''    <a class="card" href="https://tv.tomito.xyz/{folder}/{slug}">
       <img class="card-poster" src="{poster}" alt="{title} — مشاهدة وتحميل اون لاين" loading="lazy" onerror="this.src='../favicon.ico'">
       <div class="card-overlay"><div class="card-meta">{badge}</div></div>
       <div class="card-bottom"><div class="card-title">{title}</div></div>
@@ -926,7 +959,6 @@ def build_listing_pages():
         html = html.replace('{{TITLE_OG}}', title)
         html = html.replace('{{POSTER_URL}}', "/logo.png")
         html = html.replace('{{PAGE_URL}}', SITE_URL + "/" + folder)
-        html = html.replace('{{OG_TYPE}}', "website")
         html = html.replace('{{JSON_LD}}', "")
         
         # Override cat links if we are at root level (index.html) vs genre level
@@ -947,6 +979,7 @@ def build_listing_pages():
         html = html.replace('{{DESC_AR}}', f"استمتع بمشاهدة {title} بجودة عالية HD.")
         html = html.replace('{{TAGS_SECTION}}', "")
         html = html.replace('{{BUTTON_URL}}', "#")
+        html = html.replace('{{LOCAL_PAGES_JSON}}', json.dumps(list(LOCAL_SLUGS)))
         
         # Rule: Use company logo from TMDB if available, otherwise hide it or use site logo
         mission_logo = next((m.get('logo') for m in BOT_MISSIONS if m['label'] == title), None)
@@ -958,22 +991,28 @@ def build_listing_pages():
              
         # Find the placeholder line and replace it with our specialized logo HTML
         poster_placeholder = '<img src="{{POSTER_URL}}" alt="{{TITLE_AR}} — مشاهدة وتحميل" loading="eager" class="series-poster">'
-        html = html.replace(poster_placeholder, logo_html)        # Grid layout
-        grid = '<div class="grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:15px; padding:20px;">'
-        for item in items[:150]:
+        html = html.replace(poster_placeholder, logo_html)
+        
+        # Sort items: local first, then external
+        items.sort(key=lambda x: f"{x.get('folder')}/{x.get('slug')}" in LOCAL_SLUGS, reverse=True)
+
+        grid = '<div class="grid">'
+        for i, item in enumerate(items[:200]):
             s = item.get('slug')
             fld = item.get('folder', 'movie')
             t_ar = item.get('title_ar', 'Unknown')
-            # Use the 'poster' key which contains the full URL, and optimize it for w300
             poster_url = item.get('poster', '').replace('/original/', '/w300/')
+            url = get_item_url(fld, s, root="../")
+            hidden_class = ' hidden-card' if i >= 20 else ''
             grid += f'''
-            <a href="/{fld}/{s}" style="text-decoration:none; color:#fff;">
-              <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
-                <img src="{poster_url}" alt="{t_ar}" style="width:100%; aspect-ratio:2/3; display:block;">
-                <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">{t_ar}</div>
-              </div>
+            <a class="card{hidden_class}" href="{url}" style="text-decoration:none;">
+              <img class="card-poster" src="{poster_url}" alt="{t_ar}" loading="lazy" onerror="this.src='/favicon.ico'">
+              <div class="card-overlay"><div class="card-meta">حصري</div></div>
+              <div class="card-bottom"><div class="card-title">{t_ar}</div></div>
             </a>'''
         grid += "</div>"
+        if len(items) > 20:
+            grid += '<div class="load-more-container"><button class="load-more-btn" onclick="showMoreCards(this)"><span>عرض المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button></div>'
         return html.replace('{{EXTRA_CONTENT}}', grid)
 
     # 1. Main Index (Removed: build_homepage.py handles this)

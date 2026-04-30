@@ -27,16 +27,17 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" href="../favicon.ico">
   
+    <script src="../data/search_index.js"></script>
 </head>
 <body>
-  <header class="tomito-header">
+          <header class="tomito-header">
   <div class="top-bar">
     <div class="header-container">
       <ul class="top-nav">
-        <li><a href="/">الرئيسية</a></li>
-        <li><a href="/#movies">أفلام</a></li>
-        <li><a href="/#series">مسلسلات</a></li>
-        <li><a href="/genre/animation">أنمي</a></li>
+        <li><a href="../">الرئيسية</a></li>
+        <li><a href="../#movies">أفلام</a></li>
+        <li><a href="../#series">مسلسلات</a></li>
+        <li><a href="../genre/animation">أنمي</a></li>
         <li><a href="javascript:void(0)" onclick="toggleMenu()" class="categories-link">التصنيفات ▾</a></li>
       </ul>
       <div class="social-links">
@@ -48,7 +49,7 @@
   <div class="bottom-bar">
     <div class="header-container">
       <div class="logo-and-menu">
-        <a href="/" class="logo-link">
+        <a href="../" class="logo-link">
           <span class="logo-text">TOMITO</span>
         </a>
         <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="القائمة">
@@ -64,6 +65,10 @@
     </div>
   </div>
 </header>
+
+
+
+
 
   <nav class="breadcrumb">
     <a href="../">الرئيسية</a> &gt; 
@@ -88,13 +93,13 @@
   </div>
 
   <div class="grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap:15px; padding:20px;">
-            <a href="/movie/68718-django-unchained" style="text-decoration:none; color:#fff;">
+            <a href="https://tv.tomito.xyz/movie/68718-django-unchained" style="text-decoration:none; color:#fff;">
               <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
                 <img src="https://image.tmdb.org/t/p/w500/uxcamTjWWtQ7NjTOJa9TadTFsdV.jpg" alt="جانغو الحر" style="width:100%; aspect-ratio:2/3; display:block;">
                 <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">جانغو الحر</div>
               </div>
             </a>
-            <a href="/movie/429-the-good-the-bad-and-the-ugly" style="text-decoration:none; color:#fff;">
+            <a href="https://tv.tomito.xyz/movie/429-the-good-the-bad-and-the-ugly" style="text-decoration:none; color:#fff;">
               <div class="card" style="background:#111; border:1px solid #222; border-radius:10px; overflow:hidden;">
                 <img src="https://image.tmdb.org/t/p/w500/yIBZS3l1bjMNiJ6IdtryinB0uVr.jpg" alt="الطيب والشرس والقبيح" style="width:100%; aspect-ratio:2/3; display:block;">
                 <div style="padding:10px; font-size:13px; font-weight:bold; text-align:center;">الطيب والشرس والقبيح</div>
@@ -111,5 +116,86 @@
     <p>© 2026 <a href="../" class="logo-link" style="display:inline-flex; vertical-align:middle; gap:0.25rem;"><span class="logo-text" style="font-size:1.1rem; filter:none;">TOMITO</span></a> — جميع الحقوق محفوظة | <a href="https://myactivity.google.com/">Google Activity</a> | مشاهدة افلام ومسلسلات اون لاين</p>
   </footer>
   <!-- No script needed -->
+    <script>
+  async function siteSearch() {
+    const q = document.getElementById('site-search').value.toLowerCase();
+    const suggCont = document.getElementById('search-suggestions');
+    if (q.length < 1) { suggCont.style.display = 'none'; return; }
+
+    if (typeof FULL_INDEX === 'undefined' || FULL_INDEX.length === 0) {
+      console.error("Search index not loaded.");
+      return;
+    }
+
+    const matches = FULL_INDEX.filter(item => {
+      const t = (item.title || "").toLowerCase();
+      const ta = (item.title_ar || "").toLowerCase();
+      const te = (item.title_en || "").toLowerCase();
+      return t.includes(q) || ta.includes(q) || te.includes(q);
+    });
+
+    matches.sort((a, b) => {
+      const aTitle = (a.title || "").toLowerCase();
+      const bTitle = (b.title || "").toLowerCase();
+      const aStarts = aTitle.startsWith(q);
+      const bStarts = bTitle.startsWith(q);
+      if (aStarts && !bStarts) return -1;
+      if (!aStarts && bStarts) return 1;
+      return 0;
+    });
+
+    const topMatches = matches.slice(0, 15);
+    if (topMatches.length > 0) {
+      suggCont.style.display = 'block';
+      suggCont.innerHTML = '';
+      topMatches.forEach(item => {
+        const title = item.title;
+        const folder = item.folder || 'movie';
+        const slug = item.slug;
+        const href = `https://tv.tomito.xyz/${folder}/${slug}`;
+        const img = item.poster;
+        const type = folder === 'movie' ? 'فيلم' : 'مسلسل';
+        const div = document.createElement('a');
+        div.className = 'suggestion-item';
+        div.href = href;
+        div.innerHTML = `<img src="${img}"> <div><div>${title}</div><span class="type">${type}</span></div>`;
+        suggCont.appendChild(div);
+      });
+    } else { suggCont.style.display = 'none'; }
+  }
+
+  function toggleMenu() {
+    const menu = document.getElementById('menu-overlay');
+    if (menu) menu.classList.toggle('active');
+    if (menu && menu.classList.contains('active')) {
+      const s = document.getElementById('site-search');
+      if (s) s.focus();
+    }
+  }
+
+  document.addEventListener('click', (e) => {
+    const menu = document.getElementById('menu-overlay');
+    if (menu && !menu.contains(e.target) && !e.target.closest('.categories-link') && !e.target.closest('.mobile-menu-btn')) {
+      menu.classList.remove('active');
+    }
+    if (!e.target.closest('.header-search-wrapper')) {
+      const suggs = document.getElementById('search-suggestions');
+      if (suggs) suggs.style.display = 'none';
+    }
+  });
+
+  function showMoreCards(btn) {
+    const section = btn.closest('.section') || btn.closest('.extra-content') || document.body;
+    const grid = btn.parentElement.previousElementSibling;
+    if (!grid || !grid.classList.contains('grid')) return;
+    const hidden = grid.querySelectorAll('.card.hidden-card');
+    hidden.forEach((c, i) => {
+      if (i < 20) c.classList.remove('hidden-card');
+    });
+    if (grid.querySelectorAll('.card.hidden-card').length === 0) {
+      btn.parentElement.style.display = 'none';
+    }
+  }
+  </script>
 </body>
 </html>
