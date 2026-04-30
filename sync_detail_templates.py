@@ -189,10 +189,11 @@ def patch_file(filepath):
                 type_ar=type_ar,
                 rating=item.get('rating', '7.5')
             )
-            # Inject after header/overlay
-            content = content.replace('</div>\n</div>\n\n  \n<section class="section v7-intro">', f'</div>\n</div>\n\n{hero_html}\n<section class="section v7-intro">')
-            # Fallback if the specific newline pattern doesn't match
-            if 'v7-hero' not in content:
+            # Inject before the first section (usually v7-intro)
+            if '<section class="section v7-intro">' in content:
+                content = content.replace('<section class="section v7-intro">', f'{hero_html}\n<section class="section v7-intro">')
+            else:
+                # Fallback to menu overlay anchor
                 content = re.sub(r'(id="menu-overlay">.*?</div>)', r'\1\n' + hero_html, content, flags=re.DOTALL)
 
     # 3. Clean URLs (No .html)
