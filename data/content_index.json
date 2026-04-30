@@ -18827,5 +18827,40 @@
       18
     ],
     "timestamp": 1777562007
+  },
+  {
+    "title": "Rich Man, Poor Man / Rich Man, Poor Man",
+    "title_ar": "Rich Man, Poor Man",
+    "title_en": "Rich Man, Poor Man",
+    "slug": "14733-rich-man-poor-man",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/8LmpOZ8JVzHEgHGLi3opMWsqOdt.jpg",
+    "rating": 7.9,
+    "year": "1976",
+    "type": "tv",
+    "tmdb_id": 14733,
+    "genre_ids": [
+      18,
+      10766
+    ],
+    "timestamp": 1777568034
+  },
+  {
+    "title": "The Getaway / The Getaway",
+    "title_ar": "The Getaway",
+    "title_en": "The Getaway",
+    "slug": "5916-the-getaway",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/8SvnGUJsr16zUJ2CN7ONX1ZWtZ8.jpg",
+    "rating": 7.1,
+    "year": "1972",
+    "type": "movie",
+    "tmdb_id": 5916,
+    "genre_ids": [
+      28,
+      80,
+      53
+    ],
+    "timestamp": 1777568086
   }
 ]

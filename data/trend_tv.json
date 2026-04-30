@@ -4,7 +4,7 @@
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
     "year": "2026",
-    "rating": 5.3,
+    "rating": 5.1,
     "folder": "tv",
     "slug": "223386-man-on-fire"
   },
@@ -36,15 +36,6 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -52,6 +43,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 124364,
@@ -72,15 +72,6 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
-    "year": "2024",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "260807-mate"
-  },
-  {
     "tmdb_id": 285838,
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
@@ -90,13 +81,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
+    "year": "2024",
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 37854,
@@ -108,15 +99,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "206484-jade-dynasty"
-  },
-  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -124,6 +106,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 318262,
@@ -135,6 +126,15 @@
     "slug": "318262-should-i-marry-a-murderer"
   },
   {
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "206484-jade-dynasty"
+  },
+  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -142,15 +142,6 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "311858-prisoner"
   },
   {
     "tmdb_id": 202411,
@@ -162,6 +153,15 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
     "tmdb_id": 108181,
     "title": "Imperfect Women",
     "poster": "https://image.tmdb.org/t/p/w500/wW7rimhnokiQ8V6ha6VKIwHg8IV.jpg",
@@ -171,12 +171,12 @@
     "slug": "108181-imperfect-women"
   },
   {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "year": "2026",
-    "rating": 6.4,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "287527-the-testaments"
+    "slug": "209867-frieren-beyond-journeys-end"
   }
 ]
