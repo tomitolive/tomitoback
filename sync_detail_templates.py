@@ -193,8 +193,8 @@ def patch_file(filepath):
             if '<section class="section v7-intro">' in content:
                 content = re.sub(r'(\s*<section class="section v7-intro">)', r'\n' + hero_html + r'\1', content, count=1)
             else:
-                # Fallback to menu overlay anchor
-                content = re.sub(r'(id="menu-overlay">.*?</div>)', r'\1\n' + hero_html, content, flags=re.DOTALL, count=1)
+                # Safe injection after known unique header element
+                content = content.replace('      <div id="search-suggestions"></div>', f'      <div id="search-suggestions"></div>\n{hero_html}')
 
     # 3. Clean URLs (No .html)
     def fix_link(match):
@@ -203,9 +203,11 @@ def patch_file(filepath):
         return match.group(0)
     content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
 
-    # 4. Force "Mazid" button to domain
-    content = re.sub(r'href="\.\.?/genre/[a-zA-Z0-9\-_.]+" class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn"', content)
-    content = re.sub(r'class="load-more-btn" href="\.\.?/genre/[a-zA-Z0-9\-_.]+"', 'class="load-more-btn" href="https://tv.tomito.xyz/"', content)
+    # 4. Force "Mazid" button to domain + add class
+    content = re.sub(r'href="https://tv\.tomito\.xyz/"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
+    content = re.sub(r'class="load-more-btn"\s+href="https://tv\.tomito\.xyz/"', 'class="load-more-btn domine-button-js" href="https://tv.tomito.xyz/"', content)
+    # Extra check for existing pages that might have different order
+    content = re.sub(r'href="\.\.?/genre/[a-zA-Z0-9\-_.]+"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
