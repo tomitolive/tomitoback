@@ -1,5 +1,14 @@
 [
   {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -7,6 +16,15 @@
     "rating": 6.5,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1318447,
@@ -22,45 +40,18 @@
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/t3hvrrrqvRoURz4y1A1aCys6WD9.jpg",
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
-  },
-  {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 687163,
@@ -72,6 +63,42 @@
     "slug": "687163-project-hail-mary"
   },
   {
+    "tmdb_id": 1321179,
+    "title": "The King's Warden",
+    "poster": "https://image.tmdb.org/t/p/w500/3CnVA1jAA64Q3qNVAW8DekCu19b.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "movie",
+    "slug": "1321179-the-kings-warden"
+  },
+  {
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1226863-the-super-mario-galaxy-movie"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/t3hvrrrqvRoURz4y1A1aCys6WD9.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
+  },
+  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -81,40 +108,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "tmdb_id": 1325678,
+    "title": "Sarah's Oil",
+    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
     "year": "2025",
-    "rating": 7.4,
+    "rating": 8.1,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1297842-goat"
-  },
-  {
-    "tmdb_id": 1368166,
-    "title": "The Housemaid",
-    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
-    "year": "2025",
-    "rating": 7.2,
-    "folder": "movie",
-    "slug": "1368166-the-housemaid"
-  },
-  {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
-    "year": "2026",
-    "rating": 4.0,
-    "folder": "movie",
-    "slug": "1430077-hokum"
+    "slug": "1325678-sarahs-oil"
   },
   {
     "tmdb_id": 1304313,
@@ -126,13 +126,13 @@
     "slug": "1304313-lee-cronins-the-mummy"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.0,
     "folder": "movie",
-    "slug": "1325734-the-drama"
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 980431,
@@ -144,22 +144,31 @@
     "slug": "980431-avatar-aang-the-last-airbender"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
+    "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1283515,
-    "title": "Verity",
-    "poster": "https://image.tmdb.org/t/p/w500/tHI69tGRRvtOnomig59xwMO1YQI.jpg",
+    "tmdb_id": 938150,
+    "title": "Wardriver",
+    "poster": "https://image.tmdb.org/t/p/w500/ipTXhWCJgeg5RN0CpmFZYDzOzQi.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1283515-verity"
+    "slug": "938150-wardriver"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 1316092,
@@ -169,14 +178,5 @@
     "rating": 6.5,
     "folder": "movie",
     "slug": "1316092-wuthering-heights"
-  },
-  {
-    "tmdb_id": 840464,
-    "title": "Greenland 2: Migration",
-    "poster": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-    "year": "2026",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "840464-greenland-2-migration"
   }
 ]
