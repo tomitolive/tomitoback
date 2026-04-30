@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-from mega_bot import create_page
+import mega_bot
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -22,24 +22,20 @@ def rebuild():
     
     count = 0
     for item in data:
-        # Re-map data to common format if needed
-        # create_page(media_type, tmdb_id, slug=None, folder=None, meta_data=None, tri=None)
-        # Note: In our current index, we store them as already processed items
-        # But we need the raw TMDB ID and media_type to re-generate properly.
-        tmdb_id = item.get('tmdb_id')
+        # mega_bot.create_page(item_data, media_type, is_trend=False)
+        # We need to make sure 'id' is in item (it's often 'tmdb_id' in our index, so we map it)
+        if 'id' not in item and 'tmdb_id' in item:
+            item['id'] = item['tmdb_id']
+            
         media_type = 'movie' if item.get('folder') == 'movie' else 'tv'
-        slug = item.get('slug')
-        
-        if not tmdb_id: continue
         
         try:
-            # We pass meta_data and tri as None to let mega_bot fetch/use its cache
-            create_page(media_type, tmdb_id, slug=slug, folder=item.get('folder'))
+            mega_bot.create_page(item, media_type)
             count += 1
             if count % 100 == 0:
                 log.info(f"Rebuilt {count} pages...")
         except Exception as e:
-            log.error(f"Failed to rebuild {slug}: {e}")
+            log.error(f"Failed to rebuild {item.get('slug')}: {e}")
 
     log.info(f"✅ Rebuild complete. Total: {count} pages.")
 
