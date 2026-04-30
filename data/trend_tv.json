@@ -13,9 +13,18 @@
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 5.8,
     "folder": "tv",
     "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 85552,
@@ -34,15 +43,6 @@
     "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
   },
   {
     "tmdb_id": 278113,
@@ -81,15 +81,6 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "206484-jade-dynasty"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -97,6 +88,24 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "206484-jade-dynasty"
   },
   {
     "tmdb_id": 285838,
@@ -108,13 +117,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 65942,
@@ -135,15 +144,6 @@
     "slug": "260807-mate"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
     "tmdb_id": 318262,
     "title": "Should I Marry A Murderer?",
     "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
@@ -153,11 +153,20 @@
     "slug": "318262-should-i-marry-a-murderer"
   },
   {
+    "tmdb_id": 86031,
+    "title": "Dr. STONE",
+    "poster": "https://image.tmdb.org/t/p/w500/rocRrglJfYkglKilmFaStvo5EvS.jpg",
+    "year": "2019",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "86031-dr-stone"
+  },
+  {
     "tmdb_id": 311858,
     "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 9.0,
     "folder": "tv",
     "slug": "311858-prisoner"
   },
@@ -169,14 +178,5 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "261615-envious"
-  },
-  {
-    "tmdb_id": 86031,
-    "title": "Dr. STONE",
-    "poster": "https://image.tmdb.org/t/p/w500/rocRrglJfYkglKilmFaStvo5EvS.jpg",
-    "year": "2019",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "86031-dr-stone"
   }
 ]
