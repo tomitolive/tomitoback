@@ -536,8 +536,8 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
         rating = round(item.get('vote_average', 0), 1)
         badge = f"{rating}⭐" if rating else "حصري"
         
-        # Determine URL based on local existence
-        href = get_item_url(folder, slug, root="../")
+        # Enforce subdomain links for all similar content to avoid 404s
+        href = f"https://tv.tomito.xyz/{folder}/{slug}"
         
         return f'''    <a class="card" href="{href}">
       <img class="card-poster" src="{poster}" alt="{title} — مشاهدة وتحميل اون لاين" loading="lazy" onerror="this.src='../favicon.ico'">
