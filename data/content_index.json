@@ -18862,5 +18862,40 @@
       53
     ],
     "timestamp": 1777568086
+  },
+  {
+    "title": "The Rich Son / The Rich Son",
+    "title_ar": "The Rich Son",
+    "title_en": "The Rich Son",
+    "slug": "78295-the-rich-son",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/bCLdxexEuASy5mKjTRRi0MeKERh.jpg",
+    "rating": 8.0,
+    "year": "2018",
+    "type": "tv",
+    "tmdb_id": 78295,
+    "genre_ids": [
+      10751,
+      18
+    ],
+    "timestamp": 1777572172
+  },
+  {
+    "title": "قراصنة الكاريبي - الموتى لا يروون حكايات / Pirates of the Caribbean: Dead Men Tell No Tales",
+    "title_ar": "قراصنة الكاريبي - الموتى لا يروون حكايات",
+    "title_en": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "slug": "166426-pirates-of-the-caribbean-dead-men-tell-no-tales",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/6lAPOAFYFWIO3SQRemEY2wInQMC.jpg",
+    "rating": 6.7,
+    "year": "2017",
+    "type": "movie",
+    "tmdb_id": 166426,
+    "genre_ids": [
+      12,
+      28,
+      14
+    ],
+    "timestamp": 1777572272
   }
 ]
