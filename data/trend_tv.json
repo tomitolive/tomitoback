@@ -13,7 +13,7 @@
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
     "year": "2026",
-    "rating": 5.7,
+    "rating": 6.3,
     "folder": "tv",
     "slug": "223386-man-on-fire"
   },
@@ -22,7 +22,7 @@
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
     "year": "2026",
-    "rating": 7.2,
+    "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
   },
@@ -99,15 +99,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
-    "year": "2024",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "260807-mate"
-  },
-  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -115,6 +106,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
+  },
+  {
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
+    "year": "2024",
+    "rating": 6.2,
+    "folder": "tv",
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 65942,
@@ -148,27 +148,18 @@
     "title": "The Testaments",
     "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 6.5,
     "folder": "tv",
     "slug": "287527-the-testaments"
   },
   {
-    "tmdb_id": 261615,
-    "title": "Envious",
-    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
-    "year": "2024",
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
     "rating": 7.7,
     "folder": "tv",
-    "slug": "261615-envious"
-  },
-  {
-    "tmdb_id": 318262,
-    "title": "Should I Marry A Murderer?",
-    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "318262-should-i-marry-a-murderer"
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 79744,
@@ -178,5 +169,14 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 261615,
+    "title": "Envious",
+    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
+    "year": "2024",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "261615-envious"
   }
 ]

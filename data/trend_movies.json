@@ -31,18 +31,9 @@
     "title": "Pegasus 3",
     "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 7.3,
     "folder": "movie",
     "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 1318447,
@@ -52,6 +43,15 @@
     "rating": 6.5,
     "folder": "movie",
     "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 829487,
@@ -108,24 +108,6 @@
     "slug": "1450527-forbidden-fruits"
   },
   {
-    "tmdb_id": 1472638,
-    "title": "Buen Camino",
-    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
-    "year": "2025",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1472638-buen-camino"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
     "tmdb_id": 1624961,
     "title": "No Ordinary Heist",
     "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
@@ -133,6 +115,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1624961-no-ordinary-heist"
+  },
+  {
+    "tmdb_id": 1472638,
+    "title": "Buen Camino",
+    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
+    "year": "2025",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1472638-buen-camino"
   },
   {
     "tmdb_id": 1321179,
@@ -169,6 +160,15 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1325678,
+    "title": "Sarah's Oil",
+    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "movie",
+    "slug": "1325678-sarahs-oil"
   },
   {
     "tmdb_id": 1430077,
