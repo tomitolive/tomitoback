@@ -481,17 +481,22 @@ function switchLang(lang){{
 
     return intro_html + lang_html + trailer_html + table_html + faq_block + outro_html
 
-def build_similar_content_html(similar_data, media_type):
-    """Build similar content HTML section using local index for IDs."""
+def build_similar_content_html(similar_data, media_type, genre_slug=None):
+    """Build similar content HTML section with local priority."""
     if not similar_data or not similar_data.get('results'):
         return ''
     
     available_ids = get_available_ids()
     results = similar_data.get('results', [])
-    filtered = [r for r in results if r.get('id') and int(r.get('id')) in available_ids]
     
-    if not filtered:
-        return ''
+    # Priority: items from results that exist in our database
+    local_similar = [r for r in results if r.get('id') and int(r.get('id')) in available_ids]
+    # Rest: items that don't exist in our database
+    external_similar = [r for r in results if r.get('id') and int(r.get('id')) not in available_ids]
+    
+    # Combined list for display (limit to 12 total)
+    filtered = (local_similar + external_similar)[:12]
+    if not filtered: return ''
 
     def card(item, folder):
         tmdb_id = item.get('id', '')
@@ -502,7 +507,10 @@ def build_similar_content_html(similar_data, media_type):
         rating = round(item.get('vote_average', 0), 1)
         badge = f"{rating}⭐" if rating else "حصري"
         
-        return f'''    <a class="card" href="../{folder}/{slug}">
+        # Determine URL based on local existence
+        href = get_item_url(folder, slug, root="../")
+        
+        return f'''    <a class="card" href="{href}">
       <img class="card-poster" src="{poster}" alt="{title} — مشاهدة وتحميل اون لاين" loading="lazy" onerror="this.src='../favicon.ico'">
       <div class="card-overlay"><div class="card-meta">{badge}</div></div>
       <div class="card-bottom"><div class="card-title">{title}</div></div>
@@ -510,11 +518,15 @@ def build_similar_content_html(similar_data, media_type):
 
     folder = 'movie' if media_type == 'movie' else 'tv'
     title_ar = "أفلام مشابهة" if media_type == 'movie' else "مسلسلات مشابهة"
-    title_en = "Similar Movies" if media_type == 'movie' else "Similar TV Shows"
     
-    html = f'<section class="section"><h2 class="section-title">{title_ar} — {title_en}</h2><div class="grid">'
-    html += ''.join(card(r, folder) for r in filtered[:12])
-    html += '</div></section>'
+    html = f'<section class="section"><h2 class="section-title">{title_ar}</h2><div class="grid">'
+    html += ''.join(card(r, folder) for r in filtered)
+    html += '</div>'
+    
+    # Link "Mazid" button to genre or category
+    redirect_slug = genre_slug or ("movie" if media_type == 'movie' else "tv-show")
+    html += f'''<div class="load-more-container"><a href="../genre/{redirect_slug}.html" class="load-more-btn"><span>مشاهدة المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></a></div>'''
+    html += '</section>'
     return html
 
 
