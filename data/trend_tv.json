@@ -1,5 +1,14 @@
 [
   {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 5.3,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -7,15 +16,6 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "76479-the-boys"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 4.0,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 270476,
@@ -54,15 +54,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
-    "year": "2024",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "260807-mate"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -81,22 +72,13 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 261615,
-    "title": "Envious",
-    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
     "year": "2024",
-    "rating": 7.7,
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "261615-envious"
-  },
-  {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 285838,
@@ -106,6 +88,24 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 206484,
@@ -126,24 +126,6 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 108181,
-    "title": "Imperfect Women",
-    "poster": "https://image.tmdb.org/t/p/w500/wW7rimhnokiQ8V6ha6VKIwHg8IV.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "tv",
-    "slug": "108181-imperfect-women"
-  },
-  {
     "tmdb_id": 318262,
     "title": "Should I Marry A Murderer?",
     "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
@@ -162,6 +144,33 @@
     "slug": "79744-the-rookie"
   },
   {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 108181,
+    "title": "Imperfect Women",
+    "poster": "https://image.tmdb.org/t/p/w500/wW7rimhnokiQ8V6ha6VKIwHg8IV.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "tv",
+    "slug": "108181-imperfect-women"
+  },
+  {
     "tmdb_id": 287527,
     "title": "The Testaments",
     "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
@@ -169,14 +178,5 @@
     "rating": 6.4,
     "folder": "tv",
     "slug": "287527-the-testaments"
-  },
-  {
-    "tmdb_id": 295778,
-    "title": "Scrubs",
-    "poster": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "295778-scrubs"
   }
 ]
