@@ -2377,6 +2377,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/37135-tarzan</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/373200-detective-chinatown</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
