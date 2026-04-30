@@ -1525,6 +1525,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/2745-aladdin</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/274556-far-away</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>

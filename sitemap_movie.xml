@@ -1603,6 +1603,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1677-ray</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/168259-furious-7</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
