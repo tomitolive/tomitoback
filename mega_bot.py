@@ -344,11 +344,37 @@ def _build_v7_extra_content(
     genres_ar, genres_en, director, cast_data_full,
     desc_ar, desc_en,
     faq_html, youtube_key, media_type,
+    poster_url=None,  # Added poster_url
     tomito_opinion=None,
     page_intro=None, page_outro=None
 ):
     """Assembles the main V7 content block injected into {{EXTRA_CONTENT}}."""
     ar_type = "فيلم" if media_type == 'movie' else "مسلسل"
+
+    # ── 0. Hero Section with Poster — Restoring "Noskha Awala" ──────────────
+    hero_html = ""
+    if poster_url:
+        hero_html = f"""
+<section class="section v7-hero" style="padding-top: 20px; padding-bottom: 20px;">
+  <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="flex: 0 0 300px; max-width: 100%;">
+      <img src="{poster_url}" alt="{title_ar} poster" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{title_ar}</h1>
+      <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({year})</h2>
+      <div style="margin-bottom: 20px;">
+        <span style="background: #de6718; color: #fff; padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9rem; margin-inline-end: 10px;">{ar_type}</span>
+        <span style="color: #de6718; font-weight: bold; font-size: 1.1rem;">★ {rating} <small style="color:#777; font-weight:normal;">({rating_count} تقييم)</small></span>
+      </div>
+      <p style="color: #eee; line-height: 1.8; font-size: 1.05rem; margin-bottom: 25px;">{page_intro or f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية..."}</p>
+      <div style="display: flex; gap: 15px;">
+        <a href="#v7-watch" class="load-more-btn" style="background:#de6718; color:#fff; border:none; padding: 12px 30px; font-size: 1rem;"><span>مشاهدة الآن</span></a>
+        <a href="#v7-tech" class="load-more-btn" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding: 12px 30px; font-size: 1rem;"><span>التفاصيل</span></a>
+      </div>
+    </div>
+  </div>
+</section>"""
 
     # ── 1. Intro paragraph — unique per page ─────────────────────────────────
     opinion_html = ""
@@ -361,19 +387,8 @@ def _build_v7_extra_content(
   </p>
 </section>"""
 
-    # Use AI-generated intro if available, otherwise fallback to static template
-    if page_intro and len(page_intro) > 30:
-        intro_body = page_intro
-    else:
-        intro_body = (f"يُتيح لك موقع <strong>توميتو</strong> مشاهدة {ar_type} <strong>{title_ar}</strong> ({title_en})"
-                      f" بجودة عالية HD مترجماً إلى العربية بشكل حصري وبدون إعلانات مزعجة."
-                      f" استمتع بتجربة بث مباشر سلسة أو اختر التحميل المباشر بجودة تصل إلى 1080p.")
-
     intro_html = f"""
-<section class="section v7-intro">
-  <h1 class="v7-h1">مشاهدة وتحميل {ar_type} {title_ar} مترجم كامل HD بجودة عالية</h1>
-  <p class="v7-intro-text">{intro_body}</p>
-</section>
+{hero_html}
 {opinion_html}"""
 
     # ── 2. Language Switcher + Bilingual Descriptions ───────────────────────
@@ -655,6 +670,7 @@ def create_page(item_data, media_type, is_trend=False):
         desc_ar=desc_ar, desc_en=desc_en,
         faq_html=faq_html, youtube_key=youtube_key,
         media_type=media_type,
+        poster_url=poster_url,  # Passed poster_url
         tomito_opinion=tomito_opinion,
         page_intro=page_intro, page_outro=page_outro
     )

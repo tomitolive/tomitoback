@@ -152,9 +152,12 @@ def patch_file(filepath):
     # 3. Hybrid Link Fix for existing grids
     def fix_link(match):
         f, s = match.group(1), match.group(2)
-        if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}.html"'
+        if f"{f}/{s}" in LOCAL_SLUGS: return f'href="{root}{f}/{s}"'
         return match.group(0)
     content = re.sub(r'href="https://tv\.tomito\.xyz/(movie|tv)/([a-zA-Z0-9\-_]+)"', fix_link, content)
+
+    # 4. Force "Mazid" button to external domain as requested
+    content = re.sub(r'href="\.\.?/genre/[a-zA-Z0-9\-_]+"', 'href="https://tv.tomito.xyz/"', content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
