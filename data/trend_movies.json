@@ -36,15 +36,6 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -52,6 +43,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 829487,
@@ -135,15 +135,6 @@
     "slug": "1321179-the-kings-warden"
   },
   {
-    "tmdb_id": 1304313,
-    "title": "Lee Cronin's The Mummy",
-    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1304313-lee-cronins-the-mummy"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -153,13 +144,13 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1684737,
-    "title": "Ice-Pocalypse",
-    "poster": "https://image.tmdb.org/t/p/w500/7m7gQtWzHzazJSXoU5HuBCsxv8U.jpg",
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
     "year": "2026",
-    "rating": 2.0,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1684737-ice-pocalypse"
+    "slug": "1304313-lee-cronins-the-mummy"
   },
   {
     "tmdb_id": 1325678,
@@ -169,6 +160,15 @@
     "rating": 8.1,
     "folder": "movie",
     "slug": "1325678-sarahs-oil"
+  },
+  {
+    "tmdb_id": 1684737,
+    "title": "Ice-Pocalypse",
+    "poster": "https://image.tmdb.org/t/p/w500/7m7gQtWzHzazJSXoU5HuBCsxv8U.jpg",
+    "year": "2026",
+    "rating": 2.0,
+    "folder": "movie",
+    "slug": "1684737-ice-pocalypse"
   },
   {
     "tmdb_id": 1430077,

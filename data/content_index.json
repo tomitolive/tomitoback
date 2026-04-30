@@ -19000,5 +19000,37 @@
       10751
     ],
     "timestamp": 1777576816
+  },
+  {
+    "title": "Lisa e il diavolo / Lisa and the Devil",
+    "title_ar": "Lisa e il diavolo",
+    "title_en": "Lisa and the Devil",
+    "slug": "5483-lisa-and-the-devil",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/iPEl3ch8iJ8EFN7BhcI7IDamvLs.jpg",
+    "rating": 6.2,
+    "year": "1973",
+    "type": "movie",
+    "tmdb_id": 5483,
+    "genre_ids": [
+      27
+    ],
+    "timestamp": 1777577160
+  },
+  {
+    "title": "Mini Adventures of Winnie the Pooh / Mini Adventures of Winnie the Pooh",
+    "title_ar": "Mini Adventures of Winnie the Pooh",
+    "title_en": "Mini Adventures of Winnie the Pooh",
+    "slug": "55358-mini-adventures-of-winnie-the-pooh",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/u1bb4i6uIBuO190EVf98U2SvsHD.jpg",
+    "rating": 7.6,
+    "year": "2011",
+    "type": "tv",
+    "tmdb_id": 55358,
+    "genre_ids": [
+      16
+    ],
+    "timestamp": 1777577209
   }
 ]

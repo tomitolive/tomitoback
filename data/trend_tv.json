@@ -54,15 +54,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -70,6 +61,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 206484,
@@ -135,6 +135,15 @@
     "slug": "79744-the-rookie"
   },
   {
+    "tmdb_id": 261615,
+    "title": "Envious",
+    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
+    "year": "2024",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "261615-envious"
+  },
+  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -153,15 +162,6 @@
     "slug": "318262-should-i-marry-a-murderer"
   },
   {
-    "tmdb_id": 261615,
-    "title": "Envious",
-    "poster": "https://image.tmdb.org/t/p/w500/qYw979lIT163wN2z2P6DHoVEftj.jpg",
-    "year": "2024",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "261615-envious"
-  },
-  {
     "tmdb_id": 311858,
     "title": "Prisoner",
     "poster": "https://image.tmdb.org/t/p/w500/n1PFo7FwGNmb6rNchmerpyXI40X.jpg",
@@ -171,12 +171,12 @@
     "slug": "311858-prisoner"
   },
   {
-    "tmdb_id": 287450,
-    "title": "Secret Service",
-    "poster": "https://image.tmdb.org/t/p/w500/xfMN8liyfR06b4yRg8bkZMV9KTQ.jpg",
+    "tmdb_id": 224263,
+    "title": "Stranger Things: Tales from '85",
+    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
     "year": "2026",
     "rating": 7.2,
     "folder": "tv",
-    "slug": "287450-secret-service"
+    "slug": "224263-stranger-things-tales-from-85"
   }
 ]
