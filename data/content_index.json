@@ -18995,5 +18995,41 @@
       10759
     ],
     "timestamp": 1777588741
+  },
+  {
+    "title": "مكعب / Cube",
+    "title_ar": "مكعب",
+    "title_en": "Cube",
+    "slug": "431-cube",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/x4BTjxdrOKC27FcSkBh8KPEgnum.jpg",
+    "rating": 6.8,
+    "year": "1998",
+    "type": "movie",
+    "tmdb_id": 431,
+    "genre_ids": [
+      53,
+      878,
+      9648
+    ],
+    "timestamp": 1777592466
+  },
+  {
+    "title": "Ren Arisugawa Is Actually a Girl / Ren Arisugawa Is Actually a Girl",
+    "title_ar": "Ren Arisugawa Is Actually a Girl",
+    "title_en": "Ren Arisugawa Is Actually a Girl",
+    "slug": "287973-ren-arisugawa-is-actually-a-girl",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/m9d3D1U9bdzV4vCHvr2PkdCW92z.jpg",
+    "rating": 5.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 287973,
+    "genre_ids": [
+      35,
+      18,
+      16
+    ],
+    "timestamp": 1777592506
   }
 ]

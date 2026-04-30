@@ -18,15 +18,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -34,6 +25,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1318447,
@@ -72,15 +72,6 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1290821-shelter"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -88,6 +79,15 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1290821-shelter"
   },
   {
     "tmdb_id": 1226863,
@@ -108,6 +108,15 @@
     "slug": "1450527-forbidden-fruits"
   },
   {
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "movie",
+    "slug": "1430077-hokum"
+  },
+  {
     "tmdb_id": 1624961,
     "title": "No Ordinary Heist",
     "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
@@ -126,15 +135,6 @@
     "slug": "1472638-buen-camino"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1430077-hokum"
-  },
-  {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
@@ -142,15 +142,6 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 1304313,
-    "title": "Lee Cronin's The Mummy",
-    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1304313-lee-cronins-the-mummy"
   },
   {
     "tmdb_id": 1297842,
@@ -162,6 +153,24 @@
     "slug": "1297842-goat"
   },
   {
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1304313-lee-cronins-the-mummy"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
     "tmdb_id": 1684737,
     "title": "Ice-Pocalypse",
     "poster": "https://image.tmdb.org/t/p/w500/7m7gQtWzHzazJSXoU5HuBCsxv8U.jpg",
@@ -169,14 +178,5 @@
     "rating": 2.0,
     "folder": "movie",
     "slug": "1684737-ice-pocalypse"
-  },
-  {
-    "tmdb_id": 1325678,
-    "title": "Sarah's Oil",
-    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "movie",
-    "slug": "1325678-sarahs-oil"
   }
 ]
