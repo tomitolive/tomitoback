@@ -126,8 +126,7 @@ def build_interleaved_trending():
     elif len(tv) > len(movies): trends.extend(tv[len(movies):])
     
     final_local = [i for i in trends if str(i.get('tmdb_id')) in local_ids]
-    final_external = [i for i in trends if str(i.get('tmdb_id')) not in local_ids]
-    final = final_local + final_external
+    final = final_local
     
     if len(final) < 30:
         exist = {str(i.get('tmdb_id')) for i in final}
