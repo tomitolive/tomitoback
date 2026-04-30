@@ -27,15 +27,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "tv",
-    "slug": "278113-gold-land"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -54,13 +45,13 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.5,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 259702,
@@ -72,13 +63,13 @@
     "slug": "259702-the-house-of-the-spirits"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "206484-jade-dynasty"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 95557,
@@ -88,6 +79,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
+  },
+  {
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "206484-jade-dynasty"
   },
   {
     "tmdb_id": 37854,
@@ -117,15 +117,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 260807,
-    "title": "Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
-    "year": "2024",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "260807-mate"
-  },
-  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -135,13 +126,13 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 318262,
-    "title": "Should I Marry A Murderer?",
-    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
-    "year": "2026",
-    "rating": 0.0,
+    "tmdb_id": 260807,
+    "title": "Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/bu07vXvmdFHREbrn4MOGorw0MXo.jpg",
+    "year": "2024",
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "318262-should-i-marry-a-murderer"
+    "slug": "260807-mate"
   },
   {
     "tmdb_id": 202411,
@@ -151,6 +142,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 318262,
+    "title": "Should I Marry A Murderer?",
+    "poster": "https://image.tmdb.org/t/p/w500/kSnudctwOTHPArz78vHmf4Emc1B.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "318262-should-i-marry-a-murderer"
   },
   {
     "tmdb_id": 311858,

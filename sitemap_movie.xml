@@ -2599,6 +2599,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/4382-rosemary</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/438631-dune</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>

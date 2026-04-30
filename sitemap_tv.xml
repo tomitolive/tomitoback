@@ -943,6 +943,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/201077-guadalupe</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/20111-mobile-suit-gundam-seed</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
