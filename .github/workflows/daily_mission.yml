@@ -57,9 +57,11 @@ jobs:
           git config --local user.name "Multi-Bot Engine"
           git add .
           
-          # تعديل 2: تأكدنا من skip ci باش ما يدخلش ف Loop
+          # Commit with skip ci
           git commit -m "🤖 Bot: +2 pages $(date '+%Y-%m-%d %H:%M') [skip ci]" || echo "No changes to commit"
           
-          # تعديل 3: تحسين عملية الـ Push باش نتفاداو الـ Red Errors
-          git pull --rebase --autostash origin main
-          git push origin main || (sleep 15 && git pull --rebase origin main && git push origin main)
+          # Better Push Logic: Try rebase, if fails, abort and force a merge pull or retry
+          for i in {1..3}; do
+            git pull --rebase --autostash origin main && git push origin main && break || \
+            (echo "Conflict or concurrent push detected, retrying after sleep..." && git rebase --abort || true && sleep 20)
+          done
