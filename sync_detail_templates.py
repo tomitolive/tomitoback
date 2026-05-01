@@ -225,11 +225,12 @@ def patch_file(filepath):
     
     # 4. Force "Mazid" button to domain + add class
 
-    # 4. Force "Mazid" button to domain + add class
-    content = re.sub(r'href="https://tv\.tomito\.xyz/"\s+class="load-more-btn"', 'href="https://tv.tomito.xyz/" class="load-more-btn domine-button-js"', content)
-    content = re.sub(r'class="load-more-btn"\s+href="https://tv\.tomito\.xyz/"', 'class="load-more-btn domine-button-js" href="https://tv.tomito.xyz/"', content)
-    # Extra check for existing pages that might have different order
-    content = re.sub(r'href="\.\.?/genre/([a-zA-Z0-9\-_.]+)"\s+class="load-more-btn"', r'href="https://tv.tomito.xyz/genre/\1" class="load-more-btn domine-button-js"', content)
+    # 4. Remove "Mazid" link button (request to stop bot from generating it)
+    # This catches the container div with any attributes, containing an <a> tag that points to tv.tomito.xyz or has load-more-btn class
+    content = re.sub(r'<div class="load-more-container"[^>]*>\s*<a[^>]*href="[^"]*tv\.tomito\.xyz[^"]*"[^>]*>.*?</a>\s*</div>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<div class="load-more-container"[^>]*>\s*<a[^>]*class="[^"]*load-more-btn[^"]*"[^>]*>.*?</a>\s*</div>', '', content, flags=re.DOTALL)
+    # Remove المزيد — More action-buttons div (genre pages / other pages)
+    content = re.sub(r'<div class="action-buttons" style="margin: 30px auto;[^"]*">\s*<a[^>]*href="[^"]*tv\.tomito\.xyz[^"]*"[^>]*>.*?المزيد.*?</a>\s*</div>', '', content, flags=re.DOTALL)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
