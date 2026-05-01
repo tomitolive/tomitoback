@@ -54,15 +54,6 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -79,6 +70,15 @@
     "rating": 7.9,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 37854,
@@ -126,24 +126,6 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 250307,
-    "title": "The Pitt",
-    "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-    "year": "2025",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "250307-the-pitt"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
     "tmdb_id": 257994,
     "title": "Half Man",
     "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
@@ -160,6 +142,24 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 250307,
+    "title": "The Pitt",
+    "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+    "year": "2025",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "250307-the-pitt"
   },
   {
     "tmdb_id": 86031,
