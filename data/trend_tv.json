@@ -72,15 +72,6 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 83295,
     "title": "Impure",
     "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
@@ -88,6 +79,15 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "83295-impure"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 278113,
@@ -126,15 +126,6 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
     "tmdb_id": 259702,
     "title": "The House of the Spirits",
     "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
@@ -151,6 +142,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "87917-for-all-mankind"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
   },
   {
     "tmdb_id": 79744,
@@ -171,12 +171,12 @@
     "slug": "241609-your-friends-neighbors"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
+    "tmdb_id": 224263,
+    "title": "Stranger Things: Tales from '85",
+    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
+    "year": "2026",
+    "rating": 7.2,
     "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "224263-stranger-things-tales-from-85"
   }
 ]
