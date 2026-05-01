@@ -126,6 +126,15 @@
     "slug": "278573-perfect-crown"
   },
   {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
     "tmdb_id": 259702,
     "title": "The House of the Spirits",
     "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
@@ -142,15 +151,6 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "87917-for-all-mankind"
-  },
-  {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "311858-prisoner"
   },
   {
     "tmdb_id": 79744,
