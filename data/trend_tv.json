@@ -27,15 +27,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -45,6 +36,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
+  },
+  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
@@ -52,15 +52,6 @@
     "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
   },
   {
     "tmdb_id": 202555,
@@ -81,13 +72,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 257994,
-    "title": "Half Man",
-    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
     "year": "2026",
-    "rating": 9.1,
+    "rating": 7.9,
     "folder": "tv",
-    "slug": "257994-half-man"
+    "slug": "285838-if-wishes-could-kill"
   },
   {
     "tmdb_id": 95557,
@@ -99,15 +90,6 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
-    "year": "2026",
-    "rating": 9.7,
-    "folder": "tv",
-    "slug": "278113-gold-land"
-  },
-  {
     "tmdb_id": 83295,
     "title": "Impure",
     "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
@@ -117,40 +99,22 @@
     "slug": "83295-impure"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
+    "tmdb_id": 257994,
+    "title": "Half Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "year": "2026",
+    "rating": 9.1,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "257994-half-man"
   },
   {
-    "tmdb_id": 245318,
-    "title": "Margo's Got Money Troubles",
-    "poster": "https://image.tmdb.org/t/p/w500/kMb8hCou8RZf7uXE1rTE8ZDgcvg.jpg",
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 9.7,
     "folder": "tv",
-    "slug": "245318-margos-got-money-troubles"
-  },
-  {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
-    "tmdb_id": 224263,
-    "title": "Stranger Things: Tales from '85",
-    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "224263-stranger-things-tales-from-85"
+    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 79744,
@@ -162,13 +126,13 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 287450,
-    "title": "Secret Service",
-    "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
-    "year": "2026",
-    "rating": 7.2,
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "287450-secret-service"
+    "slug": "87917-for-all-mankind"
   },
   {
     "tmdb_id": 95479,
@@ -178,5 +142,41 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 224263,
+    "title": "Stranger Things: Tales from '85",
+    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "224263-stranger-things-tales-from-85"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
+    "tmdb_id": 128306,
+    "title": "The Boss",
+    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
+    "year": "2022",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "128306-the-boss"
+  },
+  {
+    "tmdb_id": 245318,
+    "title": "Margo's Got Money Troubles",
+    "poster": "https://image.tmdb.org/t/p/w500/kMb8hCou8RZf7uXE1rTE8ZDgcvg.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "245318-margos-got-money-troubles"
   }
 ]
