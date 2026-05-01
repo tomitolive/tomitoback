@@ -106,43 +106,63 @@ def get_live_trends(title, geo='SA'):
             LIVE_TRENDS_CACHE[cache_key] = ""
     return LIVE_TRENDS_CACHE[cache_key]
 
-def get_rising_seo_tags(subject_name, media_type='movie', year='2026'):
+# --- Genre-based LSI Dictionary (SEO 2026) ---
+GENRE_LSI = {
+    "Action": ["مطاردات", "قتال", "سيناريو", "إخراج", "تصوير سينمائي", "أدرينالين"],
+    "Adventure": ["مغامرة", "استكشاف", "رحلة", "غموض", "أبطال"],
+    "Animation": ["أنمي", "رسوم متحركة", "عالم خيالي", "عائلي", "تحريك"],
+    "Comedy": ["ضحك", "مواقف كوميدية", "ترفيه", "فكاهة"],
+    "Crime": ["جريمة", "تحقيق", "غموض", "إثارة", "شرطة"],
+    "Drama": ["دراما", "قصة مؤثرة", "مشاعر", "تطور الشخصيات"],
+    "Horror": ["رعب", "تشويق", "غموض", "أحداث مرعبة", "خوف"],
+    "Sci-Fi": ["خيال علمي", "المستقبل", "تكنولوجيا", "الفيزياء", "المنطق البشري"],
+    "Thriller": ["إثارة", "تشويق", "توتر", "شك", "مفاجأة"]
+}
+
+def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar=None, actor=None, platform=None):
     """
-    تنفيذ "توميتو ستايل" (Tomito Style):
+    تنفيذ "توميتو ستايل" المطور (SEO 2026):
     1. كلمات أساسية (عنوان + سنة + مترجم)
     2. كلمات النية والقصد (LSI & User Intent)
-    3. تريندات PyTrends
-    4. البراند (Tomito)
+    3. كلمات "الكيان" (أبطال + منصة)
+    4. كلمات "النوع" (Genre LSI Dictionary)
+    5. تريندات PyTrends + براند
     """
     label = "فيلم" if media_type == 'movie' else "مسلسل"
+    tag_label = "مترجم" if media_type == 'movie' else "مترجم كامل"
     year_str = str(year)
     
-    # 1. كلمات أساسية (Core)
-    core = [f"{subject_name} {year_str} مترجم", f"{label} {subject_name} {year_str}", f"مشاهدة {subject_name} {year_str}"]
+    # 1. كلمات أساسية قوية
+    core = [f"{subject_name} {year_str} {tag_label}", f"{label} {subject_name} {year_str}", f"أفضل {label} {year_str}"]
     
-    # 2. توليد توليفات النية والغموض (LSI Patterns)
+    # 2. كلمات النية والغموض
     intents = [
         f"مشاهدة {subject_name} بجودة 4K",
-        f"تحليل {label} {subject_name}",
+        f"شرح نهاية {label} {subject_name}",
         f"سيرفرات سريعة لمشاهدة {subject_name}",
-        f"شرح نهاية {subject_name}",
-        f"حقائق خلف كواليس {subject_name}",
-        f"Streaming {subject_name} VOSTFR",
-        f"Subtitled in Arabic {subject_name}",
-        f"بدون إعلانات مزعجة {subject_name}",
-        f"Full HD Online Tomito"
+        f"بدون إعلانات مزعجة {subject_name}"
     ]
     selected_intents = random.sample(intents, min(4, len(intents)))
     
-    # 3. جلب تريندات حقيقية نامية
+    # 3. كلمات النوع (Genre LSI)
+    lsi_words = []
+    if genres_ar:
+        for g in genres_ar:
+            if g in GENRE_LSI:
+                lsi_words.extend(GENRE_LSI[g])
+    selected_lsi = random.sample(lsi_words, min(4, len(lsi_words))) if lsi_words else []
+
+    # 4. كلمات الكيان (Actor & Platform)
+    entities = []
+    if actor: entities.append(f"أعمال {actor}")
+    if platform: entities.append(f"مسلسلات {platform}" if media_type == 'tv' else f"أفلام {platform}")
+
+    # 5. تريندات PyTrends
     search_query = f"{subject_name} {label}"
     rising_keywords = get_live_trends(search_query)
     
-    # 4. البراند والكلمات الثابتة
-    brand = "توميتو, Tomito, Tomito Streaming"
-    
     # دمج الكل بالترتيب المطلوب
-    all_raw = f"{', '.join(core)}, {', '.join(selected_intents)}, {rising_keywords}, {brand}"
+    all_raw = f"{', '.join(core)}, {', '.join(selected_intents)}, {', '.join(selected_lsi)}, {', '.join(entities)}, {rising_keywords}, توميتو, Tomito"
     
     # تنظيف النص
     cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_raw)

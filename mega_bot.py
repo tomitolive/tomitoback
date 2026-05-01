@@ -375,9 +375,9 @@ def _build_v7_extra_content(
 <section class="section v7-hero" style="padding-top: 20px; padding-bottom: 20px;">
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 0 0 300px; max-width: 100%;">
-      <img src="{poster_url}" alt="{title_ar} poster" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
+      <img src="{poster_url}" alt="{{ALT_TEXT}}" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
     <div style="flex: 1; min-width: 300px;">
-      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{title_ar}</h1>
+      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{{H1_TITLE}}</h1>
       <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({year})</h2>
       <div style="margin-bottom: 20px;">
         <span style="background: #de6718; color: #fff; padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9rem; margin-inline-end: 10px;">{ar_type}</span>
@@ -604,6 +604,7 @@ def create_page(item_data, media_type, is_trend=False):
         folder = 'movie'
         schema_type = 'Movie'
         type_label = "فيلم"
+        tag_label = "مترجم"
     elif 'anime' in media_type:
         watch_url = f"{SITE_URL}/tv/{tmdb_id}/watch?season=1&episode=1"
         folder = 'tv'
@@ -614,6 +615,7 @@ def create_page(item_data, media_type, is_trend=False):
         folder = 'tv'
         schema_type = 'TVSeries'
         type_label = "مسلسل"
+        tag_label = "مترجم كامل"
 
     page_url = f"{SITE_URL}/{folder}/{slug}"
 
@@ -638,11 +640,20 @@ def create_page(item_data, media_type, is_trend=False):
             generate_page_intro_outro,
             get_rising_seo_tags
         )
+        # Entity Mapping: Extract first actor and platform (network)
+        main_actor = cast_names[0] if cast_names else None
+        platform = None
+        if media_type == 'tv' and data.get('networks'):
+            platform = data['networks'][0].get('name')
+        elif media_type == 'movie' and data.get('production_companies'):
+            platform = data['production_companies'][0].get('name')
+
         tri = generate_bilingual_description(
             title_ar, title_en,
             ar.get('overview', '') if ar else '',
             en.get('overview', '') if en else '',
-            year, genres_ar, media_type
+            year, genres_ar, media_type,
+            actor=main_actor, platform=platform
         )
         desc_ar   = (tri or {}).get('desc_ar') or ''
         desc_en   = (tri or {}).get('desc_en') or ''
@@ -669,9 +680,8 @@ def create_page(item_data, media_type, is_trend=False):
     if 'page_intro' not in dir():
         page_intro, page_outro = None, None
 
-    # ── Keywords ──────────────────────────────────────────────────────────────
-    # User Request: Use only Fixed Sites + PyTrends (no manual additions)
-    keywords = (tri or {}).get('keywords') or get_rising_seo_tags(title_ar)
+    # from trends_fetcher import clean_strict (moved to top)
+    keywords = (tri or {}).get('keywords') or get_rising_seo_tags(title_ar, media_type, year, genres_ar, main_actor, platform)
     
     # from trends_fetcher import clean_strict (moved to top)
     keywords = clean_strict(keywords)
@@ -762,10 +772,11 @@ def create_page(item_data, media_type, is_trend=False):
     else:
         seo_page_title = seo_title
 
+    # Rule: Enhanced replacements for 2026 SEO Structure
     replacements = {
         '{{ROOT}}':             '../',
         '{{CATEGORIES_LINKS}}': get_category_links_html(root_path='../'),
-        '{{TITLE_PAGE}}':       seo_page_title,
+        '{{TITLE_PAGE}}':       f"{title_ar} ({year}) {tag_label} | {title_en} — TOMITO",
         '{{META_DESC}}':        meta_desc,
         '{{KEYWORDS}}':         keywords,
         '{{TITLE_OG}}':         f'{title_ar} / {title_en} — TOMITO',
@@ -783,8 +794,8 @@ def create_page(item_data, media_type, is_trend=False):
         '{{JSON_LD}}':          json_ld_html,
         '{{FOLDER}}':           folder,
         '{{TYPE_AR}}':          type_label.split('|')[-1].strip(),
-        '{{CATEGORIES_LINKS}}': get_category_links_html(root_path="../"),
-        '{{ROOT}}':             '../',
+        '{{ALT_TEXT}}':         f"{title_ar} بوستر بدقة عالية",
+        '{{H1_TITLE}}':         f"{title_ar} ({year}) {tag_label}"
     }
     for k, v in replacements.items():
         html = html.replace(k, str(v))
