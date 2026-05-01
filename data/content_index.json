@@ -19522,5 +19522,22 @@
       35
     ],
     "timestamp": 1777668257
+  },
+  {
+    "title": "The Notebook / The Notebook",
+    "title_ar": "The Notebook",
+    "title_en": "The Notebook",
+    "slug": "11036-the-notebook",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/yjnbtR6MPZGunDm7CQLItwFMUqz.jpg",
+    "rating": 7.9,
+    "year": "2004",
+    "type": "movie",
+    "tmdb_id": 11036,
+    "genre_ids": [
+      10749,
+      18
+    ],
+    "timestamp": 1777669495
   }
 ]

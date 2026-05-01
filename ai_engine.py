@@ -106,16 +106,32 @@ def get_live_trends(title, geo='SA'):
             LIVE_TRENDS_CACHE[cache_key] = ""
     return LIVE_TRENDS_CACHE[cache_key]
 
-def get_rising_seo_tags(subject_name):
+def get_rising_seo_tags(subject_name, media_type='movie'):
     """
-    الدمج بين المواقع الشهيرة والكلمات النامية (Breakout) من PyTrends فقط
+    الدمج الذكي بين:
+    1. تراكيب (Title + Site / Media + Title + Site)
+    2. الكلمات النامية (Rising) من PyTrends
     """
-    rising_keywords = get_live_trends(subject_name)
-    fixed_sites = "ايجي بست, شاهد, ماي سيما, EgyBest, Shahid, MyCima, Netflix, Canal+, Streaming, Watch online, Regarder en ligne"
+    label = "فيلم" if media_type == 'movie' else "مسلسل"
     
-    all_keywords = f"{fixed_sites}, {rising_keywords}" if rising_keywords else fixed_sites
+    # 1. توليد تراكيب ذكية (Smart Combinations)
+    sites = ["ايجي بست", "شاهد", "ماي سيما", "EgyBest", "Shahid", "Netflix"]
+    combos = []
+    for s in sites:
+        combos.append(f"{subject_name} {s}")
+        combos.append(f"{label} {subject_name} {s}")
+        combos.append(f"{subject_name} فروم {s}") # كما طلب المستخدم (فروم)
+        combos.append(f"شاهد {subject_name} {s}")
+
+    # 2. جلب تريندات حقيقية نـامية
+    rising_keywords = get_live_trends(subject_name)
+    
+    # 3. دمج الكل
+    fixed_base = "EgyBest, Shahid, MyCima, Netflix, Canal+, Streaming, مجاني, Watch online"
+    all_raw = f"{', '.join(combos[:15])}, {fixed_base}, {rising_keywords}"
+    
     # تنظيف النص
-    cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_keywords)
+    cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_raw)
     return re.sub(r'\s+', ' ', cleaned).strip()
 
 def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en, year, genres_ar, media_type, *args, **kwargs):
@@ -153,7 +169,7 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
     try:
         data = json.loads(res or "{}")
         # Integration of Rising Keywords
-        data["keywords"] = get_rising_seo_tags(title_ar)
+        data["keywords"] = get_rising_seo_tags(title_ar, media_type)
         
         # Ensure we have all fields
         if "desc_ar" not in data and "arabic" in data: # handle different formats
