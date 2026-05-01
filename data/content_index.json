@@ -19473,20 +19473,36 @@
     "timestamp": 1777662759
   },
   {
-    "title": "الأحمر والأبيض والأزرق الملكي / Red, White Royal Blue",
-    "title_ar": "الأحمر والأبيض والأزرق الملكي",
-    "title_en": "Red, White Royal Blue",
-    "slug": "930094-red-white-royal-blue",
+    "title": "لوسي / Lucy",
+    "title_ar": "لوسي",
+    "title_en": "Lucy",
+    "slug": "240832-lucy",
     "folder": "movie",
-    "poster": "https://image.tmdb.org/t/p/w500/4WqwMah1hS0momPgwk8ltv32EaJ.jpg",
-    "rating": 7.9,
-    "year": "2023",
+    "poster": "https://image.tmdb.org/t/p/w500/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg",
+    "rating": 6.5,
+    "year": "2014",
     "type": "movie",
-    "tmdb_id": 930094,
+    "tmdb_id": 240832,
     "genre_ids": [
-      35,
-      10749
+      28,
+      878
     ],
-    "timestamp": 1777665584
+    "timestamp": 1777665311
+  },
+  {
+    "title": "Krlowa Bona / Krlowa Bona",
+    "title_ar": "Krlowa Bona",
+    "title_en": "Krlowa Bona",
+    "slug": "48704-krlowa-bona",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dWOaibGXErbOfK7sgQHKBWq2Nom.jpg",
+    "rating": 8.5,
+    "year": "1980",
+    "type": "tv",
+    "tmdb_id": 48704,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777665361
   }
 ]
