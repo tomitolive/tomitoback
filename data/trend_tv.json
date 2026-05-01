@@ -85,7 +85,7 @@
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 8.0,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
   },
@@ -126,6 +126,15 @@
     "slug": "278113-gold-land"
   },
   {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
+  },
+  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -135,13 +144,22 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+    "year": "2026",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 224263,
+    "title": "Stranger Things: Tales from '85",
+    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "224263-stranger-things-tales-from-85"
   },
   {
     "tmdb_id": 241609,
@@ -153,15 +171,6 @@
     "slug": "241609-your-friends-neighbors"
   },
   {
-    "tmdb_id": 128306,
-    "title": "The Boss",
-    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
-    "year": "2022",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "128306-the-boss"
-  },
-  {
     "tmdb_id": 111110,
     "title": "ONE PIECE",
     "poster": "https://image.tmdb.org/t/p/w500/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
@@ -169,14 +178,5 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "111110-one-piece"
-  },
-  {
-    "tmdb_id": 224263,
-    "title": "Stranger Things: Tales from '85",
-    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "224263-stranger-things-tales-from-85"
   }
 ]
