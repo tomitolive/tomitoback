@@ -36,15 +36,6 @@
     "slug": "687163-project-hail-mary"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -52,24 +43,6 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 4.0,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1651233,
@@ -81,6 +54,33 @@
     "slug": "1651233-son-in-law"
   },
   {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 4.0,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -88,24 +88,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
   },
   {
     "tmdb_id": 1290821,
@@ -117,6 +99,24 @@
     "slug": "1290821-shelter"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
@@ -124,15 +124,6 @@
     "rating": 6.1,
     "folder": "movie",
     "slug": "1430077-hokum"
-  },
-  {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 949536,
@@ -153,13 +144,13 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1423251,
-    "title": "Biker",
-    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
     "year": "2026",
-    "rating": 5.5,
+    "rating": 7.4,
     "folder": "movie",
-    "slug": "1423251-biker"
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1110034,
@@ -169,6 +160,15 @@
     "rating": 6.1,
     "folder": "movie",
     "slug": "1110034-kraken"
+  },
+  {
+    "tmdb_id": 1423251,
+    "title": "Biker",
+    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
+    "year": "2026",
+    "rating": 5.5,
+    "folder": "movie",
+    "slug": "1423251-biker"
   },
   {
     "tmdb_id": 1472638,
