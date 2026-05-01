@@ -27,24 +27,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
@@ -63,6 +45,24 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -70,60 +70,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
-  },
-  {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
-  },
-  {
-    "tmdb_id": 1651233,
-    "title": "Son-In-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
-    "tmdb_id": 1423251,
-    "title": "Biker",
-    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
-    "year": "2026",
-    "rating": 5.5,
-    "folder": "movie",
-    "slug": "1423251-biker"
-  },
-  {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1290821-shelter"
   },
   {
     "tmdb_id": 931285,
@@ -135,22 +81,67 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1624961,
-    "title": "No Ordinary Heist",
-    "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1624961-no-ordinary-heist"
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "year": "2026",
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1290821-shelter"
+  },
+  {
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "829487-je-mappelle-agneta"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 3.5,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
+  },
+  {
+    "tmdb_id": 1651233,
+    "title": "Son-In-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
+  },
+  {
+    "tmdb_id": 1472638,
+    "title": "Buen Camino",
+    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
+    "year": "2025",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1472638-buen-camino"
   },
   {
     "tmdb_id": 1430077,
@@ -162,6 +153,15 @@
     "slug": "1430077-hokum"
   },
   {
+    "tmdb_id": 1624961,
+    "title": "No Ordinary Heist",
+    "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1624961-no-ordinary-heist"
+  },
+  {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
@@ -171,12 +171,12 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1316092,
-    "title": "\"Wuthering Heights\"",
-    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "tmdb_id": 1423251,
+    "title": "Biker",
+    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 5.5,
     "folder": "movie",
-    "slug": "1316092-wuthering-heights"
+    "slug": "1423251-biker"
   }
 ]

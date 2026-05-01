@@ -355,6 +355,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/10853-the-beginner</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/10867-malena</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
