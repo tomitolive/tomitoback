@@ -635,7 +635,8 @@ def create_page(item_data, media_type, is_trend=False):
             generate_faq, 
             generate_meta_tags,
             generate_tomito_opinion,
-            generate_page_intro_outro
+            generate_page_intro_outro,
+            get_rising_seo_tags
         )
         tri = generate_bilingual_description(
             title_ar, title_en,
@@ -669,10 +670,8 @@ def create_page(item_data, media_type, is_trend=False):
         page_intro, page_outro = None, None
 
     # ── Keywords ──────────────────────────────────────────────────────────────
-    # Try keywords from tri first, then generate_seo_content (meta_data), then build_keywords
-    keywords = (tri or {}).get('keywords') or (meta_data or {}).get('keywords')
-    if not keywords:
-        keywords = build_keywords(title_ar, title_en, media_type, year, genres_ar)
+    # User Request: Use only Fixed Sites + PyTrends (no manual additions)
+    keywords = (tri or {}).get('keywords') or get_rising_seo_tags(title_ar)
     
     # from trends_fetcher import clean_strict (moved to top)
     keywords = clean_strict(keywords)

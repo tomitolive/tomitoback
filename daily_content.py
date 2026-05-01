@@ -118,11 +118,12 @@ def fetch_from_tmdb_trends(seen_ids, target, min_popularity=80):
                 orig_lang = item.get('original_language', '')
                 
                 # Rule: ONLY EN (US/UK/etc) or AR content
-                # 100% Perfection Update: Higher popularity threshold for blockbusters
-                if tid and tid not in seen_ids and pop >= 200 and orig_lang in ['en', 'ar']:
+                # Rule: Rating between 3.3 and 4.2 stars (mapped to 6.6 and 8.4 out of 10)
+                rating = item.get('vote_average', 0)
+                if tid and tid not in seen_ids and pop >= 200 and orig_lang in ['en', 'ar'] and 6.6 <= rating <= 8.4:
                     collected.append((tid, media_type))
                     seen_ids.add(tid)
-                    log.info(f"Matched High-Quality Trend: {tid} ({media_type}) - Pop: {pop} - Lang: {orig_lang}")
+                    log.info(f"Matched High-Quality Trend: {tid} ({media_type}) - Pop: {pop} - Rating: {rating} - Lang: {orig_lang}")
     return collected
 
 def fetch_from_rss_trends(seen_ids, target):

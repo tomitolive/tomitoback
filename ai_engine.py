@@ -67,7 +67,7 @@ def ask_gemini(prompt):
 
 def get_rising_seo_tags(subject_name):
     """
-    الدمج بين المواقع الشهيرة والكلمات النامية (Breakout) من PyTrends
+    الدمج بين المواقع الشهيرة والكلمات النامية (Breakout) من PyTrends فقط
     """
     try:
         from trends_fetcher import fetch_related_keywords
@@ -79,10 +79,11 @@ def get_rising_seo_tags(subject_name):
     # القائمة الثابتة للمواقع (Fix Keywords)
     fixed_sites = "ايجي بست, شاهد, ماي سيما, EgyBest, Shahid, MyCima, Netflix, Canal+, Streaming, Watch online, Regarder en ligne"
     
-    # دمج الكل
-    all_keywords = f"{subject_name}, {fixed_sites}"
+    # دمج الكل: المواقع الثابتة + نتائج PyTrends مباشرة
     if rising_keywords:
-        all_keywords += f", {rising_keywords}"
+        all_keywords = f"{fixed_sites}, {rising_keywords}"
+    else:
+        all_keywords = fixed_sites
     
     # تنظيف النص: إبقاء Ar, En, Fr فقط وحذف أي رموز غريبة
     cleaned_keywords = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_keywords)
