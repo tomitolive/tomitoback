@@ -4,7 +4,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.8,
+    "rating": 9.0,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -27,13 +27,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 687163,
-    "title": "Project Hail Mary",
-    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 7.7,
     "folder": "movie",
-    "slug": "687163-project-hail-mary"
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 936075,
@@ -45,15 +45,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -61,6 +52,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 687163,
+    "title": "Project Hail Mary",
+    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "687163-project-hail-mary"
   },
   {
     "tmdb_id": 1651233,
@@ -76,7 +76,7 @@
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
     "year": "2026",
-    "rating": 4.0,
+    "rating": 4.8,
     "folder": "movie",
     "slug": "1239198-my-dearest-señorita"
   },
@@ -88,6 +88,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
+  },
+  {
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 931285,
@@ -108,13 +117,13 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "tmdb_id": 949536,
+    "title": "Kill Code",
+    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
     "year": "2026",
-    "rating": 6.1,
+    "rating": 10.0,
     "folder": "movie",
-    "slug": "1430077-hokum"
+    "slug": "949536-kill-code"
   },
   {
     "tmdb_id": 1462229,
@@ -126,15 +135,6 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Kill Code",
-    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "movie",
-    "slug": "949536-kill-code"
-  },
-  {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
@@ -142,15 +142,6 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1110034,
@@ -162,6 +153,15 @@
     "slug": "1110034-kraken"
   },
   {
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "829487-je-mappelle-agneta"
+  },
+  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -171,12 +171,12 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "tmdb_id": 1316092,
+    "title": "\"Wuthering Heights\"",
+    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "1316092-wuthering-heights"
   }
 ]
