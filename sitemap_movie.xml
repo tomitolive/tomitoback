@@ -577,6 +577,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/11674-101-dalmatians</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1168190-the-wrecking-crew</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
