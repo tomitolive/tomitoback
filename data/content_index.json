@@ -19276,5 +19276,42 @@
       35
     ],
     "timestamp": 1777627755
+  },
+  {
+    "title": "كتاب الأدغال / The Jungle Book",
+    "title_ar": "كتاب الأدغال",
+    "title_en": "The Jungle Book",
+    "slug": "278927-the-jungle-book",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/2Epx7F9X7DrFptn4seqn4mzBVks.jpg",
+    "rating": 6.9,
+    "year": "2016",
+    "type": "movie",
+    "tmdb_id": 278927,
+    "genre_ids": [
+      10751,
+      12,
+      14
+    ],
+    "timestamp": 1777632751
+  },
+  {
+    "title": "أكوما كون / Akuma Kun",
+    "title_ar": "أكوما كون",
+    "title_en": "Akuma Kun",
+    "slug": "120241-akuma-kun",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/3frWTreENCV0ZQfLnNRYnCBwRUC.jpg",
+    "rating": 7.1,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 120241,
+    "genre_ids": [
+      16,
+      10765,
+      9648,
+      80
+    ],
+    "timestamp": 1777632790
   }
 ]

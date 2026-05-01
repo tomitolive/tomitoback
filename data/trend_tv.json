@@ -9,15 +9,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-    "year": "2019",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "76479-the-boys"
-  },
-  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -25,6 +16,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 85552,
@@ -36,15 +36,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
@@ -52,6 +43,15 @@
     "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 202555,
@@ -99,15 +99,6 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 257994,
     "title": "Half Man",
     "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
@@ -115,6 +106,15 @@
     "rating": 9.3,
     "folder": "tv",
     "slug": "257994-half-man"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 79744,
@@ -126,13 +126,13 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "tmdb_id": 101172,
+    "title": "Swallowed Star",
+    "poster": "https://image.tmdb.org/t/p/w500/3iPt9bIPNYmhqQ3BVU4plRkkDbf.jpg",
     "year": "2020",
-    "rating": 8.6,
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
+    "slug": "101172-swallowed-star"
   },
   {
     "tmdb_id": 95557,
@@ -144,6 +144,15 @@
     "slug": "95557-invincible"
   },
   {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
+  },
+  {
     "tmdb_id": 209867,
     "title": "Frieren: Beyond Journey's End",
     "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
@@ -153,6 +162,15 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95479-jujutsu-kaisen"
+  },
+  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -160,23 +178,5 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 86031,
-    "title": "Dr. STONE",
-    "poster": "https://image.tmdb.org/t/p/w500/rocRrglJfYkglKilmFaStvo5EvS.jpg",
-    "year": "2019",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "86031-dr-stone"
-  },
-  {
-    "tmdb_id": 101172,
-    "title": "Swallowed Star",
-    "poster": "https://image.tmdb.org/t/p/w500/3iPt9bIPNYmhqQ3BVU4plRkkDbf.jpg",
-    "year": "2020",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "101172-swallowed-star"
   }
 ]

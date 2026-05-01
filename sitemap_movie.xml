@@ -2059,6 +2059,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/278927-the-jungle-book</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/279-amadeus</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
