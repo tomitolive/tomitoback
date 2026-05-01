@@ -131,8 +131,9 @@ def get_rising_seo_tags(subject_name, media_type='movie'):
         combos.append(f"{subject_name} فروم {s}") # كما طلب المستخدم (فروم)
         combos.append(f"شاهد {subject_name} {s}")
 
-    # 2. جلب تريندات حقيقية نـامية
-    rising_keywords = get_live_trends(subject_name)
+    # 2. جلب تريندات حقيقية نـامية (Search for: Title + Label for better accuracy)
+    search_query = f"{subject_name} {label}"
+    rising_keywords = get_live_trends(search_query)
     
     # 3. دمج الكل
     fixed_base = "EgyBest, Shahid, MyCima, Netflix, Canal+, Streaming, مجاني, Watch online"
