@@ -2353,6 +2353,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/3604-flash-gordon</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/361743-top-gun-maverick</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
