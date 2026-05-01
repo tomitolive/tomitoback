@@ -27,15 +27,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -52,6 +43,15 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1292695,
@@ -153,15 +153,6 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
@@ -169,6 +160,15 @@
     "rating": 6.1,
     "folder": "movie",
     "slug": "1110034-kraken"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 1297842,

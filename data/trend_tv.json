@@ -153,15 +153,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 224263,
-    "title": "Stranger Things: Tales from '85",
-    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "224263-stranger-things-tales-from-85"
-  },
-  {
     "tmdb_id": 311858,
     "title": "Prisoner",
     "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
@@ -171,12 +162,21 @@
     "slug": "311858-prisoner"
   },
   {
-    "tmdb_id": 241609,
-    "title": "Your Friends & Neighbors",
-    "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
-    "year": "2025",
-    "rating": 7.6,
+    "tmdb_id": 128306,
+    "title": "The Boss",
+    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
+    "year": "2022",
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "241609-your-friends-neighbors"
+    "slug": "128306-the-boss"
+  },
+  {
+    "tmdb_id": 224263,
+    "title": "Stranger Things: Tales from '85",
+    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "224263-stranger-things-tales-from-85"
   }
 ]
