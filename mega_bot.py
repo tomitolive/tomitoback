@@ -16,8 +16,7 @@ if os.path.exists(index_path):
         LOCAL_INDEX = json.load(f)
         LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_INDEX}
 
-def get_item_url(slug, is_movie, root='./'):
-    folder = 'movie' if is_movie else 'tv'
+def get_item_url(folder, slug, root='./'):
     return f"{root}{folder}/{slug}"
 
 # Import Google Indexing function
@@ -552,9 +551,8 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
     html += ''.join(card(r, folder) for r in filtered)
     html += '</div>'
     
-    # Link "Mazid" button to genre or category
+    # Link "Mazid" button removed by request
     redirect_slug = genre_slug or ("movie" if media_type == 'movie' else "tv-show")
-    html += f'''<div class="load-more-container"><a href="https://tv.tomito.xyz/genre/{redirect_slug}.html" class="load-more-btn"><span>مشاهدة المزيد</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></a></div>'''
     html += '</section>'
     return html
 
@@ -1071,9 +1069,6 @@ def build_listing_pages():
         if len(items) > 20:
              # First button shows more local cards
              grid += '<div class="load-more-container"><button class="load-more-btn" onclick="showMoreCards(this)"><span>عرض المزيد محلياً</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button></div>'
-        
-        # Final redirect button to external category
-        grid += f'<div class="load-more-container" style="margin-top:10px;"><a href="{redirect_url}" class="load-more-btn" style="background:#FF6D1F; color:#000;"><span>مشاهدة الكل على tv.tomito.xyz</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"/></svg></a></div>'
         
         return html.replace('{{EXTRA_CONTENT}}', grid)
 
