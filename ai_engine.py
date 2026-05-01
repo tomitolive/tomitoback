@@ -106,38 +106,43 @@ def get_live_trends(title, geo='SA'):
             LIVE_TRENDS_CACHE[cache_key] = ""
     return LIVE_TRENDS_CACHE[cache_key]
 
-def get_rising_seo_tags(subject_name, media_type='movie'):
+def get_rising_seo_tags(subject_name, media_type='movie', year='2026'):
     """
-    الدمج الذكي بين:
-    1. تراكيب (Title + Site / Media + Title + Site)
-    2. الكلمات النامية (Rising) من PyTrends
+    تنفيذ "توميتو ستايل" (Tomito Style):
+    1. كلمات أساسية (عنوان + سنة + مترجم)
+    2. كلمات النية والقصد (LSI & User Intent)
+    3. تريندات PyTrends
+    4. البراند (Tomito)
     """
     label = "فيلم" if media_type == 'movie' else "مسلسل"
+    year_str = str(year)
     
-    # 1. توليد تراكيب ذكية (Smart Combinations)
-    combos = []
+    # 1. كلمات أساسية (Core)
+    core = [f"{subject_name} {year_str} مترجم", f"{label} {subject_name} {year_str}", f"مشاهدة {subject_name} {year_str}"]
     
-    # حط الكلمات ديال "تشبه" و "مثل" هي اللولة (High Priority)
-    combos.append(f"أفلام تشبه {subject_name}")
-    combos.append(f"مسلسلات تشبه {subject_name}")
-    combos.append(f"أعمال مثل {subject_name}")
-    combos.append(f"أفضل بدائل {subject_name}")
-    combos.append(f"Movies similar to {subject_name}")
-
-    sites = ["ايجي بست", "شاهد", "ماي سيما", "EgyBest", "Shahid", "Netflix"]
-    for s in sites:
-        combos.append(f"{subject_name} {s}")
-        combos.append(f"{label} {subject_name} {s}")
-        combos.append(f"{subject_name} فروم {s}") # كما طلب المستخدم (فروم)
-        combos.append(f"شاهد {subject_name} {s}")
-
-    # 2. جلب تريندات حقيقية نـامية (Search for: Title + Label for better accuracy)
+    # 2. توليد توليفات النية والغموض (LSI Patterns)
+    intents = [
+        f"مشاهدة {subject_name} بجودة 4K",
+        f"تحليل {label} {subject_name}",
+        f"سيرفرات سريعة لمشاهدة {subject_name}",
+        f"شرح نهاية {subject_name}",
+        f"حقائق خلف كواليس {subject_name}",
+        f"Streaming {subject_name} VOSTFR",
+        f"Subtitled in Arabic {subject_name}",
+        f"بدون إعلانات مزعجة {subject_name}",
+        f"Full HD Online Tomito"
+    ]
+    selected_intents = random.sample(intents, min(4, len(intents)))
+    
+    # 3. جلب تريندات حقيقية نامية
     search_query = f"{subject_name} {label}"
     rising_keywords = get_live_trends(search_query)
     
-    # 3. دمج الكل
-    fixed_base = "EgyBest, Shahid, MyCima, Netflix, Canal+, Streaming, مجاني, Watch online"
-    all_raw = f"{', '.join(combos[:15])}, {fixed_base}, {rising_keywords}"
+    # 4. البراند والكلمات الثابتة
+    brand = "توميتو, Tomito, Tomito Streaming"
+    
+    # دمج الكل بالترتيب المطلوب
+    all_raw = f"{', '.join(core)}, {', '.join(selected_intents)}, {rising_keywords}, {brand}"
     
     # تنظيف النص
     cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_raw)
@@ -178,7 +183,8 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
     try:
         data = json.loads(res or "{}")
         # Integration of Rising Keywords
-        data["keywords"] = get_rising_seo_tags(title_ar, media_type)
+        t_query = title_ar if title_ar and title_ar.strip() else title_en
+        data["keywords"] = get_rising_seo_tags(t_query, media_type, year)
         
         # Ensure we have all fields
         if "desc_ar" not in data and "arabic" in data: # handle different formats

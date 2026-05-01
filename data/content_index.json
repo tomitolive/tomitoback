@@ -19660,5 +19660,21 @@
       10759
     ],
     "timestamp": 1777670704
+  },
+  {
+    "title": "صيف نشر ذراعيه / The Summer I Turned Pretty",
+    "title_ar": "صيف نشر ذراعيه",
+    "title_en": "The Summer I Turned Pretty",
+    "slug": "194766-the-summer-i-turned-pretty",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/rUxn9KDUNEo42XaFRxeFWefmnDq.jpg",
+    "rating": 8.1,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 194766,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777671450
   }
 ]
