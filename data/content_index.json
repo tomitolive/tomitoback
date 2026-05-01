@@ -19065,5 +19065,40 @@
       35
     ],
     "timestamp": 1777600168
+  },
+  {
+    "title": "Jenseits der Stille / Beyond Silence",
+    "title_ar": "Jenseits der Stille",
+    "title_en": "Beyond Silence",
+    "slug": "312-beyond-silence",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/c7pZYrEeI5OAnEDIzoQv3UhdwGY.jpg",
+    "rating": 6.9,
+    "year": "1996",
+    "type": "movie",
+    "tmdb_id": 312,
+    "genre_ids": [
+      18,
+      10402
+    ],
+    "timestamp": 1777605868
+  },
+  {
+    "title": "Swiss Family Robinson / Swiss Family Robinson",
+    "title_ar": "Swiss Family Robinson",
+    "title_en": "Swiss Family Robinson",
+    "slug": "312618-swiss-family-robinson",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dsd25F0qRBqbKets5VjjVXnxn31.jpg",
+    "rating": 7.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 312618,
+    "genre_ids": [
+      10759,
+      18,
+      10751
+    ],
+    "timestamp": 1777605905
   }
 ]
