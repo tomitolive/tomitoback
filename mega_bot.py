@@ -375,9 +375,9 @@ def _build_v7_extra_content(
 <section class="section v7-hero" style="padding-top: 20px; padding-bottom: 20px;">
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 0 0 300px; max-width: 100%;">
-      <img src="{poster_url}" alt="{{ALT_TEXT}}" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
+      <img src="{poster_url}" alt="{{{{ALT_TEXT}}}}" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
     <div style="flex: 1; min-width: 300px;">
-      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{{H1_TITLE}}</h1>
+      <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{{{{H1_TITLE}}}}</h1>
       <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({year})</h2>
       <div style="margin-bottom: 20px;">
         <span style="background: #de6718; color: #fff; padding: 5px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9rem; margin-inline-end: 10px;">{ar_type}</span>
