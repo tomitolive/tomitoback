@@ -115,8 +115,16 @@ def get_rising_seo_tags(subject_name, media_type='movie'):
     label = "فيلم" if media_type == 'movie' else "مسلسل"
     
     # 1. توليد تراكيب ذكية (Smart Combinations)
-    sites = ["ايجي بست", "شاهد", "ماي سيما", "EgyBest", "Shahid", "Netflix"]
     combos = []
+    
+    # حط الكلمات ديال "تشبه" و "مثل" هي اللولة (High Priority)
+    combos.append(f"أفلام تشبه {subject_name}")
+    combos.append(f"مسلسلات تشبه {subject_name}")
+    combos.append(f"أعمال مثل {subject_name}")
+    combos.append(f"أفضل بدائل {subject_name}")
+    combos.append(f"Movies similar to {subject_name}")
+
+    sites = ["ايجي بست", "شاهد", "ماي سيما", "EgyBest", "Shahid", "Netflix"]
     for s in sites:
         combos.append(f"{subject_name} {s}")
         combos.append(f"{label} {subject_name} {s}")
