@@ -27,15 +27,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 270476,
@@ -72,15 +72,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 83295,
-    "title": "Impure",
-    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
-    "year": "2018",
-    "rating": 7.3,
-    "folder": "tv",
-    "slug": "83295-impure"
-  },
-  {
     "tmdb_id": 257994,
     "title": "Half Man",
     "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
@@ -88,6 +79,15 @@
     "rating": 9.1,
     "folder": "tv",
     "slug": "257994-half-man"
+  },
+  {
+    "tmdb_id": 83295,
+    "title": "Impure",
+    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
+    "year": "2018",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "83295-impure"
   },
   {
     "tmdb_id": 285838,
@@ -162,21 +162,21 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
     "year": "2026",
-    "rating": 10.0,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
+    "slug": "311858-prisoner"
   },
   {
-    "tmdb_id": 224263,
-    "title": "Stranger Things: Tales from '85",
-    "poster": "https://image.tmdb.org/t/p/w500/xyVpiSZNA2fYJUuuagkqiSHJqjr.jpg",
-    "year": "2026",
-    "rating": 7.2,
+    "tmdb_id": 128306,
+    "title": "The Boss",
+    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
+    "year": "2022",
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "224263-stranger-things-tales-from-85"
+    "slug": "128306-the-boss"
   }
 ]
