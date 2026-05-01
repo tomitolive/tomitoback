@@ -2773,6 +2773,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/489-good-will-hunting</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/49013-cars-2</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>

@@ -19696,5 +19696,37 @@
       80
     ],
     "timestamp": 1777673499
+  },
+  {
+    "title": "العقل الجيد المصير / Good Will Hunting",
+    "title_ar": "العقل الجيد المصير",
+    "title_en": "Good Will Hunting",
+    "slug": "489-good-will-hunting",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/x19FHeU3CGTHQ0ntIDsDtgwTRpE.jpg",
+    "rating": 8.2,
+    "year": "1997",
+    "type": "movie",
+    "tmdb_id": 489,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777675551
+  },
+  {
+    "title": "Nulle part ailleurs / Nulle part ailleurs",
+    "title_ar": "Nulle part ailleurs",
+    "title_en": "Nulle part ailleurs",
+    "slug": "132149-nulle-part-ailleurs",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xyCg14g3aoXnPHXTPcOLG7BbEdg.jpg",
+    "rating": 6.1,
+    "year": "1987",
+    "type": "tv",
+    "tmdb_id": 132149,
+    "genre_ids": [
+      10767
+    ],
+    "timestamp": 1777675591
   }
 ]
