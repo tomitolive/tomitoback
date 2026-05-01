@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 # تأكد بلي الـ API KEY محطوط في السيرفر أو تيرموكس
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBR4yA0jCHdet9iv6XSZBS2wSDMJrFFt54").strip()
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
 # قائمة مأموريات البوت: التركيز حصرياً على أقوى 20 شركة في العالم
 BOT_MISSIONS = [
