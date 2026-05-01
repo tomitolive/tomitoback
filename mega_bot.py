@@ -17,7 +17,14 @@ if os.path.exists(index_path):
         LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_INDEX}
 
 def get_item_url(folder, slug, root='./'):
-    return f"{root}{folder}/{slug}"
+    """Improved URL generator: absolute local path if exists, otherwise external tomito.xyz."""
+    if not slug:
+        return "https://tv.tomito.xyz/"
+    key = f"{folder}/{slug}"
+    if key in LOCAL_SLUGS:
+        # Use SITE_URL for absolute links instead of relative root
+        return f"{SITE_URL}/{folder}/{slug}"
+    return f"https://tv.tomito.xyz/{folder}/{slug}"
 
 # Import Google Indexing function
 try:
@@ -1004,7 +1011,8 @@ def build_listing_pages():
         html = html.replace('{{JSON_LD}}', "")
         
         # Override cat links if we are at root level (index.html) vs genre level
-        root_path = "../" if "genre" in folder else "./"
+        # Use absolute SITE_URL for genre pages to fulfill "all link absolute" request
+        root_path = f"{SITE_URL}/" if "genre" in folder else "./"
         html = html.replace('{{ROOT}}', root_path)
         custom_cat_links = get_category_links_html(root_path=root_path)
         html = html.replace('{{CATEGORIES_LINKS}}', custom_cat_links)
@@ -1044,7 +1052,10 @@ def build_listing_pages():
             fld = item.get('folder', 'movie')
             t_ar = item.get('title_ar', 'Unknown')
             poster_url = item.get('poster', '').replace('/original/', '/w300/')
+            
+            # Use improved link generator
             url = get_item_url(fld, s, root="../")
+            
             hidden_class = ' hidden-card' if i >= 20 else ''
             grid += f'''
             <a class="card{hidden_class}" href="{url}" style="text-decoration:none;">
