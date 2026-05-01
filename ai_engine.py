@@ -114,24 +114,24 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
     selected_style = random.choice(NARRATIVE_STYLES)
     
     system = f"""🛡️ The "Ultimate Narrative Master" Style Prompt
-    Task: RETELL the story of "{title_ar}" in a unique way.
+    Task: RETELL the story of "{title_ar}" in a unique, cinematic, and CONCISE way.
     DIRECTION: {selected_style}
     
     ⚠️ MANDATORY RULES (STRICT):
-    1. STYLE: Creative storytelling. DO NOT copy-paste.
-    2. HERO & NAMES: Mention the MAIN CHARACTER'S NAME (role name) ONLY if clearly known. Transliterate names to Arabic (e.g. Sarah -> سارة). NEVER translate names literally (e.g. Never use 'Himself' as a person's name).
-    3. NO CLICHES: NEVER start with "في عالم..." or "في قلب...". 
-    4. GRAMMAR: Start the first sentence with a NOUN (اسم) or an ACTION (فعل), never a preposition (حرف جر).
-    5. LANGUAGE: Pure Arabic (أ-ي). No foreign characters.
+    1. LENGTH: Exactly 3 to 5 short sentences (Approx 3 lines). DO NOT exceed 5 lines.
+    2. STYLE: Creative storytelling. DO NOT copy-paste.
+    3. HERO & NAMES: Mention the MAIN CHARACTER'S NAME ONLY if clearly known. 
+    4. NO CLICHES: NEVER start with "في عالم..." or "في قلب...". 
+    5. GRAMMAR: Start the first sentence with a NOUN (اسم) or an ACTION (فعل).
     6. FORBIDDEN: NO actor names, NO years, NO SEO keywords like "مشاهدة" in the narrative.
     
     📥 Format (Strict JSON):
     {{
-      "desc_ar": "Narrative retelling in Arabic...",
+      "desc_ar": "3-5 cinematic sentences in Arabic...",
       "meta_desc": "Suspenseful summary...",
       "seo_title_ar": "Cinematic Title",
-      "desc_en": "Creative narrative in English...",
-      "opinion": "Critical perspective on the work..."
+      "desc_en": "3-5 cinematic sentences in English...",
+      "opinion": "Critical perspective (1-2 sentences)..."
     }}"""
 
     user = f"Title: {title_ar}. Type: {genres_str}. Original Story: {overview_ar}."
