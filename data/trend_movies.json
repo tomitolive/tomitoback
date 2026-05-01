@@ -36,13 +36,13 @@
     "slug": "687163-project-hail-mary"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.7,
     "folder": "movie",
-    "slug": "936075-michael"
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1292695,
@@ -54,13 +54,13 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1239198,
@@ -99,6 +99,15 @@
     "slug": "1462229-pegasus-3"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1290821,
     "title": "Shelter",
     "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
@@ -108,13 +117,13 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.1,
     "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 829487,
@@ -126,13 +135,13 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
+    "tmdb_id": 949536,
+    "title": "Kill Code",
+    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 10.0,
     "folder": "movie",
-    "slug": "1430077-hokum"
+    "slug": "949536-kill-code"
   },
   {
     "tmdb_id": 1325734,
@@ -142,15 +151,6 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 949536,
-    "title": "Kill Code",
-    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "movie",
-    "slug": "949536-kill-code"
   },
   {
     "tmdb_id": 1423251,
