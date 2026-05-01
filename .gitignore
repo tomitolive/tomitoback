@@ -9,3 +9,4 @@ mythical-module-493722-n6-e2da3325c496.json
 # Bot runtime files (local only)
 daily_seen_ids.json
 daily_run.log
+.env

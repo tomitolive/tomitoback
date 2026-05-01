@@ -8,8 +8,15 @@ import re
 
 log = logging.getLogger(__name__)
 
+# Load GEMINI_API_KEY from .env if it exists
+if os.path.exists(".env"):
+    with open(".env", "r") as f:
+        for line in f:
+            if line.startswith("GEMINI_API_KEY="):
+                os.environ["GEMINI_API_KEY"] = line.split("=")[1].strip()
+
 # Security: Key is read from environment for safety
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBgJIqaOLBOZODGF9WW4Lmxu9bfArMd5Wo").strip()
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
 # قائمة مأموريات البوت: التركيز حصرياً على أقوى 20 شركة في العالم
 BOT_MISSIONS = [
@@ -75,6 +82,9 @@ def _call_llm(system_msg, user_msg):
     headers = {"Content-Type": "application/json"}
     try:
         res = requests.post(url, headers=headers, json=payload, timeout=45)
+        if res.status_code != 200:
+            log.error(f"Gemini Error {res.status_code}: {res.text}")
+            return None
         data = res.json()
         if 'candidates' in data and len(data['candidates']) > 0:
             text = data['candidates'][0]['content']['parts'][0]['text']
