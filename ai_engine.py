@@ -157,12 +157,30 @@ def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar
     if actor: entities.append(f"أعمال {actor}")
     if platform: entities.append(f"مسلسلات {platform}" if media_type == 'tv' else f"أفلام {platform}")
 
-    # 5. تريندات PyTrends
+    # 5. المنافسين والتطبيقات (Competitors Cocktail)
+    competitors = ["ايجي بست", "EgyBest", "Shahid", "شاهد", "ماي سيما", "MyCima", "Netflix", "سيما كلوب", "FaselHD", "فاصل اعلاني"]
+    selected_competitors = random.sample(competitors, min(3, len(competitors)))
+
+    # 6. التشابه والبدائل (Similar Variations)
+    similars = [f"{label} يشبه {subject_name}", f"أعمال تشبه {subject_name}", f"بديل {label} {subject_name}", f"مسلسلات مثل {subject_name}" if media_type == 'tv' else f"أفلام مثل {subject_name}"]
+    selected_similars = random.sample(similars, min(2, len(similars)))
+
+    # 7. تريندات PyTrends
     search_query = f"{subject_name} {label}"
     rising_keywords = get_live_trends(search_query)
     
-    # دمج الكل بالترتيب المطلوب
-    all_raw = f"{', '.join(core)}, {', '.join(selected_intents)}, {', '.join(selected_lsi)}, {', '.join(entities)}, {rising_keywords}, توميتو, Tomito"
+    # دمج الكل بالترتيب المطلوب لعمل التخليطة النهائية (Cocktail)
+    components = [
+        ', '.join(core),
+        ', '.join(selected_intents),
+        ', '.join(selected_lsi) if selected_lsi else '',
+        ', '.join(entities) if entities else '',
+        ', '.join(selected_competitors),
+        ', '.join(selected_similars),
+        rising_keywords if rising_keywords else '',
+        'توميتو', 'Tomito'
+    ]
+    all_raw = ', '.join([c for c in components if c and c.strip()])
     
     # تنظيف النص
     cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_raw)
