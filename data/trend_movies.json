@@ -18,6 +18,15 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
     "tmdb_id": 1318447,
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
@@ -27,15 +36,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -43,6 +43,24 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1292695,
@@ -58,7 +76,7 @@
     "title": "Son-In-Law",
     "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 10.0,
     "folder": "movie",
     "slug": "1651233-son-in-law"
   },
@@ -72,24 +90,6 @@
     "slug": "1239198-my-dearest-señorita"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
-  },
-  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -99,13 +99,22 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "tmdb_id": 1665092,
+    "title": "吞噬星空剧场版：决战原始星",
+    "poster": "https://image.tmdb.org/t/p/w500/rS0kKvGiffJyMx8emO6sDiyxccj.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
+    "slug": "1665092-吞噬星空剧场版决战原始星"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
   },
   {
     "tmdb_id": 931285,
@@ -126,22 +135,13 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Kill Code",
-    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
     "year": "2026",
-    "rating": 10.0,
-    "folder": "movie",
-    "slug": "949536-kill-code"
-  },
-  {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
     "rating": 7.4,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1423251,
@@ -153,6 +153,24 @@
     "slug": "1423251-biker"
   },
   {
+    "tmdb_id": 1624961,
+    "title": "No Ordinary Heist",
+    "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1624961-no-ordinary-heist"
+  },
+  {
+    "tmdb_id": 949536,
+    "title": "Kill Code",
+    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "movie",
+    "slug": "949536-kill-code"
+  },
+  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/gC4FtEthYvx6XV2JHCQibf4P3FT.jpg",
@@ -160,23 +178,5 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "1430077-hokum"
-  },
-  {
-    "tmdb_id": 1110034,
-    "title": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
-    "year": "2026",
-    "rating": 6.1,
-    "folder": "movie",
-    "slug": "1110034-kraken"
-  },
-  {
-    "tmdb_id": 1472638,
-    "title": "Buen Camino",
-    "poster": "https://image.tmdb.org/t/p/w500/4buulRVfRJcqgkR3AF6ln23TqR6.jpg",
-    "year": "2025",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1472638-buen-camino"
   }
 ]
