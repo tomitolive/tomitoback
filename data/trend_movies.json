@@ -36,15 +36,6 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -52,6 +43,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 687163,
@@ -72,15 +72,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
-  },
-  {
     "tmdb_id": 1290821,
     "title": "Shelter",
     "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
@@ -88,6 +79,15 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1290821-shelter"
+  },
+  {
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 931285,
@@ -153,6 +153,15 @@
     "slug": "1321179-the-kings-warden"
   },
   {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
+  },
+  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -162,21 +171,12 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1472638,
-    "title": "Buen Camino",
-    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
-    "year": "2025",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1472638-buen-camino"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   }
 ]
