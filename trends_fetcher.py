@@ -69,25 +69,25 @@ import xml.etree.ElementTree as ET
 import requests
 
 def fetch_related_keywords(title, geo='SA'):
-    """Fetch Top and Rising related queries from target regions (SA, MA, EG, DZ, TN, US)."""
+    """Fetch Rising (Breakout) and Top queries. Focuses on Rising to capture sudden trends."""
     is_arab = geo in ['SA', 'MA', 'EG', 'DZ', 'TN', 'AR']
-    target_geos = ['SA', 'MA', 'EG', 'DZ', 'TN'] if is_arab else ['US']
+    # Adding FR for French traffic as requested
+    target_geos = ['SA', 'MA', 'EG', 'FR', 'US'] 
     
     all_queries = []
     seen = set()
 
-    # Timeframes to check
+    # Timeframes: focus on recent 7 days and 24 hours for "Rising" trends
     timeframes = ['now 7-d', 'now 1-d']
 
     proxy = get_random_proxy()
     proxies = [proxy] if proxy else []
 
     try:
-        # Use slightly higher backoff and retries to handle 429 graciously
         pytrends = TrendReq(hl='ar' if is_arab else 'en-US', tz=360, timeout=(10,25), proxies=proxies, retries=3, backoff_factor=2)
         
         for tf in timeframes:
-            if len(all_queries) >= 12: break
+            if len(all_queries) >= 15: break
             for g_code in target_geos:
                 try:
                     log.info(f"Fetching trends for '{title}' in {g_code} ({tf})...")
@@ -95,54 +95,34 @@ def fetch_related_keywords(title, geo='SA'):
                     data = pytrends.related_queries().get(title)
                     
                     if data:
+                        # Prioritize Rising (Breakout)
                         if data.get('rising') is not None and not data['rising'].empty:
                             all_queries.extend(data['rising']['query'].tolist())
+                        # Then Top
                         if data.get('top') is not None and not data['top'].empty:
                             all_queries.extend(data['top']['query'].tolist())
                 except Exception as e:
                     err_msg = str(e)
-                    log.warning(f"Failed payload for {title} in {g_code} ({tf}): {err_msg}")
                     if '429' in err_msg or 'too many' in err_msg.lower():
-                        log.warning("Google is rate-limiting (429). Falling back to smart keywords for this title.")
-                        break # Break the geo loop
-            
-            # If we broke the geo loop due to 429, we should also break the timeframe loop
-            if '429' in locals().get('err_msg', '') or 'too many' in locals().get('err_msg', '').lower():
-                break
-
+                        log.warning("Google is rate-limiting (429).")
+                        break
+        
         # Deduplicate and clean
         clean_queries = []
         for q in all_queries:
             q_str = str(q).strip()
             if q_str and q_str.lower() not in seen:
-                if is_clean_text(q_str):
-                    clean_queries.append(q_str)
-                    seen.add(q_str.lower())
+                # We use the existing clean_strict logic from trends_fetcher
+                cleaned = clean_strict(q_str)
+                if cleaned and cleaned.lower() not in seen:
+                    clean_queries.append(cleaned)
+                    seen.add(cleaned.lower())
         
-        # Inject high-intent keywords (Prioritized)
-        intent_keywords = [
-            f"مشاهدة {title} مجانية", f"مشاهدة {title} مباشرة", f"تحميل {title} مجانا",
-            f"{title} اون لاين", f"{title} مترجم", f"mochahada {title} majaniya"
-        ] if is_arab else [
-            f"watch {title} free", f"stream {title} online", f"download {title} HD"
-        ]
-        
-        for ik in intent_keywords:
-            if len(clean_queries) >= 25: break
-            if ik.lower() not in seen:
-                clean_queries.insert(0, ik) 
-                seen.add(ik.lower())
-
-        return ", ".join(clean_queries[:25])
+        return ", ".join(clean_queries[:20])
             
     except Exception as e:
         log.warning(f"Pytrends failed for '{title}': {e}")
-
-    # Fallback Smart Keywords
-    if is_arab:
-        return f"مشاهدة {title}, تحميل فيلم {title}, {title} اون لاين, {title} جودة عالية HD, {title} مترجم, قصة {title}, {title} ايجي بست"
-    else:
-        return f"watch {title} online, {title} full movie streaming, download {title} HD, {title} release date"
+        return ""
 
 
 

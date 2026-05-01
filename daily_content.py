@@ -209,13 +209,18 @@ def main():
             tasks.extend(items)
             log.info(f"Found item from {mission['name']} ({media_type})")
 
-    # If still needed, fallback to general trends ONLY if they match our target companies
+    # STRICT RULE: Only fetch from authorized companies. Disable generic trends fallback.
     if len(tasks) < total:
-        remaining = total - len(tasks)
-        tmdb_trends = fetch_from_tmdb_trends(seen_ids, remaining, min_popularity=200)
-        # Here we should ideally filter by company but fetch_from_tmdb_trends doesn't do that yet.
-        # However, prioritizing company missions first fulfills the user's primary "fa9ate" intent.
-        tasks.extend(tmdb_trends)
+        log.info(f"Only found {len(tasks)} items from company missions. Seeking more from authorized pool...")
+        # Try to find more items from other company missions if some didn't return results
+        remaining_missions = [m for m in company_missions if m not in [t[1] for t in tasks if len(t)>2]] # simplified
+        random.shuffle(company_missions)
+        for mission in company_missions:
+            if len(tasks) >= total: break
+            media_type = random.choice(['movie', 'tv'])
+            items = fetch_fresh_items(media_type, seen_ids, 1, mission=mission)
+            if items:
+                tasks.extend(items)
 
     # Trim to exact count
     tasks = tasks[:total]

@@ -43,7 +43,7 @@ except ImportError:
 
 # --- Configuration ---
 TMDB_API_KEY = (os.environ.get("TMDB_API_KEY") or "882e741f7283dc9ba1654d4692ec30f6").strip()
-GEMINI_API_KEY = (os.environ.get("GEMINI_API_KEY") or "AIzaSy...").strip()
+GEMINI_API_KEY = (os.environ.get("GEMINI_API_KEY") or "AIzaSyBR4yA0jCHdet9iv6XSZBS2wSDMJrFFt54").strip()
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 SITE_URL = "https://tomito.xyz"
