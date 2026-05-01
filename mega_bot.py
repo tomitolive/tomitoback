@@ -1001,6 +1001,11 @@ def build_listing_pages():
     with open(index_path, 'r', encoding='utf-8') as f:
         all_items = json.load(f)
 
+    # Force reload global variables to ensure fresh data is used during generation
+    global LOCAL_INDEX, LOCAL_SLUGS
+    LOCAL_INDEX = all_items
+    LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in all_items}
+
     # Import missions from ai_engine (local import to avoid circular)
     try:
         from ai_engine import BOT_MISSIONS

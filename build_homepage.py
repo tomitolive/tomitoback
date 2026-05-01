@@ -136,6 +136,10 @@ def build_interleaved_trending():
     return final[:30]
 
 def build():
+    global LOCAL_DATA, LOCAL_SLUGS
+    LOCAL_DATA = load_index()
+    LOCAL_SLUGS = {f"{i.get('folder')}/{i.get('slug')}" for i in LOCAL_DATA}
+    
     index = LOCAL_DATA
     index.sort(key=lambda x: (x.get('timestamp', 0), str(x.get('year', ''))), reverse=True)
     movies = [i for i in index if i.get('folder') == 'movie'][:200]
