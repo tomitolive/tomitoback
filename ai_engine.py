@@ -118,19 +118,21 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
     DIRECTION: {selected_style}
     
     ⚠️ MANDATORY RULES (STRICT):
-    1. LENGTH: Exactly 3 to 5 short sentences (Approx 3 lines). DO NOT exceed 5 lines.
-    2. STYLE: Creative storytelling. DO NOT copy-paste.
-    3. HERO & NAMES: Mention the MAIN CHARACTER'S NAME ONLY if clearly known. 
-    4. NO CLICHES: NEVER start with "في عالم..." or "في قلب...". 
-    5. GRAMMAR: Start the first sentence with a NOUN (اسم) or an ACTION (فعل).
-    6. FORBIDDEN: NO actor names, NO years, NO SEO keywords like "مشاهدة" in the narrative.
+    1. UNIQUENESS: Every generation MUST be unique. DO NOT use common or repetitive patterns. 
+    2. STARTING WORD: Ensure the first word of the description is DIFFERENT for every movie (e.g., Verb, Noun, Question). DO NOT always start with the same pattern.
+    3. LENGTH: Aim for 3 to 5 short and powerful sentences (Approx 3-4 lines). DO NOT exceed 6 lines under any circumstances.
+    4. STYLE: Creative storytelling. DO NOT copy-paste.
+    5. HERO & NAMES: Mention the MAIN CHARACTER'S NAME ONLY if clearly known. 
+    6. NO CLICHES: NEVER start with "في عالم..." or "في قلب...". 
+    7. GRAMMAR: Start the first sentence with a NOUN (اسم) or an ACTION (فعل).
+    8. FORBIDDEN: NO actor names, NO years, NO SEO keywords like "مشاهدة" in the actual narrative description.
     
     📥 Format (Strict JSON):
     {{
-      "desc_ar": "3-5 cinematic sentences in Arabic...",
-      "meta_desc": "Suspenseful summary...",
+      "desc_ar": "3-5 cinematic sentences with a UNIQUE START...",
+      "meta_desc": "Suspenseful brief summary (max 155 chars)...",
       "seo_title_ar": "Cinematic Title",
-      "desc_en": "3-5 cinematic sentences in English...",
+      "desc_en": "3-5 cinematic sentences with a UNIQUE START...",
       "opinion": "Critical perspective (1-2 sentences)..."
     }}"""
 
@@ -184,6 +186,30 @@ def generate_tomito_opinion(title_ar, *args, **kwargs): return f"رأي تومي
 
 def generate_page_intro_outro(title_ar, title_en, year, genres_ar, media_type, desc_ar):
     label = "فيلم" if media_type == 'movie' else "مسلسل"
-    intro = f"نقدم لكم اليوم {label} {title_ar} ({year})، واحد من أكثر الأعمال المطلوبة حالياً. استمتع بمشاهدة {title_en} مترجم حصرياً."
+    
+    starts = [
+        "نقدم لكم اليوم", "استعدوا لرحلة مشوقة مع", "حصرياً على توميتو، شاهد", 
+        "لمحبي السينما، إليكم", "نغوص اليوم في تفاصيل", "اكتشف معنا قصة", 
+        "برؤية فنية مميزة، نعرض", "إليك مراجعة شاملة لـ", "توميتو يقدم لكم",
+        "عش أجواء الإثارة مع", "بصورة فائقة الجودة، شاهد", "بعيداً عن المألوف، إليك",
+        "من أقوى إنتاجات السنة،", "في هذه الصفحة تجد", "بترجمة احترافية، نضع بين يديك",
+        "استمتع بمتابعة العمل المنتظر", "إليك نظرة حصرية على", "لكل عشاق الدراما،",
+        "تجربة مشاهدة فريدة لـ", "لا تفوت فرصة مشاهدة"
+    ]
+    
+    mids = [
+        f"العمل الفني {title_ar}", f"تحفة {title_ar} ({year})", f"قصة {title_ar} المشوقة",
+        f"أحداث {title_ar} التي هزت العالم", f"تفاصيل {title_ar} المثيرة", f"الحبكة الدرامية لـ {title_ar}",
+        f"الفيلم العالمي {title_ar}", f"المسلسل الرائع {title_ar}", f"تطور أحداث {title_ar}"
+    ]
+    
+    ends = [
+        "بترجمة احترافية.", "بصورة فائقة الجودة HD.", "حصرياً على منصتنا.",
+        "بجودة صوت وصورة مذهلة.", "اون لاين بدون إعلانات.", "لكل محبي هذا النوع.",
+        "قصة تستحق المتابعة.", "على سيرفرات توميتو السريعة.", "من البداية حتى النهاية.",
+        "بروابط مباشرة وسريعة.", "في تجربة لا تُنسى."
+    ]
+    
+    intro = f"{random.choice(starts)} {random.choice(mids)} {random.choice(ends)}"
     outro = f"في الختام، نتمنى أن ينال {label} {title_ar} إعجابكم. لا تنسوا متابعة جديد الأفلام والمسلسلات على موقعكم توميتو."
     return intro, outro
