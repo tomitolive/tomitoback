@@ -19504,5 +19504,23 @@
       18
     ],
     "timestamp": 1777665361
+  },
+  {
+    "title": "Knuckles / Knuckles",
+    "title_ar": "Knuckles",
+    "title_en": "Knuckles",
+    "slug": "158300-knuckles",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xxQ7ny7G8b226cAyRJl2ADAMdYR.jpg",
+    "rating": 7.3,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 158300,
+    "genre_ids": [
+      10759,
+      10751,
+      35
+    ],
+    "timestamp": 1777668257
   }
 ]

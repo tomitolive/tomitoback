@@ -143,7 +143,7 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
       "meta_desc": "Suspenseful brief summary (max 155 chars)...",
       "seo_title_ar": "Cinematic Title",
       "desc_en": "3-5 cinematic sentences with a UNIQUE START...",
-      "opinion": "Critical perspective (1-2 sentences)..."
+      "opinion": "Critical perspective in Arabic (1-2 sentences)..."
     }}"""
 
     user = f"Title: {title_ar}. Type: {genres_str}. Original Story: {overview_ar}."
