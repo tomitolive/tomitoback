@@ -19380,5 +19380,42 @@
       35
     ],
     "timestamp": 1777639877
+  },
+  {
+    "title": "ماليفسنت: عشيقة الشر / Maleficent: Mistress of Evil",
+    "title_ar": "ماليفسنت: عشيقة الشر",
+    "title_en": "Maleficent: Mistress of Evil",
+    "slug": "420809-maleficent-mistress-of-evil",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/vloNTScJ3w7jwNwtNGoG8DbTThv.jpg",
+    "rating": 7.3,
+    "year": "2019",
+    "type": "movie",
+    "tmdb_id": 420809,
+    "genre_ids": [
+      10751,
+      14,
+      12
+    ],
+    "timestamp": 1777644787
+  },
+  {
+    "title": "Relic Hunter / Relic Hunter",
+    "title_ar": "Relic Hunter",
+    "title_en": "Relic Hunter",
+    "slug": "2855-relic-hunter",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/t04oqIsBlRnxKOWhBL6SlEQowZ5.jpg",
+    "rating": 6.8,
+    "year": "1999",
+    "type": "tv",
+    "tmdb_id": 2855,
+    "genre_ids": [
+      10765,
+      9648,
+      10759,
+      18
+    ],
+    "timestamp": 1777644830
   }
 ]
