@@ -19762,5 +19762,41 @@
       18
     ],
     "timestamp": 1777678239
+  },
+  {
+    "title": "كيف تروض تنينك العالم الخفي / How to Train Your Dragon: The Hidden World",
+    "title_ar": "كيف تروض تنينك العالم الخفي",
+    "title_en": "How to Train Your Dragon: The Hidden World",
+    "slug": "166428-how-to-train-your-dragon-the-hidden-world",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/kpmpEdUhpJtNGwQRHyADubv5V70.jpg",
+    "rating": 7.8,
+    "year": "2019",
+    "type": "movie",
+    "tmdb_id": 166428,
+    "genre_ids": [
+      16,
+      10751,
+      12
+    ],
+    "timestamp": 1777678840
+  },
+  {
+    "title": "دراغون كويست مغامراة داي / Dragon Quest: The Adventure of Dai",
+    "title_ar": "دراغون كويست مغامراة داي",
+    "title_en": "Dragon Quest: The Adventure of Dai",
+    "slug": "96884-dragon-quest-the-adventure-of-dai",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/cRmzb2Whfj91BMaVXj4eiRxzFFo.jpg",
+    "rating": 8.0,
+    "year": "2020",
+    "type": "tv",
+    "tmdb_id": 96884,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1777678904
   }
 ]
