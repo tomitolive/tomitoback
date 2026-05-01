@@ -32,7 +32,7 @@ jobs:
       - name: Run Bot Mission (2 Pages)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GCP_INDEXING_KEY: ${{ secrets.GCP_INDEXING_KEY }}
         run: |
           python3 daily_content.py --count 2
