@@ -24,26 +24,6 @@ BOT_MISSIONS = [
     {"name": "Disney", "id": 2, "label": "ديزني", "type": "collection"}
 ]
 
-# --- التعديل الوحيد هنا لضبط الكيوردس ---
-def get_targeted_keywords(title_ar, title_en, media_type, year):
-    label = "فيلم" if media_type == 'movie' else "مسلسل"
-    suffixes = ["مترجم", "اون لاين", "مشاهدة مباشرة", "بجودة عالية", "كامل HD", "ايجي بست", "watch online", "stream"]
-    keywords = []
-    for s in suffixes:
-        keywords.append(f"{label} {title_ar} {s}")
-        keywords.append(f"{title_en} {s}")
-    keywords.append(f"مشاهدة {title_ar} على توميتو")
-    keywords.append(f"tomito {title_en} {year}")
-    selected = random.sample(keywords, min(len(keywords), 10))
-    return ", ".join(selected)
-
-def generate_meta_tags(title_ar, title_en, year, media_type='movie', *args, **kwargs):
-    final_keywords = get_targeted_keywords(title_ar, title_en, media_type, year)
-    label = "فيلم" if media_type == 'movie' else "مسلسل"
-    meta_desc = f"مشاهدة {label} {title_ar} ({year}) مترجم بجودة عالية HD اون لاين حصرياً على توميتو (tomito.xyz)."
-    return {"meta_desc": meta_desc, "keywords": final_keywords}
-# ---------------------------------------
-
 def ask_groq(prompt):
     if not API_KEY: return ""
     try:
@@ -61,15 +41,46 @@ def ask_groq(prompt):
         return ""
 
 def generate_bilingual_description(title_ar, title_en, overview, *args, **kwargs):
-    # كود الترجمة والوصف كما هو
     prompt = f"Write a professional Arabic SEO description for the movie/series {title_ar}. Summary: {overview}"
     desc_ar = ask_groq(prompt) or overview
     return {
         "desc_ar": desc_ar,
         "seo_title_ar": f"مشاهدة {title_ar} مترجم اون لاين - توميتو",
         "meta_desc": f"مشاهدة {title_ar} مترجم بجودة عالية.",
-        "keywords": "" # سيتم تعويضه بـ generate_meta_tags
+        "keywords": ""
     }
+
+# --- الجزء اللي طلبات فيه الإصلاح (الفوكيس على الأفلام والبرامج) ---
+def get_live_trends(query, geo):
+    """
+    عوض ما نجيبو تريندات عشوائية (كورة، أخبار)، غنصايبو كلمات دلالية 
+    ذكية عندها علاقة بالفيلم وبالسيت ديالك.
+    """
+    # كلمات قوية كيجيبو الزوار للمسلسلات والأفلام
+    suffixes = ["مترجم", "اون لاين", "مشاهدة مباشرة", "بجودة عالية", "كامل HD", "تحميل", "tomito", "ايجي بست"]
+    
+    targeted_keywords = []
+    for s in suffixes:
+        targeted_keywords.append(f"{query} {s}")
+    
+    # اختيار عشوائي لـ 5 كلمات باش نوعو السيو
+    return ", ".join(random.sample(targeted_keywords, 5))
+
+def generate_meta_tags(title_ar, title_en, year, media_type='movie', *args, **kwargs):
+    # كيجيب كلمات دلالية نقية للعنوان العربي والإنجليزي
+    trend_arab = get_live_trends(title_ar, 'AR')
+    trend_us = get_live_trends(title_en, 'US')
+    
+    final_keywords = f"{trend_arab}, {trend_us}"
+    
+    label = "فيلم" if media_type == 'movie' else "مسلسل"
+    if media_type == 'tv': label = "برنامج"
+    
+    return {
+        "meta_desc": f"مشاهدة {label} {title_ar} ({year}) مترجم بجودة عالية HD على توميتو. استمتع بمتابعة {title_en} اون لاين.",
+        "keywords": final_keywords
+    }
+# -----------------------------------------------------------
 
 def generate_seo_content(title, overview, media_type, year, genres=[], *args, **kwargs):
     res = generate_bilingual_description(title, title, overview)
@@ -92,10 +103,6 @@ def generate_tomito_opinion(title_ar, *args, **kwargs):
 def generate_page_intro_outro(title, media_type, year, *args, **kwargs):
     label = "فيلم" if media_type == 'movie' else "مسلسل"
     return {
-        "intro": f"نقدم لكم اليوم مشاهدة {label} {title}...",
+        "intro": f"نقدم لكم اليوم مشاهدة {label} {title} إصدار {year}...",
         "outro": f"نتمنى أن تنال مشاهدة {title} إعجابكم."
     }
-
-def get_live_trends(query, geo):
-    # معطلة لضمان جودة الكيووردس
-    return ""
