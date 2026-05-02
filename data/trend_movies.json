@@ -36,15 +36,6 @@
     "slug": "1651233-son-in-law"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -54,15 +45,6 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 1239198,
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
@@ -70,6 +52,24 @@
     "rating": 4.8,
     "folder": "movie",
     "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 687163,
@@ -144,15 +144,6 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
-    "year": "2026",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -160,6 +151,15 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
   },
   {
     "tmdb_id": 829487,
@@ -171,12 +171,12 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
-    "tmdb_id": 1423251,
-    "title": "Biker",
-    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
     "year": "2026",
-    "rating": 5.5,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1423251-biker"
+    "slug": "1297842-goat"
   }
 ]

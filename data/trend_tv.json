@@ -9,15 +9,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -25,6 +16,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 124364,
@@ -63,15 +63,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 83295,
-    "title": "Impure",
-    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
-    "year": "2018",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "83295-impure"
-  },
-  {
     "tmdb_id": 285838,
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
@@ -79,6 +70,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 83295,
+    "title": "Impure",
+    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
+    "year": "2018",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "83295-impure"
   },
   {
     "tmdb_id": 202555,
@@ -135,15 +135,6 @@
     "slug": "87917-for-all-mankind"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
-    "year": "2026",
-    "rating": 9.7,
-    "folder": "tv",
-    "slug": "278113-gold-land"
-  },
-  {
     "tmdb_id": 124101,
     "title": "Hacks",
     "poster": "https://image.tmdb.org/t/p/w500/ca5XiEFgyGsI38QT3wEKa1QVGX.jpg",
@@ -153,15 +144,6 @@
     "slug": "124101-hacks"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -169,6 +151,24 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.7,
+    "folder": "tv",
+    "slug": "278113-gold-land"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 79744,
