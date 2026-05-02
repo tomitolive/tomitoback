@@ -2845,6 +2845,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/49519-the-croods</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/49521-man-of-steel</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
