@@ -18,15 +18,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -34,6 +25,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 202411,
@@ -45,15 +45,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 65930,
     "title": "My Hero Academia",
     "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "65930-my-hero-academia"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 278573,
@@ -85,18 +85,9 @@
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.0,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
-  },
-  {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 83295,
@@ -153,15 +144,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -171,12 +153,30 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "278113-gold-land"
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 94997,
+    "title": "House of the Dragon",
+    "poster": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "94997-house-of-the-dragon"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   }
 ]
