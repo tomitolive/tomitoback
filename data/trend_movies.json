@@ -4,7 +4,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 9.1,
+    "rating": 8.9,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -36,15 +36,6 @@
     "slug": "1651233-son-in-law"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
@@ -61,6 +52,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 1239198,
@@ -81,6 +81,15 @@
     "slug": "687163-project-hail-mary"
   },
   {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -88,15 +97,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
   },
   {
     "tmdb_id": 949536,
@@ -135,15 +135,6 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
-  },
-  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
@@ -151,6 +142,15 @@
     "rating": 6.5,
     "folder": "movie",
     "slug": "1110034-kraken"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
   },
   {
     "tmdb_id": 83533,
@@ -162,13 +162,13 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 7.4,
     "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1423251,
