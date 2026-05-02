@@ -2215,6 +2215,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/299534-avengers-endgame</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/299536-avengers-infinity-war</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
