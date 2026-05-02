@@ -2299,6 +2299,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/335984-blade-runner-2049</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/336843-maze-runner-the-death-cure</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
