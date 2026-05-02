@@ -9,24 +9,6 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
-    "tmdb_id": 1651233,
-    "title": "Son-In-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.7,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
@@ -43,6 +25,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.7,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1318447,
@@ -81,22 +72,13 @@
     "slug": "687163-project-hail-mary"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/fP5RClZ67OAfXJcopwNZ7zYfx4A.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
     "year": "2026",
-    "rating": 6.2,
+    "rating": 6.6,
     "folder": "movie",
-    "slug": "949536-hard-matter"
-  },
-  {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1430077,
@@ -108,13 +90,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "tmdb_id": 949536,
+    "title": "Kill Code",
+    "poster": "https://image.tmdb.org/t/p/w500/sm9LuHNcoGPti1fb8I34rmisQMc.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.2,
     "folder": "movie",
-    "slug": "1462229-pegasus-3"
+    "slug": "949536-kill-code"
   },
   {
     "tmdb_id": 83533,
@@ -124,6 +106,24 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1226863-the-super-mario-galaxy-movie"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
   },
   {
     "tmdb_id": 1290821,
@@ -153,6 +153,15 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
+    "tmdb_id": 1368166,
+    "title": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "year": "2025",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "1368166-the-housemaid"
+  },
+  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -162,21 +171,12 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1110034,
-    "title": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1110034-kraken"
-  },
-  {
-    "tmdb_id": 1423251,
-    "title": "Biker",
-    "poster": "https://image.tmdb.org/t/p/w500/cKuFTk3qqrASg2nopJwDdeAroeF.jpg",
-    "year": "2026",
-    "rating": 5.5,
-    "folder": "movie",
-    "slug": "1423251-biker"
+    "slug": "1297842-goat"
   }
 ]

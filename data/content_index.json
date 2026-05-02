@@ -20334,5 +20334,23 @@
       10751
     ],
     "timestamp": 1777741951
+  },
+  {
+    "title": "Europa Europa / Europa Europa",
+    "title_ar": "Europa Europa",
+    "title_en": "Europa Europa",
+    "slug": "8996-europa-europa",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/4FX3zpfoVt9n8NyI8jtHsBu1R3b.jpg",
+    "rating": 7.2,
+    "year": "1990",
+    "type": "movie",
+    "tmdb_id": 8996,
+    "genre_ids": [
+      36,
+      18,
+      10752
+    ],
+    "timestamp": 1777745212
   }
 ]
