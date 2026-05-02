@@ -9,6 +9,15 @@
     "slug": "1007757-swapped"
   },
   {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 3.6,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
@@ -16,15 +25,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 4.8,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1318447,
@@ -36,24 +36,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-In-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.5,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -63,6 +45,15 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
+    "tmdb_id": 1651233,
+    "title": "Son-In-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.5,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -70,6 +61,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1327819,
@@ -90,15 +90,6 @@
     "slug": "949536-hard-matter"
   },
   {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
@@ -117,31 +108,13 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1290821-shelter"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1423251,
-    "title": "Biker",
-    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
-    "year": "2026",
-    "rating": 5.5,
-    "folder": "movie",
-    "slug": "1423251-biker"
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1110034,
@@ -153,13 +126,40 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 1665092,
-    "title": "吞噬星空剧场版：决战原始星",
-    "poster": "https://image.tmdb.org/t/p/w500/rS0kKvGiffJyMx8emO6sDiyxccj.jpg",
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1665092-吞噬星空剧场版决战原始星"
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1290821-shelter"
+  },
+  {
+    "tmdb_id": 1423251,
+    "title": "Biker",
+    "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
+    "year": "2026",
+    "rating": 5.5,
+    "folder": "movie",
+    "slug": "1423251-biker"
+  },
+  {
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1450527,
@@ -171,12 +171,12 @@
     "slug": "1450527-forbidden-fruits"
   },
   {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 7.9,
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
     "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "83533-avatar-fire-and-ash"
   }
 ]
