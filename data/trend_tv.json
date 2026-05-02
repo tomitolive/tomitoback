@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 5.8,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -16,6 +7,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 5.8,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 124364,
@@ -63,15 +63,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -79,6 +70,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 285838,
@@ -99,15 +99,6 @@
     "slug": "83295-impure"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -117,13 +108,13 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 257994,
-    "title": "Half Man",
-    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
-    "year": "2026",
-    "rating": 8.5,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "257994-half-man"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 283657,
@@ -133,6 +124,15 @@
     "rating": 7.0,
     "folder": "tv",
     "slug": "283657-glory"
+  },
+  {
+    "tmdb_id": 257994,
+    "title": "Half Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "257994-half-man"
   },
   {
     "tmdb_id": 79744,
@@ -171,12 +171,12 @@
     "slug": "259702-the-house-of-the-spirits"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "95479-jujutsu-kaisen"
   }
 ]

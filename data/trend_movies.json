@@ -4,7 +4,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.5,
+    "rating": 8.4,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -18,15 +18,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -34,6 +25,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1327819,
@@ -117,15 +117,6 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -135,22 +126,22 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 6.4,
     "folder": "movie",
     "slug": "1110034-kraken"
-  },
-  {
-    "tmdb_id": 1368166,
-    "title": "The Housemaid",
-    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
-    "year": "2025",
-    "rating": 7.2,
-    "folder": "movie",
-    "slug": "1368166-the-housemaid"
   },
   {
     "tmdb_id": 1297842,
@@ -162,13 +153,13 @@
     "slug": "1297842-goat"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.0,
+    "tmdb_id": 1368166,
+    "title": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "year": "2025",
+    "rating": 7.2,
     "folder": "movie",
-    "slug": "1462229-pegasus-3"
+    "slug": "1368166-the-housemaid"
   },
   {
     "tmdb_id": 1450527,
@@ -178,5 +169,14 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1450527-forbidden-fruits"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
   }
 ]
