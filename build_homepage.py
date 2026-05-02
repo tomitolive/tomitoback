@@ -175,6 +175,7 @@ def build():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="yandex-verification" content="fbd3e913244fb343" />
   <title>TOMITO — مشاهدة وتحميل أفلام ومسلسلات وأنمي 2026</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="./favicon.ico">
@@ -182,7 +183,7 @@ def build():
   <script>const LOCAL_PAGES = {{LOCAL_PAGES_JSON}};</script>
 </head>
 <body>
-    <header class="tomito-header">
+  <header class="tomito-header">
   <div class="top-bar">
     <div class="header-container">
       <ul class="top-nav">

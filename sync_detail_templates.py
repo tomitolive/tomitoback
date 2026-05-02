@@ -168,6 +168,12 @@ def patch_file(filepath):
     root = "../" if any(x in filepath for x in ["/movie/", "/tv/", "/genre/"]) else "./"
     
     # 1. Update Header & Search
+    if 'Verification: fbd3e913244fb343' in content:
+        content = content.replace('Verification: fbd3e913244fb343', '')
+    
+    if '<meta name="yandex-verification"' not in content:
+        content = content.replace('<head>', '<head>\n  <meta name="yandex-verification" content="fbd3e913244fb343" />')
+
     if 'LOCAL_PAGES =' not in content:
         content = content.replace('search_index.js"></script>', f'search_index.js"></script>\n<script>const LOCAL_PAGES = {LOCAL_PAGES_JSON};</script>')
     else:
