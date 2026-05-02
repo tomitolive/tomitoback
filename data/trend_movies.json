@@ -4,14 +4,14 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.7,
+    "rating": 8.5,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
@@ -67,7 +67,7 @@
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
     "year": "2026",
-    "rating": 4.8,
+    "rating": 4.5,
     "folder": "movie",
     "slug": "1239198-my-dearest-señorita"
   },
@@ -126,15 +126,6 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 1110034,
-    "title": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1110034-kraken"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -144,6 +135,15 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 1110034,
+    "title": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "movie",
+    "slug": "1110034-kraken"
+  },
+  {
     "tmdb_id": 1368166,
     "title": "The Housemaid",
     "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
@@ -151,15 +151,6 @@
     "rating": 7.2,
     "folder": "movie",
     "slug": "1368166-the-housemaid"
-  },
-  {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
   },
   {
     "tmdb_id": 1297842,
@@ -178,5 +169,14 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1462229-pegasus-3"
+  },
+  {
+    "tmdb_id": 829487,
+    "title": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "829487-je-mappelle-agneta"
   }
 ]
