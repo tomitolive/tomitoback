@@ -1,21 +1,12 @@
 [
   {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
     "year": "2019",
-    "rating": 8.4,
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "76479-the-boys"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 5.2,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 202411,
@@ -27,31 +18,31 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
     "year": "2026",
-    "rating": 6.9,
+    "rating": 7.1,
     "folder": "tv",
     "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 5.4,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 202555,
@@ -63,22 +54,22 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
+    "tmdb_id": 257994,
+    "title": "Half Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "year": "2026",
+    "rating": 8.9,
     "folder": "tv",
-    "slug": "37854-one-piece"
+    "slug": "257994-half-man"
   },
   {
-    "tmdb_id": 83295,
-    "title": "Impure",
-    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
-    "year": "2018",
-    "rating": 7.3,
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "83295-impure"
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 285838,
@@ -90,31 +81,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 257994,
-    "title": "Half Man",
-    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
-    "year": "2026",
-    "rating": 9.1,
-    "folder": "tv",
-    "slug": "257994-half-man"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "tmdb_id": 83295,
+    "title": "Impure",
+    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
     "year": "2018",
-    "rating": 8.5,
+    "rating": 7.3,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "83295-impure"
   },
   {
     "tmdb_id": 289219,
@@ -126,22 +99,13 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
-    "year": "2026",
-    "rating": 9.7,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "278113-gold-land"
-  },
-  {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 278573,
@@ -153,6 +117,24 @@
     "slug": "278573-perfect-crown"
   },
   {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.7,
+    "folder": "tv",
+    "slug": "278113-gold-land"
+  },
+  {
+    "tmdb_id": 128306,
+    "title": "The Boss",
+    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
+    "year": "2022",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "128306-the-boss"
+  },
+  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -162,13 +144,22 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "tmdb_id": 111110,
+    "title": "ONE PIECE",
+    "poster": "https://image.tmdb.org/t/p/w500/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
     "year": "2023",
-    "rating": 8.8,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
+    "slug": "111110-one-piece"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 65942,
@@ -178,5 +169,14 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 241609,
+    "title": "Your Friends & Neighbors",
+    "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+    "year": "2025",
+    "rating": 7.6,
+    "folder": "tv",
+    "slug": "241609-your-friends-neighbors"
   }
 ]
