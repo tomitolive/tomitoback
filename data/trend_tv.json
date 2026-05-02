@@ -9,13 +9,22 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 5.8,
     "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
+    "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 124364,
@@ -27,6 +36,15 @@
     "slug": "124364-from"
   },
   {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -36,6 +54,15 @@
     "slug": "37854-one-piece"
   },
   {
+    "tmdb_id": 65930,
+    "title": "My Hero Academia",
+    "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    "year": "2016",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "65930-my-hero-academia"
+  },
+  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -43,15 +70,6 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "278573-perfect-crown"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 5.6,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 270476,
@@ -72,22 +90,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
-    "tmdb_id": 283657,
-    "title": "Glory",
-    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "283657-glory"
+    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 83295,
@@ -99,15 +108,6 @@
     "slug": "83295-impure"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -115,6 +115,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 257994,
@@ -126,49 +135,22 @@
     "slug": "257994-half-man"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "tmdb_id": 283657,
+    "title": "Glory",
+    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 7.0,
     "folder": "tv",
-    "slug": "278113-gold-land"
+    "slug": "283657-glory"
   },
   {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "87917-for-all-mankind"
-  },
-  {
-    "tmdb_id": 65930,
-    "title": "My Hero Academia",
-    "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
-    "year": "2016",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "65930-my-hero-academia"
-  },
-  {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 289219,
@@ -178,5 +160,23 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "tv",
+    "slug": "278113-gold-land"
   }
 ]
