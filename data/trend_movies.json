@@ -4,25 +4,16 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.9,
+    "rating": 8.8,
     "folder": "movie",
     "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1651233,
-    "title": "Son-In-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.5,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.7,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
   },
@@ -45,6 +36,15 @@
     "slug": "1318447-apex"
   },
   {
+    "tmdb_id": 1651233,
+    "title": "Son-In-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.5,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
@@ -52,15 +52,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1292695,
@@ -79,6 +70,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 949536,
@@ -117,13 +117,13 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
+    "slug": "1290821-shelter"
   },
   {
     "tmdb_id": 931285,
@@ -133,24 +133,6 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1290821-shelter"
   },
   {
     "tmdb_id": 1423251,
@@ -178,5 +160,23 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1665092-吞噬星空剧场版决战原始星"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
+  },
+  {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
   }
 ]

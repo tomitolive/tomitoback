@@ -20012,5 +20012,40 @@
       10762
     ],
     "timestamp": 1777704962
+  },
+  {
+    "title": "Doktor Murek / Doktor Murek",
+    "title_ar": "Doktor Murek",
+    "title_en": "Doktor Murek",
+    "slug": "284683-doktor-murek",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/wFop5Yilhu4DR8mQYEPWFvJFepy.jpg",
+    "rating": 8.0,
+    "year": "1979",
+    "type": "tv",
+    "tmdb_id": 284683,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777709803
+  },
+  {
+    "title": "حياة حشرة / A Bugs Life",
+    "title_ar": "حياة حشرة",
+    "title_en": "A Bugs Life",
+    "slug": "9487-a-bugs-life",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/hyLKSwnRxFQoEwAhf0wfDyw11Q4.jpg",
+    "rating": 7.0,
+    "year": "1998",
+    "type": "movie",
+    "tmdb_id": 9487,
+    "genre_ids": [
+      10751,
+      16,
+      12,
+      35
+    ],
+    "timestamp": 1777709833
   }
 ]
