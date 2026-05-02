@@ -13,7 +13,7 @@
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 6.6,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
   },
@@ -36,15 +36,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 1292695,
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
@@ -54,13 +45,13 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 4.5,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1327819,
@@ -70,6 +61,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 4.5,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 687163,
@@ -90,13 +90,13 @@
     "slug": "949536-hard-matter"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1462229-pegasus-3"
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1430077,
@@ -108,13 +108,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
+    "slug": "1462229-pegasus-3"
   },
   {
     "tmdb_id": 83533,
@@ -139,7 +139,7 @@
     "title": "Forbidden Fruits",
     "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.6,
     "folder": "movie",
     "slug": "1450527-forbidden-fruits"
   },

@@ -20298,5 +20298,41 @@
       99
     ],
     "timestamp": 1777737972
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings / Shang-Chi and the Legend of the Ten Rings",
+    "title_ar": "Shang-Chi and the Legend of the Ten Rings",
+    "title_en": "Shang-Chi and the Legend of the Ten Rings",
+    "slug": "566525-shang-chi-and-the-legend-of-the-ten-rings",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/jcjGSIDtwJlPELn13yj1m7py9Ab.jpg",
+    "rating": 7.5,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 566525,
+    "genre_ids": [
+      28,
+      12,
+      14
+    ],
+    "timestamp": 1777741892
+  },
+  {
+    "title": "استديو الأحلام: من عالم فيلم قلبا وقالبا / Dream Productions",
+    "title_ar": "استديو الأحلام: من عالم فيلم قلبا وقالبا",
+    "title_en": "Dream Productions",
+    "slug": "255868-dream-productions",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/6zBWzcwtVFoOfolq8evLB5ya1zF.jpg",
+    "rating": 7.8,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 255868,
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "timestamp": 1777741951
   }
 ]

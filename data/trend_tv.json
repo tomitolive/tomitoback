@@ -90,15 +90,6 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -106,15 +97,6 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 83295,
-    "title": "Impure",
-    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
-    "year": "2018",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "83295-impure"
   },
   {
     "tmdb_id": 283657,
@@ -126,6 +108,24 @@
     "slug": "283657-glory"
   },
   {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 83295,
+    "title": "Impure",
+    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
+    "year": "2018",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "83295-impure"
+  },
+  {
     "tmdb_id": 257994,
     "title": "Half Man",
     "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
@@ -135,13 +135,13 @@
     "slug": "257994-half-man"
   },
   {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "311858-prisoner"
+    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 278113,
@@ -162,15 +162,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
-  },
-  {
     "tmdb_id": 87917,
     "title": "For All Mankind",
     "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
@@ -178,5 +169,14 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "87917-for-all-mankind"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "311858-prisoner"
   }
 ]
