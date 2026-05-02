@@ -29,7 +29,7 @@
   {
     "tmdb_id": 1651233,
     "title": "Son-In-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/wA7hl2brcEnMxinmGia4nFRTTic.jpg",
     "year": "2026",
     "rating": 5.5,
     "folder": "movie",
@@ -81,15 +81,6 @@
     "slug": "687163-project-hail-mary"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
-  },
-  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -99,13 +90,22 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
+  },
+  {
     "tmdb_id": 949536,
-    "title": "Kill Code",
-    "poster": "https://image.tmdb.org/t/p/w500/7dATQI6llREDFr8TJA2vptuTcx3.jpg",
+    "title": "Hard Matter",
+    "poster": "https://image.tmdb.org/t/p/w500/fP5RClZ67OAfXJcopwNZ7zYfx4A.jpg",
     "year": "2026",
     "rating": 6.0,
     "folder": "movie",
-    "slug": "949536-kill-code"
+    "slug": "949536-hard-matter"
   },
   {
     "tmdb_id": 1430077,
@@ -144,15 +144,6 @@
     "slug": "829487-je-mappelle-agneta"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
@@ -162,6 +153,24 @@
     "slug": "1110034-kraken"
   },
   {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
+  },
+  {
     "tmdb_id": 1423251,
     "title": "Biker",
     "poster": "https://image.tmdb.org/t/p/w500/aduDhtZAcV6OlZzr7zAFbLE5aWE.jpg",
@@ -169,14 +178,5 @@
     "rating": 5.5,
     "folder": "movie",
     "slug": "1423251-biker"
-  },
-  {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
   }
 ]
