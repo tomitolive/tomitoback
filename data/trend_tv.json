@@ -18,15 +18,6 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -36,13 +27,13 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "37854-one-piece"
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 124364,
@@ -54,40 +45,22 @@
     "slug": "124364-from"
   },
   {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
+  },
+  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
     "year": "2026",
     "rating": 7.1,
     "folder": "tv",
     "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
-  },
-  {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "tv",
-    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 257994,
@@ -99,22 +72,22 @@
     "slug": "257994-half-man"
   },
   {
-    "tmdb_id": 283657,
-    "title": "Glory",
-    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
-    "year": "2026",
-    "rating": 7.0,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "283657-glory"
+    "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "278113-gold-land"
+    "slug": "311858-prisoner"
   },
   {
     "tmdb_id": 83295,
@@ -124,6 +97,42 @@
     "rating": 7.2,
     "folder": "tv",
     "slug": "83295-impure"
+  },
+  {
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 321267,
+    "title": "The Grand-ish Tour",
+    "poster": "https://image.tmdb.org/t/p/w500/cPvIgIgysI3S067aA670pMYAjI4.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "321267-the-grand-ish-tour"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 128306,
+    "title": "The Boss",
+    "poster": "https://image.tmdb.org/t/p/w500/rX8Vp2VK2hmgy3gIQdhT4aM8TOs.jpg",
+    "year": "2022",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "128306-the-boss"
   },
   {
     "tmdb_id": 87917,
@@ -144,6 +153,15 @@
     "slug": "95557-invincible"
   },
   {
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
+    "folder": "tv",
+    "slug": "209867-frieren-beyond-journeys-end"
+  },
+  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -160,23 +178,5 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
-    "tmdb_id": 241609,
-    "title": "Your Friends & Neighbors",
-    "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
-    "year": "2025",
-    "rating": 7.6,
-    "folder": "tv",
-    "slug": "241609-your-friends-neighbors"
   }
 ]
