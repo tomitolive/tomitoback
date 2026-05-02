@@ -54,24 +54,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
-  },
-  {
     "tmdb_id": 65930,
     "title": "My Hero Academia",
     "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
@@ -90,6 +72,24 @@
     "slug": "278573-perfect-crown"
   },
   {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "285838-if-wishes-could-kill"
+  },
+  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -97,6 +97,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 83295,
@@ -117,15 +126,6 @@
     "slug": "283657-glory"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 257994,
     "title": "Half Man",
     "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
@@ -133,15 +133,6 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "257994-half-man"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 311858,
@@ -160,6 +151,15 @@
     "rating": 9.5,
     "folder": "tv",
     "slug": "278113-gold-land"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 209867,
