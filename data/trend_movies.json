@@ -9,13 +9,13 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 936075,
@@ -27,13 +27,13 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1327819,
@@ -45,6 +45,15 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
+  },
+  {
     "tmdb_id": 1651233,
     "title": "Son-in-Law",
     "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
@@ -52,15 +61,6 @@
     "rating": 5.7,
     "folder": "movie",
     "slug": "1651233-son-in-law"
-  },
-  {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 1239198,
@@ -85,7 +85,7 @@
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
     "year": "2026",
-    "rating": 6.9,
+    "rating": 7.2,
     "folder": "movie",
     "slug": "1430077-hokum"
   },
@@ -108,15 +108,6 @@
     "slug": "949536-hard-matter"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
     "tmdb_id": 1290821,
     "title": "Shelter",
     "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
@@ -124,6 +115,15 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1290821-shelter"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 931285,
@@ -171,12 +171,12 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 829487,
-    "title": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/nrwtoBNGgbFz3iiCx43TLHoBBPq.jpg",
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "829487-je-mappelle-agneta"
+    "slug": "1450527-forbidden-fruits"
   }
 ]

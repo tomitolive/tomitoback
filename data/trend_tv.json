@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-    "year": "2019",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "76479-the-boys"
-  },
-  {
     "tmdb_id": 223386,
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
@@ -16,6 +7,15 @@
     "rating": 5.8,
     "folder": "tv",
     "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 124364,
@@ -45,15 +45,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 65930,
     "title": "My Hero Academia",
     "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "65930-my-hero-academia"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 270476,
@@ -99,15 +99,6 @@
     "slug": "83295-impure"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -115,6 +106,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 257994,
@@ -162,15 +162,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
-  },
-  {
     "tmdb_id": 259702,
     "title": "The House of the Spirits",
     "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
@@ -178,5 +169,14 @@
     "rating": 10.0,
     "folder": "tv",
     "slug": "259702-the-house-of-the-spirits"
+  },
+  {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
   }
 ]

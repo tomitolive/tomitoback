@@ -403,6 +403,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1089625-the-making-of-the-last-duel</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/109445-frozen</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
