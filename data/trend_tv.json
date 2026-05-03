@@ -18,15 +18,6 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -43,6 +34,15 @@
     "rating": 6.0,
     "folder": "tv",
     "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 202411,
@@ -72,6 +72,15 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
     "tmdb_id": 283952,
     "title": "A Splendid Match",
     "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
@@ -79,6 +88,15 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "283952-a-splendid-match"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 278573,
@@ -99,6 +117,15 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
+  },
+  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -108,22 +135,13 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
+    "tmdb_id": 254498,
+    "title": "Light to the Night",
+    "poster": "https://image.tmdb.org/t/p/w500/99WXxvDozsh4YPZFGVJfErTgfUX.jpg",
+    "year": "2026",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "254498-light-to-the-night"
   },
   {
     "tmdb_id": 289219,
@@ -135,13 +153,13 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
+    "tmdb_id": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "year": "2024",
+    "rating": 7.6,
     "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "245842-wistoria-wand-and-sword"
   },
   {
     "tmdb_id": 79744,
@@ -153,30 +171,12 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 30983,
-    "title": "Detective Conan",
-    "poster": "https://image.tmdb.org/t/p/w500/rRIEFvHRy01OYzmXQBbGeW0Qilc.jpg",
-    "year": "1996",
-    "rating": 8.0,
+    "tmdb_id": 83295,
+    "title": "Impure",
+    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
+    "year": "2018",
+    "rating": 7.2,
     "folder": "tv",
-    "slug": "30983-detective-conan"
-  },
-  {
-    "tmdb_id": 297640,
-    "title": "Filing for Love",
-    "poster": "https://image.tmdb.org/t/p/w500/5dgTRxtP5g07RSH5LEOl367Fuwi.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "297640-filing-for-love"
-  },
-  {
-    "tmdb_id": 254498,
-    "title": "Light to the Night",
-    "poster": "https://image.tmdb.org/t/p/w500/99WXxvDozsh4YPZFGVJfErTgfUX.jpg",
-    "year": "2026",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "254498-light-to-the-night"
+    "slug": "83295-impure"
   }
 ]
