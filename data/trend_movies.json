@@ -45,15 +45,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 687163,
-    "title": "Project Hail Mary",
-    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "687163-project-hail-mary"
-  },
-  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -61,6 +52,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 687163,
+    "title": "Project Hail Mary",
+    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "687163-project-hail-mary"
   },
   {
     "tmdb_id": 1226863,
@@ -99,15 +99,6 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 4.9,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -115,6 +106,24 @@
     "rating": 8.5,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 4.9,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1290821,
@@ -126,13 +135,13 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
-    "year": "2026",
-    "rating": 6.6,
+    "tmdb_id": 1368166,
+    "title": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "year": "2025",
+    "rating": 7.2,
     "folder": "movie",
-    "slug": "949536-hard-matter"
+    "slug": "1368166-the-housemaid"
   },
   {
     "tmdb_id": 1304313,
@@ -153,6 +162,15 @@
     "slug": "1110034-kraken"
   },
   {
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1450527-forbidden-fruits"
+  },
+  {
     "tmdb_id": 1462229,
     "title": "Pegasus 3",
     "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
@@ -160,23 +178,5 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1297842-goat"
-  },
-  {
-    "tmdb_id": 1368166,
-    "title": "The Housemaid",
-    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
-    "year": "2025",
-    "rating": 7.2,
-    "folder": "movie",
-    "slug": "1368166-the-housemaid"
   }
 ]
