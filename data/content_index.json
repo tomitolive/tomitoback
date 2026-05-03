@@ -20473,5 +20473,23 @@
       18
     ],
     "timestamp": 1777776683
+  },
+  {
+    "title": "ذا كينقزمان / The Kings Man",
+    "title_ar": "ذا كينقزمان",
+    "title_en": "The Kings Man",
+    "slug": "476669-the-kings-man",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/bsizIbybhmxjYw6b08xF141BjVu.jpg",
+    "rating": 6.7,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 476669,
+    "genre_ids": [
+      28,
+      12,
+      53
+    ],
+    "timestamp": 1777778428
   }
 ]
