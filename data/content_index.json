@@ -20580,5 +20580,23 @@
       35
     ],
     "timestamp": 1777801681
+  },
+  {
+    "title": "King of Beggars / King of Beggars",
+    "title_ar": "King of Beggars",
+    "title_en": "King of Beggars",
+    "slug": "47648-king-of-beggars",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/1TufKkL3ygfm9o494vQNU90WXmq.jpg",
+    "rating": 6.9,
+    "year": "1992",
+    "type": "movie",
+    "tmdb_id": 47648,
+    "genre_ids": [
+      28,
+      35,
+      18
+    ],
+    "timestamp": 1777804964
   }
 ]
