@@ -67,6 +67,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1014590-upgraded</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1015606-obi-wan-kenobi-a-jedis-return</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>

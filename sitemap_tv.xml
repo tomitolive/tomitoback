@@ -985,6 +985,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/2009-rocket-power</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/20111-mobile-suit-gundam-seed</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>

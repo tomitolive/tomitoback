@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-    "year": "2019",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "76479-the-boys"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -18,13 +9,13 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.0,
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "223386-man-on-fire"
+    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 202411,
@@ -36,6 +27,15 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
     "tmdb_id": 65930,
     "title": "My Hero Academia",
     "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
@@ -43,15 +43,6 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "65930-my-hero-academia"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 37854,
@@ -63,13 +54,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.0,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 285838,
@@ -81,22 +72,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 283657,
-    "title": "Glory",
-    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "283657-glory"
+    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 202555,
@@ -117,15 +99,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
-  },
-  {
     "tmdb_id": 283952,
     "title": "A Splendid Match",
     "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
@@ -135,13 +108,40 @@
     "slug": "283952-a-splendid-match"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "95557-invincible"
+  },
+  {
+    "tmdb_id": 283657,
+    "title": "Glory",
+    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "283657-glory"
+  },
+  {
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "tv",
+    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 209867,
@@ -153,15 +153,6 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 83295,
-    "title": "Impure",
-    "poster": "https://image.tmdb.org/t/p/w500/usmfk2VeZokEj3OfdAPu6GBP6pS.jpg",
-    "year": "2018",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "83295-impure"
-  },
-  {
     "tmdb_id": 56570,
     "title": "Outlander",
     "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
@@ -171,12 +162,21 @@
     "slug": "56570-outlander"
   },
   {
-    "tmdb_id": 281010,
-    "title": "Phantom Lawyer",
-    "poster": "https://image.tmdb.org/t/p/w500/afLKnB1yzh28YbpbB5Z5xragMf.jpg",
+    "tmdb_id": 257994,
+    "title": "Half Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
     "year": "2026",
-    "rating": 7.2,
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "281010-phantom-lawyer"
+    "slug": "257994-half-man"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
   }
 ]
