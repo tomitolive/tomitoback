@@ -20859,5 +20859,21 @@
       28
     ],
     "timestamp": 1777836735
+  },
+  {
+    "title": "The Blue and the Gray / The Blue and the Gray",
+    "title_ar": "The Blue and the Gray",
+    "title_en": "The Blue and the Gray",
+    "slug": "15935-the-blue-and-the-gray",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/nIXL6vgl0r8FOuyvxQM8do3tvDI.jpg",
+    "rating": 6.7,
+    "year": "1982",
+    "type": "tv",
+    "tmdb_id": 15935,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777840288
   }
 ]
