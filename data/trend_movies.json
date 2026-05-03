@@ -27,15 +27,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 687163,
-    "title": "Project Hail Mary",
-    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "687163-project-hail-mary"
-  },
-  {
     "tmdb_id": 1318447,
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
@@ -63,6 +54,15 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 687163,
+    "title": "Project Hail Mary",
+    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "687163-project-hail-mary"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -81,33 +81,6 @@
     "slug": "1651233-son-in-law"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1430077-hokum"
-  },
-  {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 4.5,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
-  },
-  {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
-  },
-  {
     "tmdb_id": 1462229,
     "title": "Pegasus 3",
     "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
@@ -117,13 +90,13 @@
     "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "949536-hard-matter"
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 83533,
@@ -135,13 +108,13 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 4.5,
     "folder": "movie",
-    "slug": "1290821-shelter"
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1110034,
@@ -153,13 +126,40 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 1321179,
-    "title": "The King's Warden",
-    "poster": "https://image.tmdb.org/t/p/w500/3CnVA1jAA64Q3qNVAW8DekCu19b.jpg",
+    "tmdb_id": 1450527,
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1321179-the-kings-warden"
+    "slug": "1450527-forbidden-fruits"
+  },
+  {
+    "tmdb_id": 949536,
+    "title": "Hard Matter",
+    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "949536-hard-matter"
+  },
+  {
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1290821-shelter"
+  },
+  {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
   },
   {
     "tmdb_id": 1266127,
@@ -171,12 +171,12 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
-    "tmdb_id": 1247165,
-    "title": "Raja Shivaji",
-    "poster": "https://image.tmdb.org/t/p/w500/9e2Wc6sbeU1YdBWLJIDyMcEWrN2.jpg",
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1247165-raja-shivaji"
+    "slug": "1198994-send-help"
   }
 ]
