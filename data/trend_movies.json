@@ -9,15 +9,6 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/j57QWe3OoaXL9Idi9gLtsAybWLP.jpg",
@@ -34,6 +25,15 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1327819,
@@ -162,13 +162,13 @@
     "slug": "1304313-lee-cronins-the-mummy"
   },
   {
-    "tmdb_id": 980431,
-    "title": "Avatar Aang: The Last Airbender",
-    "poster": "https://image.tmdb.org/t/p/w500/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
+    "tmdb_id": 1110034,
+    "title": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.4,
     "folder": "movie",
-    "slug": "980431-avatar-aang-the-last-airbender"
+    "slug": "1110034-kraken"
   },
   {
     "tmdb_id": 1297842,
