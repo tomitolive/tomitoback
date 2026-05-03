@@ -20491,5 +20491,22 @@
       53
     ],
     "timestamp": 1777778428
+  },
+  {
+    "title": "The Legend of Vox Machina / The Legend of Vox Machina",
+    "title_ar": "The Legend of Vox Machina",
+    "title_en": "The Legend of Vox Machina",
+    "slug": "135934-the-legend-of-vox-machina",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/yG1qA6X4IN2pk4YxaNajbsJCC7J.jpg",
+    "rating": 8.2,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 135934,
+    "genre_ids": [
+      16,
+      10765
+    ],
+    "timestamp": 1777790762
   }
 ]

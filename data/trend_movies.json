@@ -4,7 +4,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.3,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -36,13 +36,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 6.0,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1292695,
@@ -54,6 +54,15 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -61,15 +70,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1239198,
@@ -90,15 +90,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "949536-hard-matter"
-  },
-  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
@@ -108,31 +99,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1290821,
-    "title": "Shelter",
-    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "tmdb_id": 949536,
+    "title": "Hard Matter",
+    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 6.6,
     "folder": "movie",
-    "slug": "1290821-shelter"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
+    "slug": "949536-hard-matter"
   },
   {
     "tmdb_id": 83533,
@@ -144,13 +117,31 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1450527,
-    "title": "Forbidden Fruits",
-    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1450527-forbidden-fruits"
+    "slug": "1297842-goat"
+  },
+  {
+    "tmdb_id": 980431,
+    "title": "Avatar Aang: The Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "980431-avatar-aang-the-last-airbender"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
   },
   {
     "tmdb_id": 1304313,
@@ -162,6 +153,15 @@
     "slug": "1304313-lee-cronins-the-mummy"
   },
   {
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1290821-shelter"
+  },
+  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
@@ -171,12 +171,12 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "tmdb_id": 1291659,
+    "title": "The Wizard of the Kremlin",
+    "poster": "https://image.tmdb.org/t/p/w500/8JE0VQboVocCRERfKoudbqMUAR8.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "1291659-the-wizard-of-the-kremlin"
   }
 ]
