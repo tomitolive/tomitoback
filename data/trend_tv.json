@@ -36,15 +36,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -52,6 +43,15 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 65930,
@@ -63,15 +63,6 @@
     "slug": "65930-my-hero-academia"
   },
   {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
-  },
-  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -79,6 +70,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "285838-if-wishes-could-kill"
   },
   {
     "tmdb_id": 283952,
@@ -99,15 +99,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
-  },
-  {
     "tmdb_id": 245842,
     "title": "Wistoria: Wand and Sword",
     "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
@@ -124,6 +115,15 @@
     "rating": 8.8,
     "folder": "tv",
     "slug": "209867-frieren-beyond-journeys-end"
+  },
+  {
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95479-jujutsu-kaisen"
   },
   {
     "tmdb_id": 95557,
@@ -171,12 +171,12 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 297640,
-    "title": "Filing for Love",
-    "poster": "https://image.tmdb.org/t/p/w500/5dgTRxtP5g07RSH5LEOl367Fuwi.jpg",
-    "year": "2026",
-    "rating": 7.0,
+    "tmdb_id": 82684,
+    "title": "That Time I Got Reincarnated as a Slime",
+    "poster": "https://image.tmdb.org/t/p/w500/pzujcdPAoH361NObVrtbA7zACE7.jpg",
+    "year": "2018",
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "297640-filing-for-love"
+    "slug": "82684-that-time-i-got-reincarnated-as-a-slime"
   }
 ]
