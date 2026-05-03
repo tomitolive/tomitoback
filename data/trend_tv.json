@@ -45,15 +45,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 65930,
-    "title": "My Hero Academia",
-    "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
-    "year": "2016",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "65930-my-hero-academia"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -63,13 +54,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.1,
+    "tmdb_id": 65930,
+    "title": "My Hero Academia",
+    "poster": "https://image.tmdb.org/t/p/w500/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    "year": "2016",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "65930-my-hero-academia"
   },
   {
     "tmdb_id": 285838,
@@ -81,13 +72,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
     "year": "2026",
-    "rating": 7.3,
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "270476-widows-bay"
+    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 283952,
@@ -97,6 +88,15 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "283952-a-splendid-match"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/4n3KW1KaiEoCsmwFatR94Y5GT5Q.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 95479,
@@ -153,15 +153,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -171,12 +162,21 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 283657,
-    "title": "Glory",
-    "poster": "https://image.tmdb.org/t/p/w500/juAQ7fFQGu2n3A2gW5tfNub1cW8.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 297640,
+    "title": "Filing for Love",
+    "poster": "https://image.tmdb.org/t/p/w500/5dgTRxtP5g07RSH5LEOl367Fuwi.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "tv",
-    "slug": "283657-glory"
+    "slug": "297640-filing-for-love"
   }
 ]
