@@ -20456,5 +20456,22 @@
       10751
     ],
     "timestamp": 1777766695
+  },
+  {
+    "title": "The Man in the High Castle / The Man in the High Castle",
+    "title_ar": "The Man in the High Castle",
+    "title_en": "The Man in the High Castle",
+    "slug": "62017-the-man-in-the-high-castle",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xhoDZbMNeyCA0BGPZQsdIiO43Dp.jpg",
+    "rating": 7.5,
+    "year": "2015",
+    "type": "tv",
+    "tmdb_id": 62017,
+    "genre_ids": [
+      10765,
+      18
+    ],
+    "timestamp": 1777776683
   }
 ]
