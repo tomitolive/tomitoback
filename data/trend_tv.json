@@ -27,15 +27,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.2,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 202411,
@@ -81,6 +81,15 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
     "tmdb_id": 245842,
     "title": "Wistoria: Wand and Sword",
     "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
@@ -97,15 +106,6 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
-  },
-  {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 95557,
@@ -144,6 +144,15 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -162,21 +171,12 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
+    "tmdb_id": 196950,
+    "title": "Witch Hat Atelier",
+    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
+    "year": "2026",
+    "rating": 8.9,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 1434,
-    "title": "Family Guy",
-    "poster": "https://image.tmdb.org/t/p/w500/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
-    "year": "1999",
-    "rating": 7.4,
-    "folder": "tv",
-    "slug": "1434-family-guy"
+    "slug": "196950-witch-hat-atelier"
   }
 ]

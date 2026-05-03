@@ -40,7 +40,7 @@
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.4,
     "folder": "movie",
     "slug": "1318447-apex"
   },
@@ -81,15 +81,6 @@
     "slug": "1651233-son-in-law"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
@@ -97,6 +88,15 @@
     "rating": 7.3,
     "folder": "movie",
     "slug": "1430077-hokum"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 931285,
@@ -117,15 +117,6 @@
     "slug": "1290821-shelter"
   },
   {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1297842-goat"
-  },
-  {
     "tmdb_id": 1239198,
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
@@ -133,6 +124,15 @@
     "rating": 4.9,
     "folder": "movie",
     "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1297842-goat"
   },
   {
     "tmdb_id": 1368166,
@@ -148,18 +148,9 @@
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 6.3,
     "folder": "movie",
     "slug": "1110034-kraken"
-  },
-  {
-    "tmdb_id": 1304313,
-    "title": "Lee Cronin's The Mummy",
-    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1304313-lee-cronins-the-mummy"
   },
   {
     "tmdb_id": 1450527,
@@ -169,6 +160,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1450527-forbidden-fruits"
+  },
+  {
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1304313-lee-cronins-the-mummy"
   },
   {
     "tmdb_id": 1316092,
