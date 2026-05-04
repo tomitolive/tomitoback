@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/sRTYF65JvbHLoC3LoBj4UKYqIlA.jpg",
@@ -16,6 +7,15 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 936075,
@@ -67,7 +67,7 @@
     "title": "They Will Kill You",
     "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.7,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
   },
@@ -90,15 +90,6 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -108,13 +99,13 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1110034,
-    "title": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 6.0,
     "folder": "movie",
-    "slug": "1110034-kraken"
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1290821,
@@ -135,22 +126,22 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
+    "slug": "1462229-pegasus-3"
   },
   {
-    "tmdb_id": 1316092,
-    "title": "\"Wuthering Heights\"",
-    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 5.2,
     "folder": "movie",
-    "slug": "1316092-wuthering-heights"
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1301421,
@@ -162,6 +153,24 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
+    "tmdb_id": 1316092,
+    "title": "\"Wuthering Heights\"",
+    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1316092-wuthering-heights"
+  },
+  {
+    "tmdb_id": 949536,
+    "title": "Kill Code",
+    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "949536-kill-code"
+  },
+  {
     "tmdb_id": 1297842,
     "title": "GOAT",
     "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
@@ -169,14 +178,5 @@
     "rating": 7.9,
     "folder": "movie",
     "slug": "1297842-goat"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
   }
 ]
