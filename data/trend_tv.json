@@ -11,7 +11,7 @@
   {
     "tmdb_id": 289219,
     "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
     "year": "2026",
     "rating": 7.9,
     "folder": "tv",
@@ -27,15 +27,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-    "year": "2019",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "76479-the-boys"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 223386,
@@ -63,15 +63,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 290856,
-    "title": "Marshals",
-    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "290856-marshals"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -79,6 +70,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 290856,
+    "title": "Marshals",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "290856-marshals"
   },
   {
     "tmdb_id": 79744,
@@ -99,6 +99,15 @@
     "slug": "272432-born-with-luck"
   },
   {
+    "tmdb_id": 196950,
+    "title": "Witch Hat Atelier",
+    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
+    "year": "2026",
+    "rating": 8.9,
+    "folder": "tv",
+    "slug": "196950-witch-hat-atelier"
+  },
+  {
     "tmdb_id": 285838,
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
@@ -108,13 +117,13 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 196950,
-    "title": "Witch Hat Atelier",
-    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
-    "year": "2026",
-    "rating": 8.9,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "196950-witch-hat-atelier"
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 270476,
@@ -135,15 +144,6 @@
     "slug": "254953-rooster"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -162,6 +162,15 @@
     "slug": "114922-citadel"
   },
   {
+    "tmdb_id": 283952,
+    "title": "A Splendid Match",
+    "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "283952-a-splendid-match"
+  },
+  {
     "tmdb_id": 278113,
     "title": "Gold Land",
     "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
@@ -169,14 +178,5 @@
     "rating": 9.5,
     "folder": "tv",
     "slug": "278113-gold-land"
-  },
-  {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
   }
 ]
