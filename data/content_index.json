@@ -21078,5 +21078,24 @@
     "tmdb_id": 239221,
     "genre_ids": [],
     "timestamp": 1777879825
+  },
+  {
+    "title": "عملية فورتشن: حيلة الحرب / Operation Fortune: Ruse de Guerre",
+    "title_ar": "عملية فورتشن: حيلة الحرب",
+    "title_en": "Operation Fortune: Ruse de Guerre",
+    "slug": "739405-operation-fortune-ruse-de-guerre",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/uo7vWfQUlVwueYTDRicXOJa8Oow.jpg",
+    "rating": 6.5,
+    "year": "2023",
+    "type": "movie",
+    "tmdb_id": 739405,
+    "genre_ids": [
+      28,
+      35,
+      53,
+      12
+    ],
+    "timestamp": 1777887483
   }
 ]
