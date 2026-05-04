@@ -439,6 +439,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1100988-28-years-later</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1102883-mother-mary</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
