@@ -21097,5 +21097,22 @@
       12
     ],
     "timestamp": 1777887483
+  },
+  {
+    "title": "الفتى الأبيض ريك / White Boy Rick",
+    "title_ar": "الفتى الأبيض ريك",
+    "title_en": "White Boy Rick",
+    "slug": "438808-white-boy-rick",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg",
+    "rating": 6.4,
+    "year": "2018",
+    "type": "movie",
+    "tmdb_id": 438808,
+    "genre_ids": [
+      80,
+      18
+    ],
+    "timestamp": 1777900142
   }
 ]
