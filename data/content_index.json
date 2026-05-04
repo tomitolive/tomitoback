@@ -21030,5 +21030,23 @@
       27
     ],
     "timestamp": 1777864839
+  },
+  {
+    "title": "كونغ فو باندا 2 / Kung Fu Panda 2",
+    "title_ar": "كونغ فو باندا 2",
+    "title_en": "Kung Fu Panda 2",
+    "slug": "49444-kung-fu-panda-2",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/jge4QE4HnhW0UIHUxzJJZ95LiU.jpg",
+    "rating": 7.1,
+    "year": "2011",
+    "type": "movie",
+    "tmdb_id": 49444,
+    "genre_ids": [
+      16,
+      10751,
+      35
+    ],
+    "timestamp": 1777868106
   }
 ]
