@@ -21114,5 +21114,39 @@
       18
     ],
     "timestamp": 1777900142
+  },
+  {
+    "title": "A Discovery of Witches / A Discovery of Witches",
+    "title_ar": "A Discovery of Witches",
+    "title_en": "A Discovery of Witches",
+    "slug": "77236-a-discovery-of-witches",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/l7MUpFAE8UEWYnO2Uv7SFtdZ2OJ.jpg",
+    "rating": 7.8,
+    "year": "2018",
+    "type": "tv",
+    "tmdb_id": 77236,
+    "genre_ids": [
+      10765,
+      18
+    ],
+    "timestamp": 1777908476
+  },
+  {
+    "title": "Jezioro Bodeskie / Sons and Comrades",
+    "title_ar": "Jezioro Bodeskie",
+    "title_en": "Sons and Comrades",
+    "slug": "158326-sons-and-comrades",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/7AJHECjga8RjS2EEbndN84CDIOp.jpg",
+    "rating": 5.8,
+    "year": "1986",
+    "type": "movie",
+    "tmdb_id": 158326,
+    "genre_ids": [
+      18,
+      35
+    ],
+    "timestamp": 1777908492
   }
 ]
