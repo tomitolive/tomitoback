@@ -283,6 +283,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/10680-d3-the-mighty-ducks</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/10681-walle</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>

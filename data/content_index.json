@@ -21182,5 +21182,41 @@
       9648
     ],
     "timestamp": 1777927530
+  },
+  {
+    "title": "D3: The Mighty Ducks / D3: The Mighty Ducks",
+    "title_ar": "D3: The Mighty Ducks",
+    "title_en": "D3: The Mighty Ducks",
+    "slug": "10680-d3-the-mighty-ducks",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/wltMr1loUKSCaEV4EDgh21eCRI3.jpg",
+    "rating": 6.0,
+    "year": "1996",
+    "type": "movie",
+    "tmdb_id": 10680,
+    "genre_ids": [
+      35,
+      28,
+      10751,
+      18
+    ],
+    "timestamp": 1777931486
+  },
+  {
+    "title": "Boo! / Boo!",
+    "title_ar": "Boo!",
+    "title_en": "Boo!",
+    "slug": "9165-boo",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/b4HFRnIjD0tPSsGOZBMNzCDwXxs.jpg",
+    "rating": 6.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 9165,
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "timestamp": 1777931536
   }
 ]
