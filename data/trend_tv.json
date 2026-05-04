@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -45,6 +36,15 @@
     "slug": "223386-man-on-fire"
   },
   {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
+  },
+  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -52,6 +52,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
     "tmdb_id": 65930,
@@ -63,13 +72,13 @@
     "slug": "65930-my-hero-academia"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-    "year": "2026",
-    "rating": 7.8,
+    "tmdb_id": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "year": "2024",
+    "rating": 7.6,
     "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
+    "slug": "245842-wistoria-wand-and-sword"
   },
   {
     "tmdb_id": 285838,
@@ -90,13 +99,13 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 245842,
-    "title": "Wistoria: Wand and Sword",
-    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
-    "year": "2024",
-    "rating": 7.6,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "245842-wistoria-wand-and-sword"
+    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 95479,
@@ -108,15 +117,6 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -126,6 +126,15 @@
     "slug": "79744-the-rookie"
   },
   {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
+  },
+  {
     "tmdb_id": 283952,
     "title": "A Splendid Match",
     "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
@@ -133,15 +142,6 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "283952-a-splendid-match"
-  },
-  {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 202555,
@@ -162,13 +162,13 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.2,
+    "tmdb_id": 1434,
+    "title": "Family Guy",
+    "poster": "https://image.tmdb.org/t/p/w500/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+    "year": "1999",
+    "rating": 7.4,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "1434-family-guy"
   },
   {
     "tmdb_id": 196950,

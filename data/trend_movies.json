@@ -4,18 +4,9 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "folder": "movie",
     "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1314481,
@@ -27,22 +18,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1327819,
@@ -52,6 +34,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 687163,
@@ -72,13 +63,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 6.0,
+    "rating": 6.4,
     "folder": "movie",
-    "slug": "1651233-son-in-law"
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1430077,
@@ -90,13 +81,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 6.0,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 931285,
@@ -108,6 +99,15 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
     "tmdb_id": 1290821,
     "title": "Shelter",
     "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
@@ -115,15 +115,6 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1290821-shelter"
-  },
-  {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
-    "year": "2026",
-    "rating": 4.9,
-    "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1297842,
@@ -135,13 +126,13 @@
     "slug": "1297842-goat"
   },
   {
-    "tmdb_id": 1368166,
-    "title": "The Housemaid",
-    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
-    "year": "2025",
-    "rating": 7.2,
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
+    "year": "2026",
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1368166-the-housemaid"
+    "slug": "1304313-lee-cronins-the-mummy"
   },
   {
     "tmdb_id": 1110034,
@@ -153,6 +144,33 @@
     "slug": "1110034-kraken"
   },
   {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 4.9,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 1159559,
+    "title": "Scream 7",
+    "poster": "https://image.tmdb.org/t/p/w500/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "movie",
+    "slug": "1159559-scream-7"
+  },
+  {
+    "tmdb_id": 1368166,
+    "title": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "year": "2025",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "1368166-the-housemaid"
+  },
+  {
     "tmdb_id": 1450527,
     "title": "Forbidden Fruits",
     "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
@@ -160,23 +178,5 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1450527-forbidden-fruits"
-  },
-  {
-    "tmdb_id": 1304313,
-    "title": "Lee Cronin's The Mummy",
-    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1304313-lee-cronins-the-mummy"
-  },
-  {
-    "tmdb_id": 1316092,
-    "title": "\"Wuthering Heights\"",
-    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1316092-wuthering-heights"
   }
 ]
