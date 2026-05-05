@@ -15,8 +15,8 @@ if os.path.exists(".env"):
             if line.startswith("COHERE_API_KEY="):
                 os.environ["COHERE_API_KEY"] = line.split("=")[1].strip()
 
-# Security: Key is read from environment for safety, with fallback to hardcoded user key
-COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "nb5qgyODO8e7WB7QeDfjGyDeozDGTrDwNpC49wZU4V133R").strip()
+# Security: Key is read strictly from environment to avoid Github Secret Scanning blocks
+COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "").strip()
 
 # قائمة مأموريات البوت: التركيز حصرياً على أقوى 20 شركة في العالم
 BOT_MISSIONS = [
