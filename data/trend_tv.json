@@ -117,15 +117,6 @@
     "slug": "196950-witch-hat-atelier"
   },
   {
-    "tmdb_id": 283952,
-    "title": "A Splendid Match",
-    "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "283952-a-splendid-match"
-  },
-  {
     "tmdb_id": 254953,
     "title": "Rooster",
     "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
@@ -135,13 +126,13 @@
     "slug": "254953-rooster"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
+    "tmdb_id": 283952,
+    "title": "A Splendid Match",
+    "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
+    "year": "2026",
+    "rating": 9.0,
     "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "283952-a-splendid-match"
   },
   {
     "tmdb_id": 270476,
@@ -151,6 +142,15 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 95479,
@@ -171,12 +171,12 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 9.0,
+    "tmdb_id": 250307,
+    "title": "The Pitt",
+    "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+    "year": "2025",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
+    "slug": "250307-the-pitt"
   }
 ]
