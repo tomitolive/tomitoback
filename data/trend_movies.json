@@ -27,6 +27,15 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1368337,
     "title": "The Odyssey",
     "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
@@ -43,15 +52,6 @@
     "rating": 8.1,
     "folder": "movie",
     "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
   },
   {
     "tmdb_id": 1314481,
@@ -117,15 +117,6 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
-  },
-  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
@@ -135,13 +126,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
     "year": "2026",
-    "rating": 5.3,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 83533,
@@ -151,6 +142,15 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 5.3,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1651233,
