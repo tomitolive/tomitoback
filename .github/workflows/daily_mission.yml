@@ -33,6 +33,7 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
           GCP_INDEXING_KEY: ${{ secrets.GCP_INDEXING_KEY }}
         run: |
           python3 daily_content.py --count 2
