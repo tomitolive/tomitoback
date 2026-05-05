@@ -21357,5 +21357,21 @@
       18
     ],
     "timestamp": 1777947187
+  },
+  {
+    "title": "NYPD Blue / NYPD Blue",
+    "title_ar": "NYPD Blue",
+    "title_en": "NYPD Blue",
+    "slug": "194-nypd-blue",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/hrdusQVSArJPRGnB5bHzd2ISP4V.jpg",
+    "rating": 7.0,
+    "year": "1993",
+    "type": "tv",
+    "tmdb_id": 194,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1777949460
   }
 ]
