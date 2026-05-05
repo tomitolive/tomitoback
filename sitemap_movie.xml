@@ -2587,6 +2587,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/37165-the-truman-show</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/373200-detective-chinatown</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>

@@ -21459,5 +21459,40 @@
       878
     ],
     "timestamp": 1777965165
+  },
+  {
+    "title": "عرض ترومان / The Truman Show",
+    "title_ar": "عرض ترومان",
+    "title_en": "The Truman Show",
+    "slug": "37165-the-truman-show",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/nRzoM8Lvjyz3jAWAWHqbiJFUptu.jpg",
+    "rating": 8.2,
+    "year": "1998",
+    "type": "movie",
+    "tmdb_id": 37165,
+    "genre_ids": [
+      35,
+      18
+    ],
+    "timestamp": 1777978688
+  },
+  {
+    "title": "Cardcaptor Sakura / Cardcaptor Sakura",
+    "title_ar": "Cardcaptor Sakura",
+    "title_en": "Cardcaptor Sakura",
+    "slug": "35790-cardcaptor-sakura",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/eFV0I3w2trXNVIEXMvZpJqYJCd4.jpg",
+    "rating": 8.6,
+    "year": "1998",
+    "type": "tv",
+    "tmdb_id": 35790,
+    "genre_ids": [
+      16,
+      10765,
+      10759
+    ],
+    "timestamp": 1777978740
   }
 ]

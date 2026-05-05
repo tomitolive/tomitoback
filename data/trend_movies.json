@@ -27,13 +27,31 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
+  },
+  {
     "tmdb_id": 1007757,
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.1,
     "folder": "movie",
     "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
   },
   {
     "tmdb_id": 1314481,
@@ -52,24 +70,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1368337-the-odyssey"
   },
   {
     "tmdb_id": 1318447,
@@ -117,15 +117,6 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "movie",
-    "slug": "1430077-hokum"
-  },
-  {
     "tmdb_id": 1228710,
     "title": "Star Wars: The Mandalorian and Grogu",
     "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
@@ -133,6 +124,15 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 1239198,
@@ -144,15 +144,6 @@
     "slug": "1239198-my-dearest-señorita"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.4,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -162,6 +153,24 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.4,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
+  },
+  {
+    "tmdb_id": 1083381,
+    "title": "Backrooms",
+    "poster": "https://image.tmdb.org/t/p/w500/vpkNMkbisv5cTaIfCzUduYzXnjb.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1083381-backrooms"
+  },
+  {
     "tmdb_id": 1462229,
     "title": "Pegasus 3",
     "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
@@ -169,14 +178,5 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1462229-pegasus-3"
-  },
-  {
-    "tmdb_id": 1566589,
-    "title": "No Other Love",
-    "poster": "https://image.tmdb.org/t/p/w500/eg3hAfz07aci7fodvbMADogFsN1.jpg",
-    "year": "2026",
-    "rating": 5.3,
-    "folder": "movie",
-    "slug": "1566589-no-other-love"
   }
 ]
