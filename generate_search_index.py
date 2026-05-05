@@ -6,11 +6,14 @@ INDEX_JSON = os.path.join(BASE_PATH, 'data', 'content_index.json')
 SEARCH_JS = os.path.join(BASE_PATH, 'data', 'search_index.js')
 
 def generate():
-    if not os.path.exists(INDEX_JSON):
-        print(f"Error: {INDEX_JSON} not found.")
+    index_json = os.path.join(BASE_PATH, 'data', 'content_index.json')
+    search_js = os.path.join(BASE_PATH, 'data', 'search_index.js')
+    
+    if not os.path.exists(index_json):
+        print(f"Error: {index_json} not found.")
         return
 
-    with open(INDEX_JSON, 'r', encoding='utf-8') as f:
+    with open(index_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     # We only need specific fields for search to keep the file size manageable
@@ -30,10 +33,10 @@ def generate():
 
     js_content = f"const FULL_INDEX = {json.dumps(compact_data, ensure_ascii=False)};"
     
-    with open(SEARCH_JS, 'w', encoding='utf-8') as f:
+    with open(search_js, 'w', encoding='utf-8') as f:
         f.write(js_content)
     
-    print(f"✅ Generated {SEARCH_JS}")
+    print(f"✅ Generated {search_js}")
 
 if __name__ == '__main__':
     generate()

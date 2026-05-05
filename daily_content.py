@@ -14,6 +14,7 @@ sys.path.insert(0, BASE_PATH)
 
 from mega_bot import get_tmdb_data, fetch_details, create_page, build_listing_pages
 from trends_rss import get_trending_titles
+import generate_search_index
 
 INDEX_FILE = os.path.join(BASE_PATH, 'data', 'content_index.json')
 DEFAULT_COUNT = 2  # total pages per run (50 movies and 50 tv per 24 hours => 2 pages per 30 minutes)
@@ -289,6 +290,10 @@ def main():
         from mega_bot import build_listing_pages
         build_listing_pages()
         print("🏗️  Homepage and listing pages rebuilt.")
+        
+        # ── Update Search Index ──────────────────────────────────────────────
+        generate_search_index.generate()
+        print("🔍 Search index updated.")
     except Exception as e:
         log.warning(f"Rebuild warning: {e}")
 

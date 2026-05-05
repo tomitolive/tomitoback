@@ -50,6 +50,7 @@ jobs:
       - name: Build Homepage & Sitemaps
         run: |
           python3 build_homepage.py
+          python3 generate_search_index.py
           python3 generate_full_sitemap.py
 
       - name: Commit and Push Changes
