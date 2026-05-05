@@ -21286,5 +21286,21 @@
       35
     ],
     "timestamp": 1777938151
+  },
+  {
+    "title": "Independent Lens / Independent Lens",
+    "title_ar": "Independent Lens",
+    "title_en": "Independent Lens",
+    "slug": "14976-independent-lens",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/amfeqi4cccb458kFNEg2pSZoCGw.jpg",
+    "rating": 6.6,
+    "year": "1999",
+    "type": "tv",
+    "tmdb_id": 14976,
+    "genre_ids": [
+      99
+    ],
+    "timestamp": 1777939800
   }
 ]
