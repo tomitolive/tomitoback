@@ -95,12 +95,12 @@ def _call_llm(system_msg, user_msg):
         return None
 
 LIVE_TRENDS_CACHE = {}
-def get_live_trends(title, geo='SA'):
-    cache_key = f"{title}_{geo}"
+def get_live_trends(title, geo='SA', is_arabic_content=False):
+    cache_key = f"{title}_{geo}_{is_arabic_content}"
     if cache_key not in LIVE_TRENDS_CACHE:
         try:
             from trends_fetcher import fetch_related_keywords
-            trends = fetch_related_keywords(title, geo)
+            trends = fetch_related_keywords(title, geo, is_arabic_content)
             LIVE_TRENDS_CACHE[cache_key] = trends
         except Exception:
             LIVE_TRENDS_CACHE[cache_key] = ""
@@ -119,7 +119,7 @@ GENRE_LSI = {
     "Thriller": ["إثارة", "تشويق", "توتر", "شك", "مفاجأة"]
 }
 
-def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar=None, actor=None, platform=None):
+def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar=None, actor=None, platform=None, is_arabic_content=False):
     """
     تنفيذ "توميتو ستايل" المطور (SEO 2026):
     1. كلمات أساسية (عنوان + سنة + مترجم)
@@ -165,9 +165,22 @@ def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar
     similars = [f"{label} يشبه {subject_name}", f"أعمال تشبه {subject_name}", f"بديل {label} {subject_name}", f"مسلسلات مثل {subject_name}" if media_type == 'tv' else f"أفلام مثل {subject_name}"]
     selected_similars = random.sample(similars, min(2, len(similars)))
 
-    # 7. تريندات PyTrends
-    search_query = f"{subject_name} {label}"
-    rising_keywords = get_live_trends(search_query)
+    # 7. تريندات PyTrends (Genre Trends)
+    label_prefix = "أفلام" if media_type == 'movie' else "مسلسلات"
+    main_genre = genres_ar[0] if (genres_ar and len(genres_ar) > 0) else ""
+    if main_genre:
+        genre_seo_map = {
+            "حركة": "أكشن", "رعب": "رعب", "خيال علمي": "خيال علمي",
+            "كوميديا": "كوميدي", "دراما": "دراما", "إثارة": "إثارة", "غموض": "غموض",
+            "جريمة": "جريمة", "مغامرة": "مغامرات", "رسوم متحركة": "أنمي",
+            "رومانسية": "رومانسي", "عائلي": "عائلي", "تاريخ": "تاريخي", "وثائقي": "وثائقي", "حرب": "حرب"
+        }
+        g_seo = genre_seo_map.get(main_genre, main_genre)
+        search_query = f"{label_prefix} {g_seo}"
+    else:
+        search_query = f"{subject_name} {label}"
+        
+    rising_keywords = get_live_trends(search_query, is_arabic_content=is_arabic_content)
     
     # دمج الكل بالترتيب المطلوب لعمل التخليطة النهائية (Cocktail)
     components = [
@@ -186,7 +199,7 @@ def get_rising_seo_tags(subject_name, media_type='movie', year='2026', genres_ar
     cleaned = re.sub(r'[^a-zA-Z0-9\u0600-\u06FF\s,éèàçëêîôû]', '', all_raw)
     return re.sub(r'\s+', ' ', cleaned).strip()
 
-def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en, year, genres_ar, media_type, *args, **kwargs):
+def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en, year, genres_ar, media_type, actor=None, platform=None, is_arabic_content=False, *args, **kwargs):
     """🛡️ The Ultimate Narrative Master Implementation with Gemini 2.5 Flash"""
     genres_str = ", ".join(genres_ar) if isinstance(genres_ar, list) else str(genres_ar)
     selected_style = random.choice(NARRATIVE_STYLES)
@@ -222,7 +235,7 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
         data = json.loads(res or "{}")
         # Integration of Rising Keywords
         t_query = title_ar if title_ar and title_ar.strip() else title_en
-        data["keywords"] = get_rising_seo_tags(t_query, media_type, year)
+        data["keywords"] = get_rising_seo_tags(t_query, media_type, year, genres_ar, actor, platform, is_arabic_content)
         
         # Ensure we have all fields
         if "desc_ar" not in data and "arabic" in data: # handle different formats

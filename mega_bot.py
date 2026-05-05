@@ -649,12 +649,14 @@ def create_page(item_data, media_type, is_trend=False):
         elif media_type == 'movie' and data.get('production_companies'):
             platform = data['production_companies'][0].get('name')
 
+        is_arab_content = (data.get('original_language') == 'ar')
         tri = generate_bilingual_description(
             title_ar, title_en,
             ar.get('overview', '') if ar else '',
             en.get('overview', '') if en else '',
             year, genres_ar, media_type,
-            actor=main_actor, platform=platform
+            actor=main_actor, platform=platform,
+            is_arabic_content=is_arab_content
         )
         desc_ar   = (tri or {}).get('desc_ar') or ''
         desc_en   = (tri or {}).get('desc_en') or ''
@@ -682,7 +684,7 @@ def create_page(item_data, media_type, is_trend=False):
         page_intro, page_outro = None, None
 
     # from trends_fetcher import clean_strict (moved to top)
-    keywords = (tri or {}).get('keywords') or get_rising_seo_tags(title_ar, media_type, year, genres_ar, main_actor, platform)
+    keywords = (tri or {}).get('keywords') or get_rising_seo_tags(title_ar, media_type, year, genres_ar, main_actor, platform, is_arabic_content=is_arab_content if 'is_arab_content' in locals() else False)
     
     # from trends_fetcher import clean_strict (moved to top)
     keywords = clean_strict(keywords)

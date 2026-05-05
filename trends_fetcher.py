@@ -68,11 +68,15 @@ def get_random_proxy():
 import xml.etree.ElementTree as ET
 import requests
 
-def fetch_related_keywords(title, geo='SA'):
+def fetch_related_keywords(title, geo='SA', is_arabic_content=False):
     """Fetch Rising (Breakout) and Top queries. Focuses on Rising to capture sudden trends."""
-    is_arab = geo in ['SA', 'MA', 'EG', 'DZ', 'TN', 'AR']
-    # Adding FR for French traffic as requested
-    target_geos = ['SA', 'MA', 'EG', 'FR', 'US'] 
+    # Smart Geo-Targeting
+    if is_arabic_content:
+        target_geos = ['SA', 'EG', 'AE', 'MA']
+    else:
+        target_geos = ['US', 'FR', 'SA'] 
+    
+    is_arab_hl = bool(re.search(r'[\u0600-\u06FF]', title)) or (geo in ['SA', 'MA', 'EG', 'DZ', 'TN', 'AR'])
     
     all_queries = []
     seen = set()
@@ -84,7 +88,7 @@ def fetch_related_keywords(title, geo='SA'):
     proxies = [proxy] if proxy else []
 
     try:
-        pytrends = TrendReq(hl='ar' if is_arab else 'en-US', tz=360, timeout=(10,25), proxies=proxies, retries=3, backoff_factor=2)
+        pytrends = TrendReq(hl='ar' if is_arab_hl else 'en-US', tz=360, timeout=(10,25), proxies=proxies, retries=3, backoff_factor=2)
         
         for tf in timeframes:
             if len(all_queries) >= 15: break
