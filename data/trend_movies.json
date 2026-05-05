@@ -2,7 +2,7 @@
   {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "movie",
@@ -117,15 +117,6 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1083381,
-    "title": "Backrooms",
-    "poster": "https://image.tmdb.org/t/p/w500/vpkNMkbisv5cTaIfCzUduYzXnjb.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1083381-backrooms"
-  },
-  {
     "tmdb_id": 1651233,
     "title": "Son-in-Law",
     "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
@@ -142,6 +133,15 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 5.2,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 83533,
@@ -171,12 +171,12 @@
     "slug": "980431-avatar-aang-the-last-airbender"
   },
   {
-    "tmdb_id": 1239198,
-    "title": "My Dearest Señorita",
-    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
     "year": "2026",
-    "rating": 5.2,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1239198-my-dearest-señorita"
+    "slug": "1304313-lee-cronins-the-mummy"
   }
 ]

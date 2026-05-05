@@ -1411,6 +1411,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1430077-hokum</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1439112-muzzle-city-of-wolves</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
