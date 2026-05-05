@@ -22,7 +22,7 @@
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
@@ -63,15 +63,6 @@
     "slug": "1368337-the-odyssey"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -79,6 +70,15 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1318447,
@@ -108,15 +108,6 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
     "tmdb_id": 1212763,
     "title": "Evil Dead Burn",
     "poster": "https://image.tmdb.org/t/p/w500/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
@@ -124,6 +115,15 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1212763-evil-dead-burn"
+  },
+  {
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
   },
   {
     "tmdb_id": 1430077,
@@ -153,15 +153,6 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.4,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 1083381,
     "title": "Backrooms",
     "poster": "https://image.tmdb.org/t/p/w500/vpkNMkbisv5cTaIfCzUduYzXnjb.jpg",
@@ -171,12 +162,21 @@
     "slug": "1083381-backrooms"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "tmdb_id": 1273221,
+    "title": "Scary Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/vUPE82BWRZwq6M5Xc9UNuf8AffK.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1462229-pegasus-3"
+    "slug": "1273221-scary-movie"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 5.3,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   }
 ]

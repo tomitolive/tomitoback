@@ -3889,6 +3889,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/753-faces</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/754-faceoff</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>

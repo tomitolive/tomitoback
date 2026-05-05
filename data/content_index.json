@@ -21582,5 +21582,21 @@
       18
     ],
     "timestamp": 1778007095
+  },
+  {
+    "title": "Faces / Faces",
+    "title_ar": "Faces",
+    "title_en": "Faces",
+    "slug": "753-faces",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/qTkhxFQ0o6DEtTtPXkv4IA5M90J.jpg",
+    "rating": 7.1,
+    "year": "1968",
+    "type": "movie",
+    "tmdb_id": 753,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778011364
   }
 ]
