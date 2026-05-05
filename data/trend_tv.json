@@ -9,6 +9,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -16,15 +25,6 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
-  },
-  {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
     "tmdb_id": 37854,
@@ -63,6 +63,15 @@
     "slug": "223386-man-on-fire"
   },
   {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
     "tmdb_id": 290856,
     "title": "Marshals",
     "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
@@ -99,22 +108,13 @@
     "slug": "196950-witch-hat-atelier"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 95479,
@@ -126,6 +126,15 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "285838-if-wishes-could-kill"
+  },
+  {
     "tmdb_id": 254953,
     "title": "Rooster",
     "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
@@ -133,24 +142,6 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "254953-rooster"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 283952,
-    "title": "A Splendid Match",
-    "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "283952-a-splendid-match"
   },
   {
     "tmdb_id": 270476,
@@ -162,6 +153,15 @@
     "slug": "270476-widows-bay"
   },
   {
+    "tmdb_id": 283952,
+    "title": "A Splendid Match",
+    "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "283952-a-splendid-match"
+  },
+  {
     "tmdb_id": 209867,
     "title": "Frieren: Beyond Journey's End",
     "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
@@ -171,12 +171,12 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
-    "year": "2023",
-    "rating": 6.8,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "114922-citadel"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   }
 ]

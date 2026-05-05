@@ -21373,5 +21373,38 @@
       18
     ],
     "timestamp": 1777949460
+  },
+  {
+    "title": "جيريغو: أمنيات قاتلة / If Wishes Could Kill",
+    "title_ar": "جيريغو: أمنيات قاتلة",
+    "title_en": "If Wishes Could Kill",
+    "slug": "285838-if-wishes-could-kill",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/oKSt05GBc2ZZ5G2BxTqLikNml1V.jpg",
+    "rating": 8.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 285838,
+    "genre_ids": [
+      9648,
+      18
+    ],
+    "timestamp": 1777953036
+  },
+  {
+    "title": "Klovn / Klovn",
+    "title_ar": "Klovn",
+    "title_en": "Klovn",
+    "slug": "367-klovn",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/x0HKUsKAWzHwzJZxXhTSx4LEydk.jpg",
+    "rating": 8.5,
+    "year": "2005",
+    "type": "tv",
+    "tmdb_id": 367,
+    "genre_ids": [
+      35
+    ],
+    "timestamp": 1777953046
   }
 ]
