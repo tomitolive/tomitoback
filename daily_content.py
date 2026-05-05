@@ -84,8 +84,9 @@ def fetch_fresh_items(media_type, seen_ids, target, mission=None):
             if not data or 'results' not in data:
                 break
             for item in data['results']:
-                if _add(item) and len(collected) >= target:
-                    break
+                if item.get('vote_average', 0) > 7.0 and item.get('vote_count', 0) >= 2:
+                    if _add(item) and len(collected) >= target:
+                        break
 
     # ── Fallback: random foreign/popular pages ──────────────────────────────
     attempts = 0
@@ -98,32 +99,32 @@ def fetch_fresh_items(media_type, seen_ids, target, mission=None):
         if not data or 'results' not in data:
             continue
         for item in data['results']:
-            if _add(item) and len(collected) >= target:
-                break
+            if item.get('vote_average', 0) > 7.0 and item.get('vote_count', 0) >= 2:
+                if _add(item) and len(collected) >= target:
+                    break
 
     return collected
 
-def fetch_from_tmdb_trends(seen_ids, target, min_popularity=80):
-    """Fetch high-traffic trending items directly from TMDB, restricted to EN/AR."""
+def fetch_from_tmdb_trends(seen_ids, target, min_popularity=40):
+    """Fetch newly trending items with ratings > 7.0."""
     collected = []
     for media_type in ['movie', 'tv']:
         if len(collected) >= target: break
-        log.info(f"Fetching TMDB Trending {media_type}...")
+        log.info(f"Fetching newly rising TMDB Trending {media_type}...")
         data = get_tmdb_data(f'trending/{media_type}/day', {'language': 'ar-SA'})
         if data and data.get('results'):
             for item in data['results']:
                 if len(collected) >= target: break
                 tid = str(item.get('id', ''))
                 pop = item.get('popularity', 0)
-                orig_lang = item.get('original_language', '')
-                
-                # Rule: ONLY EN (US/UK/etc) or AR content
-                # Rule: Rating between 3.3 and 4.2 stars (mapped to 6.6 and 8.4 out of 10)
                 rating = item.get('vote_average', 0)
-                if tid and tid not in seen_ids and pop >= 200 and orig_lang in ['en', 'ar'] and 6.6 <= rating <= 8.4:
+                vote_count = item.get('vote_count', 0)
+                
+                unique_key = f"{media_type}-{tid}"
+                if tid and unique_key not in seen_ids and pop >= min_popularity and rating > 7.0 and vote_count >= 2:
                     collected.append((tid, media_type))
-                    seen_ids.add(tid)
-                    log.info(f"Matched High-Quality Trend: {tid} ({media_type}) - Pop: {pop} - Rating: {rating} - Lang: {orig_lang}")
+                    seen_ids.add(unique_key)
+                    log.info(f"Matched Newly Rising Trend: {tid} ({media_type}) - Pop: {pop} - Rating: {rating}")
     return collected
 
 def fetch_from_rss_trends(seen_ids, target):
@@ -191,16 +192,23 @@ def main():
     # ── Collect fresh TMDB IDs ───────────────────────────────────────────────
     tasks = []
     
-    # Strictly use company missions for high quality / selected sources
-    log.info("🚀 Focusing on specialized company missions...")
-    company_missions = [m for m in BOT_MISSIONS if m.get('type') == 'company']
-    random.shuffle(company_missions)
-    
     # Balance slots between movie and tv
     movie_count = total // 2
     tv_count = total - movie_count
     slots = (['movie'] * movie_count) + (['tv'] * tv_count)
     random.shuffle(slots)
+
+    # 1. NEW LOGIC: Fetch newly rising (reach yalah tal3e) trends > 7.0 stars FIRST
+    log.info("🚀 Fetching newly rising trends with high ratings (>7.0)...")
+    trend_target = max(1, total // 2)
+    trend_items = fetch_from_tmdb_trends(seen_ids, trend_target, min_popularity=40)
+    if trend_items:
+        tasks.extend(trend_items)
+
+    # 2. Company missions as legacy fetcher logic
+    log.info("🚀 Focusing on specialized company missions...")
+    company_missions = [m for m in BOT_MISSIONS if m.get('type') == 'company']
+    random.shuffle(company_missions)
     
     for i, mission in enumerate(company_missions):
         if len(tasks) >= total: break
@@ -210,11 +218,8 @@ def main():
             tasks.extend(items)
             log.info(f"Found item from {mission['name']} ({media_type})")
 
-    # STRICT RULE: Only fetch from authorized companies. Disable generic trends fallback.
     if len(tasks) < total:
-        log.info(f"Only found {len(tasks)} items from company missions. Seeking more from authorized pool...")
-        # Try to find more items from other company missions if some didn't return results
-        remaining_missions = [m for m in company_missions if m not in [t[1] for t in tasks if len(t)>2]] # simplified
+        log.info(f"Seeking more from authorized pool...")
         random.shuffle(company_missions)
         for mission in company_missions:
             if len(tasks) >= total: break
