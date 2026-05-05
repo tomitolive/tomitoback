@@ -1108,25 +1108,38 @@ def build_listing_pages():
     # 2. Genre Pages
     genre_dir = os.path.join(BASE_PATH, 'genre')
     os.makedirs(genre_dir, exist_ok=True)
-    for mission in BOT_MISSIONS:
+    
+    # Add special "View All" missions for Movies and TV Shows
+    all_media_missions = [
+        {"name": "movie", "label": "أفلام", "type": "all_movies"},
+        {"name": "tv-show", "label": "مسلسلات", "type": "all_tv"}
+    ]
+    
+    for mission in BOT_MISSIONS + all_media_missions:
         slug = clean_slug(mission['name'])
         m_id = mission.get('id')
         m_years = mission.get('years')
+        m_type = mission.get('type')
         
         filtered = []
-        for it in all_items:
-            # Filter by Genre ID
-            it_genres = it.get('genre_ids', [])
-            if m_id and m_id in it_genres:
-                filtered.append(it)
-            # Filter by Year
-            elif m_years:
-                it_year = it.get('year')
-                if it_year and any(str(y) in str(it_year) for y in m_years):
+        if m_type == 'all_movies':
+            filtered = [it for it in all_items if it.get('folder') == 'movie']
+        elif m_type == 'all_tv':
+            filtered = [it for it in all_items if it.get('folder') == 'tv']
+        else:
+            for it in all_items:
+                # Filter by Genre ID
+                it_genres = it.get('genre_ids', [])
+                if m_id and m_id in it_genres:
                     filtered.append(it)
-            # Trending/latest (fallback to all recent)
-            elif not m_id and not m_years:
-                filtered.append(it)
+                # Filter by Year
+                elif m_years:
+                    it_year = it.get('year')
+                    if it_year and any(str(y) in str(it_year) for y in m_years):
+                        filtered.append(it)
+                # Trending/latest (fallback to all recent)
+                elif not m_id and not m_years:
+                    filtered.append(it)
 
         if not filtered: filtered = all_items[:200] # Fallback if empty
             

@@ -161,8 +161,8 @@ def build():
     series_section = section('series', 'أحدث المسلسلات', series)
     anime_section = section('anime', 'أنمي مترجم', anime)
 
-    new_movies_carousel = build_mini_carousel('new-movies', '🎬 أحدث الأفلام', movies, '/genre/movie', count=20)
-    new_tv_carousel     = build_mini_carousel('new-tv', '📺 أحدث المسلسلات', series, '/genre/tv-show', count=20)
+    new_movies_carousel = build_mini_carousel('new-movies', '🎬 أحدث الأفلام', movies, './genre/movie', count=20)
+    new_tv_carousel     = build_mini_carousel('new-tv', '📺 أحدث المسلسلات', series, './genre/tv-show', count=20)
 
     trends = build_interleaved_trending()
     carousel_section = build_carousel(trends)
