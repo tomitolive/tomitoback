@@ -21564,5 +21564,23 @@
       10762
     ],
     "timestamp": 1777986694
+  },
+  {
+    "title": "واندافيجن / WandaVision",
+    "title_ar": "واندافيجن",
+    "title_en": "WandaVision",
+    "slug": "85271-wandavision",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/hOYG106lFAcB1TB53T4HoPcTEya.jpg",
+    "rating": 8.2,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 85271,
+    "genre_ids": [
+      10765,
+      9648,
+      18
+    ],
+    "timestamp": 1778007095
   }
 ]
