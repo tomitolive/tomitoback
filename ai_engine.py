@@ -8,15 +8,15 @@ import re
 
 log = logging.getLogger(__name__)
 
-# Load GEMINI_API_KEY from .env if it exists
+# Load COHERE_API_KEY from .env if it exists
 if os.path.exists(".env"):
     with open(".env", "r") as f:
         for line in f:
-            if line.startswith("GEMINI_API_KEY="):
-                os.environ["GEMINI_API_KEY"] = line.split("=")[1].strip()
+            if line.startswith("COHERE_API_KEY="):
+                os.environ["COHERE_API_KEY"] = line.split("=")[1].strip()
 
-# Security: Key is read from environment for safety
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+# Security: Key is read from environment for safety, with fallback to hardcoded user key
+COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "nb5qgyODO8e7WB7QeDfjGyDeozDGTrDwNpC49wZU4V133R").strip()
 
 # قائمة مأموريات البوت: التركيز حصرياً على أقوى 20 شركة في العالم
 BOT_MISSIONS = [
@@ -67,31 +67,33 @@ NARRATIVE_STYLES = [
 ]
 
 def _call_llm(system_msg, user_msg):
-    """Wrapper for Gemini 2.5 Flash following the user's Groq style."""
-    if not GEMINI_API_KEY: return None
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
+    """Wrapper for Cohere API (command-r) explicitly configured for Arabic."""
+    if not COHERE_API_KEY: return None
+    url = "https://api.cohere.com/v2/chat"
+    headers = {
+        "Authorization": f"Bearer {COHERE_API_KEY}",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
     payload = {
-        "contents": [
-            {
-                "parts": [
-                    {"text": f"System: {system_msg}\n\nUser: {user_msg}"}
-                ]
-            }
+        "model": "command-r-08-2024",
+        "messages": [
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": user_msg}
         ]
     }
-    headers = {"Content-Type": "application/json"}
     try:
-        res = requests.post(url, headers=headers, json=payload, timeout=45)
+        res = requests.post(url, headers=headers, json=payload, timeout=60)
         if res.status_code != 200:
-            log.error(f"Gemini Error {res.status_code}: {res.text}")
+            log.error(f"Cohere Error {res.status_code}: {res.text[:300]}")
             return None
         data = res.json()
-        if 'candidates' in data and len(data['candidates']) > 0:
-            text = data['candidates'][0]['content']['parts'][0]['text']
+        if 'message' in data and 'content' in data['message'] and len(data['message']['content']) > 0:
+            text = data['message']['content'][0]['text']
             return re.sub(r'```json\s*|\s*```', '', text).strip()
         return None
     except Exception as e:
-        log.error(f"Gemini API Error: {e}")
+        log.error(f"Cohere API Error: {e}")
         return None
 
 LIVE_TRENDS_CACHE = {}
@@ -228,8 +230,10 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
     }}"""
 
     user = f"Title: {title_ar}. Type: {genres_str}. Original Story: {overview_ar}."
-    
     res = _call_llm(system, user)
+    
+    if not res:
+        log.error("❌ Cohere returned an empty response. Verify API Key limits or safety filters.")
 
     try:
         data = json.loads(res or "{}")
