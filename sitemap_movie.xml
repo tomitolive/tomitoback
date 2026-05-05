@@ -67,6 +67,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/101299-the-hunger-games-catching-fire</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/10138-iron-man-2</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
