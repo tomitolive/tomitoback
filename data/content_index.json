@@ -21302,5 +21302,25 @@
       99
     ],
     "timestamp": 1777939800
+  },
+  {
+    "title": "في كل جسد حكاية / Swapped",
+    "title_ar": "في كل جسد حكاية",
+    "title_en": "Swapped",
+    "slug": "1007757-swapped",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/c2m0KshJuJMxVhPaB352U8Tuk5E.jpg",
+    "rating": 8.2,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1007757,
+    "genre_ids": [
+      16,
+      12,
+      35,
+      10751,
+      14
+    ],
+    "timestamp": 1777944506
   }
 ]

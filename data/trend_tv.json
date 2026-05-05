@@ -1,12 +1,12 @@
 [
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 7.9,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 124364,
@@ -18,13 +18,13 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "year": "2026",
+    "rating": 7.9,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
     "tmdb_id": 37854,
@@ -54,15 +54,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 196950,
-    "title": "Witch Hat Atelier",
-    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
-    "year": "2026",
-    "rating": 8.9,
-    "folder": "tv",
-    "slug": "196950-witch-hat-atelier"
-  },
-  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
@@ -70,24 +61,6 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "272432-born-with-luck"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 254953,
-    "title": "Rooster",
-    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "tv",
-    "slug": "254953-rooster"
   },
   {
     "tmdb_id": 290856,
@@ -108,15 +81,6 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -124,6 +88,15 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 285838,
@@ -135,6 +108,15 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
+    "tmdb_id": 196950,
+    "title": "Witch Hat Atelier",
+    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
+    "year": "2026",
+    "rating": 8.9,
+    "folder": "tv",
+    "slug": "196950-witch-hat-atelier"
+  },
+  {
     "tmdb_id": 283952,
     "title": "A Splendid Match",
     "poster": "https://image.tmdb.org/t/p/w500/a7xu2XuUT6Mk2wtD2mGx5Wwo2tC.jpg",
@@ -142,6 +124,24 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "283952-a-splendid-match"
+  },
+  {
+    "tmdb_id": 254953,
+    "title": "Rooster",
+    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "254953-rooster"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 270476,
@@ -162,6 +162,15 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
+    "folder": "tv",
+    "slug": "209867-frieren-beyond-journeys-end"
+  },
+  {
     "tmdb_id": 259702,
     "title": "The House of the Spirits",
     "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
@@ -169,14 +178,5 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "259702-the-house-of-the-spirits"
-  },
-  {
-    "tmdb_id": 66732,
-    "title": "Stranger Things",
-    "poster": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-    "year": "2016",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "66732-stranger-things"
   }
 ]
