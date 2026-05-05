@@ -21406,5 +21406,40 @@
       35
     ],
     "timestamp": 1777953046
+  },
+  {
+    "title": "Widows Bay / Widows Bay",
+    "title_ar": "Widows Bay",
+    "title_en": "Widows Bay",
+    "slug": "270476-widows-bay",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
+    "rating": 7.3,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 270476,
+    "genre_ids": [
+      18,
+      9648,
+      35
+    ],
+    "timestamp": 1777955875
+  },
+  {
+    "title": "أعجوبة / Wonder",
+    "title_ar": "أعجوبة",
+    "title_en": "Wonder",
+    "slug": "406997-wonder",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/jzTt78x9Khn67UQKGtDiRjxYT6d.jpg",
+    "rating": 8.1,
+    "year": "2017",
+    "type": "movie",
+    "tmdb_id": 406997,
+    "genre_ids": [
+      10751,
+      18
+    ],
+    "timestamp": 1777955921
   }
 ]

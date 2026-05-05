@@ -72,15 +72,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 290856,
-    "title": "Marshals",
-    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "290856-marshals"
-  },
-  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -99,6 +90,15 @@
     "slug": "202555-daredevil-born-again"
   },
   {
+    "tmdb_id": 290856,
+    "title": "Marshals",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "290856-marshals"
+  },
+  {
     "tmdb_id": 196950,
     "title": "Witch Hat Atelier",
     "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
@@ -106,15 +106,6 @@
     "rating": 8.9,
     "folder": "tv",
     "slug": "196950-witch-hat-atelier"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 95479,
@@ -133,6 +124,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 254953,
