@@ -2737,6 +2737,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/406-la-haine</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/406997-wonder</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>

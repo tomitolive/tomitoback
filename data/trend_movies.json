@@ -40,18 +40,9 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "folder": "movie",
     "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 936075,
@@ -61,6 +52,15 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1314481,
@@ -81,15 +81,6 @@
     "slug": "1368337-the-odyssey"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 1212763,
     "title": "Evil Dead Burn",
     "poster": "https://image.tmdb.org/t/p/w500/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
@@ -106,6 +97,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1292695,
@@ -153,15 +153,6 @@
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
-    "tmdb_id": 1304313,
-    "title": "Lee Cronin's The Mummy",
-    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1304313-lee-cronins-the-mummy"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -171,12 +162,21 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1083381,
-    "title": "Backrooms",
-    "poster": "https://image.tmdb.org/t/p/w500/vpkNMkbisv5cTaIfCzUduYzXnjb.jpg",
+    "tmdb_id": 1304313,
+    "title": "Lee Cronin's The Mummy",
+    "poster": "https://image.tmdb.org/t/p/w500/8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1083381-backrooms"
+    "slug": "1304313-lee-cronins-the-mummy"
+  },
+  {
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.4,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
   }
 ]
