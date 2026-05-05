@@ -21634,5 +21634,41 @@
       14
     ],
     "timestamp": 1778013539
+  },
+  {
+    "title": "بريداتور: قاتل القتلة / Predator: Killer of Killers",
+    "title_ar": "بريداتور: قاتل القتلة",
+    "title_en": "Predator: Killer of Killers",
+    "slug": "1376434-predator-killer-of-killers",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
+    "rating": 7.8,
+    "year": "2025",
+    "type": "movie",
+    "tmdb_id": 1376434,
+    "genre_ids": [
+      16,
+      28,
+      878,
+      53
+    ],
+    "timestamp": 1778016774
+  },
+  {
+    "title": "Bosch: Legacy / Bosch: Legacy",
+    "title_ar": "Bosch: Legacy",
+    "title_en": "Bosch: Legacy",
+    "slug": "153657-bosch-legacy",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/ge5gFKCO6m7MuGyjwjoGvqo2q2m.jpg",
+    "rating": 7.9,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 153657,
+    "genre_ids": [
+      80,
+      18
+    ],
+    "timestamp": 1778016781
   }
 ]

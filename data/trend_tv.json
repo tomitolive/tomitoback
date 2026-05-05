@@ -108,6 +108,33 @@
     "slug": "270476-widows-bay"
   },
   {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
+    "year": "2023",
+    "rating": 6.8,
+    "folder": "tv",
+    "slug": "114922-citadel"
+  },
+  {
+    "tmdb_id": 196950,
+    "title": "Witch Hat Atelier",
+    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
+    "year": "2026",
+    "rating": 8.9,
+    "folder": "tv",
+    "slug": "196950-witch-hat-atelier"
+  },
+  {
     "tmdb_id": 289708,
     "title": "Bloom Life",
     "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
@@ -126,24 +153,6 @@
     "slug": "285838-if-wishes-could-kill"
   },
   {
-    "tmdb_id": 196950,
-    "title": "Witch Hat Atelier",
-    "poster": "https://image.tmdb.org/t/p/w500/78m1Tv3suHmUryTI9VNPwKLKjHZ.jpg",
-    "year": "2026",
-    "rating": 8.9,
-    "folder": "tv",
-    "slug": "196950-witch-hat-atelier"
-  },
-  {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
-    "year": "2023",
-    "rating": 6.8,
-    "folder": "tv",
-    "slug": "114922-citadel"
-  },
-  {
     "tmdb_id": 209867,
     "title": "Frieren: Beyond Journey's End",
     "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
@@ -153,13 +162,13 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
-    "rating": 8.2,
+    "tmdb_id": 290856,
+    "title": "Marshals",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+    "year": "2026",
+    "rating": 7.2,
     "folder": "tv",
-    "slug": "136315-the-bear"
+    "slug": "290856-marshals"
   },
   {
     "tmdb_id": 65942,
@@ -169,14 +178,5 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 290856,
-    "title": "Marshals",
-    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "290856-marshals"
   }
 ]
