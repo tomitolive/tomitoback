@@ -27,24 +27,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1368337-the-odyssey"
-  },
-  {
     "tmdb_id": 1007757,
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
@@ -63,6 +45,15 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/bfSXubbZatAbr4ShyQUhKsaGe96.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -72,13 +63,13 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1368337-the-odyssey"
   },
   {
     "tmdb_id": 1327819,
@@ -90,13 +81,13 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 687163,
-    "title": "Project Hail Mary",
-    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 6.4,
     "folder": "movie",
-    "slug": "687163-project-hail-mary"
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1292695,
@@ -106,6 +97,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1292695-they-will-kill-you"
+  },
+  {
+    "tmdb_id": 687163,
+    "title": "Project Hail Mary",
+    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "movie",
+    "slug": "687163-project-hail-mary"
   },
   {
     "tmdb_id": 1301421,
@@ -171,12 +171,12 @@
     "slug": "1083381-backrooms"
   },
   {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "tmdb_id": 1566589,
+    "title": "No Other Love",
+    "poster": "https://image.tmdb.org/t/p/w500/6PqSqnu5XTBdWxGaaAQUQluPgDw.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 5.3,
     "folder": "movie",
-    "slug": "1462229-pegasus-3"
+    "slug": "1566589-no-other-love"
   }
 ]
