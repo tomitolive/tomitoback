@@ -31,18 +31,18 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1327819,
@@ -52,6 +52,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
   },
   {
     "tmdb_id": 931285,
@@ -70,15 +79,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 687163,
@@ -117,24 +117,6 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.4,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 1430077,
     "title": "Hokum",
     "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
@@ -144,22 +126,13 @@
     "slug": "1430077-hokum"
   },
   {
-    "tmdb_id": 1316092,
-    "title": "\"Wuthering Heights\"",
-    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 8.2,
     "folder": "movie",
-    "slug": "1316092-wuthering-heights"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "1301421-the-sheep-detectives"
   },
   {
     "tmdb_id": 1273221,
@@ -171,12 +144,39 @@
     "slug": "1273221-scary-movie"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
+    "year": "2026",
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 5.3,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 1339713,
+    "title": "Obsession",
+    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "movie",
+    "slug": "1339713-obsession"
+  },
+  {
+    "tmdb_id": 1462229,
+    "title": "Pegasus 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "movie",
+    "slug": "1462229-pegasus-3"
   }
 ]
