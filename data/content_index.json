@@ -22078,5 +22078,41 @@
       14
     ],
     "timestamp": 1778095254
+  },
+  {
+    "title": "هاري بوتر و كأس النار / Harry Potter and the Goblet of Fire",
+    "title_ar": "هاري بوتر و كأس النار",
+    "title_en": "Harry Potter and the Goblet of Fire",
+    "slug": "674-harry-potter-and-the-goblet-of-fire",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/r8yKWi7TFXQshtrZxRmvBK4l0NS.jpg",
+    "rating": 7.8,
+    "year": "2005",
+    "type": "movie",
+    "tmdb_id": 674,
+    "genre_ids": [
+      12,
+      14
+    ],
+    "timestamp": 1778100726
+  },
+  {
+    "title": "The Super Mario Bros. Super Show! / The Super Mario Bros. Super Show!",
+    "title_ar": "The Super Mario Bros. Super Show!",
+    "title_en": "The Super Mario Bros. Super Show!",
+    "slug": "14613-the-super-mario-bros-super-show",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/mCvS2DuNC2FvvhF5WmV5XAay0Go.jpg",
+    "rating": 7.0,
+    "year": "1989",
+    "type": "tv",
+    "tmdb_id": 14613,
+    "genre_ids": [
+      16,
+      10765,
+      35,
+      10762
+    ],
+    "timestamp": 1778100764
   }
 ]

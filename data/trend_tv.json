@@ -45,15 +45,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
-    "year": "2026",
-    "rating": 6.9,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -72,6 +63,15 @@
     "slug": "124364-from"
   },
   {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
@@ -79,15 +79,6 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "272432-born-with-luck"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 37854,
@@ -99,13 +90,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 202411,
@@ -117,6 +108,15 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
     "tmdb_id": 302074,
     "title": "R.J. Decker",
     "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
@@ -124,15 +124,6 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "302074-rj-decker"
-  },
-  {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "289708-bloom-life"
   },
   {
     "tmdb_id": 65942,
@@ -153,13 +144,22 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "tmdb_id": 289708,
+    "title": "Bloom Life",
+    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
+    "slug": "289708-bloom-life"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "tv",
+    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 209867,
@@ -171,12 +171,12 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "278113-gold-land"
+    "slug": "259702-the-house-of-the-spirits"
   }
 ]
