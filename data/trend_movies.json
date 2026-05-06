@@ -20,7 +20,7 @@
   {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
     "year": "2026",
     "rating": 7.1,
     "folder": "movie",
@@ -54,15 +54,6 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -72,13 +63,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1212763,
@@ -90,11 +81,20 @@
     "slug": "1212763-evil-dead-burn"
   },
   {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
+  },
+  {
     "tmdb_id": 1318447,
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.4,
     "folder": "movie",
     "slug": "1318447-apex"
   },
@@ -153,6 +153,15 @@
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
+    "tmdb_id": 1110034,
+    "title": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
+    "year": "2026",
+    "rating": 6.1,
+    "folder": "movie",
+    "slug": "1110034-kraken"
+  },
+  {
     "tmdb_id": 1239198,
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
@@ -169,14 +178,5 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
-  },
-  {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "949536-hard-matter"
   }
 ]

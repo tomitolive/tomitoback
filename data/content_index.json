@@ -21866,5 +21866,22 @@
       18
     ],
     "timestamp": 1778061334
+  },
+  {
+    "title": "Mean Girls / Mean Girls",
+    "title_ar": "Mean Girls",
+    "title_en": "Mean Girls",
+    "slug": "10625-mean-girls",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/7L4DlIMvx6Wby4hEkna8RQeuy6o.jpg",
+    "rating": 7.2,
+    "year": "2004",
+    "type": "movie",
+    "tmdb_id": 10625,
+    "genre_ids": [
+      18,
+      35
+    ],
+    "timestamp": 1778067859
   }
 ]
