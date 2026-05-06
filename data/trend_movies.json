@@ -18,15 +18,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
     "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
@@ -54,6 +45,15 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -72,6 +72,15 @@
     "slug": "936075-michael"
   },
   {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -79,24 +88,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1368337-the-odyssey"
   },
   {
     "tmdb_id": 1212763,
@@ -108,6 +99,24 @@
     "slug": "1212763-evil-dead-burn"
   },
   {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
@@ -117,22 +126,22 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 1273221,
     "title": "Scary Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/pIQk0vO4YmZZlrh3hAywLYaROtq.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/noFajjNxuhU0mxcQM8UDlzA1NAc.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
     "slug": "1273221-scary-movie"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 5.0,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
   },
   {
     "tmdb_id": 1228710,
@@ -162,21 +171,12 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "tmdb_id": 1290821,
+    "title": "Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "1290821-shelter"
   }
 ]
