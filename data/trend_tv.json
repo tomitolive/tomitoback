@@ -36,15 +36,6 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
     "tmdb_id": 289219,
     "title": "Star Wars: Maul - Shadow Lord",
     "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
@@ -52,6 +43,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 85552,
@@ -63,15 +63,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
-    "year": "2026",
-    "rating": 6.9,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -79,6 +70,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 223386,
@@ -99,15 +99,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "289708-bloom-life"
-  },
-  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -115,6 +106,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 289708,
+    "title": "Bloom Life",
+    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "289708-bloom-life"
   },
   {
     "tmdb_id": 65942,
@@ -126,15 +126,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -144,22 +135,13 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.4,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
+    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 95557,
@@ -171,12 +153,30 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 94997,
-    "title": "House of the Dragon",
-    "poster": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 287527,
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "year": "2026",
+    "rating": 6.4,
     "folder": "tv",
-    "slug": "94997-house-of-the-dragon"
+    "slug": "287527-the-testaments"
+  },
+  {
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "285838-if-wishes-could-kill"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   }
 ]
