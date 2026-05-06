@@ -45,15 +45,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 270476,
@@ -90,6 +90,15 @@
     "slug": "37854-one-piece"
   },
   {
+    "tmdb_id": 302074,
+    "title": "R.J. Decker",
+    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "302074-rj-decker"
+  },
+  {
     "tmdb_id": 223386,
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
@@ -117,15 +126,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 302074,
-    "title": "R.J. Decker",
-    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "302074-rj-decker"
-  },
-  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -144,15 +144,6 @@
     "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "289708-bloom-life"
-  },
-  {
     "tmdb_id": 278113,
     "title": "Gold Land",
     "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
@@ -162,13 +153,22 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
+    "tmdb_id": 94997,
+    "title": "House of the Dragon",
+    "poster": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+    "year": "2022",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
+    "slug": "94997-house-of-the-dragon"
+  },
+  {
+    "tmdb_id": 289708,
+    "title": "Bloom Life",
+    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "289708-bloom-life"
   },
   {
     "tmdb_id": 259702,
