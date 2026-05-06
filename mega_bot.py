@@ -281,7 +281,9 @@ def get_category_links_html(root_path="./"):
     links = ""
     for m in BOT_MISSIONS:
         slug = clean_slug(m["name"])
-        links += f'<a href="{root_path}genre/{slug}">{m["label"]}</a>\n'
+        # Use directory-based links for main categories if they map to movie/tv
+        href = f"{root_path}{slug}/" if slug in ['movie', 'tv'] else f"{root_path}genre/{slug}"
+        links += f'<a href="{href}">{m["label"]}</a>\n'
     return links
 
 # --- Utilities ---
@@ -1143,6 +1145,19 @@ def build_listing_pages():
 
         if not filtered: filtered = all_items[:200] # Fallback if empty
             
+        # Special Case: If slug is 'movie' or 'tv-show' (mapped to 'tv' folder), 
+        # save as index.html in the respective directory for cleaner URLs
+        if slug == 'movie':
+            movie_idx_dir = os.path.join(BASE_PATH, 'movie')
+            os.makedirs(movie_idx_dir, exist_ok=True)
+            with open(os.path.join(movie_idx_dir, "index.html"), 'w', encoding='utf-8') as f:
+                f.write(render_list(mission['label'], filtered[::-1], "movie"))
+        elif slug == 'tv-show':
+            tv_idx_dir = os.path.join(BASE_PATH, 'tv')
+            os.makedirs(tv_idx_dir, exist_ok=True)
+            with open(os.path.join(tv_idx_dir, "index.html"), 'w', encoding='utf-8') as f:
+                f.write(render_list(mission['label'], filtered[::-1], "tv"))
+
         with open(os.path.join(genre_dir, f"{slug}.html"), 'w', encoding='utf-8') as f:
             f.write(render_list(mission['label'], filtered[::-1], f"genre/{slug}"))
 
