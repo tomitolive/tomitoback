@@ -22010,5 +22010,38 @@
       35
     ],
     "timestamp": 1778093498
+  },
+  {
+    "title": "هاري بوتر و الأمير هجين الدم / Harry Potter and the Half-Blood Prince",
+    "title_ar": "هاري بوتر و الأمير هجين الدم",
+    "title_en": "Harry Potter and the Half-Blood Prince",
+    "slug": "767-harry-potter-and-the-half-blood-prince",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/2pCog7BAV7omYwmmYOSuFZzDbM1.jpg",
+    "rating": 7.7,
+    "year": "2009",
+    "type": "movie",
+    "tmdb_id": 767,
+    "genre_ids": [
+      12,
+      14
+    ],
+    "timestamp": 1778094556
+  },
+  {
+    "title": "حلم أشرف / Eshref Ruya",
+    "title_ar": "حلم أشرف",
+    "title_en": "Eshref Ruya",
+    "slug": "283123-eshref-ruya",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/6gU76LgWXMj5NeVyrsgEjivjpuT.jpg",
+    "rating": 7.1,
+    "year": "2025",
+    "type": "tv",
+    "tmdb_id": 283123,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778094593
   }
 ]
