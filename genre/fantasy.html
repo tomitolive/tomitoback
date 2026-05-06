@@ -272,17 +272,8 @@
       const suggs = document.getElementById('search-suggestions');
       if (suggs) suggs.style.display = 'none';
     }
-  });
-
-  function showMoreCards(btn) {
-    const section = btn.closest('.section') || btn.closest('.extra-content') || document.body;
-    const grid = btn.parentElement.previousElementSibling;
-    if (!grid || !grid.classList.contains('grid')) return;
-    const hidden = grid.querySelectorAll('.card.hidden-card');
-    hidden.forEach((c, i) => {
-      if (i < 20) c.classList.remove('hidden-card');
-    });
-    if (grid.querySelectorAll('.card.hidden-card').length === 0) {
+  }););
+    if (grid.querySelectorAll('.card').length === 0) {
       btn.parentElement.style.display = 'none';
     }
   }

@@ -191,16 +191,16 @@
               <div class="card-overlay"><div class="card-meta">حصري</div></div>
               <div class="card-bottom"><div class="card-title">Greenland 2: Migration</div></div>
             </a>
-            <a class="card hidden-card" href="https://tomito.xyz/movie/687163-project-hail-mary" style="text-decoration:none;">
+            <a class="card " href="https://tomito.xyz/movie/687163-project-hail-mary" style="text-decoration:none;">
               <img class="card-poster" src="https://image.tmdb.org/t/p/w500/58obglIBAtp4xvZG7nvkPpaaCbN.jpg" alt="مشروع هيل ماري" loading="lazy" onerror="this.src='/favicon.ico'">
               <div class="card-overlay"><div class="card-meta">حصري</div></div>
               <div class="card-bottom"><div class="card-title">مشروع هيل ماري</div></div>
             </a>
-            <a class="card hidden-card" href="https://tomito.xyz/movie/192904-doraemon-nobita-in-the-wan-nyan-spacetime-odyssey" style="text-decoration:none;">
+            <a class="card " href="https://tomito.xyz/movie/192904-doraemon-nobita-in-the-wan-nyan-spacetime-odyssey" style="text-decoration:none;">
               <img class="card-poster" src="https://image.tmdb.org/t/p/w500/gBYEK5Kv8uVZGoTbBcovIcWjKNI.jpg" alt="映画ドラえもん のび太のワンニャン時空伝" loading="lazy" onerror="this.src='/favicon.ico'">
               <div class="card-overlay"><div class="card-meta">حصري</div></div>
               <div class="card-bottom"><div class="card-title">映画ドラえもん のび太のワンニャン時空伝</div></div>
-            </a></div><div class="load-more-container"><button class="load-more-btn" onclick="showMoreCards(this)"><span>عرض المزيد محلياً</span> <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button></div>
+            </a></div>
 
   <footer class="footer">
     <p>© 2026 <a href="https://tomito.xyz/" class="logo-link" style="display:inline-flex; vertical-align:middle; gap:0.25rem;"><span class="logo-text" style="font-size:1.1rem; filter:none;">TOMITO</span></a> — جميع الحقوق محفوظة | <a href="https://myactivity.google.com/">Google Activity</a> | مشاهدة افلام ومسلسلات اون لاين</p>
@@ -279,15 +279,8 @@
       const suggs = document.getElementById('search-suggestions');
       if (suggs) suggs.style.display = 'none';
     }
-  });
-
-  function showMoreCards(btn) {
-    const section = btn.closest('.section');
-    const hidden = section.querySelectorAll('.card.hidden-card');
-    hidden.forEach((c, i) => {
-      if (i < 20) c.classList.remove('hidden-card');
-    });
-    if (section.querySelectorAll('.card.hidden-card').length === 0) {
+  }););
+    if (section.querySelectorAll('.card').length === 0) {
       btn.parentElement.style.display = 'none';
     }
   }

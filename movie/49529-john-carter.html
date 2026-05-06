@@ -290,16 +290,8 @@ function switchLang(lang){
     if (!e.target.closest('.header-search-wrapper')) {
       document.getElementById('search-suggestions').style.display = 'none';
     }
-  });
-
-  function showMoreCards(btn) {
-    const section = btn.closest('.section') || btn.closest('.extra-content');
-    const grid = section.querySelector('.grid');
-    const hidden = grid.querySelectorAll('.card.hidden-card');
-    hidden.forEach((c, i) => {
-      if (i < 24) c.classList.remove('hidden-card');
-    });
-    if (grid.querySelectorAll('.card.hidden-card').length === 0) {
+  }););
+    if (grid.querySelectorAll('.card').length === 0) {
       btn.parentElement.style.display = 'none';
     }
   }
