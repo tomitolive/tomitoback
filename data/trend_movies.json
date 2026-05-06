@@ -31,9 +31,18 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.1,
     "folder": "movie",
     "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1314481,
@@ -45,13 +54,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1368337,
@@ -72,13 +81,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "tmdb_id": 1212763,
+    "title": "Evil Dead Burn",
+    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "936075-michael"
+    "slug": "1212763-evil-dead-burn"
   },
   {
     "tmdb_id": 687163,
@@ -88,15 +97,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 1212763,
-    "title": "Evil Dead Burn",
-    "poster": "https://image.tmdb.org/t/p/w500/syGSQh7bqPHCFRhwHewHdR5EqjD.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1212763-evil-dead-burn"
   },
   {
     "tmdb_id": 1318447,
@@ -117,15 +117,6 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "movie",
-    "slug": "1430077-hokum"
-  },
-  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
@@ -133,6 +124,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1430077,
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "1430077-hokum"
   },
   {
     "tmdb_id": 1273221,
@@ -153,6 +153,24 @@
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 1084244,
+    "title": "Toy Story 5",
+    "poster": "https://image.tmdb.org/t/p/w500/dWIAOC9EKFehGs3CYvDQih3hxaG.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1084244-toy-story-5"
+  },
+  {
     "tmdb_id": 1239198,
     "title": "My Dearest Señorita",
     "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
@@ -160,23 +178,5 @@
     "rating": 5.3,
     "folder": "movie",
     "slug": "1239198-my-dearest-señorita"
-  },
-  {
-    "tmdb_id": 1339713,
-    "title": "Obsession",
-    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1339713-obsession"
-  },
-  {
-    "tmdb_id": 1462229,
-    "title": "Pegasus 3",
-    "poster": "https://image.tmdb.org/t/p/w500/hypEABFazVTU4zTZYcVFmaPYdIH.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1462229-pegasus-3"
   }
 ]

@@ -21814,5 +21814,41 @@
       9648
     ],
     "timestamp": 1778043048
+  },
+  {
+    "title": "كان ياما كان في... هوليوود / Once Upon a Time... in Hollywood",
+    "title_ar": "كان ياما كان في... هوليوود",
+    "title_en": "Once Upon a Time... in Hollywood",
+    "slug": "466272-once-upon-a-time-in-hollywood",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/u4NleBQH9YsHciwGg7jWsh09Zso.jpg",
+    "rating": 7.4,
+    "year": "2019",
+    "type": "movie",
+    "tmdb_id": 466272,
+    "genre_ids": [
+      35,
+      18,
+      53
+    ],
+    "timestamp": 1778052638
+  },
+  {
+    "title": "Chilling Adventures of Sabrina / Chilling Adventures of Sabrina",
+    "title_ar": "Chilling Adventures of Sabrina",
+    "title_en": "Chilling Adventures of Sabrina",
+    "slug": "79242-chilling-adventures-of-sabrina",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/yxMpoHO0CXP5o9gB7IfsciilQS4.jpg",
+    "rating": 8.2,
+    "year": "2018",
+    "type": "tv",
+    "tmdb_id": 79242,
+    "genre_ids": [
+      9648,
+      10765,
+      18
+    ],
+    "timestamp": 1778052694
   }
 ]
