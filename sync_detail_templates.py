@@ -171,6 +171,16 @@ def patch_file(filepath):
     if 'Verification: fbd3e913244fb343' in content:
         content = content.replace('Verification: fbd3e913244fb343', '')
     
+    # Update Head Assets (Standardize to correct root)
+    content = content.replace('href="./style.css"', f'href="{root}style.css"')
+    content = content.replace('href="./favicon.ico"', f'href="{root}favicon.ico"')
+    content = content.replace('src="./data/search_index.js"', f'src="{root}data/search_index.js"')
+    # Also handle some legacy formats that might not have ./
+    if root == "../":
+        content = content.replace('href="style.css"', 'href="../style.css"')
+        content = content.replace('href="favicon.ico"', 'href="../favicon.ico"')
+        content = content.replace('src="data/search_index.js"', 'src="../data/search_index.js"')
+    
     if '<meta name="yandex-verification"' not in content:
         content = content.replace('<head>', '<head>\n  <meta name="yandex-verification" content="fbd3e913244fb343" />')
 

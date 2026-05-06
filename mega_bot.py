@@ -1030,9 +1030,8 @@ def build_listing_pages():
         html = html.replace('{{PAGE_URL}}', SITE_URL + "/" + folder)
         html = html.replace('{{JSON_LD}}', "")
         
-        # Override cat links if we are at root level (index.html) vs genre level
-        # Use absolute SITE_URL for genre pages to fulfill "all link absolute" request
-        root_path = f"{SITE_URL}/" if "genre" in folder else "./"
+        # Fix: Use proper relative root for subpages (movie/, tv/, genre/)
+        root_path = "../"
         html = html.replace('{{ROOT}}', root_path)
         custom_cat_links = get_category_links_html(root_path=root_path)
         html = html.replace('{{CATEGORIES_LINKS}}', custom_cat_links)
