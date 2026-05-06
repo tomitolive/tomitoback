@@ -63,15 +63,6 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -88,6 +79,15 @@
     "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 223386,
@@ -153,15 +153,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 245318,
-    "title": "Margo's Got Money Troubles",
-    "poster": "https://image.tmdb.org/t/p/w500/kMb8hCou8RZf7uXE1rTE8ZDgcvg.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "245318-margos-got-money-troubles"
-  },
-  {
     "tmdb_id": 285838,
     "title": "If Wishes Could Kill",
     "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
@@ -178,5 +169,14 @@
     "rating": 7.0,
     "folder": "tv",
     "slug": "283657-glory"
+  },
+  {
+    "tmdb_id": 245318,
+    "title": "Margo's Got Money Troubles",
+    "poster": "https://image.tmdb.org/t/p/w500/kMb8hCou8RZf7uXE1rTE8ZDgcvg.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "245318-margos-got-money-troubles"
   }
 ]

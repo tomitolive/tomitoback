@@ -54,15 +54,6 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -70,6 +61,15 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1368337,
@@ -162,15 +162,6 @@
     "slug": "1239198-my-dearest-señorita"
   },
   {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "949536-hard-matter"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -178,5 +169,14 @@
     "rating": 7.4,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
+  },
+  {
+    "tmdb_id": 949536,
+    "title": "Hard Matter",
+    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "949536-hard-matter"
   }
 ]
