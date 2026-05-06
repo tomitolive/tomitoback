@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.8,
-    "folder": "tv",
-    "slug": "114922-citadel"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -16,6 +7,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
+    "folder": "tv",
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 202555,
@@ -45,15 +45,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -63,6 +54,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
+  },
+  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/qM2TOK3iSXsKGy4vvISXKmPZGgP.jpg",
@@ -70,6 +70,24 @@
     "rating": 6.9,
     "folder": "tv",
     "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
+  },
+  {
+    "tmdb_id": 302074,
+    "title": "R.J. Decker",
+    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "302074-rj-decker"
   },
   {
     "tmdb_id": 272432,
@@ -90,15 +108,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 302074,
-    "title": "R.J. Decker",
-    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "302074-rj-decker"
-  },
-  {
     "tmdb_id": 223386,
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
@@ -106,24 +115,6 @@
     "rating": 6.2,
     "folder": "tv",
     "slug": "223386-man-on-fire"
-  },
-  {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 65942,
@@ -135,6 +126,15 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -142,15 +142,6 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "tv",
-    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 94997,
@@ -162,6 +153,24 @@
     "slug": "94997-house-of-the-dragon"
   },
   {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "tv",
+    "slug": "278113-gold-land"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
+  },
+  {
     "tmdb_id": 289708,
     "title": "Bloom Life",
     "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
@@ -169,14 +178,5 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "289708-bloom-life"
-  },
-  {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
   }
 ]
