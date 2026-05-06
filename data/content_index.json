@@ -21742,5 +21742,42 @@
       10751
     ],
     "timestamp": 1778024352
+  },
+  {
+    "title": "ورشة قبعة الساحرة / Witch Hat Atelier",
+    "title_ar": "ورشة قبعة الساحرة",
+    "title_en": "Witch Hat Atelier",
+    "slug": "196950-witch-hat-atelier",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/1qGSBnrANHLX8C7KqGuPDCylns2.jpg",
+    "rating": 8.9,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 196950,
+    "genre_ids": [
+      16,
+      18,
+      10765
+    ],
+    "timestamp": 1778030844
+  },
+  {
+    "title": "مباريات الجوع / The Hunger Games",
+    "title_ar": "مباريات الجوع",
+    "title_en": "The Hunger Games",
+    "slug": "70160-the-hunger-games",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+    "rating": 7.2,
+    "year": "2012",
+    "type": "movie",
+    "tmdb_id": 70160,
+    "genre_ids": [
+      878,
+      12,
+      28,
+      53
+    ],
+    "timestamp": 1778030884
   }
 ]
