@@ -291,17 +291,6 @@ function switchLang(lang){
       if (suggs) suggs.style.display = 'none';
     }
   });
-
-  function showMoreCards(btn) {
-    const section = btn.closest('.section');
-    const hidden = section.querySelectorAll('.card.hidden-card');
-    hidden.forEach((c, i) => {
-      if (i < 20) c.classList.remove('hidden-card');
-    });
-    if (section.querySelectorAll('.card.hidden-card').length === 0) {
-      btn.parentElement.style.display = 'none';
-    }
-  }
   </script>
 </body>
 </html>
