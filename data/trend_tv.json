@@ -36,13 +36,13 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 7.0,
     "folder": "tv",
-    "slug": "127865-the-chestnut-man"
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 262280,
@@ -54,24 +54,6 @@
     "slug": "262280-legends"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
     "tmdb_id": 289219,
     "title": "Star Wars: Maul - Shadow Lord",
     "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
@@ -79,15 +61,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 37854,
@@ -99,15 +72,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -117,31 +81,40 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
+    "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 75191,
-    "title": "The Terror",
-    "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
-    "year": "2018",
-    "rating": 7.3,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "75191-the-terror"
+    "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 83708,
-    "title": "Stellar Transformation",
-    "poster": "https://image.tmdb.org/t/p/w500/i5l3cYbXYOlHWabtyexmVafxuL8.jpg",
-    "year": "2018",
-    "rating": 7.6,
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "83708-stellar-transformation"
+    "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 259702,
@@ -162,15 +135,6 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "tv",
-    "slug": "287527-the-testaments"
-  },
-  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -178,5 +142,41 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
+    "tmdb_id": 94997,
+    "title": "House of the Dragon",
+    "poster": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "94997-house-of-the-dragon"
+  },
+  {
+    "tmdb_id": 302074,
+    "title": "R.J. Decker",
+    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "302074-rj-decker"
   }
 ]
