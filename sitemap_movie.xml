@@ -253,6 +253,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/10545-the-hunchback-of-notre-dame</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1054867-one-battle-after-another</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
