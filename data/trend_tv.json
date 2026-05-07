@@ -117,15 +117,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
-  },
-  {
     "tmdb_id": 75191,
     "title": "The Terror",
     "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
@@ -133,6 +124,15 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "75191-the-terror"
+  },
+  {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.2,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 37854,
@@ -171,12 +171,12 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 302074,
-    "title": "R.J. Decker",
-    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
-    "year": "2026",
-    "rating": 8.2,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "302074-rj-decker"
+    "slug": "79744-the-rookie"
   }
 ]
