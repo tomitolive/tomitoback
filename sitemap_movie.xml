@@ -2287,6 +2287,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/284052-doctor-strange</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/284053-thor-ragnarok</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>

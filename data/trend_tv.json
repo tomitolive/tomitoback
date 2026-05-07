@@ -45,15 +45,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 289219,
     "title": "Star Wars: Maul - Shadow Lord",
     "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
@@ -61,15 +52,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
   },
   {
     "tmdb_id": 272432,
@@ -81,13 +63,22 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 37854,
@@ -99,22 +90,22 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.2,
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "223386-man-on-fire"
+    "slug": "127865-the-chestnut-man"
   },
   {
     "tmdb_id": 202411,
@@ -126,6 +117,15 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
+    "tmdb_id": 287527,
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "tv",
+    "slug": "287527-the-testaments"
+  },
+  {
     "tmdb_id": 278113,
     "title": "Gold Land",
     "poster": "https://image.tmdb.org/t/p/w500/ixBHQ96ryMa8Q0uIOFdUCjqRyy8.jpg",
@@ -135,22 +135,13 @@
     "slug": "278113-gold-land"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.2,
     "folder": "tv",
-    "slug": "287527-the-testaments"
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 259702,
@@ -162,21 +153,30 @@
     "slug": "259702-the-house-of-the-spirits"
   },
   {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
-    "year": "2026",
-    "rating": 8.0,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
+    "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "289708-bloom-life"
+    "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 302074,
+    "title": "R.J. Decker",
+    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "302074-rj-decker"
   }
 ]

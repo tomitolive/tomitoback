@@ -22292,5 +22292,39 @@
       878
     ],
     "timestamp": 1778131330
+  },
+  {
+    "title": "Scrubs / Scrubs",
+    "title_ar": "Scrubs",
+    "title_en": "Scrubs",
+    "slug": "295778-scrubs",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg",
+    "rating": 8.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 295778,
+    "genre_ids": [
+      35
+    ],
+    "timestamp": 1778140942
+  },
+  {
+    "title": "دكتور سترينج / Doctor Strange",
+    "title_ar": "دكتور سترينج",
+    "title_en": "Doctor Strange",
+    "slug": "284052-doctor-strange",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/fP33MFHyjJ7CpdnEJXYWJHB0zf7.jpg",
+    "rating": 7.4,
+    "year": "2016",
+    "type": "movie",
+    "tmdb_id": 284052,
+    "genre_ids": [
+      14,
+      12,
+      28
+    ],
+    "timestamp": 1778140947
   }
 ]
