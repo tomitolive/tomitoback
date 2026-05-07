@@ -20,7 +20,7 @@
   {
     "tmdb_id": 262280,
     "title": "Legends",
-    "poster": "https://image.tmdb.org/t/p/w500/eYYTgBtsvvA3fC1feyvoqv0G9Gl.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/C8EUuUuAItHgXuggvxofpBBogF.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "tv",
@@ -45,15 +45,6 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "136315-the-bear"
-  },
-  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/8voJ9AKuyrSyzxfoxwR4tpio82h.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
   },
   {
     "tmdb_id": 124364,
@@ -72,15 +72,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -88,6 +79,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 289219,
@@ -117,15 +117,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "289708-bloom-life"
-  },
-  {
     "tmdb_id": 75191,
     "title": "The Terror",
     "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
@@ -133,15 +124,6 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "75191-the-terror"
-  },
-  {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 223386,
@@ -153,13 +135,31 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
+    "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 289708,
+    "title": "Bloom Life",
+    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "289708-bloom-life"
+  },
+  {
+    "tmdb_id": 294462,
+    "title": "Royal Upstart",
+    "poster": "https://image.tmdb.org/t/p/w500/fxzqt3iDTXULAYy9iEPQZ1rgYXf.jpg",
+    "year": "2025",
+    "rating": 6.0,
+    "folder": "tv",
+    "slug": "294462-royal-upstart"
   },
   {
     "tmdb_id": 79744,
@@ -171,12 +171,12 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 94997,
-    "title": "House of the Dragon",
-    "poster": "https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "94997-house-of-the-dragon"
+    "slug": "202411-monarch-legacy-of-monsters"
   }
 ]

@@ -22433,5 +22433,22 @@
       18
     ],
     "timestamp": 1778166617
+  },
+  {
+    "title": "The Mighty Boosh / The Mighty Boosh",
+    "title_ar": "The Mighty Boosh",
+    "title_en": "The Mighty Boosh",
+    "slug": "7166-the-mighty-boosh",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dKlYEo7mc1XLN2PutYlRuTLUXlC.jpg",
+    "rating": 7.6,
+    "year": "2004",
+    "type": "tv",
+    "tmdb_id": 7166,
+    "genre_ids": [
+      35,
+      10765
+    ],
+    "timestamp": 1778174106
   }
 ]
