@@ -38,10 +38,6 @@ jobs:
         run: |
           python3 daily_content.py --count 2
 
-      - name: Update Actor Pages
-        run: |
-          python3 update_actors.py
-
       - name: Update Trending Data
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
