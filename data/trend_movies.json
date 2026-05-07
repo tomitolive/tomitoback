@@ -13,7 +13,7 @@
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.7,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
   },
@@ -36,6 +36,15 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -43,15 +52,6 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1314481,
@@ -63,22 +63,22 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1007757-swapped"
+    "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 1212763,
+    "title": "Evil Dead Burn",
+    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
+    "slug": "1212763-evil-dead-burn"
   },
   {
     "tmdb_id": 687163,
@@ -99,13 +99,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1212763,
-    "title": "Evil Dead Burn",
-    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1212763-evil-dead-burn"
+    "slug": "1368337-the-odyssey"
   },
   {
     "tmdb_id": 1301421,
@@ -117,13 +117,13 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1273221,
-    "title": "Scary Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/noFajjNxuhU0mxcQM8UDlzA1NAc.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1273221-scary-movie"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1292695,
@@ -135,13 +135,13 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
+    "tmdb_id": 1273221,
+    "title": "Scary Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/2OHkZEqQL4OjYXIqWopJu0BijTD.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "1273221-scary-movie"
   },
   {
     "tmdb_id": 1430077,
@@ -151,6 +151,15 @@
     "rating": 7.1,
     "folder": "movie",
     "slug": "1430077-hokum"
+  },
+  {
+    "tmdb_id": 696393,
+    "title": "Cold Storage",
+    "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "696393-cold-storage"
   },
   {
     "tmdb_id": 1110034,
@@ -169,14 +178,5 @@
     "rating": 7.9,
     "folder": "movie",
     "slug": "1297842-goat"
-  },
-  {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
   }
 ]
