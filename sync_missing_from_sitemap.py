@@ -6,7 +6,6 @@ BASE_PATH = "/home/tomito/tomito"
 SITEMAPS = [
     "sitemap_movie.xml",
     "sitemap_tv.xml",
-    "sitemap_actor.xml",
     "sitemap_trend.xml",
     "sitemap_genre.xml"
 ]

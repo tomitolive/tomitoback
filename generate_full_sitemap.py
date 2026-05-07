@@ -7,7 +7,7 @@ from datetime import datetime
 def generate_sitemaps():
     base_url = "https://tomito.xyz"
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    content_dirs = ['movie', 'tv', 'actor']
+    content_dirs = ['movie', 'tv']
     today = datetime.now().strftime('%Y-%m-%d')
     
     sitemap_index_urls = []
@@ -20,14 +20,9 @@ def generate_sitemaps():
             slug = f[:-5]
             root_urls.append((f"{base_url}/{slug}", 0.9, 'weekly'))
     
-    write_sitemap_file(os.path.join(root_dir, 'sitemap_root.xml'), root_urls, today)
-    sitemap_index_urls.append(f"{base_url}/sitemap_root.xml")
-
-    # 2. Category specific sitemaps
     priority_map = {
         'movie': 0.8,
         'tv': 0.8,
-        'actor': 0.6,
     }
     
     for directory in content_dirs:

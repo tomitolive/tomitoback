@@ -49,7 +49,7 @@ IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 SITE_URL = "https://tomito.xyz"
 BUTTON_DOMAIN = "https://tv.tomito.xyz"
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
-DIRS = ['movie', 'tv', 'movie-trend', 'tv-trend', 'actor', 'data']
+DIRS = ['movie', 'tv', 'movie-trend', 'tv-trend', 'data']
 
 # --- Global Content Index Cache ---
 _AVAILABLE_IDS = None
@@ -458,16 +458,7 @@ function switchLang(lang){{
     # ── 4. Technical Table ───────────────────────────────────────────────────
     director_str = director or "—"
     
-    # Rule 4: Internal Linking (Cast)
-    cast_links = []
-    if cast_data_full:
-        for c in cast_data_full[:8]:
-            c_name = c.get('name')
-            c_id = c.get('id')
-            if c_name and c_id:
-                c_slug = f"{c_id}-{clean_slug(c_name)}"
-                cast_links.append(f'<a href="../actor/{c_slug}" class="v7-cast-link">{c_name}</a>')
-    cast_str = "، ".join(cast_links) if cast_links else "—"
+    cast_str = "، ".join([c.get('name') for c in cast_data_full[:8] if c.get('name')]) if cast_data_full else "—"
     
     genres_str = "، ".join(genres_ar[:4]) if genres_ar else "—"
 
@@ -890,83 +881,7 @@ def build_filmography_html(movies, tv_shows):
         html += '</div></section>'
     return html
 
-def create_actor_page(actor_id):
-    ar = get_tmdb_data(f"person/{actor_id}", {'language': 'ar'})
-    en = get_tmdb_data(f"person/{actor_id}", {'language': 'en'})
-    if not en:
-        return None
-    name = en.get('name', 'Unknown')
-    bio_ar = (ar.get('biography', '') if ar else '') or ''
-    bio_en = en.get('biography', '') or ''
-    img_url = (f"{IMAGE_BASE_URL}{en.get('profile_path')}" if en.get('profile_path') else "/favicon.ico")
-    slug = f"{actor_id}-{clean_slug(name)}"
 
-    # Fetch filmography (100 movies + 100 tv)
-    movies, tv_shows = fetch_actor_credits(actor_id)
-    filmography_html = build_filmography_html(movies, tv_shows)
-
-    seo_desc = f"تعرف على {name} — سيرته الذاتية وأهم أعماله. شاهد أفلام ومسلسلات {name} اون لاين بجودة عالية HD على TOMITO."
-    
-    # Use trends for actors too if possible, or high quality fallbacks
-    # from trends_fetcher import fetch_related_keywords (moved to top)
-    trends = fetch_related_keywords(name, 'AR')
-    if trends:
-        keywords = trends
-    else:
-        keywords = f"مشاهدة افلام {name}, تحميل مسلسلات {name}, {name} مترجم, sيرة ذاتية {name}, actor {name}, filmography"
-
-    # JSON-LD Generation (Person type does NOT support AggregateRating)
-    breadcrumb_ld = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "الرئيسية", "item": SITE_URL},
-            {"@type": "ListItem", "position": 2, "name": "ممثلين", "item": f"{SITE_URL}/actor"},
-            {"@type": "ListItem", "position": 3, "name": name, "item": f'{SITE_URL}/actor/{slug}'}
-        ]
-    }
-
-    main_ld = {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": name,
-        "description": bio_ar,
-        "image": img_url
-    }
-
-    json_ld_html = f'<script type="application/ld+json">{json.dumps(breadcrumb_ld, ensure_ascii=False)}</script>\n'
-    json_ld_html += f'<script type="application/ld+json">{json.dumps(main_ld, ensure_ascii=False)}</script>'
-
-    html = MASTER_TEMPLATE
-    replacements = {
-        '{{TITLE_PAGE}}': f'{name} — الممثل | TOMITO',
-        '{{META_DESC}}': seo_desc,
-        '{{KEYWORDS}}': keywords,
-        '{{TITLE_OG}}': f'{name} — TOMITO',
-        '{{OG_TYPE}}': 'profile',
-        '{{POSTER_URL}}': img_url,
-        '{{PAGE_URL}}': f'{SITE_URL}/actor/{slug}',
-        '{{BUTTON_URL}}': f'{BUTTON_DOMAIN}/actor/{slug}',
-        '{{WATCH_URL}}': '/',
-        '{{TITLE_AR}}': name,
-        '{{TITLE_EN}}': 'Performer | ممثل',
-        '{{DESC_AR}}': bio_ar[:500],
-        '{{DESC_EN}}': bio_en[:500],
-        '{{TAGS_SECTION}}': '',
-        '{{EXTRA_CONTENT}}': filmography_html,
-        '{{JSON_LD}}': json_ld_html,
-        '{{FOLDER}}': 'actor',
-        '{{TYPE_AR}}': 'ممثلين',
-        '{{CATEGORIES_LINKS}}': get_category_links_html(root_path="../"),
-        '{{ROOT}}': '../',
-    }
-    for k, v in replacements.items():
-        html = html.replace(k, str(v))
-
-    path = os.path.join(BASE_PATH, 'actor', f"{slug}.html")
-    with open(path, 'w', encoding='utf-8') as f:
-        f.write(html)
-    return f"actor/{slug}"
 
 # --- Fetch IDs from TMDB ---
 def fetch_ids(media_type, years, target=5000, genre=None, start_page=1):
@@ -1178,8 +1093,7 @@ def generate_sitemap(base_url, root_dir, all_pages):
     sitemaps = {
         'sitemap_movie.xml': [p for p in all_pages if p.startswith('movie')],
         'sitemap_tv.xml': [p for p in all_pages if p.startswith('tv')],
-        'sitemap_genre.xml': genre_urls + [p for p in all_pages if p.startswith('genre')],
-        'sitemap_actor.xml': [p for p in all_pages if p.startswith('actor')]
+        'sitemap_genre.xml': genre_urls + [p for p in all_pages if p.startswith('genre')]
     }
 
     def write_xml(filename, urls, priority=0.8):

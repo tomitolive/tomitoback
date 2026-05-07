@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://tomito.xyz/sitemap_root.xml</loc>
-    <lastmod>2026-05-07</lastmod>
-  </sitemap>
-  <sitemap>
     <loc>https://tomito.xyz/sitemap_movie.xml</loc>
     <lastmod>2026-05-07</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://tomito.xyz/sitemap_tv.xml</loc>
-    <lastmod>2026-05-07</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://tomito.xyz/sitemap_actor.xml</loc>
     <lastmod>2026-05-07</lastmod>
   </sitemap>
 </sitemapindex>

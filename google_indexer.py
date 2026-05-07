@@ -16,7 +16,7 @@ SCOPES = ['https://www.googleapis.com/auth/indexing']
 ENDPOINT = 'https://indexing.googleapis.com/v3/urlNotifications:publish'
 
 SITE_URL = 'https://tomito.xyz'
-SITEMAPS = ['sitemap_movie.xml', 'sitemap_tv.xml', 'sitemap_actor.xml']
+SITEMAPS = ['sitemap_movie.xml', 'sitemap_tv.xml']
 PROGRESS_FILE = 'indexer_progress.json'
 LINKS_PER_SITEMAP = 100 
 
