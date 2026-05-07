@@ -1,5 +1,14 @@
 [
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
@@ -7,24 +16,6 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1226863,
@@ -36,31 +27,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.1,
     "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1327819,
@@ -72,6 +45,33 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -79,6 +79,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1630423-my-dearest-assassin"
   },
   {
     "tmdb_id": 1318447,
@@ -99,22 +108,13 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 1688652,
+    "title": "Gary",
+    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 8.3,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
-  },
-  {
-    "tmdb_id": 1212763,
-    "title": "Evil Dead Burn",
-    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1212763-evil-dead-burn"
+    "slug": "1688652-gary"
   },
   {
     "tmdb_id": 1292695,
@@ -126,6 +126,15 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
+  },
+  {
     "tmdb_id": 1110034,
     "title": "Kraken",
     "poster": "https://image.tmdb.org/t/p/w500/xdZ8k5s8DTwWyPBMIcflrYLgcAK.jpg",
@@ -135,13 +144,22 @@
     "slug": "1110034-kraken"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "tmdb_id": 1212763,
+    "title": "Evil Dead Burn",
+    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1430077-hokum"
+    "slug": "1212763-evil-dead-burn"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 1228710,
@@ -155,28 +173,10 @@
   {
     "tmdb_id": 1273221,
     "title": "Scary Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/2OHkZEqQL4OjYXIqWopJu0BijTD.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/uwS3p5oO5y1VEnusj9V7exSYnqS.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
     "slug": "1273221-scary-movie"
-  },
-  {
-    "tmdb_id": 949536,
-    "title": "Hard Matter",
-    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
-    "year": "2026",
-    "rating": 6.1,
-    "folder": "movie",
-    "slug": "949536-hard-matter"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1297842-goat"
   }
 ]

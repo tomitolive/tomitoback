@@ -22326,5 +22326,41 @@
       28
     ],
     "timestamp": 1778140947
+  },
+  {
+    "title": "المبارزة الأخيرة / The Last Duel",
+    "title_ar": "المبارزة الأخيرة",
+    "title_en": "The Last Duel",
+    "slug": "617653-the-last-duel",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+    "rating": 7.4,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 617653,
+    "genre_ids": [
+      36,
+      18,
+      28,
+      53
+    ],
+    "timestamp": 1778150330
+  },
+  {
+    "title": "Groland / Groland",
+    "title_ar": "Groland",
+    "title_en": "Groland",
+    "slug": "29667-groland",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/fEchSzCKQghS7DqfmIJhilo9pCE.jpg",
+    "rating": 7.7,
+    "year": "1992",
+    "type": "tv",
+    "tmdb_id": 29667,
+    "genre_ids": [
+      35,
+      10763
+    ],
+    "timestamp": 1778150367
   }
 ]
