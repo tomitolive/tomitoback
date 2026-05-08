@@ -1489,6 +1489,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1440-little-children</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1445363-epic-elvis-presley-in-concert</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2612,6 +2618,12 @@
   </url>
   <url>
     <loc>https://tomito.xyz/movie/346-seven-samurai</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tomito.xyz/movie/346364-it</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
