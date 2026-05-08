@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="yandex-verification" content="fbd3e913244fb343" />
+  <script>
+    // Redirect actor pages to all movies
+    if (window.location.pathname.startsWith('/actor')) {
+      window.location.replace('/movie/');
+    }
+  </script>
   <title>404 — الصفحة غير موجودة — TOMITO</title>
   <meta name="description" content="عذراً، الصفحة التي تبحث عنها غير موجودة. عد إلى الصفحة الرئيسية لمتابعة مشاهدة أفضل الأفلام والمسلسلات.">
   <link rel="stylesheet" href="/style.css">
