@@ -919,6 +919,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/12405-slumdog-millionaire</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1241470-osiris</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
