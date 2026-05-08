@@ -64,6 +64,7 @@ HEADER_HTML_TEMPLATE = r'''
   <div class="menu-categories">
     {cat_links}
   </div>
+  <!-- end overlay -->
 </div>
 '''
 
@@ -197,15 +198,36 @@ def patch_file(filepath):
     
     root = "../" if any(x in filepath for x in ["/movie/", "/tv/", "/genre/"]) else "./"
     
-    # 1. Update Header & Search
+    # 0. Aggressive Cleanup of old/duplicated headers and overlays
+    # Remove all instances of headers
+    content = re.sub(r'<header.*?</header>', '', content, flags=re.DOTALL)
+    # Remove all instances of overlays (with or without id)
+    content = re.sub(r'<div class="menu-overlay".*?<!-- end (categories|overlay) -->\s*</div>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<div class="menu-overlay"[^>]*>.*?</div>', '', content, flags=re.DOTALL)
+    # Remove floating menu-categories and orphaned comments
+    content = re.sub(r'<div class="menu-categories">.*?</div>', '', content, flags=re.DOTALL)
+    content = content.replace('<!-- end categories -->', '')
+    content = content.replace('<!-- end overlay -->', '')
+    # Remove stray comments and empty lines at start of body
+    content = re.sub(r'<body>\s+', '<body>\n', content)
+    # Remove large blocks of closing divs that are likely orphans
+    content = content.replace('</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>', '')
+    content = content.replace('</div>\n</div>\n</div>\n</div>\n</div>', '')
+    content = re.sub(r'\n\s*</div>\s*\n\s*</div>\s*\n\s*</div>', '\n', content) # general cleanup of nested orphans
+    
+    # 1. Inject New Header & Overlay
+    cat_links = get_category_links_html(root_path=root)
+    new_header = HEADER_HTML_TEMPLATE.format(root=root, cat_links=cat_links)
+    if '<body>' in content:
+        content = content.replace('<body>', f'<body>\n{new_header}')
+    
+    # 2. Update Head Assets (Standardize to correct root)
     if 'Verification: fbd3e913244fb343' in content:
         content = content.replace('Verification: fbd3e913244fb343', '')
     
-    # Update Head Assets (Standardize to correct root)
     content = content.replace('href="./style.css"', f'href="{root}style.css"')
     content = content.replace('href="./favicon.ico"', f'href="{root}favicon.ico"')
     content = content.replace('src="./data/search_index.js"', f'src="{root}data/search_index.js"')
-    # Also handle some legacy formats that might not have ./
     if root == "../":
         content = content.replace('href="style.css"', 'href="../style.css"')
         content = content.replace('href="favicon.ico"', 'href="../favicon.ico"')
@@ -219,20 +241,13 @@ def patch_file(filepath):
     else:
         content = re.sub(r'const LOCAL_PAGES = (\[.*?\]|\{\{LOCAL_PAGES_JSON\}\});', lambda m: f"const LOCAL_PAGES = {LOCAL_PAGES_JSON};", content)
 
-    header_pattern = re.compile(r'<header.*?</header>\s*(<div class="menu-overlay" id="menu-overlay">.*?</div>)?', re.DOTALL)
-    cat_links = get_category_links_html(root_path=root)
-    new_header = HEADER_HTML_TEMPLATE.format(root=root, cat_links=cat_links)
-    content = header_pattern.sub(new_header, content)
-
-    # 2. Inject Hero Section for Detail Pages
+    # 3. Inject Hero Section for Detail Pages
     if folder_name in ['movie', 'tv']:
-        # Find item in index
         item = next((i for i in LOCAL_INDEX if i.get('slug') == slug), None)
         if item:
             title = item.get('title', slug)
             title_en = title.split('/')[-1].strip() if '/' in title else title
             type_ar = "فيلم" if folder_name == 'movie' else "مسلسل"
-            # Update existing v7-hero with proper buttons linking to TV subdomain
             hero_html = HERO_TEMPLATE.format(
                 poster=item.get('poster', ''),
                 title=title,
@@ -242,42 +257,24 @@ def patch_file(filepath):
                 folder=folder_name,
                 slug=slug
             )
-            # Remove any existing v7-hero just to be safe and cleanly inject it once
+            # Remove ANY existing v7-hero
             content = re.sub(r'<section class="section v7-hero".*?</section>', '', content, flags=re.DOTALL)
-            
-            # Inject before the first section (usually v7-intro)
-            if '<section class="section v7-intro">' in content:
-                content = re.sub(r'(\s*<section class="section v7-intro">)', r'\n' + hero_html + r'\1', content, count=1)
+            # Inject after the overlay (which ends with <!-- end overlay -->\n</div>)
+            if '<!-- end overlay -->' in content:
+                content = content.replace('<!-- end overlay -->\n</div>', f'<!-- end overlay -->\n</div>\n{hero_html}')
             else:
-                # Safe injection after known unique header element
-                content = content.replace('      <div id="search-suggestions"></div>', f'      <div id="search-suggestions"></div>\n{hero_html}')
+                # Fallback injection before first section
+                if '<section class="section' in content:
+                    content = re.sub(r'(\s*<section class="section)', r'\n' + hero_html + r'\1', content, count=1)
 
-    # 5. Ensure functional button targets
-    if 'id="watch"' not in content:
-        content = re.sub(r'<section class="section"', r'<section class="section" id="watch"', content, count=1)
+    # 4. Clean URLs (No .html)
+    content = re.sub(r'href="((\.\./|./)?(movie|tv|genre)/[a-zA-Z0-9\-_]+)\.html"', r'href="\1"', content)
     
-    # 3. Clean URLs (No .html)
-    def fix_link(match):
-        return f'href="{match.group(1)}"'
-        
-    content = re.sub(r'href="((\.\./|./)?(movie|tv|genre)/[a-zA-Z0-9\-_]+)\.html"', fix_link, content)
-    
-    # 3.5 Kill old templates (Breadcrumb and series-hero)
+    # 5. Remove junk nested tags and breadcrumbs
     content = re.sub(r'<nav class="breadcrumb">.*?</nav>', '', content, flags=re.DOTALL)
-    content = re.sub(r'<div class="series-hero">.*?</div>\s*</div>\s*(<section class="section v7-intro">)', r'\1', content, flags=re.DOTALL)
-    content = re.sub(r'<div class="series-hero">.*?(<section class="section v7-(intro|tech|hero)")', r'\1', content, flags=re.DOTALL)
     content = content.replace("</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>", "")
     content = re.sub(r'</div>\s*</div>\s*</div>\s*<section class="section v7-hero"', r'<section class="section v7-hero"', content)
     
-    # 4. Force "Mazid" button to domain + add class
-
-    # 4. Remove "Mazid" link button (request to stop bot from generating it)
-    # This catches the container div with any attributes, containing an <a> tag that points to tv.tomito.xyz or has load-more-btn class
-    content = re.sub(r'<div class="load-more-container"[^>]*>\s*<a[^>]*href="[^"]*tv\.tomito\.xyz[^"]*"[^>]*>.*?</a>\s*</div>', '', content, flags=re.DOTALL)
-    content = re.sub(r'<div class="load-more-container"[^>]*>\s*<a[^>]*class="[^"]*load-more-btn[^"]*"[^>]*>.*?</a>\s*</div>', '', content, flags=re.DOTALL)
-    # Remove المزيد — More action-buttons div (genre pages / other pages)
-    content = re.sub(r'<div class="action-buttons" style="margin: 30px auto;[^"]*">\s*<a[^>]*href="[^"]*tv\.tomito\.xyz[^"]*"[^>]*>.*?المزيد.*?</a>\s*</div>', '', content, flags=re.DOTALL)
-
     # 6. Update JS Functions
     js_pattern = re.compile(r'<script>\s*function getUrl.*?async function siteSearch.*?</script>', re.DOTALL)
     if js_pattern.search(content):

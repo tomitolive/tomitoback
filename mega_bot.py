@@ -402,6 +402,7 @@ def _build_v7_extra_content(
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 0 0 300px; max-width: 100%;">
       <img src="{poster_url}" alt="{{{{ALT_TEXT}}}}" class="series-poster" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.1);">
+    </div>
     <div style="flex: 1; min-width: 300px;">
       <h1 class="v7-h1" style="font-size: 2.5rem; margin-bottom: 10px; color: #fff;">{{{{H1_TITLE}}}}</h1>
       <h2 style="font-size: 1.2rem; color: #bbb; margin-bottom: 20px;">{title_en} ({year})</h2>
