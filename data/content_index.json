@@ -22987,5 +22987,41 @@
       18
     ],
     "timestamp": 1778275969
+  },
+  {
+    "title": "أن تصبح البطل إكس / TO BE HERO X",
+    "title_ar": "أن تصبح البطل إكس",
+    "title_en": "TO BE HERO X",
+    "slug": "272059-to-be-hero-x",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/5ETgAoRq3o7xCGo17nenF4B4xCv.jpg",
+    "rating": 8.7,
+    "year": "2025",
+    "type": "tv",
+    "tmdb_id": 272059,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778279541
+  },
+  {
+    "title": "قطار فائق السرعة / Bullet Train",
+    "title_ar": "قطار فائق السرعة",
+    "title_en": "Bullet Train",
+    "slug": "718930-bullet-train",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/d84Tzu7zoIyeBVA9Pa8rtzNye97.jpg",
+    "rating": 7.4,
+    "year": "2022",
+    "type": "movie",
+    "tmdb_id": 718930,
+    "genre_ids": [
+      28,
+      35,
+      53
+    ],
+    "timestamp": 1778279585
   }
 ]

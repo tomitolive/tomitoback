@@ -18,15 +18,6 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 127865,
     "title": "The Chestnut Man",
     "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
@@ -36,13 +27,13 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.8,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "114922-citadel"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 262388,
@@ -54,13 +45,13 @@
     "slug": "262388-mia"
   },
   {
-    "tmdb_id": 314916,
-    "title": "Unconditional",
-    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
-    "year": "2026",
-    "rating": 7.0,
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
     "folder": "tv",
-    "slug": "314916-unconditional"
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 124364,
@@ -72,6 +63,15 @@
     "slug": "124364-from"
   },
   {
+    "tmdb_id": 314916,
+    "title": "Unconditional",
+    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "314916-unconditional"
+  },
+  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -81,15 +81,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
-  },
-  {
     "tmdb_id": 136315,
     "title": "The Bear",
     "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
@@ -97,6 +88,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "303143-my-royal-nemesis"
   },
   {
     "tmdb_id": 272432,
@@ -117,15 +117,6 @@
     "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 251883,
     "title": "Thank You, Next",
     "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
@@ -144,6 +135,15 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
+  },
+  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -153,13 +153,13 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.3,
     "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
+    "slug": "223386-man-on-fire"
   },
   {
     "tmdb_id": 87917,
@@ -171,12 +171,12 @@
     "slug": "87917-for-all-mankind"
   },
   {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.3,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "223386-man-on-fire"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   }
 ]
