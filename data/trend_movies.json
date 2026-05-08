@@ -31,18 +31,9 @@
     "title": "My Dearest Assassin",
     "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.7,
     "folder": "movie",
     "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1266127,
@@ -52,6 +43,15 @@
     "rating": 7.1,
     "folder": "movie",
     "slug": "1266127-ready-or-not-2-here-i-come"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1327819,
@@ -72,15 +72,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
     "tmdb_id": 1007757,
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
@@ -88,6 +79,15 @@
     "rating": 7.9,
     "folder": "movie",
     "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 936075,

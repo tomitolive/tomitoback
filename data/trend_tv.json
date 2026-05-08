@@ -27,15 +27,6 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 114922,
@@ -81,6 +81,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "303143-my-royal-nemesis"
+  },
+  {
     "tmdb_id": 136315,
     "title": "The Bear",
     "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
@@ -90,13 +99,13 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 0.0,
+    "tmdb_id": 251883,
+    "title": "Thank You, Next",
+    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
+    "year": "2024",
+    "rating": 7.4,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "251883-thank-you-next"
   },
   {
     "tmdb_id": 272432,
@@ -115,15 +124,6 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "75191-the-terror"
-  },
-  {
-    "tmdb_id": 251883,
-    "title": "Thank You, Next",
-    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
-    "year": "2024",
-    "rating": 7.4,
-    "folder": "tv",
-    "slug": "251883-thank-you-next"
   },
   {
     "tmdb_id": 289219,
