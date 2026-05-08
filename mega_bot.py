@@ -247,42 +247,6 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
     } else { suggCont.style.display = 'none'; }
   }
 
-    const matches = FULL_INDEX.filter(item => {
-      const t = (item.title || "").toLowerCase();
-      const ta = (item.title_ar || "").toLowerCase();
-      const te = (item.title_en || "").toLowerCase();
-      return t.includes(q) || ta.includes(q) || te.includes(q);
-    });
-
-    matches.sort((a, b) => {
-      const aKey = `${a.folder || 'movie'}/${a.slug}`;
-      const bKey = `${b.folder || 'movie'}/${b.slug}`;
-      const aLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(aKey);
-      const bLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(bKey);
-      if (aLocal && !bLocal) return -1;
-      if (!aLocal && bLocal) return 1;
-      return 0;
-    });
-
-    const topMatches = matches.slice(0, 15);
-    if (topMatches.length > 0) {
-      suggCont.style.display = 'block';
-      suggCont.innerHTML = '';
-      topMatches.forEach(item => {
-        const folder = item.folder || 'movie';
-        const slug = item.slug;
-        const href = getUrl(folder, slug, '{{ROOT}}');
-        const img = item.poster;
-        const type = folder === 'movie' ? 'فيلم' : 'مسلسل';
-        const div = document.createElement('a');
-        div.className = 'suggestion-item';
-        div.href = href;
-        div.innerHTML = `<img src="${img}"> <div><div>${item.title}</div><span class="type">${type}</span></div>`;
-        suggCont.appendChild(div);
-      });
-    } else { suggCont.style.display = 'none'; }
-  }
-
   function toggleMenu() {
     const menu = document.getElementById('menu-overlay');
     if (menu) menu.classList.toggle('active');

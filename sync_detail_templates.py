@@ -143,33 +143,6 @@ JS_FUNCTIONS = r'''
         suggCont.appendChild(div);
       });
     } else { suggCont.style.display = 'none'; }
-  });
-
-    matches.sort((a, b) => {
-      const aKey = `${a.folder || 'movie'}/${a.slug}`;
-      const bKey = `${b.folder || 'movie'}/${b.slug}`;
-      const aLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(aKey);
-      const bLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(bKey);
-      if (aLocal && !bLocal) return -1;
-      if (!aLocal && bLocal) return 1;
-      return 0;
-    });
-
-    const topMatches = matches.slice(0, 15);
-    if (topMatches.length > 0) {
-      suggCont.style.display = 'block';
-      suggCont.innerHTML = '';
-      topMatches.forEach(item => {
-        const folder = item.folder || 'movie';
-        const root = document.querySelector('link[href*="style.css"]').getAttribute('href').replace('style.css','');
-        const href = getUrl(folder, item.slug, root);
-        const div = document.createElement('a');
-        div.className = 'suggestion-item';
-        div.href = href;
-        div.innerHTML = `<img src="${item.poster}"> <div><div>${item.title}</div><span class="type">${folder==='movie'?'فيلم':'مسلسل'}</span></div>`;
-        suggCont.appendChild(div);
-      });
-    } else { suggCont.style.display = 'none'; }
   }
 
   function toggleMenu() {
@@ -244,7 +217,7 @@ def patch_file(filepath):
     if 'LOCAL_PAGES =' not in content:
         content = content.replace('search_index.js"></script>', f'search_index.js"></script>\n<script>const LOCAL_PAGES = {LOCAL_PAGES_JSON};</script>')
     else:
-        content = re.sub(r'const LOCAL_PAGES = \[.*?\];', lambda m: f"const LOCAL_PAGES = {LOCAL_PAGES_JSON};", content)
+        content = re.sub(r'const LOCAL_PAGES = (\[.*?\]|\{\{LOCAL_PAGES_JSON\}\});', lambda m: f"const LOCAL_PAGES = {LOCAL_PAGES_JSON};", content)
 
     header_pattern = re.compile(r'<header.*?</header>\s*(<div class="menu-overlay" id="menu-overlay">.*?</div>)?', re.DOTALL)
     cat_links = get_category_links_html(root_path=root)
@@ -304,6 +277,11 @@ def patch_file(filepath):
     content = re.sub(r'<div class="load-more-container"[^>]*>\s*<a[^>]*class="[^"]*load-more-btn[^"]*"[^>]*>.*?</a>\s*</div>', '', content, flags=re.DOTALL)
     # Remove المزيد — More action-buttons div (genre pages / other pages)
     content = re.sub(r'<div class="action-buttons" style="margin: 30px auto;[^"]*">\s*<a[^>]*href="[^"]*tv\.tomito\.xyz[^"]*"[^>]*>.*?المزيد.*?</a>\s*</div>', '', content, flags=re.DOTALL)
+
+    # 6. Update JS Functions
+    js_pattern = re.compile(r'<script>\s*function getUrl.*?async function siteSearch.*?</script>', re.DOTALL)
+    if js_pattern.search(content):
+        content = js_pattern.sub(lambda m: f'<script>\n{JS_FUNCTIONS}\n  </script>', content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
