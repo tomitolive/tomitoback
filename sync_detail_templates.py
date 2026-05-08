@@ -76,17 +76,74 @@ JS_FUNCTIONS = r'''
     return `https://tv.tomito.xyz/${folder}/${slug}`;
   }
 
+  const ROOT_PATH = document.querySelector('link[href*="style.css"]').getAttribute('href').replace('style.css','');
   async function siteSearch() {
     const q = document.getElementById('site-search').value.toLowerCase();
     const suggCont = document.getElementById('search-suggestions');
     if (q.length < 1) { suggCont.style.display = 'none'; return; }
-    if (typeof FULL_INDEX === 'undefined' || FULL_INDEX.length === 0) return;
+
+    if (typeof FULL_INDEX === 'undefined' || FULL_INDEX.length === 0) {
+      console.error("Search index not loaded.");
+      return;
+    }
 
     const matches = FULL_INDEX.filter(item => {
       const t = (item.title || "").toLowerCase();
       const ta = (item.title_ar || "").toLowerCase();
-      return t.includes(q) || ta.includes(q);
+      const te = (item.title_en || "").toLowerCase();
+      return t.includes(q) || ta.includes(q) || te.includes(q);
     });
+
+    matches.sort((a, b) => {
+      const aKey = `${a.folder || 'movie'}/${a.slug}`;
+      const bKey = `${b.folder || 'movie'}/${b.slug}`;
+      const aLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(aKey);
+      const bLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(bKey);
+      if (aLocal && !bLocal) return -1;
+      if (!aLocal && bLocal) return 1;
+      return 0;
+    });
+
+    const topMatches = matches.slice(0, 15);
+    let items = topMatches.map(item => {
+      const folder = item.folder || 'movie';
+      const href = getUrl(folder, item.slug, ROOT_PATH);
+      const type = folder === 'movie' ? '\u0641\u064a\u0644\u0645' : '\u0645\u0633\u0644\u0633\u0644';
+      return { title: item.title, poster: item.poster, href, type };
+    });
+
+    if (items.length < 5 && q.length >= 2) {
+      try {
+        const resp = await fetch(`https://api.themoviedb.org/3/search/multi?api_key=882e741f7283dc9ba1654d4692ec30f6&query=${encodeURIComponent(q)}&language=ar&page=1`);
+        const data = await resp.json();
+        const tmdbResults = (data.results || [])
+          .filter(r => r.media_type === 'movie' || r.media_type === 'tv')
+          .slice(0, 15 - items.length);
+        tmdbResults.forEach(r => {
+          const folder = r.media_type === 'movie' ? 'movie' : 'tv';
+          const title = r.title || r.name || '';
+          const slug_raw = (r.title || r.name || '').toLowerCase().replace(/[^a-z0-9 ]+/g, '').trim().replace(/\s+/g, '-');
+          const slug = `${r.id}-${slug_raw}`;
+          const href = `https://tv.tomito.xyz/${folder}/${slug}`;
+          const poster = r.poster_path ? `https://image.tmdb.org/t/p/w200${r.poster_path}` : '';
+          const type = folder === 'movie' ? '\u0641\u064a\u0644\u0645' : '\u0645\u0633\u0644\u0633\u0644';
+          if (!items.find(i => i.href === href)) items.push({ title, poster, href, type });
+        });
+      } catch(e) {}
+    }
+
+    if (items.length > 0) {
+      suggCont.style.display = 'block';
+      suggCont.innerHTML = '';
+      items.forEach(item => {
+        const div = document.createElement('a');
+        div.className = 'suggestion-item';
+        div.href = item.href;
+        div.innerHTML = `<img src="${item.poster}"> <div><div>${item.title}</div><span class="type">${item.type}</span></div>`;
+        suggCont.appendChild(div);
+      });
+    } else { suggCont.style.display = 'none'; }
+  });
 
     matches.sort((a, b) => {
       const aKey = `${a.folder || 'movie'}/${a.slug}`;
