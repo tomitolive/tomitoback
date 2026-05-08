@@ -36,6 +36,15 @@
     "slug": "1007757-swapped"
   },
   {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -54,13 +63,13 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 6.0,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1317448-no-place-to-be-single"
   },
   {
     "tmdb_id": 1266127,
@@ -72,6 +81,15 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -79,24 +97,6 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 687163,
@@ -162,13 +162,13 @@
     "slug": "696393-cold-storage"
   },
   {
-    "tmdb_id": 1315772,
-    "title": "Minions & Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
+    "tmdb_id": 1592031,
+    "title": "The Great Money Robbery",
+    "poster": "https://image.tmdb.org/t/p/w500/oZ30oTimI7sNB2Y1dsF9ZdnCCzX.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1315772-minions-monsters"
+    "slug": "1592031-the-great-money-robbery"
   },
   {
     "tmdb_id": 1228710,

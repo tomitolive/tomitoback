@@ -31,7 +31,7 @@
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
     "year": "2026",
-    "rating": 9.0,
+    "rating": 9.2,
     "folder": "tv",
     "slug": "262388-mia"
   },
@@ -54,15 +54,6 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 314916,
     "title": "Unconditional",
     "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
@@ -70,6 +61,15 @@
     "rating": 0.0,
     "folder": "tv",
     "slug": "314916-unconditional"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 136315,
@@ -90,15 +90,6 @@
     "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -108,13 +99,13 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "37854-one-piece"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 223386,
@@ -126,6 +117,15 @@
     "slug": "223386-man-on-fire"
   },
   {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
+  },
+  {
     "tmdb_id": 289219,
     "title": "Star Wars: Maul - Shadow Lord",
     "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
@@ -133,6 +133,15 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 251883,
+    "title": "Thank You, Next",
+    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
+    "year": "2024",
+    "rating": 7.4,
+    "folder": "tv",
+    "slug": "251883-thank-you-next"
   },
   {
     "tmdb_id": 65942,
@@ -162,21 +171,12 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 6.3,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
-    "tmdb_id": 251883,
-    "title": "Thank You, Next",
-    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
-    "year": "2024",
-    "rating": 7.4,
-    "folder": "tv",
-    "slug": "251883-thank-you-next"
+    "slug": "79744-the-rookie"
   }
 ]
