@@ -22,7 +22,7 @@
     "title": "No Place to Be Single",
     "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.5,
     "folder": "movie",
     "slug": "1317448-no-place-to-be-single"
   },
@@ -54,15 +54,6 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -72,13 +63,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 7.1,
     "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1007757,
@@ -90,6 +81,15 @@
     "slug": "1007757-swapped"
   },
   {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -99,15 +99,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1198994-send-help"
-  },
-  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -115,6 +106,15 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
+  },
+  {
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 1688652,

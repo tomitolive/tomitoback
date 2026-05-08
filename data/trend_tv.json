@@ -4,7 +4,7 @@
     "title": "Legends",
     "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.8,
     "folder": "tv",
     "slug": "262280-legends"
   },
@@ -22,7 +22,7 @@
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
     "year": "2025",
-    "rating": 8.0,
+    "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
   },
@@ -36,15 +36,6 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "262388-mia"
-  },
-  {
     "tmdb_id": 114922,
     "title": "Citadel",
     "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
@@ -52,6 +43,15 @@
     "rating": 6.8,
     "folder": "tv",
     "slug": "114922-citadel"
+  },
+  {
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "262388-mia"
   },
   {
     "tmdb_id": 314916,
@@ -162,6 +162,15 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
+  },
+  {
     "tmdb_id": 223386,
     "title": "Man on Fire",
     "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
@@ -169,14 +178,5 @@
     "rating": 6.3,
     "folder": "tv",
     "slug": "223386-man-on-fire"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
   }
 ]
