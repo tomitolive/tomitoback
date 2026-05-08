@@ -311,33 +311,8 @@ def build():
         suggCont.appendChild(div);
       });
     } else { suggCont.style.display = 'none'; }
-  });
+  }
 
-      matches.sort((a, b) => {
-        const aKey = `${a.folder || 'movie'}/${a.slug}`;
-        const bKey = `${b.folder || 'movie'}/${b.slug}`;
-        const aLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(aKey);
-        const bLocal = typeof LOCAL_PAGES !== 'undefined' && LOCAL_PAGES.includes(bKey);
-        if (aLocal && !bLocal) return -1;
-        if (!aLocal && bLocal) return 1;
-        return 0;
-      });
-
-      const topMatches = matches.slice(0, 15);
-      if (topMatches.length > 0) {
-        suggCont.style.display = 'block';
-        suggCont.innerHTML = '';
-        topMatches.forEach(item => {
-          const folder = item.folder || 'movie';
-          const href = getUrl(folder, item.slug, './');
-          const div = document.createElement('a');
-          div.className = 'suggestion-item';
-          div.href = href;
-          div.innerHTML = `<img src="${item.poster}"> <div><div>${item.title}</div><span class="type">${folder==='movie'?'فيلم':'مسلسل'}</span></div>`;
-          suggCont.appendChild(div);
-        });
-      } else { suggCont.style.display = 'none'; }
-    }
 
     function toggleMenu() {
       const menu = document.getElementById('menu-overlay');
