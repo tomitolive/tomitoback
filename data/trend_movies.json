@@ -4,7 +4,7 @@
     "title": "My Dearest Assassin",
     "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 7.8,
     "folder": "movie",
     "slug": "1630423-my-dearest-assassin"
   },
@@ -13,7 +13,7 @@
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     "year": "2026",
-    "rating": 7.2,
+    "rating": 7.3,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
   },
@@ -54,6 +54,15 @@
     "slug": "936075-michael"
   },
   {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -72,24 +81,6 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1688652,
-    "title": "Gary",
-    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "1688652-gary"
-  },
-  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -106,6 +97,15 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1198994-send-help"
+  },
+  {
+    "tmdb_id": 1688652,
+    "title": "Gary",
+    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "1688652-gary"
   },
   {
     "tmdb_id": 1318447,
@@ -130,7 +130,7 @@
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.8,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
   },
@@ -153,15 +153,6 @@
     "slug": "1368337-the-odyssey"
   },
   {
-    "tmdb_id": 1235277,
-    "title": "La pire mère au monde",
-    "poster": "https://image.tmdb.org/t/p/w500/wo56YFsIlq1iEwnvebfmenqPQhY.jpg",
-    "year": "2025",
-    "rating": 4.7,
-    "folder": "movie",
-    "slug": "1235277-la-pire-mère-au-monde"
-  },
-  {
     "tmdb_id": 696393,
     "title": "Cold Storage",
     "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
@@ -178,5 +169,14 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1273221-scary-movie"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
   }
 ]
