@@ -18,6 +18,15 @@
     "slug": "127865-the-chestnut-man"
   },
   {
+    "tmdb_id": 76479,
+    "title": "The Boys",
+    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+    "year": "2019",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "76479-the-boys"
+  },
+  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
@@ -34,15 +43,6 @@
     "rating": 6.8,
     "folder": "tv",
     "slug": "114922-citadel"
-  },
-  {
-    "tmdb_id": 76479,
-    "title": "The Boys",
-    "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-    "year": "2019",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "76479-the-boys"
   },
   {
     "tmdb_id": 202555,
@@ -81,22 +81,13 @@
     "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 289708,
-    "title": "Bloom Life",
-    "poster": "https://image.tmdb.org/t/p/w500/lbrMjgBxApLrG5f0pwp2wdepKq1.jpg",
+    "tmdb_id": 314916,
+    "title": "Unconditional",
+    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "289708-bloom-life"
+    "slug": "314916-unconditional"
   },
   {
     "tmdb_id": 85552,
@@ -106,15 +97,6 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
-  },
-  {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 289219,
@@ -137,7 +119,7 @@
   {
     "tmdb_id": 272432,
     "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/lMA7dTUpE8aSpAzKfI00bSHCo59.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
     "year": "2026",
     "rating": 9.0,
     "folder": "tv",
@@ -153,15 +135,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 311858,
-    "title": "Prisoner",
-    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "tv",
-    "slug": "311858-prisoner"
-  },
-  {
     "tmdb_id": 202411,
     "title": "Monarch: Legacy of Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
@@ -171,12 +144,39 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 311858,
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "tv",
+    "slug": "311858-prisoner"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 294462,
+    "title": "Royal Upstart",
+    "poster": "https://image.tmdb.org/t/p/w500/fxzqt3iDTXULAYy9iEPQZ1rgYXf.jpg",
+    "year": "2025",
+    "rating": 6.0,
+    "folder": "tv",
+    "slug": "294462-royal-upstart"
   }
 ]
