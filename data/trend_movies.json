@@ -27,13 +27,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1325734-the-drama"
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1314481,
@@ -45,31 +45,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
+    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1327819,
@@ -81,6 +63,42 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
+    "year": "2026",
+    "rating": 6.0,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
+  },
+  {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
     "tmdb_id": 687163,
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -88,15 +106,6 @@
     "rating": 8.2,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
-  },
-  {
-    "tmdb_id": 1688652,
-    "title": "Gary",
-    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "1688652-gary"
   },
   {
     "tmdb_id": 1198994,
@@ -117,6 +126,15 @@
     "slug": "1318447-apex"
   },
   {
+    "tmdb_id": 1688652,
+    "title": "Gary",
+    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "1688652-gary"
+  },
+  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
@@ -135,33 +153,6 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1315772,
-    "title": "Minions & Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1315772-minions-monsters"
-  },
-  {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
-  },
-  {
     "tmdb_id": 696393,
     "title": "Cold Storage",
     "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
@@ -171,12 +162,21 @@
     "slug": "696393-cold-storage"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1315772,
+    "title": "Minions & Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
+    "year": "2026",
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1315772-minions-monsters"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   }
 ]
