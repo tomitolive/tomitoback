@@ -4,7 +4,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 8.4,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -54,13 +54,13 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "936075-michael"
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1266127,
@@ -72,13 +72,22 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.7,
     "folder": "movie",
-    "slug": "1007757-swapped"
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1314481,
@@ -88,15 +97,6 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 687163,
@@ -117,6 +117,15 @@
     "slug": "1688652-gary"
   },
   {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1292415-beast"
+  },
+  {
     "tmdb_id": 1198994,
     "title": "Send Help",
     "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
@@ -133,15 +142,6 @@
     "rating": 6.4,
     "folder": "movie",
     "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1292415-beast"
   },
   {
     "tmdb_id": 1301421,
@@ -162,15 +162,6 @@
     "slug": "696393-cold-storage"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 1315772,
     "title": "Minions & Monsters",
     "poster": "https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg",
@@ -178,5 +169,14 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1315772-minions-monsters"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   }
 ]
