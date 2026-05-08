@@ -23057,5 +23057,38 @@
       18
     ],
     "timestamp": 1778280257
+  },
+  {
+    "title": "The Offer / The Offer",
+    "title_ar": "The Offer",
+    "title_en": "The Offer",
+    "slug": "114068-the-offer",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/9fdYX5uc3HZEuYotms3XJ72AbCr.jpg",
+    "rating": 8.0,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 114068,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778283845
+  },
+  {
+    "title": "عقل جميل / A Beautiful Mind",
+    "title_ar": "عقل جميل",
+    "title_en": "A Beautiful Mind",
+    "slug": "453-a-beautiful-mind",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/g96vXzmXfgiojyydruw2KDcABPS.jpg",
+    "rating": 7.9,
+    "year": "2001",
+    "type": "movie",
+    "tmdb_id": 453,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "timestamp": 1778283880
   }
 ]
