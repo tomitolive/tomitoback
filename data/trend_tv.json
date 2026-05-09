@@ -36,13 +36,13 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "206484-jade-dynasty"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 124364,
@@ -54,6 +54,15 @@
     "slug": "124364-from"
   },
   {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
+  },
+  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
@@ -63,22 +72,22 @@
     "slug": "262388-mia"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
     "rating": 8.3,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "206484-jade-dynasty"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 127865,
@@ -108,13 +117,13 @@
     "slug": "314916-unconditional"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
     "year": "2026",
-    "rating": 8.3,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
     "tmdb_id": 251883,
@@ -126,13 +135,13 @@
     "slug": "251883-thank-you-next"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 8.1,
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
+    "slug": "136315-the-bear"
   },
   {
     "tmdb_id": 223386,
@@ -153,13 +162,13 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
     "rating": 8.2,
     "folder": "tv",
-    "slug": "136315-the-bear"
+    "slug": "56570-outlander"
   },
   {
     "tmdb_id": 75191,
@@ -169,14 +178,5 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "75191-the-terror"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
   }
 ]

@@ -23422,5 +23422,41 @@
       18
     ],
     "timestamp": 1778343311
+  },
+  {
+    "title": "Marathon Man / Marathon Man",
+    "title_ar": "Marathon Man",
+    "title_en": "Marathon Man",
+    "slug": "10518-marathon-man",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+    "rating": 7.2,
+    "year": "1976",
+    "type": "movie",
+    "tmdb_id": 10518,
+    "genre_ids": [
+      53,
+      80,
+      18
+    ],
+    "timestamp": 1778347621
+  },
+  {
+    "title": "اللوتس الأبيض / The White Lotus",
+    "title_ar": "اللوتس الأبيض",
+    "title_en": "The White Lotus",
+    "slug": "111803-the-white-lotus",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xUE8r8SPoAxVbZdh5uvLC5MKLbN.jpg",
+    "rating": 7.6,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 111803,
+    "genre_ids": [
+      35,
+      18,
+      9648
+    ],
+    "timestamp": 1778347655
   }
 ]
