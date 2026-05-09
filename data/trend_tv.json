@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 262280,
-    "title": "Legends",
-    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "tv",
-    "slug": "262280-legends"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -18,49 +9,13 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "tmdb_id": 262280,
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
     "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "262388-mia"
-  },
-  {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
     "rating": 6.8,
     "folder": "tv",
-    "slug": "114922-citadel"
-  },
-  {
-    "tmdb_id": 314916,
-    "title": "Unconditional",
-    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "314916-unconditional"
-  },
-  {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "127865-the-chestnut-man"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "262280-legends"
   },
   {
     "tmdb_id": 303143,
@@ -72,6 +27,33 @@
     "slug": "303143-my-royal-nemesis"
   },
   {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 314916,
+    "title": "Unconditional",
+    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "314916-unconditional"
+  },
+  {
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
+    "folder": "tv",
+    "slug": "114922-citadel"
+  },
+  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -79,6 +61,15 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "127865-the-chestnut-man"
   },
   {
     "tmdb_id": 85552,
@@ -90,13 +81,13 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
-    "rating": 8.2,
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "136315-the-bear"
+    "slug": "262388-mia"
   },
   {
     "tmdb_id": 251883,
@@ -108,33 +99,6 @@
     "slug": "251883-thank-you-next"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 75191,
-    "title": "The Terror",
-    "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
-    "year": "2018",
-    "rating": 7.3,
-    "folder": "tv",
-    "slug": "75191-the-terror"
-  },
-  {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -142,6 +106,24 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 272432,
@@ -162,21 +144,39 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
+    "tmdb_id": 75191,
+    "title": "The Terror",
+    "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
+    "year": "2018",
+    "rating": 7.3,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 241609,
-    "title": "Your Friends & Neighbors",
-    "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
-    "year": "2025",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 257994,
+    "title": "Half Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "year": "2026",
     "rating": 7.6,
     "folder": "tv",
-    "slug": "241609-your-friends-neighbors"
+    "slug": "257994-half-man"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
   }
 ]
