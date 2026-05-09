@@ -27,13 +27,13 @@
     "slug": "303143-my-royal-nemesis"
   },
   {
-    "tmdb_id": 314916,
-    "title": "Unconditional",
-    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
-    "year": "2026",
-    "rating": 7.0,
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
     "folder": "tv",
-    "slug": "314916-unconditional"
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 202555,
@@ -45,13 +45,22 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.8,
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "114922-citadel"
+    "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 314916,
+    "title": "Unconditional",
+    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "314916-unconditional"
   },
   {
     "tmdb_id": 127865,
@@ -70,15 +79,6 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "124364-from"
-  },
-  {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "262388-mia"
   },
   {
     "tmdb_id": 85552,
@@ -117,13 +117,13 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
-    "rating": 8.2,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "136315-the-bear"
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 223386,
@@ -135,15 +135,6 @@
     "slug": "223386-man-on-fire"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -151,6 +142,15 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "272432-born-with-luck"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
   },
   {
     "tmdb_id": 202411,
@@ -171,12 +171,12 @@
     "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 257994,
-    "title": "Half Man",
-    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "tmdb_id": 285838,
+    "title": "If Wishes Could Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "257994-half-man"
+    "slug": "285838-if-wishes-could-kill"
   }
 ]
