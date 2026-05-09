@@ -23527,5 +23527,41 @@
       18
     ],
     "timestamp": 1778355524
+  },
+  {
+    "title": "والاس وجروميت لعنة الأرنب المستذئب / Wallace Gromit: The Curse of the Were-Rabbit",
+    "title_ar": "والاس وجروميت لعنة الأرنب المستذئب",
+    "title_en": "Wallace Gromit: The Curse of the Were-Rabbit",
+    "slug": "533-wallace-gromit-the-curse-of-the-were-rabbit",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/1qMyUf6QgIp0yWTGDZxvJY0hR4E.jpg",
+    "rating": 7.1,
+    "year": "2005",
+    "type": "movie",
+    "tmdb_id": 533,
+    "genre_ids": [
+      12,
+      16,
+      35,
+      10751
+    ],
+    "timestamp": 1778358822
+  },
+  {
+    "title": "Mystery Science Theater 3000 / Mystery Science Theater 3000",
+    "title_ar": "Mystery Science Theater 3000",
+    "title_en": "Mystery Science Theater 3000",
+    "slug": "75907-mystery-science-theater-3000",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/lGkGqvxzrH3TK1ElA1C7uNxicDZ.jpg",
+    "rating": 7.7,
+    "year": "2017",
+    "type": "tv",
+    "tmdb_id": 75907,
+    "genre_ids": [
+      35,
+      10765
+    ],
+    "timestamp": 1778358875
   }
 ]
