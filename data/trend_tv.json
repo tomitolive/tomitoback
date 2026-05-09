@@ -18,13 +18,13 @@
     "slug": "303143-my-royal-nemesis"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.8,
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "114922-citadel"
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 262280,
@@ -36,15 +36,6 @@
     "slug": "262280-legends"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -54,13 +45,13 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
     "folder": "tv",
-    "slug": "206484-jade-dynasty"
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 85552,
@@ -76,18 +67,9 @@
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 8.2,
     "folder": "tv",
     "slug": "262388-mia"
-  },
-  {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 127865,
@@ -99,49 +81,22 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 251883,
-    "title": "Thank You, Next",
-    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
-    "year": "2024",
-    "rating": 7.4,
-    "folder": "tv",
-    "slug": "251883-thank-you-next"
-  },
-  {
-    "tmdb_id": 314916,
-    "title": "Unconditional",
-    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "314916-unconditional"
-  },
-  {
-    "tmdb_id": 136315,
-    "title": "The Bear",
-    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "136315-the-bear"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
+    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 75191,
@@ -153,30 +108,75 @@
     "slug": "75191-the-terror"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 285838,
-    "title": "If Wishes Could Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "285838-if-wishes-could-kill"
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 314916,
+    "title": "Unconditional",
+    "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "tv",
+    "slug": "314916-unconditional"
+  },
+  {
+    "tmdb_id": 251883,
+    "title": "Thank You, Next",
+    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
+    "year": "2024",
+    "rating": 7.4,
+    "folder": "tv",
+    "slug": "251883-thank-you-next"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "206484-jade-dynasty"
   }
 ]
