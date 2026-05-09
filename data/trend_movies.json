@@ -4,7 +4,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.3,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -27,6 +27,15 @@
     "slug": "687163-project-hail-mary"
   },
   {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
     "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
@@ -36,13 +45,13 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
     "rating": 7.8,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1226863,
@@ -52,15 +61,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "movie",
-    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1292415,
@@ -90,15 +90,6 @@
     "slug": "1317448-no-place-to-be-single"
   },
   {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -108,13 +99,22 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1630423-my-dearest-assassin"
+  },
+  {
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 1318447,
@@ -126,13 +126,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1198994-send-help"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1296229,
@@ -153,15 +153,6 @@
     "slug": "696393-cold-storage"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
     "tmdb_id": 1688652,
     "title": "Gary",
     "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
@@ -169,6 +160,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1688652-gary"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   },
   {
     "tmdb_id": 1301421,

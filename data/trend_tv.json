@@ -54,6 +54,15 @@
     "slug": "262280-legends"
   },
   {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
+  },
+  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
@@ -70,15 +79,6 @@
     "rating": 7.5,
     "folder": "tv",
     "slug": "127865-the-chestnut-man"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 37854,
@@ -108,15 +108,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 75191,
-    "title": "The Terror",
-    "poster": "https://image.tmdb.org/t/p/w500/2nMZzKlMj158RVb6tjmIunoaNdo.jpg",
-    "year": "2018",
-    "rating": 7.3,
-    "folder": "tv",
-    "slug": "75191-the-terror"
-  },
-  {
     "tmdb_id": 314916,
     "title": "Unconditional",
     "poster": "https://image.tmdb.org/t/p/w500/l8fk8AvFzOT47LO13BcaKglqNZQ.jpg",
@@ -124,24 +115,6 @@
     "rating": 7.0,
     "folder": "tv",
     "slug": "314916-unconditional"
-  },
-  {
-    "tmdb_id": 223386,
-    "title": "Man on Fire",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "tv",
-    "slug": "223386-man-on-fire"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
   },
   {
     "tmdb_id": 136315,
@@ -153,6 +126,15 @@
     "slug": "136315-the-bear"
   },
   {
+    "tmdb_id": 223386,
+    "title": "Man on Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "tv",
+    "slug": "223386-man-on-fire"
+  },
+  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -162,15 +144,6 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
-  },
-  {
     "tmdb_id": 251883,
     "title": "Thank You, Next",
     "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
@@ -178,5 +151,32 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "251883-thank-you-next"
+  },
+  {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
   }
 ]
