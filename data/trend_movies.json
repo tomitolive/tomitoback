@@ -4,7 +4,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 7.9,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -13,7 +13,7 @@
     "title": "No Place to Be Single",
     "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.8,
     "folder": "movie",
     "slug": "1317448-no-place-to-be-single"
   },
@@ -22,7 +22,7 @@
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     "year": "2026",
-    "rating": 7.2,
+    "rating": 7.1,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
   },
@@ -34,15 +34,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1292415-beast"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1630423,
@@ -61,6 +52,15 @@
     "rating": 7.9,
     "folder": "movie",
     "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
+    "year": "2026",
+    "rating": 7.1,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1325734,
@@ -144,15 +144,6 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1430077,
-    "title": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "1430077-hokum"
-  },
-  {
     "tmdb_id": 1296229,
     "title": "女王的大象",
     "poster": null,
@@ -178,5 +169,14 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1688652-gary"
+  },
+  {
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1292695-they-will-kill-you"
   }
 ]
