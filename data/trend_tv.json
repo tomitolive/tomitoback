@@ -18,15 +18,6 @@
     "slug": "303143-my-royal-nemesis"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -34,6 +25,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 114922,
@@ -54,13 +54,13 @@
     "slug": "262280-legends"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "262388-mia"
   },
   {
     "tmdb_id": 127865,
@@ -72,13 +72,13 @@
     "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.2,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "262388-mia"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 37854,
@@ -135,6 +135,15 @@
     "slug": "223386-man-on-fire"
   },
   {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
     "tmdb_id": 136315,
     "title": "The Bear",
     "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
@@ -144,22 +153,13 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 251883,
-    "title": "Thank You, Next",
-    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
-    "year": "2024",
-    "rating": 7.4,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "251883-thank-you-next"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 202411,
@@ -171,12 +171,12 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
+    "tmdb_id": 251883,
+    "title": "Thank You, Next",
+    "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
+    "year": "2024",
+    "rating": 7.3,
     "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "251883-thank-you-next"
   }
 ]

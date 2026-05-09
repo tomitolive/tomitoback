@@ -23563,5 +23563,41 @@
       10765
     ],
     "timestamp": 1778358875
+  },
+  {
+    "title": "ميجامايند / Megamind",
+    "title_ar": "ميجامايند",
+    "title_en": "Megamind",
+    "slug": "38055-megamind",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/kH2acwtiiwHsgARlFM653miKOvn.jpg",
+    "rating": 7.0,
+    "year": "2010",
+    "type": "movie",
+    "tmdb_id": 38055,
+    "genre_ids": [
+      16,
+      28,
+      35,
+      10751,
+      878
+    ],
+    "timestamp": 1778362375
+  },
+  {
+    "title": "Da Vincis Demons / Da Vincis Demons",
+    "title_ar": "Da Vincis Demons",
+    "title_en": "Da Vincis Demons",
+    "slug": "40293-da-vincis-demons",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/sR8m3EUxmRJi4S9u5sfBDRLce1Z.jpg",
+    "rating": 7.5,
+    "year": "2013",
+    "type": "tv",
+    "tmdb_id": 40293,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778362398
   }
 ]
