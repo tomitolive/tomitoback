@@ -81,6 +81,15 @@
     "slug": "1325734-the-drama"
   },
   {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "936075-michael"
+  },
+  {
     "tmdb_id": 1317448,
     "title": "No Place to Be Single",
     "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
@@ -88,15 +97,6 @@
     "rating": 7.1,
     "folder": "movie",
     "slug": "1317448-no-place-to-be-single"
-  },
-  {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1630423,

@@ -23632,5 +23632,22 @@
       35
     ],
     "timestamp": 1778365906
+  },
+  {
+    "title": "Cidade de Deus: A Luta No Para / City of God: The Fight Rages On",
+    "title_ar": "Cidade de Deus: A Luta No Para",
+    "title_en": "City of God: The Fight Rages On",
+    "slug": "223397-city-of-god-the-fight-rages-on",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/bROpzy08O9nSyfDgBUlgUoMp9nw.jpg",
+    "rating": 7.5,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 223397,
+    "genre_ids": [
+      18,
+      80
+    ],
+    "timestamp": 1778369818
   }
 ]
