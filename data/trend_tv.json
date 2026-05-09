@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 262280,
-    "title": "Legends",
-    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "tv",
-    "slug": "262280-legends"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -16,6 +7,15 @@
     "rating": 8.4,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 262280,
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "tv",
+    "slug": "262280-legends"
   },
   {
     "tmdb_id": 303143,
@@ -36,6 +36,15 @@
     "slug": "114922-citadel"
   },
   {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
@@ -45,13 +54,13 @@
     "slug": "262388-mia"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.0,
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "127865-the-chestnut-man"
   },
   {
     "tmdb_id": 314916,
@@ -72,15 +81,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "127865-the-chestnut-man"
-  },
-  {
     "tmdb_id": 251883,
     "title": "Thank You, Next",
     "poster": "https://image.tmdb.org/t/p/w500/q3tO7n5GbRcnPwnTfbimY4y3yv4.jpg",
@@ -99,13 +99,13 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.3,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 289219,
@@ -117,15 +117,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -133,6 +124,24 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "272432-born-with-luck"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 202411,
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "year": "2023",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 223386,
@@ -151,15 +160,6 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "136315-the-bear"
-  },
-  {
-    "tmdb_id": 202411,
-    "title": "Monarch: Legacy of Monsters",
-    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
-    "year": "2023",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "202411-monarch-legacy-of-monsters"
   },
   {
     "tmdb_id": 75191,
