@@ -4675,6 +4675,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/949-heat</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/9502-kung-fu-panda</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
