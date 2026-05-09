@@ -23280,5 +23280,43 @@
       10749
     ],
     "timestamp": 1778327308
+  },
+  {
+    "title": "The Gold Rush / The Gold Rush",
+    "title_ar": "The Gold Rush",
+    "title_en": "The Gold Rush",
+    "slug": "962-the-gold-rush",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eQRFo1qwRREYwj47Yoe1PisgOle.jpg",
+    "rating": 8.0,
+    "year": "1925",
+    "type": "movie",
+    "tmdb_id": 962,
+    "genre_ids": [
+      12,
+      35,
+      18
+    ],
+    "timestamp": 1778330822
+  },
+  {
+    "title": "يوغي اوه زيكسال / Yu-Gi-Oh! Zexal",
+    "title_ar": "يوغي اوه زيكسال",
+    "title_en": "Yu-Gi-Oh! Zexal",
+    "slug": "45854-yu-gi-oh-zexal",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/uGOjTI1HQukcCU7wDCtQlnsBaG7.jpg",
+    "rating": 7.4,
+    "year": "2011",
+    "type": "tv",
+    "tmdb_id": 45854,
+    "genre_ids": [
+      16,
+      35,
+      10759,
+      10765,
+      10762
+    ],
+    "timestamp": 1778330868
   }
 ]
