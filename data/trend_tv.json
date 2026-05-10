@@ -36,13 +36,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 9.5,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 114922,
@@ -54,13 +54,13 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+    "year": "2026",
+    "rating": 9.5,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "303143-my-royal-nemesis"
   },
   {
     "tmdb_id": 289219,
@@ -72,15 +72,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
     "tmdb_id": 262280,
     "title": "Legends",
     "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
@@ -90,13 +81,13 @@
     "slug": "262280-legends"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.1,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "262388-mia"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 284110,
@@ -106,6 +97,15 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "284110-the-lead"
+  },
+  {
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "262388-mia"
   },
   {
     "tmdb_id": 127865,
@@ -135,13 +135,13 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
+    "tmdb_id": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "year": "2024",
+    "rating": 7.7,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
+    "slug": "245842-wistoria-wand-and-sword"
   },
   {
     "tmdb_id": 95479,
@@ -153,13 +153,13 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 245842,
-    "title": "Wistoria: Wand and Sword",
-    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
-    "year": "2024",
-    "rating": 7.7,
+    "tmdb_id": 209867,
+    "title": "Frieren: Beyond Journey's End",
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "year": "2023",
+    "rating": 8.8,
     "folder": "tv",
-    "slug": "245842-wistoria-wand-and-sword"
+    "slug": "209867-frieren-beyond-journeys-end"
   },
   {
     "tmdb_id": 202411,
@@ -171,12 +171,12 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 9.0,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "272432-born-with-luck"
+    "slug": "95557-invincible"
   }
 ]

@@ -22,7 +22,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 8.0,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -45,15 +45,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 8.8,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
@@ -61,6 +52,15 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 8.8,
+    "folder": "movie",
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1266127,
@@ -90,15 +90,6 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -108,13 +99,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1198994-send-help"
+    "slug": "1292415-beast"
   },
   {
     "tmdb_id": 1301421,
@@ -124,6 +115,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 1632754,
@@ -166,7 +166,7 @@
     "title": "Immortal Combat",
     "poster": "https://image.tmdb.org/t/p/w500/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 6.8,
     "folder": "movie",
     "slug": "1656061-immortal-combat"
   },

@@ -24149,5 +24149,40 @@
       35
     ],
     "timestamp": 1778449064
+  },
+  {
+    "title": "Acapulco / Acapulco",
+    "title_ar": "Acapulco",
+    "title_en": "Acapulco",
+    "slug": "133727-acapulco",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/gzBkO4zFr75A13GKnjvTeg25pze.jpg",
+    "rating": 7.3,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 133727,
+    "genre_ids": [
+      35,
+      18
+    ],
+    "timestamp": 1778452470
+  },
+  {
+    "title": "Hocus Pocus / Hocus Pocus",
+    "title_ar": "Hocus Pocus",
+    "title_en": "Hocus Pocus",
+    "slug": "10439-hocus-pocus",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/by4D4Q9NlUjFSEUA1yrxq6ksXmk.jpg",
+    "rating": 7.0,
+    "year": "1993",
+    "type": "movie",
+    "tmdb_id": 10439,
+    "genre_ids": [
+      14,
+      35,
+      10751
+    ],
+    "timestamp": 1778452488
   }
 ]
