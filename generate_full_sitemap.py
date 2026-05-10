@@ -16,13 +16,23 @@ def generate_sitemaps():
     root_urls = []
     root_urls.append((f"{base_url}/", 1.0, 'daily'))
     for f in os.listdir(root_dir):
-        if f.endswith('.html') and f not in ['index.html', 'test.html']:
-            slug = f[:-5]
-            root_urls.append((f"{base_url}/{slug}", 0.9, 'weekly'))
+        if f.endswith('.html') and f not in ['index.html', 'test.html', '404.html']:
+            if os.path.isfile(os.path.join(root_dir, f)):
+                slug = f[:-5]
+                root_urls.append((f"{base_url}/{slug}", 0.9, 'weekly'))
     
+    if root_urls:
+        filename = "sitemap_root.xml"
+        write_sitemap_file(os.path.join(root_dir, filename), root_urls, today)
+        sitemap_index_urls.append(f"{base_url}/{filename}")
+        print(f"  root: {len(root_urls)} URLs -> {filename}")
+
+    # 2. Content Sitemaps
+    content_dirs = ['movie', 'tv', 'genre']
     priority_map = {
         'movie': 0.8,
         'tv': 0.8,
+        'genre': 0.7
     }
     
     for directory in content_dirs:
@@ -42,10 +52,9 @@ def generate_sitemaps():
                 url = f"{base_url}/{directory}/{slug}"
                 dir_urls.append((url, priority, freq))
             elif os.path.isdir(full_path):
-                # Subdirectories (like ramadan-trailer/slug/)
+                # Subdirectories
                 url = f"{base_url}/{directory}/{entry}"
                 dir_urls.append((url, priority, freq))
-                # Also check for nested HTML files
                 for sub_f in os.listdir(full_path):
                     if sub_f.endswith('.html') and sub_f != 'index.html':
                         sub_slug = sub_f[:-5]
