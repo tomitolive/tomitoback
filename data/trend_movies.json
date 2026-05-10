@@ -31,7 +31,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 8.5,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -72,15 +72,6 @@
     "slug": "1292415-beast"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -90,13 +81,13 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 7.3,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1630423,
@@ -112,9 +103,18 @@
     "title": "No Place to Be Single",
     "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 7.2,
     "folder": "movie",
     "slug": "1317448-no-place-to-be-single"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1198994,
@@ -135,13 +135,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "tmdb_id": 1632754,
+    "title": "Backlash Tampa",
+    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
+    "slug": "1632754-backlash-tampa"
   },
   {
     "tmdb_id": 1292695,
@@ -153,22 +153,13 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1632754,
-    "title": "Backlash Tampa",
-    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
     "year": "2026",
-    "rating": 6.1,
+    "rating": 7.8,
     "folder": "movie",
-    "slug": "1632754-backlash-tampa"
-  },
-  {
-    "tmdb_id": 1296229,
-    "title": "女王的大象",
-    "poster": null,
-    "year": "",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1296229-女王的大象"
+    "slug": "1301421-the-sheep-detectives"
   },
   {
     "tmdb_id": 696393,
@@ -178,5 +169,14 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "696393-cold-storage"
+  },
+  {
+    "tmdb_id": 1668715,
+    "title": "UFC 328: Chimaev vs Strickland",
+    "poster": "https://image.tmdb.org/t/p/w500/jH8UeGO8tJWUnsf6X7sIuN4lo3p.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1668715-ufc-328-chimaev-vs-strickland"
   }
 ]

@@ -63,6 +63,15 @@
     "slug": "37854-one-piece"
   },
   {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
+  },
+  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -99,15 +108,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
     "tmdb_id": 127865,
     "title": "The Chestnut Man",
     "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
@@ -126,6 +126,15 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
     "tmdb_id": 136315,
     "title": "The Bear",
     "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
@@ -135,22 +144,13 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 206484,
-    "title": "Jade Dynasty",
-    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
-    "year": "2022",
-    "rating": 8.3,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "206484-jade-dynasty"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 223386,
@@ -171,12 +171,12 @@
     "slug": "314916-unconditional"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
+    "tmdb_id": 206484,
+    "title": "Jade Dynasty",
+    "poster": "https://image.tmdb.org/t/p/w500/oOy0PskfCQyWwsQVdHyM2PoN9H4.jpg",
+    "year": "2022",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "206484-jade-dynasty"
   }
 ]
