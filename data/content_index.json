@@ -24184,5 +24184,41 @@
       10751
     ],
     "timestamp": 1778452488
+  },
+  {
+    "title": "Dug Days / Dug Days",
+    "title_ar": "Dug Days",
+    "title_en": "Dug Days",
+    "slug": "114501-dug-days",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/e5kT33XH2gX7xBFIK1uUJAvU5dj.jpg",
+    "rating": 7.4,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 114501,
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "timestamp": 1778456367
+  },
+  {
+    "title": "فرقة الإنتحار / The Suicide Squad",
+    "title_ar": "فرقة الإنتحار",
+    "title_en": "The Suicide Squad",
+    "slug": "436969-the-suicide-squad",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/xayv8vZgN3aoqy8ADWvPz8RJOE8.jpg",
+    "rating": 7.5,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 436969,
+    "genre_ids": [
+      28,
+      35,
+      12
+    ],
+    "timestamp": 1778456386
   }
 ]

@@ -45,15 +45,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
     "tmdb_id": 1007757,
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
@@ -63,15 +54,6 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -79,6 +61,24 @@
     "rating": 7.8,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
+  },
+  {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1318447,
@@ -103,7 +103,7 @@
     "title": "Beast",
     "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.3,
     "folder": "movie",
     "slug": "1292415-beast"
   },
@@ -112,18 +112,9 @@
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 7.8,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 1632754,
@@ -133,6 +124,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1632754-backlash-tampa"
+  },
+  {
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 1317448,
