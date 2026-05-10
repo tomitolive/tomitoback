@@ -24079,5 +24079,22 @@
       10765
     ],
     "timestamp": 1778442025
+  },
+  {
+    "title": "بالارد / Ballard",
+    "title_ar": "بالارد",
+    "title_en": "Ballard",
+    "slug": "239826-ballard",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/9Fwz6qwnW6PNIkwHWlx0VXL7LpZ.jpg",
+    "rating": 7.2,
+    "year": "2025",
+    "type": "tv",
+    "tmdb_id": 239826,
+    "genre_ids": [
+      18,
+      80
+    ],
+    "timestamp": 1778445339
   }
 ]
