@@ -3697,6 +3697,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/59440-warrior</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/597-titanic</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
