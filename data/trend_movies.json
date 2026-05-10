@@ -22,7 +22,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 7.9,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -45,15 +45,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
     "tmdb_id": 1007757,
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
@@ -70,6 +61,15 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1325734-the-drama"
+  },
+  {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1318447,
@@ -108,15 +108,6 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1632754,
-    "title": "Backlash Tampa",
-    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1632754-backlash-tampa"
-  },
-  {
     "tmdb_id": 1198994,
     "title": "Send Help",
     "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
@@ -126,13 +117,13 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "tmdb_id": 1632754,
+    "title": "Backlash Tampa",
+    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 6.6,
     "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
+    "slug": "1632754-backlash-tampa"
   },
   {
     "tmdb_id": 1301421,
@@ -142,6 +133,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 6.9,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
   },
   {
     "tmdb_id": 1630423,
@@ -162,15 +162,6 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1688652,
-    "title": "Gary",
-    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "1688652-gary"
-  },
-  {
     "tmdb_id": 1656061,
     "title": "Immortal Combat",
     "poster": "https://image.tmdb.org/t/p/w500/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg",
@@ -178,5 +169,14 @@
     "rating": 7.8,
     "folder": "movie",
     "slug": "1656061-immortal-combat"
+  },
+  {
+    "tmdb_id": 1688652,
+    "title": "Gary",
+    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1688652-gary"
   }
 ]

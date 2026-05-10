@@ -72,33 +72,6 @@
     "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 284110,
-    "title": "The Lead",
-    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "284110-the-lead"
-  },
-  {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "262388-mia"
-  },
-  {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "127865-the-chestnut-man"
-  },
-  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -115,6 +88,33 @@
     "rating": 7.3,
     "folder": "tv",
     "slug": "262280-legends"
+  },
+  {
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 284110,
+    "title": "The Lead",
+    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "284110-the-lead"
+  },
+  {
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "127865-the-chestnut-man"
   },
   {
     "tmdb_id": 278573,
@@ -144,15 +144,6 @@
     "slug": "209867-frieren-beyond-journeys-end"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
     "tmdb_id": 95479,
     "title": "JUJUTSU KAISEN",
     "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
@@ -160,6 +151,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "year": "2024",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "245842-wistoria-wand-and-sword"
   },
   {
     "tmdb_id": 202411,
@@ -171,12 +171,12 @@
     "slug": "202411-monarch-legacy-of-monsters"
   },
   {
-    "tmdb_id": 245842,
-    "title": "Wistoria: Wand and Sword",
-    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
-    "year": "2024",
-    "rating": 7.7,
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 9.0,
     "folder": "tv",
-    "slug": "245842-wistoria-wand-and-sword"
+    "slug": "272432-born-with-luck"
   }
 ]
