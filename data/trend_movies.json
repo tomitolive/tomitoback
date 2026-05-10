@@ -49,7 +49,7 @@
     "title": "Swapped",
     "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 8.7,
+    "rating": 8.8,
     "folder": "movie",
     "slug": "1007757-swapped"
   },
@@ -72,15 +72,6 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -88,6 +79,15 @@
     "rating": 7.8,
     "folder": "movie",
     "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1292415,
@@ -117,15 +117,6 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1632754,
-    "title": "Backlash Tampa",
-    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1632754-backlash-tampa"
-  },
-  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
@@ -133,6 +124,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1632754,
+    "title": "Backlash Tampa",
+    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1632754-backlash-tampa"
   },
   {
     "tmdb_id": 1317448,
@@ -171,12 +171,12 @@
     "slug": "1656061-immortal-combat"
   },
   {
-    "tmdb_id": 1688652,
-    "title": "Gary",
-    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "tmdb_id": 1668715,
+    "title": "UFC 328: Chimaev vs Strickland",
+    "poster": "https://image.tmdb.org/t/p/w500/jH8UeGO8tJWUnsf6X7sIuN4lo3p.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1688652-gary"
+    "slug": "1668715-ufc-328-chimaev-vs-strickland"
   }
 ]
