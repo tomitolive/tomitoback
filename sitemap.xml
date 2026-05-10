@@ -12,4 +12,8 @@
     <loc>https://tomito.xyz/sitemap_tv.xml</loc>
     <lastmod>2026-05-10</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://tomito.xyz/sitemap_genre.xml</loc>
+    <lastmod>2026-05-10</lastmod>
+  </sitemap>
 </sitemapindex>
