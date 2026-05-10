@@ -22,7 +22,7 @@
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 7.2,
     "folder": "movie",
     "slug": "931285-mortal-kombat-ii"
   },
@@ -38,7 +38,7 @@
   {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/qvaJWIFoccQKZnrudONibHqjI0p.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
@@ -76,7 +76,7 @@
     "title": "Beast",
     "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
     "year": "2026",
-    "rating": 7.3,
+    "rating": 7.6,
     "folder": "movie",
     "slug": "1292415-beast"
   },
@@ -117,15 +117,6 @@
     "slug": "1630423-my-dearest-assassin"
   },
   {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
     "tmdb_id": 1632754,
     "title": "Backlash Tampa",
     "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
@@ -133,6 +124,15 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1632754-backlash-tampa"
+  },
+  {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
   },
   {
     "tmdb_id": 1198994,
@@ -171,12 +171,12 @@
     "slug": "696393-cold-storage"
   },
   {
-    "tmdb_id": 1688652,
-    "title": "Gary",
-    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1688652-gary"
+    "slug": "1292695-they-will-kill-you"
   }
 ]
