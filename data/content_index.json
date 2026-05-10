@@ -23717,5 +23717,39 @@
       27
     ],
     "timestamp": 1778390810
+  },
+  {
+    "title": "هويات مزيفة / Legends",
+    "title_ar": "هويات مزيفة",
+    "title_en": "Legends",
+    "slug": "262280-legends",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+    "rating": 7.1,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 262280,
+    "genre_ids": [
+      10759,
+      80,
+      18
+    ],
+    "timestamp": 1778398705
+  },
+  {
+    "title": "DMD Friendship The Reality / DMD Friendship The Reality",
+    "title_ar": "DMD Friendship The Reality",
+    "title_en": "DMD Friendship The Reality",
+    "slug": "244370-dmd-friendship-the-reality",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/yu16SDHh3EMzIm9cmBXJTo1oGqg.jpg",
+    "rating": 8.7,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 244370,
+    "genre_ids": [
+      10764
+    ],
+    "timestamp": 1778398748
   }
 ]
