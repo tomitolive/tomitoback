@@ -23649,5 +23649,40 @@
       80
     ],
     "timestamp": 1778369818
+  },
+  {
+    "title": "Beast / Beast",
+    "title_ar": "Beast",
+    "title_en": "Beast",
+    "slug": "1292415-beast",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "rating": 7.2,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1292415,
+    "genre_ids": [
+      28,
+      18
+    ],
+    "timestamp": 1778377492
+  },
+  {
+    "title": "الذئب والأسد / The Wolf and the Lion",
+    "title_ar": "الذئب والأسد",
+    "title_en": "The Wolf and the Lion",
+    "slug": "780382-the-wolf-and-the-lion",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/x3JsrunysUwsIV9XS7hQtZG4knm.jpg",
+    "rating": 7.5,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 780382,
+    "genre_ids": [
+      10751,
+      12,
+      18
+    ],
+    "timestamp": 1778377518
   }
 ]
