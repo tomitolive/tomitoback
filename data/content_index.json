@@ -22987,5 +22987,944 @@
       18
     ],
     "timestamp": 1778275969
+  },
+  {
+    "title": "أن تصبح البطل إكس / TO BE HERO X",
+    "title_ar": "أن تصبح البطل إكس",
+    "title_en": "TO BE HERO X",
+    "slug": "272059-to-be-hero-x",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/5ETgAoRq3o7xCGo17nenF4B4xCv.jpg",
+    "rating": 8.7,
+    "year": "2025",
+    "type": "tv",
+    "tmdb_id": 272059,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778279541
+  },
+  {
+    "title": "قطار فائق السرعة / Bullet Train",
+    "title_ar": "قطار فائق السرعة",
+    "title_en": "Bullet Train",
+    "slug": "718930-bullet-train",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/d84Tzu7zoIyeBVA9Pa8rtzNye97.jpg",
+    "rating": 7.4,
+    "year": "2022",
+    "type": "movie",
+    "tmdb_id": 718930,
+    "genre_ids": [
+      28,
+      35,
+      53
+    ],
+    "timestamp": 1778279585
+  },
+  {
+    "title": "2 / A Better Tomorrow II",
+    "title_ar": "2",
+    "title_en": "A Better Tomorrow II",
+    "slug": "18305-a-better-tomorrow-ii",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/e8352Dw1SeM4rNAGYDZVkQ0aenz.jpg",
+    "rating": 7.1,
+    "year": "1987",
+    "type": "movie",
+    "tmdb_id": 18305,
+    "genre_ids": [
+      28,
+      80,
+      53
+    ],
+    "timestamp": 1778280203
+  },
+  {
+    "title": "Ushijima the Loan Shark / Ushijima the Loan Shark",
+    "title_ar": "Ushijima the Loan Shark",
+    "title_en": "Ushijima the Loan Shark",
+    "slug": "45472-ushijima-the-loan-shark",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/6jiG1hGfDCLYj4S551hJ4S7nKYf.jpg",
+    "rating": 8.7,
+    "year": "2010",
+    "type": "tv",
+    "tmdb_id": 45472,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778280257
+  },
+  {
+    "title": "The Offer / The Offer",
+    "title_ar": "The Offer",
+    "title_en": "The Offer",
+    "slug": "114068-the-offer",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/9fdYX5uc3HZEuYotms3XJ72AbCr.jpg",
+    "rating": 8.0,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 114068,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778283845
+  },
+  {
+    "title": "عقل جميل / A Beautiful Mind",
+    "title_ar": "عقل جميل",
+    "title_en": "A Beautiful Mind",
+    "slug": "453-a-beautiful-mind",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/g96vXzmXfgiojyydruw2KDcABPS.jpg",
+    "rating": 7.9,
+    "year": "2001",
+    "type": "movie",
+    "tmdb_id": 453,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "timestamp": 1778283880
+  },
+  {
+    "title": "مخلوقات مشرقة بشكل مبهر / Remarkably Bright Creatures",
+    "title_ar": "مخلوقات مشرقة بشكل مبهر",
+    "title_en": "Remarkably Bright Creatures",
+    "slug": "1330021-remarkably-bright-creatures",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/cCEN58pmPxg4yNPZjg8adZKXm7.jpg",
+    "rating": 8.9,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1330021,
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "timestamp": 1778290293
+  },
+  {
+    "title": "M.I.A. / M.I.A.",
+    "title_ar": "M.I.A.",
+    "title_en": "M.I.A.",
+    "slug": "262388-mia",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "rating": 8.4,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 262388,
+    "genre_ids": [
+      80,
+      18
+    ],
+    "timestamp": 1778302749
+  },
+  {
+    "title": "Penia / Full Moon",
+    "title_ar": "Penia",
+    "title_en": "Full Moon",
+    "slug": "388776-full-moon",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/zcMnWzUoc2Xn0JO6F4HwjRt95zX.jpg",
+    "rating": 7.4,
+    "year": "1979",
+    "type": "movie",
+    "tmdb_id": 388776,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778302783
+  },
+  {
+    "title": "Ghost Mansion / Ghost Mansion",
+    "title_ar": "Ghost Mansion",
+    "title_en": "Ghost Mansion",
+    "slug": "842033-ghost-mansion",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/fv0M8kyW95FpsrhoLTSCcEVR6hf.jpg",
+    "rating": 7.2,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 842033,
+    "genre_ids": [
+      27,
+      53
+    ],
+    "timestamp": 1778310339
+  },
+  {
+    "title": "Nina the Starry Bride / Nina the Starry Bride",
+    "title_ar": "Nina the Starry Bride",
+    "title_en": "Nina the Starry Bride",
+    "slug": "240641-nina-the-starry-bride",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dCO0ihJjo7y7ptzbdHuJ3UEA8MI.jpg",
+    "rating": 8.5,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 240641,
+    "genre_ids": [
+      16,
+      18,
+      10765
+    ],
+    "timestamp": 1778310393
+  },
+  {
+    "title": "الحرارة / Heat",
+    "title_ar": "الحرارة",
+    "title_en": "Heat",
+    "slug": "949-heat",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/dpAdZa7ugrp2qHvuT28v5AtKlF3.jpg",
+    "rating": 7.9,
+    "year": "1995",
+    "type": "movie",
+    "tmdb_id": 949,
+    "genre_ids": [
+      80,
+      18,
+      28
+    ],
+    "timestamp": 1778317050
+  },
+  {
+    "title": "... / A Little Thing Called Love",
+    "title_ar": "...",
+    "title_en": "A Little Thing Called Love",
+    "slug": "57627-a-little-thing-called-love",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/3Noa9UTonvWixKaKP5D6UzhhJlY.jpg",
+    "rating": 7.8,
+    "year": "2010",
+    "type": "movie",
+    "tmdb_id": 57627,
+    "genre_ids": [
+      35,
+      10749
+    ],
+    "timestamp": 1778320864
+  },
+  {
+    "title": "KURAU Phantom Memory / Kurau Phantom Memory",
+    "title_ar": "KURAU Phantom Memory",
+    "title_en": "Kurau Phantom Memory",
+    "slug": "31692-kurau-phantom-memory",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/f5v386giaPRNsuowWCTdwyVLTp.jpg",
+    "rating": 7.3,
+    "year": "2004",
+    "type": "tv",
+    "tmdb_id": 31692,
+    "genre_ids": [
+      16,
+      10765,
+      18
+    ],
+    "timestamp": 1778320901
+  },
+  {
+    "title": "Monthly Girls Nozaki-kun / Monthly Girls Nozaki-kun",
+    "title_ar": "Monthly Girls Nozaki-kun",
+    "title_en": "Monthly Girls Nozaki-kun",
+    "slug": "61379-monthly-girls-nozaki-kun",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/maPv22inKIcyfOCil3wrWiyJ7gC.jpg",
+    "rating": 7.2,
+    "year": "2014",
+    "type": "tv",
+    "tmdb_id": 61379,
+    "genre_ids": [
+      16,
+      35
+    ],
+    "timestamp": 1778324465
+  },
+  {
+    "title": "-piece- / Horimiya: The Missing Pieces",
+    "title_ar": "-piece-",
+    "title_en": "Horimiya: The Missing Pieces",
+    "slug": "228663-horimiya-the-missing-pieces",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/nnGb4NYOyRfCl5DKYPIK9A0Cgww.jpg",
+    "rating": 7.6,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 228663,
+    "genre_ids": [
+      16,
+      35,
+      18
+    ],
+    "timestamp": 1778327282
+  },
+  {
+    "title": "Me Before You / Me Before You",
+    "title_ar": "Me Before You",
+    "title_en": "Me Before You",
+    "slug": "296096-me-before-you",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/Ia3dzj5LnCj1ZBdlVeJrbKJQxG.jpg",
+    "rating": 7.9,
+    "year": "2016",
+    "type": "movie",
+    "tmdb_id": 296096,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "timestamp": 1778327308
+  },
+  {
+    "title": "The Gold Rush / The Gold Rush",
+    "title_ar": "The Gold Rush",
+    "title_en": "The Gold Rush",
+    "slug": "962-the-gold-rush",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eQRFo1qwRREYwj47Yoe1PisgOle.jpg",
+    "rating": 8.0,
+    "year": "1925",
+    "type": "movie",
+    "tmdb_id": 962,
+    "genre_ids": [
+      12,
+      35,
+      18
+    ],
+    "timestamp": 1778330822
+  },
+  {
+    "title": "يوغي اوه زيكسال / Yu-Gi-Oh! Zexal",
+    "title_ar": "يوغي اوه زيكسال",
+    "title_en": "Yu-Gi-Oh! Zexal",
+    "slug": "45854-yu-gi-oh-zexal",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/uGOjTI1HQukcCU7wDCtQlnsBaG7.jpg",
+    "rating": 7.4,
+    "year": "2011",
+    "type": "tv",
+    "tmdb_id": 45854,
+    "genre_ids": [
+      16,
+      35,
+      10759,
+      10765,
+      10762
+    ],
+    "timestamp": 1778330868
+  },
+  {
+    "title": "The Aviator / The Aviator",
+    "title_ar": "The Aviator",
+    "title_en": "The Aviator",
+    "slug": "2567-the-aviator",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/lx4kWcZc3o9PaNxlQpEJZM17XUI.jpg",
+    "rating": 7.2,
+    "year": "2004",
+    "type": "movie",
+    "tmdb_id": 2567,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778335912
+  },
+  {
+    "title": "The Marvelous Mrs. Maisel / The Marvelous Mrs. Maisel",
+    "title_ar": "The Marvelous Mrs. Maisel",
+    "title_en": "The Marvelous Mrs. Maisel",
+    "slug": "70796-the-marvelous-mrs-maisel",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/ztppexA4HYc1KICR9IW0wxi2nVU.jpg",
+    "rating": 8.0,
+    "year": "2017",
+    "type": "tv",
+    "tmdb_id": 70796,
+    "genre_ids": [
+      35,
+      18
+    ],
+    "timestamp": 1778335919
+  },
+  {
+    "title": "The Ren Stimpy Show / The Ren Stimpy Show",
+    "title_ar": "The Ren Stimpy Show",
+    "title_en": "The Ren Stimpy Show",
+    "slug": "504-the-ren-stimpy-show",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/4plB7fMf1xob12ui7kpgnO3h4tJ.jpg",
+    "rating": 7.6,
+    "year": "1991",
+    "type": "tv",
+    "tmdb_id": 504,
+    "genre_ids": [
+      16,
+      10765,
+      35,
+      10762,
+      10751
+    ],
+    "timestamp": 1778340493
+  },
+  {
+    "title": "حراس المجرة / Guardians of the Galaxy",
+    "title_ar": "حراس المجرة",
+    "title_en": "Guardians of the Galaxy",
+    "slug": "118340-guardians-of-the-galaxy",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+    "rating": 7.9,
+    "year": "2014",
+    "type": "movie",
+    "tmdb_id": 118340,
+    "genre_ids": [
+      28,
+      878,
+      12
+    ],
+    "timestamp": 1778340550
+  },
+  {
+    "title": "Identity / Identity",
+    "title_ar": "Identity",
+    "title_en": "Identity",
+    "slug": "2832-identity",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/sYgimsiBywqVwJI8H4sETke8m7v.jpg",
+    "rating": 7.2,
+    "year": "2003",
+    "type": "movie",
+    "tmdb_id": 2832,
+    "genre_ids": [
+      9648,
+      53
+    ],
+    "timestamp": 1778343260
+  },
+  {
+    "title": "Beverly Hills, 90210 / Beverly Hills, 90210",
+    "title_ar": "Beverly Hills, 90210",
+    "title_en": "Beverly Hills, 90210",
+    "slug": "2025-beverly-hills-90210",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/b7BYfkhu653D894krwGO1ysIKTf.jpg",
+    "rating": 7.3,
+    "year": "1990",
+    "type": "tv",
+    "tmdb_id": 2025,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778343311
+  },
+  {
+    "title": "Marathon Man / Marathon Man",
+    "title_ar": "Marathon Man",
+    "title_en": "Marathon Man",
+    "slug": "10518-marathon-man",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
+    "rating": 7.2,
+    "year": "1976",
+    "type": "movie",
+    "tmdb_id": 10518,
+    "genre_ids": [
+      53,
+      80,
+      18
+    ],
+    "timestamp": 1778347621
+  },
+  {
+    "title": "اللوتس الأبيض / The White Lotus",
+    "title_ar": "اللوتس الأبيض",
+    "title_en": "The White Lotus",
+    "slug": "111803-the-white-lotus",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xUE8r8SPoAxVbZdh5uvLC5MKLbN.jpg",
+    "rating": 7.6,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 111803,
+    "genre_ids": [
+      35,
+      18,
+      9648
+    ],
+    "timestamp": 1778347655
+  },
+  {
+    "title": "الكابادي المشتعلة / Burning Kabaddi",
+    "title_ar": "الكابادي المشتعلة",
+    "title_en": "Burning Kabaddi",
+    "slug": "105721-burning-kabaddi",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/nHaTQoEyLJSkMBUASWr3PynbUss.jpg",
+    "rating": 7.7,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 105721,
+    "genre_ids": [
+      16,
+      35
+    ],
+    "timestamp": 1778350313
+  },
+  {
+    "title": "My Butt Has a Fever / My Butt Has a Fever",
+    "title_ar": "My Butt Has a Fever",
+    "title_en": "My Butt Has a Fever",
+    "slug": "854456-my-butt-has-a-fever",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/kUlDDT3mXw5eSbpk2LVKGpHHBlE.jpg",
+    "rating": 8.7,
+    "year": "2022",
+    "type": "movie",
+    "tmdb_id": 854456,
+    "genre_ids": [
+      16,
+      35,
+      10402
+    ],
+    "timestamp": 1778350349
+  },
+  {
+    "title": "Saw X / Saw X",
+    "title_ar": "Saw X",
+    "title_en": "Saw X",
+    "slug": "951491-saw-x",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+    "rating": 7.2,
+    "year": "2023",
+    "type": "movie",
+    "tmdb_id": 951491,
+    "genre_ids": [
+      27,
+      9648
+    ],
+    "timestamp": 1778355484
+  },
+  {
+    "title": "Chicago Hope / Chicago Hope",
+    "title_ar": "Chicago Hope",
+    "title_en": "Chicago Hope",
+    "slug": "6467-chicago-hope",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/x8ic33t4NurJul1oXmvKwKtWH28.jpg",
+    "rating": 7.2,
+    "year": "1994",
+    "type": "tv",
+    "tmdb_id": 6467,
+    "genre_ids": [
+      10766,
+      18
+    ],
+    "timestamp": 1778355524
+  },
+  {
+    "title": "والاس وجروميت لعنة الأرنب المستذئب / Wallace Gromit: The Curse of the Were-Rabbit",
+    "title_ar": "والاس وجروميت لعنة الأرنب المستذئب",
+    "title_en": "Wallace Gromit: The Curse of the Were-Rabbit",
+    "slug": "533-wallace-gromit-the-curse-of-the-were-rabbit",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/1qMyUf6QgIp0yWTGDZxvJY0hR4E.jpg",
+    "rating": 7.1,
+    "year": "2005",
+    "type": "movie",
+    "tmdb_id": 533,
+    "genre_ids": [
+      12,
+      16,
+      35,
+      10751
+    ],
+    "timestamp": 1778358822
+  },
+  {
+    "title": "Mystery Science Theater 3000 / Mystery Science Theater 3000",
+    "title_ar": "Mystery Science Theater 3000",
+    "title_en": "Mystery Science Theater 3000",
+    "slug": "75907-mystery-science-theater-3000",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/lGkGqvxzrH3TK1ElA1C7uNxicDZ.jpg",
+    "rating": 7.7,
+    "year": "2017",
+    "type": "tv",
+    "tmdb_id": 75907,
+    "genre_ids": [
+      35,
+      10765
+    ],
+    "timestamp": 1778358875
+  },
+  {
+    "title": "ميجامايند / Megamind",
+    "title_ar": "ميجامايند",
+    "title_en": "Megamind",
+    "slug": "38055-megamind",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/kH2acwtiiwHsgARlFM653miKOvn.jpg",
+    "rating": 7.0,
+    "year": "2010",
+    "type": "movie",
+    "tmdb_id": 38055,
+    "genre_ids": [
+      16,
+      28,
+      35,
+      10751,
+      878
+    ],
+    "timestamp": 1778362375
+  },
+  {
+    "title": "Da Vincis Demons / Da Vincis Demons",
+    "title_ar": "Da Vincis Demons",
+    "title_en": "Da Vincis Demons",
+    "slug": "40293-da-vincis-demons",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/sR8m3EUxmRJi4S9u5sfBDRLce1Z.jpg",
+    "rating": 7.5,
+    "year": "2013",
+    "type": "tv",
+    "tmdb_id": 40293,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778362398
+  },
+  {
+    "title": "3096 يوم / 3096 Days",
+    "title_ar": "3096 يوم",
+    "title_en": "3096 Days",
+    "slug": "166666-3096-days",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eUsbeRroXNrFLNCFTvpgCLjwzws.jpg",
+    "rating": 7.4,
+    "year": "2013",
+    "type": "movie",
+    "tmdb_id": 166666,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778365872
+  },
+  {
+    "title": "2.5 / 2.5 Dimensional Seduction",
+    "title_ar": "2.5",
+    "title_en": "2.5 Dimensional Seduction",
+    "slug": "216074-25-dimensional-seduction",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/mScRmknR5OTOxaRdbzNxnJkG4Zo.jpg",
+    "rating": 8.2,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 216074,
+    "genre_ids": [
+      16,
+      35
+    ],
+    "timestamp": 1778365906
+  },
+  {
+    "title": "Cidade de Deus: A Luta No Para / City of God: The Fight Rages On",
+    "title_ar": "Cidade de Deus: A Luta No Para",
+    "title_en": "City of God: The Fight Rages On",
+    "slug": "223397-city-of-god-the-fight-rages-on",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/bROpzy08O9nSyfDgBUlgUoMp9nw.jpg",
+    "rating": 7.5,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 223397,
+    "genre_ids": [
+      18,
+      80
+    ],
+    "timestamp": 1778369818
+  },
+  {
+    "title": "Beast / Beast",
+    "title_ar": "Beast",
+    "title_en": "Beast",
+    "slug": "1292415-beast",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "rating": 7.2,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1292415,
+    "genre_ids": [
+      28,
+      18
+    ],
+    "timestamp": 1778377492
+  },
+  {
+    "title": "الذئب والأسد / The Wolf and the Lion",
+    "title_ar": "الذئب والأسد",
+    "title_en": "The Wolf and the Lion",
+    "slug": "780382-the-wolf-and-the-lion",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/x3JsrunysUwsIV9XS7hQtZG4knm.jpg",
+    "rating": 7.5,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 780382,
+    "genre_ids": [
+      10751,
+      12,
+      18
+    ],
+    "timestamp": 1778377518
+  },
+  {
+    "title": "Non un paese per single / No Place to Be Single",
+    "title_ar": "Non un paese per single",
+    "title_en": "No Place to Be Single",
+    "slug": "1317448-no-place-to-be-single",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/3BsaBkOalMIRMwNE6OxFUGqrnEB.jpg",
+    "rating": 7.1,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1317448,
+    "genre_ids": [
+      10749,
+      35
+    ],
+    "timestamp": 1778390764
+  },
+  {
+    "title": "الشعوذة 2 / The Conjuring 2",
+    "title_ar": "الشعوذة 2",
+    "title_en": "The Conjuring 2",
+    "slug": "259693-the-conjuring-2",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/47o4yaaBGS8RhygbBZNnqYD0e1.jpg",
+    "rating": 7.3,
+    "year": "2016",
+    "type": "movie",
+    "tmdb_id": 259693,
+    "genre_ids": [
+      27
+    ],
+    "timestamp": 1778390810
+  },
+  {
+    "title": "هويات مزيفة / Legends",
+    "title_ar": "هويات مزيفة",
+    "title_en": "Legends",
+    "slug": "262280-legends",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+    "rating": 7.1,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 262280,
+    "genre_ids": [
+      10759,
+      80,
+      18
+    ],
+    "timestamp": 1778398705
+  },
+  {
+    "title": "DMD Friendship The Reality / DMD Friendship The Reality",
+    "title_ar": "DMD Friendship The Reality",
+    "title_en": "DMD Friendship The Reality",
+    "slug": "244370-dmd-friendship-the-reality",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/yu16SDHh3EMzIm9cmBXJTo1oGqg.jpg",
+    "rating": 8.7,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 244370,
+    "genre_ids": [
+      10764
+    ],
+    "timestamp": 1778398748
+  },
+  {
+    "title": "Dolls / Dolls",
+    "title_ar": "Dolls",
+    "title_en": "Dolls",
+    "slug": "870-dolls",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/gEI8JJPayOrdfy0AjdWQ92A90cc.jpg",
+    "rating": 7.5,
+    "year": "2002",
+    "type": "movie",
+    "tmdb_id": 870,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "timestamp": 1778404793
+  },
+  {
+    "title": "Silo / Silo",
+    "title_ar": "Silo",
+    "title_en": "Silo",
+    "slug": "125988-silo",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
+    "rating": 8.1,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 125988,
+    "genre_ids": [
+      10765,
+      18
+    ],
+    "timestamp": 1778404817
+  },
+  {
+    "title": "موعد كارل الغرامي / Carls Date",
+    "title_ar": "موعد كارل الغرامي",
+    "title_en": "Carls Date",
+    "slug": "1076364-carls-date",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/vSPmRZvHsci52NeVYQ2u181b0YW.jpg",
+    "rating": 7.4,
+    "year": "2023",
+    "type": "movie",
+    "tmdb_id": 1076364,
+    "genre_ids": [
+      16,
+      10751,
+      35,
+      10749
+    ],
+    "timestamp": 1778409774
+  },
+  {
+    "title": "المرأة القوية دو بونغ سون / Strong Woman Do Bong-Soon",
+    "title_ar": "المرأة القوية دو بونغ سون",
+    "title_en": "Strong Woman Do Bong-Soon",
+    "slug": "68814-strong-woman-do-bong-soon",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/m3dPY5Mwb9YE2gTNRZOWGDcCYW4.jpg",
+    "rating": 8.0,
+    "year": "2017",
+    "type": "tv",
+    "tmdb_id": 68814,
+    "genre_ids": [
+      35,
+      10759,
+      18
+    ],
+    "timestamp": 1778409801
+  },
+  {
+    "title": "Groots Pursuit / Groots Pursuit",
+    "title_ar": "Groots Pursuit",
+    "title_en": "Groots Pursuit",
+    "slug": "1010820-groots-pursuit",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/z5AQHYTTx7DzG9CRd01ny9DtqNE.jpg",
+    "rating": 7.1,
+    "year": "2022",
+    "type": "movie",
+    "tmdb_id": 1010820,
+    "genre_ids": [
+      16,
+      10751,
+      35,
+      878
+    ],
+    "timestamp": 1778413254
+  },
+  {
+    "title": "مستر بين / Mr. Bean",
+    "title_ar": "مستر بين",
+    "title_en": "Mr. Bean",
+    "slug": "4327-mr-bean",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/pUNQV35kDaKuejnXGNiUeEBurNE.jpg",
+    "rating": 8.0,
+    "year": "1990",
+    "type": "tv",
+    "tmdb_id": 4327,
+    "genre_ids": [
+      35
+    ],
+    "timestamp": 1778413285
+  },
+  {
+    "title": "رحلة بالغابة / Jungle Cruise",
+    "title_ar": "رحلة بالغابة",
+    "title_en": "Jungle Cruise",
+    "slug": "451048-jungle-cruise",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/r5Hc8aAbALrf8bY3nS8epWMXwnm.jpg",
+    "rating": 7.3,
+    "year": "2021",
+    "type": "movie",
+    "tmdb_id": 451048,
+    "genre_ids": [
+      14,
+      12,
+      28
+    ],
+    "timestamp": 1778417267
+  },
+  {
+    "title": "Soonpoong Clinic / Soonpoong Clinic",
+    "title_ar": "Soonpoong Clinic",
+    "title_en": "Soonpoong Clinic",
+    "slug": "70204-soonpoong-clinic",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/cRvExNNMVinTXyW8YITQQ62oznN.jpg",
+    "rating": 9.0,
+    "year": "1998",
+    "type": "tv",
+    "tmdb_id": 70204,
+    "genre_ids": [
+      10751,
+      35
+    ],
+    "timestamp": 1778417273
+  },
+  {
+    "title": "لا بأس إن لم تكن بخير / Its Okay to Not Be Okay",
+    "title_ar": "لا بأس إن لم تكن بخير",
+    "title_en": "Its Okay to Not Be Okay",
+    "slug": "96462-its-okay-to-not-be-okay",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/hd2aVdoIMih0z63ar0tAgRrI5HB.jpg",
+    "rating": 8.5,
+    "year": "2020",
+    "type": "tv",
+    "tmdb_id": 96462,
+    "genre_ids": [
+      18,
+      35
+    ],
+    "timestamp": 1778422531
+  },
+  {
+    "title": "Christy / Christy",
+    "title_ar": "Christy",
+    "title_en": "Christy",
+    "slug": "1287322-christy",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/rIUsPcJN0wtLOz86EnmtzKdwAgS.jpg",
+    "rating": 7.2,
+    "year": "2025",
+    "type": "movie",
+    "tmdb_id": 1287322,
+    "genre_ids": [
+      36,
+      18
+    ],
+    "timestamp": 1778422554
   }
 ]
