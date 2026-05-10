@@ -24061,5 +24061,23 @@
       28
     ],
     "timestamp": 1778436775
+  },
+  {
+    "title": "The Executioner and Her Way of Life / The Executioner and Her Way of Life",
+    "title_ar": "The Executioner and Her Way of Life",
+    "title_en": "The Executioner and Her Way of Life",
+    "slug": "117886-the-executioner-and-her-way-of-life",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/pXtIXRrMIH5Ns30S2KOv7KCaPh8.jpg",
+    "rating": 7.2,
+    "year": "2022",
+    "type": "tv",
+    "tmdb_id": 117886,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778442025
   }
 ]
