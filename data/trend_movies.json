@@ -13,7 +13,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.1,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -38,7 +38,7 @@
   {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/qvaJWIFoccQKZnrudONibHqjI0p.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
@@ -63,15 +63,6 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
     "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
@@ -79,6 +70,15 @@
     "rating": 7.3,
     "folder": "movie",
     "slug": "1266127-ready-or-not-2-here-i-come"
+  },
+  {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 7.3,
+    "folder": "movie",
+    "slug": "1292415-beast"
   },
   {
     "tmdb_id": 1327819,
@@ -117,6 +117,15 @@
     "slug": "1630423-my-dearest-assassin"
   },
   {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
+  },
+  {
     "tmdb_id": 1632754,
     "title": "Backlash Tampa",
     "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
@@ -126,15 +135,6 @@
     "slug": "1632754-backlash-tampa"
   },
   {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
     "tmdb_id": 1198994,
     "title": "Send Help",
     "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
@@ -142,15 +142,6 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1198994-send-help"
-  },
-  {
-    "tmdb_id": 696393,
-    "title": "Cold Storage",
-    "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "696393-cold-storage"
   },
   {
     "tmdb_id": 1301421,
@@ -171,12 +162,21 @@
     "slug": "83533-avatar-fire-and-ash"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "tmdb_id": 696393,
+    "title": "Cold Storage",
+    "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
+    "slug": "696393-cold-storage"
+  },
+  {
+    "tmdb_id": 1688652,
+    "title": "Gary",
+    "poster": "https://image.tmdb.org/t/p/w500/qOOhoxvUDe7lWpPEeh0gFBYpjFe.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1688652-gary"
   }
 ]
