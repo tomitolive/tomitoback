@@ -4,7 +4,7 @@
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.3,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
   },
@@ -22,7 +22,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.1,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -34,6 +34,15 @@
     "rating": 6.8,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1226863,
@@ -52,15 +61,6 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1007757,
@@ -99,6 +99,15 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292415-beast"
+  },
+  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
@@ -106,6 +115,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
   },
   {
     "tmdb_id": 1439930,
@@ -117,31 +135,13 @@
     "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
     "tmdb_id": 1630423,
     "title": "My Dearest Assassin",
     "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 7.8,
     "folder": "movie",
     "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
   },
   {
     "tmdb_id": 83533,
@@ -162,15 +162,6 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1214931,
-    "title": "Nuremberg",
-    "poster": "https://image.tmdb.org/t/p/w500/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
-    "year": "2025",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1214931-nuremberg"
-  },
-  {
     "tmdb_id": 1368337,
     "title": "The Odyssey",
     "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
@@ -178,5 +169,14 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1368337-the-odyssey"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   }
 ]

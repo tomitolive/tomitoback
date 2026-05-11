@@ -54,15 +54,6 @@
     "slug": "254953-rooster"
   },
   {
-    "tmdb_id": 290856,
-    "title": "Marshals",
-    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "290856-marshals"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -70,6 +61,15 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 290856,
+    "title": "Marshals",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "290856-marshals"
   },
   {
     "tmdb_id": 114922,
@@ -126,15 +126,6 @@
     "slug": "262280-legends"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "262388-mia"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -144,22 +135,13 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
     "year": "2026",
-    "rating": 8.3,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "262388-mia"
   },
   {
     "tmdb_id": 136315,
@@ -171,12 +153,30 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
     "year": "2026",
-    "rating": 8.6,
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "272432-born-with-luck"
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 319600,
+    "title": "Azure Spring",
+    "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "319600-azure-spring"
+  },
+  {
+    "tmdb_id": 1434,
+    "title": "Family Guy",
+    "poster": "https://image.tmdb.org/t/p/w500/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+    "year": "1999",
+    "rating": 7.4,
+    "folder": "tv",
+    "slug": "1434-family-guy"
   }
 ]

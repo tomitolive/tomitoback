@@ -24500,5 +24500,41 @@
       10765
     ],
     "timestamp": 1778536924
+  },
+  {
+    "title": "دعونا نغني! أغنية Thriller / Sing: Thriller",
+    "title_ar": "دعونا نغني! أغنية Thriller",
+    "title_en": "Sing: Thriller",
+    "slug": "1371727-sing-thriller",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/zdT3LmTSNL4GAsS3cKjaCBzOrId.jpg",
+    "rating": 7.2,
+    "year": "2024",
+    "type": "movie",
+    "tmdb_id": 1371727,
+    "genre_ids": [
+      16,
+      10751,
+      35,
+      10402
+    ],
+    "timestamp": 1778542089
+  },
+  {
+    "title": "Les Kassos / The Wakos",
+    "title_ar": "Les Kassos",
+    "title_en": "The Wakos",
+    "slug": "66038-the-wakos",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/e8QQghtMh5iPkp10YSJBEww3nU5.jpg",
+    "rating": 7.9,
+    "year": "2013",
+    "type": "tv",
+    "tmdb_id": 66038,
+    "genre_ids": [
+      35,
+      16
+    ],
+    "timestamp": 1778542150
   }
 ]
