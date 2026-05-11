@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -16,6 +7,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 76479,
@@ -54,13 +54,13 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 9.3,
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.8,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 254953,
@@ -70,24 +70,6 @@
     "rating": 7.5,
     "folder": "tv",
     "slug": "254953-rooster"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.8,
-    "folder": "tv",
-    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 290856,
@@ -108,13 +90,22 @@
     "slug": "256695-regular-show-the-lost-tapes"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 9.3,
     "folder": "tv",
-    "slug": "262388-mia"
+    "slug": "303143-my-royal-nemesis"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 278573,
@@ -124,15 +115,6 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "278573-perfect-crown"
-  },
-  {
-    "tmdb_id": 289424,
-    "title": "We Are All Trying Here",
-    "poster": "https://image.tmdb.org/t/p/w500/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
-    "year": "2026",
-    "rating": 9.2,
-    "folder": "tv",
-    "slug": "289424-we-are-all-trying-here"
   },
   {
     "tmdb_id": 127865,
@@ -162,21 +144,39 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
-    "rating": 8.8,
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/nmYgPJiZebWUtL6D72D0Qp9ce0H.jpg",
+    "year": "2026",
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
+    "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "year": "2026",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 245842,
+    "title": "Wistoria: Wand and Sword",
+    "poster": "https://image.tmdb.org/t/p/w500/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
+    "year": "2024",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "245842-wistoria-wand-and-sword"
   }
 ]
