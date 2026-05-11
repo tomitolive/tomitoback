@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -16,6 +7,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 76479,
@@ -63,15 +63,6 @@
     "slug": "290856-marshals"
   },
   {
-    "tmdb_id": 284110,
-    "title": "The Lead",
-    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "284110-the-lead"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -79,33 +70,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "278573-perfect-crown"
-  },
-  {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
   },
   {
     "tmdb_id": 114922,
@@ -117,13 +81,13 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
+    "tmdb_id": 284110,
+    "title": "The Lead",
+    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
+    "year": "2026",
+    "rating": 9.0,
     "folder": "tv",
-    "slug": "127865-the-chestnut-man"
+    "slug": "284110-the-lead"
   },
   {
     "tmdb_id": 295509,
@@ -135,22 +99,22 @@
     "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
-    "tmdb_id": 272715,
-    "title": "Fate Chooses You",
-    "poster": "https://image.tmdb.org/t/p/w500/fBgbr6rGLxV7qwiVJ5BnosDE0av.jpg",
-    "year": "2026",
-    "rating": 8.7,
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "272715-fate-chooses-you"
+    "slug": "127865-the-chestnut-man"
   },
   {
-    "tmdb_id": 289424,
-    "title": "We Are All Trying Here",
-    "poster": "https://image.tmdb.org/t/p/w500/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
     "year": "2026",
-    "rating": 9.2,
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "289424-we-are-all-trying-here"
+    "slug": "303143-my-royal-nemesis"
   },
   {
     "tmdb_id": 262280,
@@ -162,6 +126,33 @@
     "slug": "262280-legends"
   },
   {
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "289219-star-wars-maul-shadow-lord"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -171,12 +162,21 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 262388,
-    "title": "M.I.A.",
-    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "tmdb_id": 289424,
+    "title": "We Are All Trying Here",
+    "poster": "https://image.tmdb.org/t/p/w500/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 9.2,
     "folder": "tv",
-    "slug": "262388-mia"
+    "slug": "289424-we-are-all-trying-here"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
   }
 ]
