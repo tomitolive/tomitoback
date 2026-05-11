@@ -36,15 +36,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 254953,
-    "title": "Rooster",
-    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "254953-rooster"
-  },
-  {
     "tmdb_id": 256695,
     "title": "Regular Show: The Lost Tapes",
     "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
@@ -52,6 +43,15 @@
     "rating": 0.0,
     "folder": "tv",
     "slug": "256695-regular-show-the-lost-tapes"
+  },
+  {
+    "tmdb_id": 254953,
+    "title": "Rooster",
+    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "254953-rooster"
   },
   {
     "tmdb_id": 290856,
@@ -81,15 +81,6 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 284110,
-    "title": "The Lead",
-    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "284110-the-lead"
-  },
-  {
     "tmdb_id": 295509,
     "title": "The Legend of Kitchen Soldier",
     "poster": "https://image.tmdb.org/t/p/w500/nmYgPJiZebWUtL6D72D0Qp9ce0H.jpg",
@@ -97,6 +88,15 @@
     "rating": 0.0,
     "folder": "tv",
     "slug": "295509-the-legend-of-kitchen-soldier"
+  },
+  {
+    "tmdb_id": 284110,
+    "title": "The Lead",
+    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "284110-the-lead"
   },
   {
     "tmdb_id": 127865,
@@ -135,15 +135,6 @@
     "slug": "262388-mia"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
-    "year": "2026",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -153,22 +144,22 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "tmdb_id": 289219,
+    "title": "Star Wars: Maul - Shadow Lord",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
     "year": "2026",
-    "rating": 8.6,
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "272432-born-with-luck"
+    "slug": "289219-star-wars-maul-shadow-lord"
   },
   {
-    "tmdb_id": 289424,
-    "title": "We Are All Trying Here",
-    "poster": "https://image.tmdb.org/t/p/w500/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
-    "year": "2026",
-    "rating": 9.2,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "289424-we-are-all-trying-here"
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 136315,
@@ -178,5 +169,14 @@
     "rating": 8.2,
     "folder": "tv",
     "slug": "136315-the-bear"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   }
 ]
