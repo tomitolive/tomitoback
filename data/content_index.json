@@ -24325,5 +24325,37 @@
       18
     ],
     "timestamp": 1778489689
+  },
+  {
+    "title": "The Return of Superman / The Return of Superman",
+    "title_ar": "The Return of Superman",
+    "title_en": "The Return of Superman",
+    "slug": "64356-the-return-of-superman",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/iP2OjFhiiMnowebltmXgAxJowKP.jpg",
+    "rating": 7.7,
+    "year": "2013",
+    "type": "tv",
+    "tmdb_id": 64356,
+    "genre_ids": [
+      10764
+    ],
+    "timestamp": 1778500515
+  },
+  {
+    "title": "التاريخ الأمريكي إكس / American History X",
+    "title_ar": "التاريخ الأمريكي إكس",
+    "title_en": "American History X",
+    "slug": "73-american-history-x",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg",
+    "rating": 8.3,
+    "year": "1998",
+    "type": "movie",
+    "tmdb_id": 73,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778500523
   }
 ]
