@@ -24253,5 +24253,41 @@
       10765
     ],
     "timestamp": 1778464338
+  },
+  {
+    "title": "Born with Luck / Born with Luck",
+    "title_ar": "Born with Luck",
+    "title_en": "Born with Luck",
+    "slug": "272432-born-with-luck",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
+    "rating": 8.5,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 272432,
+    "genre_ids": [
+      18,
+      9648,
+      80,
+      35
+    ],
+    "timestamp": 1778478462
+  },
+  {
+    "title": "Cross Fire / Cross Fire",
+    "title_ar": "Cross Fire",
+    "title_en": "Cross Fire",
+    "slug": "106227-cross-fire",
+    "folder": "tv",
+    "poster": "https://image.tmdb.org/t/p/w500/FHQxvrtOWy1g5XLW3bmjrBBxlR.jpg",
+    "rating": 7.1,
+    "year": "2020",
+    "type": "tv",
+    "tmdb_id": 106227,
+    "genre_ids": [
+      10759,
+      10765
+    ],
+    "timestamp": 1778478494
   }
 ]
