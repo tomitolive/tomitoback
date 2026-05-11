@@ -27,15 +27,6 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -45,13 +36,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 8.9,
+    "rating": 7.6,
     "folder": "movie",
-    "slug": "1007757-swapped"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1325734,
@@ -72,40 +63,22 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1292695,
+    "title": "They Will Kill You",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1292695-they-will-kill-you"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 8.9,
     "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1266127,
@@ -117,6 +90,33 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
+  },
+  {
     "tmdb_id": 1292415,
     "title": "Beast",
     "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
@@ -126,22 +126,40 @@
     "slug": "1292415-beast"
   },
   {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
+  },
+  {
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "83533-avatar-fire-and-ash"
+  },
+  {
     "tmdb_id": 1630423,
     "title": "My Dearest Assassin",
     "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 7.5,
     "folder": "movie",
     "slug": "1630423-my-dearest-assassin"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 8.0,
     "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
+    "slug": "1297842-goat"
   },
   {
     "tmdb_id": 1198994,
@@ -153,30 +171,12 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
     "year": "2026",
     "rating": 0.0,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
-  },
-  {
-    "tmdb_id": 1339713,
-    "title": "Obsession",
-    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1339713-obsession"
-  },
-  {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   }
 ]

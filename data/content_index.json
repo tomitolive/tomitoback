@@ -24429,5 +24429,22 @@
       10762
     ],
     "timestamp": 1778519284
+  },
+  {
+    "title": "في السراء والضراء / Kabhi Khushi Kabhie Gham",
+    "title_ar": "في السراء والضراء",
+    "title_en": "Kabhi Khushi Kabhie Gham",
+    "slug": "10757-kabhi-khushi-kabhie-gham",
+    "folder": "movie",
+    "poster": "https://image.tmdb.org/t/p/w500/22FzymqB2hojCn99qqjEXUBZuuX.jpg",
+    "rating": 7.7,
+    "year": "2001",
+    "type": "movie",
+    "tmdb_id": 10757,
+    "genre_ids": [
+      35,
+      18
+    ],
+    "timestamp": 1778527054
   }
 ]
