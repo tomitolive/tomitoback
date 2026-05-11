@@ -2611,6 +2611,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/322-mystic-river</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/324552-john-wick-chapter-2</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
