@@ -36,15 +36,6 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -72,22 +63,13 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1439930,
@@ -99,9 +81,18 @@
     "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
   {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
     "year": "2026",
     "rating": 7.7,
     "folder": "movie",
@@ -117,6 +108,15 @@
     "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
     "tmdb_id": 1339713,
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
@@ -126,13 +126,13 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 8.2,
     "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
+    "slug": "1630423-my-dearest-assassin"
   },
   {
     "tmdb_id": 1292415,
@@ -144,6 +144,15 @@
     "slug": "1292415-beast"
   },
   {
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1317448-no-place-to-be-single"
+  },
+  {
     "tmdb_id": 1198994,
     "title": "Send Help",
     "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
@@ -153,30 +162,21 @@
     "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "tmdb_id": 1405769,
+    "title": "I Can Only Imagine 2",
+    "poster": "https://image.tmdb.org/t/p/w500/A4A8YgAzBwDnlXDzuxoc5ZLchO7.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 7.6,
     "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
+    "slug": "1405769-i-can-only-imagine-2"
   },
   {
-    "tmdb_id": 1656061,
-    "title": "Immortal Combat",
-    "poster": "https://image.tmdb.org/t/p/w500/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg",
+    "tmdb_id": 1658982,
+    "title": "The Roast of Kevin Hart",
+    "poster": "https://image.tmdb.org/t/p/w500/29Ydae6wXyk5z0fiJr0xlGE86Rx.jpg",
     "year": "2026",
-    "rating": 6.8,
+    "rating": 6.2,
     "folder": "movie",
-    "slug": "1656061-immortal-combat"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "1658982-the-roast-of-kevin-hart"
   }
 ]
