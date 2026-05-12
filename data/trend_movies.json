@@ -22,7 +22,7 @@
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
   },
@@ -45,15 +45,6 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -61,6 +52,15 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1007757,
@@ -90,22 +90,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "tmdb_id": 1439930,
+    "title": "A Marvel Television Special Presentation - The Punisher: One Last Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/wjcPbV53ovhlogVFYdmkTDBooqg.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 8.5,
     "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292415-beast"
+    "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
   {
     "tmdb_id": 1301421,
@@ -117,40 +108,13 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
     "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
-    "tmdb_id": 1439930,
-    "title": "A Marvel Television Special Presentation - The Punisher: One Last Kill",
-    "poster": "https://image.tmdb.org/t/p/w500/wjcPbV53ovhlogVFYdmkTDBooqg.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "movie",
-    "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
-  },
-  {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
     "rating": 7.4,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1266127-ready-or-not-2-here-i-come"
   },
   {
     "tmdb_id": 1339713,
@@ -162,13 +126,49 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "tmdb_id": 1317448,
+    "title": "No Place to Be Single",
+    "poster": "https://image.tmdb.org/t/p/w500/httlhu80GnOx3bCAXi4sYdbDny0.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1368337-the-odyssey"
+    "slug": "1317448-no-place-to-be-single"
+  },
+  {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292415-beast"
+  },
+  {
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1198994-send-help"
+  },
+  {
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "movie",
+    "slug": "1630423-my-dearest-assassin"
+  },
+  {
+    "tmdb_id": 1656061,
+    "title": "Immortal Combat",
+    "poster": "https://image.tmdb.org/t/p/w500/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1656061-immortal-combat"
   },
   {
     "tmdb_id": 1228710,
