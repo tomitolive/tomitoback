@@ -45,6 +45,15 @@
     "slug": "936075-michael"
   },
   {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -63,20 +72,11 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
     "tmdb_id": 1439930,
     "title": "A Marvel Television Special Presentation - The Punisher: One Last Kill",
     "poster": "https://image.tmdb.org/t/p/w500/wjcPbV53ovhlogVFYdmkTDBooqg.jpg",
     "year": "2026",
-    "rating": 8.5,
+    "rating": 9.0,
     "folder": "movie",
     "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
@@ -90,22 +90,31 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "tmdb_id": 1339713,
+    "title": "Obsession",
+    "poster": "https://image.tmdb.org/t/p/w500/7BYIUIrpdSkz89DTkY5NhaP9Mf5.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
+    "slug": "1339713-obsession"
   },
   {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
     "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 7.5,
     "folder": "movie",
     "slug": "1266127-ready-or-not-2-here-i-come"
+  },
+  {
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "movie",
+    "slug": "1630423-my-dearest-assassin"
   },
   {
     "tmdb_id": 1318447,
@@ -117,22 +126,31 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1339713,
-    "title": "Obsession",
-    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 7.7,
     "folder": "movie",
-    "slug": "1339713-obsession"
+    "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
+    "tmdb_id": 1214931,
+    "title": "Nuremberg",
+    "poster": "https://image.tmdb.org/t/p/w500/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
+    "year": "2025",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "1214931-nuremberg"
   },
   {
     "tmdb_id": 1292415,
@@ -153,30 +171,12 @@
     "slug": "1317448-no-place-to-be-single"
   },
   {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "tmdb_id": 855435,
+    "title": "Faces of Death",
+    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1198994-send-help"
-  },
-  {
-    "tmdb_id": 1405769,
-    "title": "I Can Only Imagine 2",
-    "poster": "https://image.tmdb.org/t/p/w500/A4A8YgAzBwDnlXDzuxoc5ZLchO7.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "1405769-i-can-only-imagine-2"
-  },
-  {
-    "tmdb_id": 1658982,
-    "title": "The Roast of Kevin Hart",
-    "poster": "https://image.tmdb.org/t/p/w500/29Ydae6wXyk5z0fiJr0xlGE86Rx.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "movie",
-    "slug": "1658982-the-roast-of-kevin-hart"
+    "slug": "855435-faces-of-death"
   }
 ]
