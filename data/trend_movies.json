@@ -18,13 +18,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 7.6,
     "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 855435,
@@ -36,13 +36,13 @@
     "slug": "855435-faces-of-death"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 8.3,
     "folder": "movie",
-    "slug": "936075-michael"
+    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1314481,
@@ -90,24 +90,6 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
     "tmdb_id": 1339713,
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
@@ -117,40 +99,22 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.9,
     "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
+    "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "tmdb_id": 1400357,
+    "title": "The Christophers",
+    "poster": "https://image.tmdb.org/t/p/w500/uLRr3sVVqzcexegoCMrhb2AsVZn.jpg",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 6.8,
     "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 1368337,
-    "title": "The Odyssey",
-    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1368337-the-odyssey"
-  },
-  {
-    "tmdb_id": 1620034,
-    "title": "Marty, Life Is Short",
-    "poster": "https://image.tmdb.org/t/p/w500/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1620034-marty-life-is-short"
+    "slug": "1400357-the-christophers"
   },
   {
     "tmdb_id": 1301421,
@@ -162,6 +126,51 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292415-beast"
+  },
+  {
+    "tmdb_id": 1620034,
+    "title": "Marty, Life Is Short",
+    "poster": "https://image.tmdb.org/t/p/w500/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1620034-marty-life-is-short"
+  },
+  {
+    "tmdb_id": 1368337,
+    "title": "The Odyssey",
+    "poster": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1368337-the-odyssey"
+  },
+  {
+    "tmdb_id": 1630423,
+    "title": "My Dearest Assassin",
+    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "movie",
+    "slug": "1630423-my-dearest-assassin"
+  },
+  {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
+  },
+  {
     "tmdb_id": 1228710,
     "title": "Star Wars: The Mandalorian and Grogu",
     "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
@@ -169,14 +178,5 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
   }
 ]
