@@ -233,7 +233,9 @@ MASTER_TEMPLATE = """<!DOCTYPE html>
           const slug_raw = (r.title || r.name || '').toLowerCase().replace(/[^a-z0-9 ]+/g, '').trim().replace(/\s+/g, '-');
           const slug = `${r.id}-${slug_raw}`;
           const href = `https://tv.tomito.xyz/${folder}/${slug}`;
-          const poster = r.poster_path ? `https://image.tmdb.org/t/p/w200${r.poster_path}` : '';
+          const tmdb_id = r.id;
+          const poster_path = r.poster_path || '';
+          const poster = poster_path ? `https://image.tomito.xyz/t/p/w200${poster_path}` : '';
           const type = folder === 'movie' ? '\u0641\u064a\u0644\u0645' : '\u0645\u0633\u0644\u0633\u0644';
           if (!items.find(i => i.href === href)) items.push({ title, poster, href, type });
         });
@@ -715,12 +717,17 @@ def create_page(item_data, media_type, is_trend=False):
         page_outro = (tri or {}).get('outro') or ""
 
     except Exception as e:
-        log.error(f"AI V7 failed ({e}). Aborting page generation to guarantee unique content.")
-        return None, None
+        log.error(f"AI V7 failed ({e}). Using basic fallback to ensure layout update.")
+        desc_ar = f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية حصرياً على توميتو. استمتع بتجربة مشاهدة فريدة وبدون إعلانات."
+        desc_en = f"Watch and download {title_en} in high quality, translated, exclusively on TOMITO with no ads."
+        page_intro, page_outro = None, None
+        meta_data = {'meta_desc': desc_ar, 'keywords': title_ar}
+        faq_html = ""
+        tomito_opinion = None
 
-    if not desc_ar or not desc_en or len(desc_ar) < 50:
-        log.error("AI returned empty or extremely short descriptions. Aborting to prevent generic fallbacks.")
-        return None, None
+    if not desc_ar or len(desc_ar) < 20:
+        desc_ar = f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية."
+        desc_en = f"Watch and download {title_en} translated."
 
     # Fallback for page_intro/outro if AI failed
     if 'page_intro' not in dir():
