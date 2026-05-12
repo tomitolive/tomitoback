@@ -24,8 +24,16 @@ def get_url(folder, slug, root="./"):
     return f"https://tv.tomito.xyz/{folder}/{slug}"
 
 def card_html(item, root="./"):
-    poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
-    poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
+    poster_tmdb = item.get('poster', '')
+    filename = poster_tmdb.split('/')[-1] if poster_tmdb else ''
+    local_rel_path = f"t/p/w500/{filename}"
+    local_abs_path = os.path.join(BASE_PATH, local_rel_path)
+    
+    if filename and os.path.exists(local_abs_path):
+        poster = f"{root}{local_rel_path}"
+    else:
+        poster = poster_tmdb or f"{root}favicon.ico"
+        
     title = item.get('title') or item.get('title_ar') or ''
     folder = item.get('folder', 'movie')
     slug = item.get('slug', '')
@@ -34,7 +42,7 @@ def card_html(item, root="./"):
     badge = f"{rating}⭐" if rating else "حصري"
     
     return f'''    <a class="card" href="{href}" style="text-decoration:none;">
-      <img class="card-poster" src="{poster}" alt="{title}" loading="lazy" onerror="this.src='/favicon.ico'">
+      <img class="card-poster" src="{poster}" alt="{title}" loading="lazy" onerror="this.src='{root}favicon.ico'">
       <div class="card-overlay"><div class="card-meta">{badge}</div></div>
       <div class="card-bottom"><div class="card-title">{title}</div></div>
     </a>'''
@@ -46,8 +54,16 @@ def build_mini_carousel(section_id, title_ar, items, view_all_url, count=20):
         folder = item.get('folder', 'movie')
         slug   = item.get('slug', '')
         href   = get_url(folder, slug)
-        poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
-        poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
+        poster_tmdb = item.get('poster', '')
+        filename = poster_tmdb.split('/')[-1] if poster_tmdb else ''
+        local_rel_path = f"t/p/w500/{filename}"
+        local_abs_path = os.path.join(BASE_PATH, local_rel_path)
+        
+        if filename and os.path.exists(local_abs_path):
+            poster = f"./{local_rel_path}"
+        else:
+            poster = poster_tmdb or "./favicon.ico"
+            
         title  = item.get('title') or item.get('title_ar') or ''
         rating = item.get('rating', '')
         badge  = f"{rating}⭐" if rating else 'NEW'
@@ -55,7 +71,7 @@ def build_mini_carousel(section_id, title_ar, items, view_all_url, count=20):
         <div class="simple-carousel-item">
             <a href="{href}">
                 <div class="simple-poster-container">
-                    <img src="{poster}" alt="{title}" loading="lazy" onerror="this.src='/favicon.ico'">
+                    <img src="{poster}" alt="{title}" loading="lazy" onerror="this.src='./favicon.ico'">
                     <div class="simple-rating">{badge}</div>
                 </div>
                 <div class="simple-title">{title}</div>
@@ -77,8 +93,16 @@ def build_carousel(trends):
         folder = item.get('folder', 'movie')
         slug = item.get('slug', '')
         href = get_url(folder, slug)
-        poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
-        poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
+        poster_tmdb = item.get('poster', '')
+        filename = poster_tmdb.split('/')[-1] if poster_tmdb else ''
+        local_rel_path = f"t/p/w500/{filename}"
+        local_abs_path = os.path.join(BASE_PATH, local_rel_path)
+        
+        if filename and os.path.exists(local_abs_path):
+            poster = f"./{local_rel_path}"
+        else:
+            poster = poster_tmdb or "./favicon.ico"
+            
         title = item.get('title', '')
         rating = item.get('rating', '')
         badge = f"{rating}⭐" if rating else "NEW"
@@ -86,7 +110,7 @@ def build_carousel(trends):
         <div class="simple-carousel-item">
             <a href="{href}">
                 <div class="simple-poster-container">
-                    <img src="{poster}" alt="{title}" loading="lazy" onerror="this.src='/favicon.ico'">
+                    <img src="{poster}" alt="{title}" loading="lazy" onerror="this.src='./favicon.ico'">
                     <div class="simple-rating">{badge}</div>
                 </div>
                 <div class="simple-title">{title}</div>
