@@ -1,12 +1,12 @@
 [
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "year": "2025",
+    "rating": 7.9,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "235930-devil-may-cry"
   },
   {
     "tmdb_id": 76479,
@@ -18,13 +18,13 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 295509,
-    "title": "The Legend of Kitchen Soldier",
-    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
-    "year": "2026",
-    "rating": 0.0,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "295509-the-legend-of-kitchen-soldier"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 124364,
@@ -34,6 +34,15 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "124364-from"
+  },
+  {
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
     "tmdb_id": 256695,
@@ -63,15 +72,6 @@
     "slug": "254953-rooster"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 290856,
     "title": "Marshals",
     "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
@@ -81,13 +81,13 @@
     "slug": "290856-marshals"
   },
   {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
     "year": "2025",
-    "rating": 7.9,
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "235930-devil-may-cry"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 284110,
@@ -99,15 +99,6 @@
     "slug": "284110-the-lead"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.9,
-    "folder": "tv",
-    "slug": "114922-citadel"
-  },
-  {
     "tmdb_id": 319600,
     "title": "Azure Spring",
     "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
@@ -117,49 +108,13 @@
     "slug": "319600-azure-spring"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
     "year": "2023",
-    "rating": 8.8,
+    "rating": 6.9,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
-  },
-  {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "127865-the-chestnut-man"
-  },
-  {
-    "tmdb_id": 262280,
-    "title": "Legends",
-    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "262280-legends"
+    "slug": "114922-citadel"
   },
   {
     "tmdb_id": 262388,
@@ -171,6 +126,24 @@
     "slug": "262388-mia"
   },
   {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
+  },
+  {
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "303143-my-royal-nemesis"
+  },
+  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -178,5 +151,32 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 272715,
+    "title": "Fate Chooses You",
+    "poster": "https://image.tmdb.org/t/p/w500/fBgbr6rGLxV7qwiVJ5BnosDE0av.jpg",
+    "year": "2026",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "272715-fate-chooses-you"
+  },
+  {
+    "tmdb_id": 262280,
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "262280-legends"
+  },
+  {
+    "tmdb_id": 136315,
+    "title": "The Bear",
+    "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "year": "2022",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "136315-the-bear"
   }
 ]

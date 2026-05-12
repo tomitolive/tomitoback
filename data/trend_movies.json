@@ -45,15 +45,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -61,6 +52,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
   },
   {
     "tmdb_id": 1007757,
@@ -81,6 +81,15 @@
     "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
   {
+    "tmdb_id": 855435,
+    "title": "Faces of Death",
+    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "855435-faces-of-death"
+  },
+  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -99,6 +108,24 @@
     "slug": "1339713-obsession"
   },
   {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
     "tmdb_id": 1266127,
     "title": "Ready or Not 2: Here I Come",
     "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
@@ -112,18 +139,9 @@
     "title": "My Dearest Assassin",
     "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
     "year": "2026",
-    "rating": 8.3,
+    "rating": 8.4,
     "folder": "movie",
     "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1301421,
@@ -133,24 +151,6 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/7QujwMB124KqSPbWlLRHBO5wygE.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
-  },
-  {
-    "tmdb_id": 1214931,
-    "title": "Nuremberg",
-    "poster": "https://image.tmdb.org/t/p/w500/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
-    "year": "2025",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1214931-nuremberg"
   },
   {
     "tmdb_id": 1292415,
@@ -171,12 +171,12 @@
     "slug": "1317448-no-place-to-be-single"
   },
   {
-    "tmdb_id": 855435,
-    "title": "Faces of Death",
-    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
-    "year": "2026",
-    "rating": 6.8,
+    "tmdb_id": 1214931,
+    "title": "Nuremberg",
+    "poster": "https://image.tmdb.org/t/p/w500/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
+    "year": "2025",
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "855435-faces-of-death"
+    "slug": "1214931-nuremberg"
   }
 ]
