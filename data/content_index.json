@@ -23958,5 +23958,43 @@
       16
     ],
     "timestamp": 1778426993
+  },
+  {
+    "title": "Born with Luck / Born with Luck",
+    "title_ar": "Born with Luck",
+    "title_en": "Born with Luck",
+    "slug": "272432-born-with-luck",
+    "folder": "tv",
+    "poster": "https://image.tomito.xyz/t/p/w500/xwEFuUmwHhjqPGnBwbuz2Yu76r8.jpg",
+    "rating": 8.8,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 272432,
+    "genre_ids": [
+      18,
+      9648,
+      80,
+      35
+    ],
+    "timestamp": 1778619386
+  },
+  {
+    "title": "رحلة الفتاتين الأخيرة / Girls Last Tour",
+    "title_ar": "رحلة الفتاتين الأخيرة",
+    "title_en": "Girls Last Tour",
+    "slug": "74185-girls-last-tour",
+    "folder": "tv",
+    "poster": "https://image.tomito.xyz/t/p/w500/dI1EtwlBqQL3hb20AF7RLHe11Rn.jpg",
+    "rating": 8.0,
+    "year": "2017",
+    "type": "tv",
+    "tmdb_id": 74185,
+    "genre_ids": [
+      16,
+      10759,
+      9648,
+      10765
+    ],
+    "timestamp": 1778619421
   }
 ]

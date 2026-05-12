@@ -4,45 +4,18 @@
     "title": "Project Hail Mary",
     "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.4,
     "folder": "movie",
     "slug": "687163-project-hail-mary"
   },
   {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 8.2,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 7.1,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 8.6,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "tmdb_id": 855435,
+    "title": "Faces of Death",
+    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
+    "slug": "855435-faces-of-death"
   },
   {
     "tmdb_id": 936075,
@@ -54,6 +27,42 @@
     "slug": "936075-michael"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1439930,
+    "title": "A Marvel Television Special Presentation - The Punisher: One Last Kill",
+    "poster": "https://image.tmdb.org/t/p/w500/wjcPbV53ovhlogVFYdmkTDBooqg.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "movie",
+    "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
+  },
+  {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 8.9,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -63,31 +72,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
-    "rating": 7.3,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.3,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-2-here-i-come"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1325734,
@@ -99,84 +90,93 @@
     "slug": "1325734-the-drama"
   },
   {
+    "tmdb_id": 1339713,
+    "title": "Obsession",
+    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1339713-obsession"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1400357,
+    "title": "The Christophers",
+    "poster": "https://image.tmdb.org/t/p/w500/uLRr3sVVqzcexegoCMrhb2AsVZn.jpg",
+    "year": "2026",
+    "rating": 6.8,
+    "folder": "movie",
+    "slug": "1400357-the-christophers"
+  },
+  {
     "tmdb_id": 1318447,
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 6.5,
+    "rating": 6.6,
     "folder": "movie",
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1630423,
-    "title": "My Dearest Assassin",
-    "poster": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+    "tmdb_id": 1620034,
+    "title": "Marty, Life Is Short",
+    "poster": "https://image.tmdb.org/t/p/w500/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1630423-my-dearest-assassin"
-  },
-  {
-    "tmdb_id": 1632754,
-    "title": "Backlash Tampa",
-    "poster": "https://image.tmdb.org/t/p/w500/9gDVet6WRuNXo4AZ4KynbA3KcT2.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1632754-backlash-tampa"
-  },
-  {
-    "tmdb_id": 1317448,
-    "title": "No Place to Be Single",
-    "poster": "https://image.tmdb.org/t/p/w500/6n95Q0HGpFnA4rlnfAKknkoy6XV.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "1317448-no-place-to-be-single"
-  },
-  {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1198994-send-help"
-  },
-  {
-    "tmdb_id": 696393,
-    "title": "Cold Storage",
-    "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "696393-cold-storage"
+    "slug": "1620034-marty-life-is-short"
   },
   {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1405769,
+    "title": "I Can Only Imagine 2",
+    "poster": "https://image.tmdb.org/t/p/w500/A4A8YgAzBwDnlXDzuxoc5ZLchO7.jpg",
+    "year": "2026",
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1405769-i-can-only-imagine-2"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
-    "year": "2026",
-    "rating": 6.7,
+    "tmdb_id": 1214931,
+    "title": "Nuremberg",
+    "poster": "https://image.tmdb.org/t/p/w500/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
+    "year": "2025",
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
+    "slug": "1214931-nuremberg"
+  },
+  {
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/kDAB1LqDroHuzq6tbskKVJGMR1y.jpg",
+    "year": "2026",
+    "rating": 5.0,
+    "folder": "movie",
+    "slug": "1122573-in-the-grey"
+  },
+  {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-2-here-i-come"
   }
 ]
