@@ -1,23 +1,5 @@
 [
   {
-    "tmdb_id": 295509,
-    "title": "The Legend of Kitchen Soldier",
-    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "295509-the-legend-of-kitchen-soldier"
-  },
-  {
-    "tmdb_id": 256695,
-    "title": "Regular Show: The Lost Tapes",
-    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "256695-regular-show-the-lost-tapes"
-  },
-  {
     "tmdb_id": 235930,
     "title": "Devil May Cry",
     "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
@@ -45,15 +27,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -63,22 +36,22 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 114922,
-    "title": "Citadel",
-    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
-    "year": "2023",
-    "rating": 6.9,
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
+    "year": "2026",
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "114922-citadel"
+    "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
-    "tmdb_id": 254953,
-    "title": "Rooster",
-    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+    "tmdb_id": 256695,
+    "title": "Regular Show: The Lost Tapes",
+    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 9.0,
     "folder": "tv",
-    "slug": "254953-rooster"
+    "slug": "256695-regular-show-the-lost-tapes"
   },
   {
     "tmdb_id": 319600,
@@ -90,49 +63,22 @@
     "slug": "319600-azure-spring"
   },
   {
-    "tmdb_id": 290856,
-    "title": "Marshals",
-    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "290856-marshals"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 272715,
-    "title": "Fate Chooses You",
-    "poster": "https://image.tmdb.org/t/p/w500/fBgbr6rGLxV7qwiVJ5BnosDE0av.jpg",
-    "year": "2026",
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
     "rating": 8.7,
     "folder": "tv",
-    "slug": "272715-fate-chooses-you"
+    "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
-  },
-  {
-    "tmdb_id": 127865,
-    "title": "The Chestnut Man",
-    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-    "year": "2021",
+    "tmdb_id": 254953,
+    "title": "Rooster",
+    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+    "year": "2026",
     "rating": 7.5,
     "folder": "tv",
-    "slug": "127865-the-chestnut-man"
+    "slug": "254953-rooster"
   },
   {
     "tmdb_id": 284110,
@@ -144,39 +90,93 @@
     "slug": "284110-the-lead"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 8.4,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 289219,
-    "title": "Star Wars: Maul - Shadow Lord",
-    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
     "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "289219-star-wars-maul-shadow-lord"
-  },
-  {
-    "tmdb_id": 209867,
-    "title": "Frieren: Beyond Journey's End",
-    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
-    "year": "2023",
     "rating": 8.8,
     "folder": "tv",
-    "slug": "209867-frieren-beyond-journeys-end"
+    "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 321388,
-    "title": "Song of the Samurai",
-    "poster": "https://image.tmdb.org/t/p/w500/7kjwonjSY4jY1JwNEj8GUyvCmLB.jpg",
+    "tmdb_id": 290856,
+    "title": "Marshals",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
     "year": "2026",
-    "rating": 9.0,
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "321388-song-of-the-samurai"
+    "slug": "290856-marshals"
+  },
+  {
+    "tmdb_id": 114922,
+    "title": "Citadel",
+    "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
+    "year": "2023",
+    "rating": 6.9,
+    "folder": "tv",
+    "slug": "114922-citadel"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 262388,
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "262388-mia"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "127865-the-chestnut-man"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95479-jujutsu-kaisen"
   }
 ]
