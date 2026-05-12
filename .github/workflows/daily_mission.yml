@@ -53,7 +53,7 @@ jobs:
         run: |
           git config --local user.email "bot@tomito.xyz"
           git config --local user.name "Multi-Bot Engine"
-          git add .
+          git add data/ movie/ tv/ genre/ sitemap*.xml t/
           
           # Commit with skip ci
           git commit -m "🤖 Bot: +2 pages $(date '+%Y-%m-%d %H:%M') [skip ci]" || echo "No changes to commit"

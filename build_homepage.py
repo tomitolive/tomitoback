@@ -24,7 +24,8 @@ def get_url(folder, slug, root="./"):
     return f"https://tv.tomito.xyz/{folder}/{slug}"
 
 def card_html(item, root="./"):
-    poster = item.get('poster', '/favicon.ico').replace('/original/', '/w300/')
+    poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
+    poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
     title = item.get('title') or item.get('title_ar') or ''
     folder = item.get('folder', 'movie')
     slug = item.get('slug', '')
@@ -45,7 +46,8 @@ def build_mini_carousel(section_id, title_ar, items, view_all_url, count=20):
         folder = item.get('folder', 'movie')
         slug   = item.get('slug', '')
         href   = get_url(folder, slug)
-        poster = item.get('poster', '/favicon.ico').replace('/original/', '/w300/')
+        poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
+        poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
         title  = item.get('title') or item.get('title_ar') or ''
         rating = item.get('rating', '')
         badge  = f"{rating}⭐" if rating else 'NEW'
@@ -75,7 +77,8 @@ def build_carousel(trends):
         folder = item.get('folder', 'movie')
         slug = item.get('slug', '')
         href = get_url(folder, slug)
-        poster = item.get('poster', '/favicon.ico').replace('/original/', '/w300/')
+        poster = item.get('poster', '/favicon.ico').replace('https://image.tmdb.org/t/p/original/', 'https://image.tomito.xyz/t/p/w500/')
+        poster = poster.replace('https://image.tmdb.org/t/p/w500/', 'https://image.tomito.xyz/t/p/w500/')
         title = item.get('title', '')
         rating = item.get('rating', '')
         badge = f"{rating}⭐" if rating else "NEW"
