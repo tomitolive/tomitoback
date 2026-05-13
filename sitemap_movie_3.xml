@@ -928,6 +928,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/7299-equilibrium</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/7299.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/73353-man-in-the-mirror-the-michael-jackson-story</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
