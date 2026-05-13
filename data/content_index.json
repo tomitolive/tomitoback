@@ -24467,5 +24467,42 @@
       878
     ],
     "timestamp": 1778712918
+  },
+  {
+    "title": "Ghostland / Ghostland",
+    "title_ar": "Ghostland",
+    "title_en": "Ghostland",
+    "slug": "476299-ghostland",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/ma9gY6OikBev8MsMaeA6h2EIdGo.jpg",
+    "rating": 7.4,
+    "year": "2018",
+    "type": "movie",
+    "tmdb_id": 476299,
+    "genre_ids": [
+      27,
+      9648,
+      53
+    ],
+    "timestamp": 1778715992
+  },
+  {
+    "title": "Kommissar Rex / Inspector Rex",
+    "title_ar": "Kommissar Rex",
+    "title_en": "Inspector Rex",
+    "slug": "994-inspector-rex",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/flrXP1FMoXqZGwENQ5dZQ2ZADla.jpg",
+    "rating": 7.2,
+    "year": "1994",
+    "type": "tv",
+    "tmdb_id": 994,
+    "genre_ids": [
+      80,
+      9648,
+      10759,
+      18
+    ],
+    "timestamp": 1778715998
   }
 ]
