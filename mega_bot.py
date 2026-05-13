@@ -569,7 +569,18 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
     external_similar = [r for r in results if r.get('id') and int(r.get('id')) not in available_ids]
     
     # Combined list for display (limit to 12 total)
-    filtered = (local_similar + external_similar)[:12]
+    # Interleave local and external for a better "mix"
+    mixed = []
+    i, j = 0, 0
+    while (i < len(local_similar) or j < len(external_similar)) and len(mixed) < 12:
+        if i < len(local_similar):
+            mixed.append(local_similar[i])
+            i += 1
+        if len(mixed) < 12 and j < len(external_similar):
+            mixed.append(external_similar[j])
+            j += 1
+    
+    filtered = mixed
     if not filtered: return ''
 
     def card(item, folder):
@@ -582,8 +593,11 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
         rating = round(item.get('vote_average', 0), 1)
         badge = f"{rating}⭐" if rating else "حصري"
         
-        # Enforce subdomain links for all similar content to avoid 404s
-        href = f"https://tv.tomito.xyz/{folder}/{slug}"
+        # Use local links if available, otherwise external subdomain
+        if int(tmdb_id) in available_ids:
+            href = f"../{folder}/{slug}"
+        else:
+            href = f"https://tv.tomito.xyz/{folder}/{slug}"
         
         return f'''    <a class="card" href="{href}">
       <img class="card-poster" src="{poster}" alt="{title} — مشاهدة وتحميل اون لاين" loading="lazy" onerror="this.src='../favicon.ico'">
