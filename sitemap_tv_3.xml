@@ -1396,6 +1396,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/90674-raafat-al-haggan</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/90674.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/90802-the-sandman</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
