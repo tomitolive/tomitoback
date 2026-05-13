@@ -248,8 +248,19 @@ def patch_file(filepath):
             title = item.get('title', slug)
             title_en = title.split('/')[-1].strip() if '/' in title else title
             type_ar = "فيلم" if folder_name == 'movie' else "مسلسل"
+            
+            poster_tmdb = item.get('poster', '')
+            filename = poster_tmdb.split('/')[-1] if poster_tmdb else ''
+            local_rel_path = f"t/p/w500/{filename}"
+            local_abs_path = os.path.join(BASE_PATH, local_rel_path)
+            
+            if filename and os.path.exists(local_abs_path):
+                poster = f"{root}{local_rel_path}"
+            else:
+                poster = poster_tmdb or f"{root}favicon.ico"
+
             hero_html = HERO_TEMPLATE.format(
-                poster=item.get('poster', ''),
+                poster=poster,
                 title=title,
                 title_en=title_en,
                 type_ar=type_ar,

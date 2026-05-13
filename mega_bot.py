@@ -52,8 +52,8 @@ GEMINI_API_KEY = (os.environ.get("GEMINI_API_KEY") or "").strip()
 BASE_URL = "https://api.themoviedb.org/3"
 # Use localized image domain
 # TMDB original: https://image.tmdb.org/t/p/w500
-# Mirror target: https://image.tomito.xyz/t/p/w500
-IMAGE_BASE_URL = "https://image.tomito.xyz/t/p/w500"
+# Mirror target: https://tomito.xyz/t/p/w500
+IMAGE_BASE_URL = "https://tomito.xyz/t/p/w500"
 SITE_URL = "https://tomito.xyz"
 BUTTON_DOMAIN = "https://tv.tomito.xyz"
 
@@ -718,7 +718,7 @@ def create_page(item_data, media_type, is_trend=False):
 
     except Exception as e:
         log.error(f"AI V7 failed ({e}). Using basic fallback to ensure layout update.")
-        desc_ar = f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية حصرياً على توميتو. استمتع بتجربة مشاهدة فريدة وبدون إعلانات."
+        desc_ar = f"مشاهدة وتحميل {type_label} {title_ar} مترجم بجودة عالية حصرياً على توميتو. استمتع بتجربة مشاهدة فريدة وبدون إعلانات."
         desc_en = f"Watch and download {title_en} in high quality, translated, exclusively on TOMITO with no ads."
         page_intro, page_outro = None, None
         meta_data = {'meta_desc': desc_ar, 'keywords': title_ar}
@@ -726,7 +726,7 @@ def create_page(item_data, media_type, is_trend=False):
         tomito_opinion = None
 
     if not desc_ar or len(desc_ar) < 20:
-        desc_ar = f"مشاهدة وتحميل {ar_type} {title_ar} مترجم بجودة عالية."
+        desc_ar = f"مشاهدة وتحميل {type_label} {title_ar} مترجم بجودة عالية."
         desc_en = f"Watch and download {title_en} translated."
 
     # Fallback for page_intro/outro if AI failed
