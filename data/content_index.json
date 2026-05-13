@@ -24032,5 +24032,39 @@
       35
     ],
     "timestamp": 1778623358
+  },
+  {
+    "title": "Devil May Cry / Devil May Cry",
+    "title_ar": "Devil May Cry",
+    "title_en": "Devil May Cry",
+    "slug": "235930-devil-may-cry",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "rating": 7.9,
+    "year": "2025",
+    "type": "tv",
+    "tmdb_id": 235930,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778633771
+  },
+  {
+    "title": "After the Storm / After the Storm",
+    "title_ar": "After the Storm",
+    "title_en": "After the Storm",
+    "slug": "374671-after-the-storm",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/kpZFVYU0dwfsoZNW7DDiBVzTv7N.jpg",
+    "rating": 7.2,
+    "year": "2016",
+    "type": "movie",
+    "tmdb_id": 374671,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778633826
   }
 ]
