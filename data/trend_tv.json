@@ -22,7 +22,7 @@
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "year": "2026",
-    "rating": 10.0,
+    "rating": 8.3,
     "folder": "tv",
     "slug": "273240-off-campus"
   },
@@ -72,6 +72,15 @@
     "slug": "202555-daredevil-born-again"
   },
   {
+    "tmdb_id": 254486,
+    "title": "Zhan Zhao Adventures",
+    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "254486-zhan-zhao-adventures"
+  },
+  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -79,15 +88,6 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 295509,
-    "title": "The Legend of Kitchen Soldier",
-    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
     "tmdb_id": 321338,
@@ -99,11 +99,20 @@
     "slug": "321338-between-father-and-son"
   },
   {
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "295509-the-legend-of-kitchen-soldier"
+  },
+  {
     "tmdb_id": 256695,
     "title": "Regular Show: The Lost Tapes",
     "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
     "year": "2026",
-    "rating": 9.9,
+    "rating": 9.8,
     "folder": "tv",
     "slug": "256695-regular-show-the-lost-tapes"
   },
@@ -117,13 +126,13 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 254498,
-    "title": "Light to the Night",
-    "poster": "https://image.tmdb.org/t/p/w500/99WXxvDozsh4YPZFGVJfErTgfUX.jpg",
-    "year": "2026",
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
     "rating": 8.5,
     "folder": "tv",
-    "slug": "254498-light-to-the-night"
+    "slug": "79744-the-rookie"
   },
   {
     "tmdb_id": 65942,
@@ -135,13 +144,22 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "tmdb_id": 287527,
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 7.4,
     "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
+    "slug": "287527-the-testaments"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
   },
   {
     "tmdb_id": 114922,
@@ -160,23 +178,5 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "284110-the-lead"
-  },
-  {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
-  },
-  {
-    "tmdb_id": 319600,
-    "title": "Azure Spring",
-    "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "319600-azure-spring"
   }
 ]
