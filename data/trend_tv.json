@@ -13,27 +13,9 @@
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 7.1,
     "folder": "tv",
     "slug": "273240-off-campus"
-  },
-  {
-    "tmdb_id": 71915,
-    "title": "Good Omens",
-    "poster": "https://image.tmdb.org/t/p/w500/omgCpyBV5sUT8AkeIcEwdPPgKZC.jpg",
-    "year": "2019",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "71915-good-omens"
-  },
-  {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "235930-devil-may-cry"
   },
   {
     "tmdb_id": 272432,
@@ -45,13 +27,22 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "tmdb_id": 71915,
+    "title": "Good Omens",
+    "poster": "https://image.tmdb.org/t/p/w500/kp89BcdYNV2H13HiHS7lbesdYvo.jpg",
     "year": "2019",
-    "rating": 8.3,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "85552-euphoria"
+    "slug": "71915-good-omens"
+  },
+  {
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "235930-devil-may-cry"
   },
   {
     "tmdb_id": 254486,
@@ -61,6 +52,33 @@
     "rating": 9.0,
     "folder": "tv",
     "slug": "254486-zhan-zhao-adventures"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 124364,
@@ -81,51 +99,6 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 321338,
-    "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "321338-between-father-and-son"
-  },
-  {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
-    "tmdb_id": 256695,
-    "title": "Regular Show: The Lost Tapes",
-    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
-    "year": "2026",
-    "rating": 9.9,
-    "folder": "tv",
-    "slug": "256695-regular-show-the-lost-tapes"
-  },
-  {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
     "tmdb_id": 295509,
     "title": "The Legend of Kitchen Soldier",
     "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
@@ -133,33 +106,6 @@
     "rating": 10.0,
     "folder": "tv",
     "slug": "295509-the-legend-of-kitchen-soldier"
-  },
-  {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "287527-the-testaments"
-  },
-  {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 278573,
@@ -178,5 +124,59 @@
     "rating": 6.8,
     "folder": "tv",
     "slug": "114922-citadel"
+  },
+  {
+    "tmdb_id": 321338,
+    "title": "Between Father and Son",
+    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "321338-between-father-and-son"
+  },
+  {
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/naCYfDx93zfXT6MwmvTwBOkIUy9.jpg",
+    "year": "2021",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "127865-the-chestnut-man"
+  },
+  {
+    "tmdb_id": 245318,
+    "title": "Margo's Got Money Troubles",
+    "poster": "https://image.tmdb.org/t/p/w500/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+    "year": "2026",
+    "rating": 7.9,
+    "folder": "tv",
+    "slug": "245318-margos-got-money-troubles"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
+  },
+  {
+    "tmdb_id": 262280,
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "262280-legends"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
   }
 ]
