@@ -8,15 +8,25 @@ import re
 
 log = logging.getLogger(__name__)
 
-# Load COHERE_API_KEY from .env if it exists
+# Load all COHERE_API_KEY variations from .env if it exists
 if os.path.exists(".env"):
     with open(".env", "r") as f:
         for line in f:
-            if line.startswith("COHERE_API_KEY="):
-                os.environ["COHERE_API_KEY"] = line.split("=")[1].strip()
+            if line.startswith("COHERE_API_KEY"):
+                key_name, key_val = line.split("=", 1)
+                os.environ[key_name.strip()] = key_val.strip()
 
-# Security: Key is read strictly from environment to avoid Github Secret Scanning blocks
-COHERE_API_KEY = os.environ.get("COHERE_API_KEY", "").strip()
+# Collect all Cohere keys from environment variables
+COHERE_KEYS = []
+for k, v in os.environ.items():
+    if k.startswith("COHERE_API_KEY") and v.strip():
+        COHERE_KEYS.append(v.strip())
+
+if not COHERE_KEYS:
+    COHERE_KEYS = [""]
+
+# Helper to hold current key index for load balancing / fallback
+_current_key_idx = 0
 
 # قائمة مأموريات البوت: التركيز حصرياً على أقوى 20 شركة في العالم
 BOT_MISSIONS = [
@@ -67,14 +77,11 @@ NARRATIVE_STYLES = [
 ]
 
 def _call_llm(system_msg, user_msg):
-    """Wrapper for Cohere API (command-r) explicitly configured for Arabic."""
-    if not COHERE_API_KEY: return None
+    """Wrapper for Cohere API (command-r) explicitly configured for Arabic, with Dynamic Key Switching."""
+    global _current_key_idx
+    if not COHERE_KEYS or not COHERE_KEYS[0]: return None
+    
     url = "https://api.cohere.com/v2/chat"
-    headers = {
-        "Authorization": f"Bearer {COHERE_API_KEY}",
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-    }
     payload = {
         "model": "command-r-08-2024",
         "messages": [
@@ -82,19 +89,38 @@ def _call_llm(system_msg, user_msg):
             {"role": "user", "content": user_msg}
         ]
     }
-    try:
-        res = requests.post(url, headers=headers, json=payload, timeout=60)
-        if res.status_code != 200:
-            log.error(f"Cohere Error {res.status_code}: {res.text[:300]}")
+    
+    max_attempts = len(COHERE_KEYS)
+    for attempt in range(max_attempts):
+        api_key = COHERE_KEYS[_current_key_idx]
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        }
+        
+        try:
+            res = requests.post(url, headers=headers, json=payload, timeout=60)
+            if res.status_code == 200:
+                data = res.json()
+                if 'message' in data and 'content' in data['message'] and len(data['message']['content']) > 0:
+                    text = data['message']['content'][0]['text']
+                    return re.sub(r'```json\s*|\s*```', '', text).strip()
+                return None
+            elif res.status_code == 429:
+                log.warning(f"⚠️ Rate limit hit on key index {_current_key_idx}. Switching to next key...")
+                _current_key_idx = (_current_key_idx + 1) % len(COHERE_KEYS)
+                time.sleep(2)
+                continue
+            else:
+                log.error(f"Cohere Error {res.status_code}: {res.text[:300]}")
+                return None
+        except Exception as e:
+            log.error(f"Cohere API Error: {e}")
             return None
-        data = res.json()
-        if 'message' in data and 'content' in data['message'] and len(data['message']['content']) > 0:
-            text = data['message']['content'][0]['text']
-            return re.sub(r'```json\s*|\s*```', '', text).strip()
-        return None
-    except Exception as e:
-        log.error(f"Cohere API Error: {e}")
-        return None
+            
+    log.error("❌ All Cohere API keys exhausted or rate limited.")
+    return None
 
 LIVE_TRENDS_CACHE = {}
 def get_live_trends(query, geo='SA', is_arabic_content=False):
