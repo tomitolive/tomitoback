@@ -24359,5 +24359,42 @@
       18
     ],
     "timestamp": 1778703352
+  },
+  {
+    "title": "Code Geass: Fukkatsu no Lelouch / Code Geass: Lelouch of the Resurrection",
+    "title_ar": "Code Geass: Fukkatsu no Lelouch",
+    "title_en": "Code Geass: Lelouch of the Resurrection",
+    "slug": "553837-code-geass-lelouch-of-the-resurrection",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/nhcw4OhNEf1VXgo7x7gF3SlKRts.jpg",
+    "rating": 7.2,
+    "year": "2019",
+    "type": "movie",
+    "tmdb_id": 553837,
+    "genre_ids": [
+      16,
+      878,
+      80,
+      9648,
+      10752
+    ],
+    "timestamp": 1778705220
+  },
+  {
+    "title": "Joy of Life / Joy of Life",
+    "title_ar": "Joy of Life",
+    "title_en": "Joy of Life",
+    "slug": "95842-joy-of-life",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/wHJvPo9CLpXwX1ncDg6uD0QJIZo.jpg",
+    "rating": 8.1,
+    "year": "2019",
+    "type": "tv",
+    "tmdb_id": 95842,
+    "genre_ids": [
+      18,
+      35
+    ],
+    "timestamp": 1778705250
   }
 ]

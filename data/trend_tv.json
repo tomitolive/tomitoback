@@ -13,7 +13,7 @@
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 6.4,
     "folder": "tv",
     "slug": "273240-off-campus"
   },
@@ -63,15 +63,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -81,13 +72,13 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 7.7,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "270476-widows-bay"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 321338,
@@ -99,6 +90,15 @@
     "slug": "321338-between-father-and-son"
   },
   {
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "270476-widows-bay"
+  },
+  {
     "tmdb_id": 65942,
     "title": "Re:ZERO -Starting Life in Another World-",
     "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
@@ -106,15 +106,6 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 254486,
@@ -133,6 +124,15 @@
     "rating": 7.5,
     "folder": "tv",
     "slug": "287527-the-testaments"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 256695,
@@ -162,6 +162,15 @@
     "slug": "114922-citadel"
   },
   {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "278113-gold-land"
+  },
+  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -169,14 +178,5 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 284110,
-    "title": "The Lead",
-    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "284110-the-lead"
   }
 ]
