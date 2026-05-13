@@ -24100,5 +24100,41 @@
       28
     ],
     "timestamp": 1778637199
+  },
+  {
+    "title": "الفك المفترس / Jaws",
+    "title_ar": "الفك المفترس",
+    "title_en": "Jaws",
+    "slug": "578-jaws",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/ijQK9UrHtZcq01Nou6Wp4i0ORzZ.jpg",
+    "rating": 7.7,
+    "year": "1975",
+    "type": "movie",
+    "tmdb_id": 578,
+    "genre_ids": [
+      27,
+      53,
+      12
+    ],
+    "timestamp": 1778650745
+  },
+  {
+    "title": "Dug Days / Dug Days",
+    "title_ar": "Dug Days",
+    "title_en": "Dug Days",
+    "slug": "114501-dug-days",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/e5kT33XH2gX7xBFIK1uUJAvU5dj.jpg",
+    "rating": 7.4,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 114501,
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "timestamp": 1778650753
   }
 ]
