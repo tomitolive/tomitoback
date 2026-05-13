@@ -575,7 +575,8 @@ def build_similar_content_html(similar_data, media_type, genre_slug=None):
     def card(item, folder):
         tmdb_id = item.get('id', '')
         title = item.get('title') or item.get('name') or ''
-        poster = f"{IMAGE_BASE_URL}{item['poster_path']}"
+        poster_path = item.get('poster_path')
+        poster = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else "../favicon.ico"
         slug_part = clean_slug(title)
         slug = f"{tmdb_id}-{slug_part}" if slug_part else str(tmdb_id)
         rating = round(item.get('vote_average', 0), 1)
