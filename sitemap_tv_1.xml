@@ -343,6 +343,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/113828-spy-city</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/113828.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/114068-the-offer</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/247718.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/tv/250307-the-pitt</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/250307.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

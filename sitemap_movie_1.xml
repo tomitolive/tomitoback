@@ -1909,6 +1909,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/13223-gran-torino</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/13223.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1322752-colorful-stage-the-movie-a-miku-who-cant-sing</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/161.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/movie/1610418-the-house-on-haunted-grounds</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/1610418.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
