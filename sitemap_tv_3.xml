@@ -181,6 +181,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/65333-myriad-colors-phantom-world</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/65333.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/65334-miraculous-tales-of-ladybug-cat-noir</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>

@@ -45,15 +45,6 @@
     "slug": "256695-regular-show-the-lost-tapes"
   },
   {
-    "tmdb_id": 295509,
-    "title": "The Legend of Kitchen Soldier",
-    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "295509-the-legend-of-kitchen-soldier"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -61,6 +52,15 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "295509-the-legend-of-kitchen-soldier"
   },
   {
     "tmdb_id": 202555,
@@ -72,15 +72,6 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 319600,
-    "title": "Azure Spring",
-    "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "319600-azure-spring"
-  },
-  {
     "tmdb_id": 114922,
     "title": "Citadel",
     "poster": "https://image.tmdb.org/t/p/w500/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
@@ -90,6 +81,15 @@
     "slug": "114922-citadel"
   },
   {
+    "tmdb_id": 319600,
+    "title": "Azure Spring",
+    "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "tv",
+    "slug": "319600-azure-spring"
+  },
+  {
     "tmdb_id": 290856,
     "title": "Marshals",
     "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
@@ -97,15 +97,6 @@
     "rating": 7.6,
     "folder": "tv",
     "slug": "290856-marshals"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 8.8,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 79744,
@@ -124,6 +115,15 @@
     "rating": 7.5,
     "folder": "tv",
     "slug": "254953-rooster"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.8,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   },
   {
     "tmdb_id": 284110,
@@ -153,20 +153,20 @@
     "slug": "136315-the-bear"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 8.4,
+    "tmdb_id": 127865,
+    "title": "The Chestnut Man",
+    "poster": "https://image.tmdb.org/t/p/w500/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
+    "year": "2021",
+    "rating": 7.5,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "127865-the-chestnut-man"
   },
   {
     "tmdb_id": 262388,
     "title": "M.I.A.",
     "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "folder": "tv",
     "slug": "262388-mia"
   },
