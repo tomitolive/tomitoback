@@ -9,20 +9,11 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
-    "year": "2025",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "235930-devil-may-cry"
-  },
-  {
     "tmdb_id": 273240,
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "year": "2026",
-    "rating": 8.3,
+    "rating": 6.4,
     "folder": "tv",
     "slug": "273240-off-campus"
   },
@@ -34,6 +25,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "71915-good-omens"
+  },
+  {
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "year": "2025",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "235930-devil-may-cry"
   },
   {
     "tmdb_id": 272432,
@@ -54,6 +54,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 254486,
+    "title": "Zhan Zhao Adventures",
+    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "tv",
+    "slug": "254486-zhan-zhao-adventures"
+  },
+  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -72,13 +81,13 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "tmdb_id": 321338,
+    "title": "Between Father and Son",
+    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
     "year": "2026",
-    "rating": 9.0,
+    "rating": 0.0,
     "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
+    "slug": "321338-between-father-and-son"
   },
   {
     "tmdb_id": 37854,
@@ -90,33 +99,6 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 321338,
-    "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "tv",
-    "slug": "321338-between-father-and-son"
-  },
-  {
-    "tmdb_id": 295509,
-    "title": "The Legend of Kitchen Soldier",
-    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
-    "year": "2026",
-    "rating": 10.0,
-    "folder": "tv",
-    "slug": "295509-the-legend-of-kitchen-soldier"
-  },
-  {
-    "tmdb_id": 256695,
-    "title": "Regular Show: The Lost Tapes",
-    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
-    "year": "2026",
-    "rating": 9.8,
-    "folder": "tv",
-    "slug": "256695-regular-show-the-lost-tapes"
-  },
-  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
@@ -126,13 +108,13 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 256695,
+    "title": "Regular Show: The Lost Tapes",
+    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
+    "year": "2026",
+    "rating": 9.9,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "256695-regular-show-the-lost-tapes"
   },
   {
     "tmdb_id": 65942,
@@ -144,13 +126,40 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
+    "tmdb_id": 295509,
+    "title": "The Legend of Kitchen Soldier",
+    "poster": "https://image.tmdb.org/t/p/w500/zRQylnX3LydtVfBYS8r5qD1bEhz.jpg",
+    "year": "2026",
+    "rating": 10.0,
+    "folder": "tv",
+    "slug": "295509-the-legend-of-kitchen-soldier"
+  },
+  {
     "tmdb_id": 287527,
     "title": "The Testaments",
     "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 7.5,
     "folder": "tv",
     "slug": "287527-the-testaments"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "278113-gold-land"
   },
   {
     "tmdb_id": 278573,
@@ -169,14 +178,5 @@
     "rating": 6.8,
     "folder": "tv",
     "slug": "114922-citadel"
-  },
-  {
-    "tmdb_id": 284110,
-    "title": "The Lead",
-    "poster": "https://image.tmdb.org/t/p/w500/vnoSyfH40sisQ6jBSap7NB3LD4H.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "284110-the-lead"
   }
 ]

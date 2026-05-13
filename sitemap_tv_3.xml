@@ -1360,6 +1360,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/88396-the-falcon-and-the-winter-soldier</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/88396.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/89393-9-1-1-lone-star</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>

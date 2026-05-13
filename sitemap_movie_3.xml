@@ -1945,6 +1945,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/964980-air</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/964980.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/9654-the-italian-job</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
