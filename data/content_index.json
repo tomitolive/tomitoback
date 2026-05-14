@@ -24504,5 +24504,21 @@
       18
     ],
     "timestamp": 1778715998
+  },
+  {
+    "title": "Obsession / Obsession",
+    "title_ar": "Obsession",
+    "title_en": "Obsession",
+    "slug": "1339713-obsession",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "rating": 7.0,
+    "year": "2026",
+    "type": "movie",
+    "tmdb_id": 1339713,
+    "genre_ids": [
+      27
+    ],
+    "timestamp": 1778723676
   }
 ]
