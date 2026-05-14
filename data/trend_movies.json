@@ -4,7 +4,7 @@
     "title": "A Marvel Television Special Presentation - The Punisher: One Last Kill",
     "poster": "https://image.tmdb.org/t/p/w500/gOggsBCSypNXq0yApYeXe7nnopT.jpg",
     "year": "2026",
-    "rating": 8.7,
+    "rating": 8.6,
     "folder": "movie",
     "slug": "1439930-a-marvel-television-special-presentation-the-punisher-one-last-kill"
   },
@@ -27,6 +27,24 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -40,27 +58,9 @@
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
     "year": "2026",
-    "rating": 7.1,
+    "rating": 7.3,
     "folder": "movie",
     "slug": "1339713-obsession"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 855435,
@@ -70,6 +70,24 @@
     "rating": 5.3,
     "folder": "movie",
     "slug": "855435-faces-of-death"
+  },
+  {
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/kDAB1LqDroHuzq6tbskKVJGMR1y.jpg",
+    "year": "2026",
+    "rating": 5.0,
+    "folder": "movie",
+    "slug": "1122573-in-the-grey"
+  },
+  {
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1330021,
@@ -99,58 +117,13 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 8.0,
+    "tmdb_id": 83533,
+    "title": "Avatar: Fire and Ash",
+    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
+    "year": "2025",
+    "rating": 7.4,
     "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1122573,
-    "title": "In the Grey",
-    "poster": "https://image.tmdb.org/t/p/w500/kDAB1LqDroHuzq6tbskKVJGMR1y.jpg",
-    "year": "2026",
-    "rating": 5.0,
-    "folder": "movie",
-    "slug": "1122573-in-the-grey"
-  },
-  {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/gqpXIE9fQNqMgEza73nOZy3aVMR.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
+    "slug": "83533-avatar-fire-and-ash"
   },
   {
     "tmdb_id": 1400357,
@@ -162,21 +135,48 @@
     "slug": "1400357-the-christophers"
   },
   {
-    "tmdb_id": 1317288,
-    "title": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/ikcNOWB6Qo1ER1H1BJL6Vf0W22s.jpg",
+    "year": "2026",
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1317288-marty-supreme"
+    "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/gqpXIE9fQNqMgEza73nOZy3aVMR.jpg",
     "year": "2026",
     "rating": 6.6,
     "folder": "movie",
-    "slug": "1292415-beast"
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/n5lgbGxEM35MvcRqJG3aqHKm3Gq.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.5,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
   }
 ]

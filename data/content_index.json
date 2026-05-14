@@ -24662,5 +24662,41 @@
       18
     ],
     "timestamp": 1778755197
+  },
+  {
+    "title": "أسطورة جندي المطبخ / The Legend of Kitchen Soldier",
+    "title_ar": "أسطورة جندي المطبخ",
+    "title_en": "The Legend of Kitchen Soldier",
+    "slug": "295509-the-legend-of-kitchen-soldier",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/ees0wX2e2OHirB1fTFjdQ6r1Q7O.jpg",
+    "rating": 10.0,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 295509,
+    "genre_ids": [
+      10765,
+      35,
+      18
+    ],
+    "timestamp": 1778761290
+  },
+  {
+    "title": "Automan / Automan",
+    "title_ar": "Automan",
+    "title_en": "Automan",
+    "slug": "12751-automan",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/4dOlxvavpgpDyAFmLNIre1JmcCf.jpg",
+    "rating": 7.8,
+    "year": "1983",
+    "type": "tv",
+    "tmdb_id": 12751,
+    "genre_ids": [
+      10759,
+      10765,
+      18
+    ],
+    "timestamp": 1778761297
   }
 ]
