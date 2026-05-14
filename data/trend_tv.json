@@ -4,7 +4,7 @@
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 8.4,
     "folder": "tv",
     "slug": "273240-off-campus"
   },
@@ -45,15 +45,6 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
     "tmdb_id": 235930,
     "title": "Devil May Cry",
     "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
@@ -63,13 +54,13 @@
     "slug": "235930-devil-may-cry"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "37854-one-piece"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 254486,
@@ -81,6 +72,15 @@
     "slug": "254486-zhan-zhao-adventures"
   },
   {
+    "tmdb_id": 258063,
+    "title": "Soul Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/koWJdCFLPLI2VSWQhssoF91k5al.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "258063-soul-mate"
+  },
+  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -90,22 +90,22 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 258063,
-    "title": "Soul Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/koWJdCFLPLI2VSWQhssoF91k5al.jpg",
-    "year": "2026",
-    "rating": 0.0,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "258063-soul-mate"
+    "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 321338,
-    "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/uOh3yStvGlWiaktHs4VFtZdquK8.jpg",
-    "year": "2026",
-    "rating": 9.3,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.1,
     "folder": "tv",
-    "slug": "321338-between-father-and-son"
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 65942,
@@ -117,13 +117,13 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
+    "tmdb_id": 321338,
+    "title": "Between Father and Son",
+    "poster": "https://image.tmdb.org/t/p/w500/uOh3yStvGlWiaktHs4VFtZdquK8.jpg",
+    "year": "2026",
+    "rating": 9.3,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "321338-between-father-and-son"
   },
   {
     "tmdb_id": 270476,
@@ -144,15 +144,6 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -160,6 +151,15 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "259702-the-house-of-the-spirits"
   },
   {
     "tmdb_id": 287527,
