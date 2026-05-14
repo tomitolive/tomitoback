@@ -45,6 +45,15 @@
     "slug": "235930-devil-may-cry"
   },
   {
+    "tmdb_id": 254486,
+    "title": "Zhan Zhao Adventures",
+    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "year": "2026",
+    "rating": 5.0,
+    "folder": "tv",
+    "slug": "254486-zhan-zhao-adventures"
+  },
+  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -54,13 +63,13 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "tmdb_id": 285807,
+    "title": "Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
     "year": "2026",
-    "rating": 5.0,
+    "rating": 6.7,
     "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
+    "slug": "285807-nemesis"
   },
   {
     "tmdb_id": 124364,
@@ -72,15 +81,6 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 321338,
-    "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/uOh3yStvGlWiaktHs4VFtZdquK8.jpg",
-    "year": "2026",
-    "rating": 9.3,
-    "folder": "tv",
-    "slug": "321338-between-father-and-son"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -88,6 +88,15 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 321338,
+    "title": "Between Father and Son",
+    "poster": "https://image.tmdb.org/t/p/w500/uOh3yStvGlWiaktHs4VFtZdquK8.jpg",
+    "year": "2026",
+    "rating": 9.3,
+    "folder": "tv",
+    "slug": "321338-between-father-and-son"
   },
   {
     "tmdb_id": 65942,
@@ -99,15 +108,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 270476,
-    "title": "Widow's Bay",
-    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "270476-widows-bay"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -115,15 +115,6 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 256695,
-    "title": "Regular Show: The Lost Tapes",
-    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
-    "year": "2026",
-    "rating": 9.8,
-    "folder": "tv",
-    "slug": "256695-regular-show-the-lost-tapes"
   },
   {
     "tmdb_id": 259702,
@@ -135,13 +126,13 @@
     "slug": "259702-the-house-of-the-spirits"
   },
   {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "287527-the-testaments"
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 114922,
@@ -153,24 +144,6 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 278113,
-    "title": "Gold Land",
-    "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
-    "year": "2026",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "278113-gold-land"
-  },
-  {
-    "tmdb_id": 245318,
-    "title": "Margo's Got Money Troubles",
-    "poster": "https://image.tmdb.org/t/p/w500/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "245318-margos-got-money-troubles"
-  },
-  {
     "tmdb_id": 278573,
     "title": "Perfect Crown",
     "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
@@ -178,5 +151,32 @@
     "rating": 8.3,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 256695,
+    "title": "Regular Show: The Lost Tapes",
+    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
+    "year": "2026",
+    "rating": 9.8,
+    "folder": "tv",
+    "slug": "256695-regular-show-the-lost-tapes"
+  },
+  {
+    "tmdb_id": 287527,
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "tv",
+    "slug": "287527-the-testaments"
+  },
+  {
+    "tmdb_id": 278113,
+    "title": "Gold Land",
+    "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "278113-gold-land"
   }
 ]

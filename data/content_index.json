@@ -24591,5 +24591,43 @@
       18
     ],
     "timestamp": 1778737167
+  },
+  {
+    "title": "Regular Show: The Lost Tapes / Regular Show: The Lost Tapes",
+    "title_ar": "Regular Show: The Lost Tapes",
+    "title_en": "Regular Show: The Lost Tapes",
+    "slug": "256695-regular-show-the-lost-tapes",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
+    "rating": 9.8,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 256695,
+    "genre_ids": [
+      16,
+      35,
+      10759,
+      10765
+    ],
+    "timestamp": 1778747028
+  },
+  {
+    "title": "Mad King Granzrt / Mad King Granzrt",
+    "title_ar": "Mad King Granzrt",
+    "title_en": "Mad King Granzrt",
+    "slug": "34766-mad-king-granzrt",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/lz9RyzVytKWmB06i4MYt7Ee3aqr.jpg",
+    "rating": 8.6,
+    "year": "1989",
+    "type": "tv",
+    "tmdb_id": 34766,
+    "genre_ids": [
+      16,
+      10762,
+      35,
+      10759
+    ],
+    "timestamp": 1778747033
   }
 ]
