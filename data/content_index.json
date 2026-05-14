@@ -24891,5 +24891,41 @@
       10749
     ],
     "timestamp": 1778799333
+  },
+  {
+    "title": "Marvel Studios Legends / Marvel Studios Legends",
+    "title_ar": "Marvel Studios Legends",
+    "title_en": "Marvel Studios Legends",
+    "slug": "114695-marvel-studios-legends",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
+    "rating": 7.4,
+    "year": "2021",
+    "type": "tv",
+    "tmdb_id": 114695,
+    "genre_ids": [
+      99,
+      10759,
+      10765
+    ],
+    "timestamp": 1778802230
+  },
+  {
+    "title": "Suite Franaise / Suite Franaise",
+    "title_ar": "Suite Franaise",
+    "title_en": "Suite Franaise",
+    "slug": "271674-suite-franaise",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/mPgijY9f79FfD7K8MmzsynXpq0R.jpg",
+    "rating": 7.2,
+    "year": "2015",
+    "type": "movie",
+    "tmdb_id": 271674,
+    "genre_ids": [
+      18,
+      10749,
+      10752
+    ],
+    "timestamp": 1778802238
   }
 ]
