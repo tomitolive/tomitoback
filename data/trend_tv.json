@@ -1,5 +1,14 @@
 [
   {
+    "tmdb_id": 273240,
+    "title": "Off Campus",
+    "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+    "year": "2026",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "273240-off-campus"
+  },
+  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -7,15 +16,6 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "76479-the-boys"
-  },
-  {
-    "tmdb_id": 273240,
-    "title": "Off Campus",
-    "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "tv",
-    "slug": "273240-off-campus"
   },
   {
     "tmdb_id": 71915,
@@ -74,7 +74,7 @@
   {
     "tmdb_id": 321338,
     "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/uOh3yStvGlWiaktHs4VFtZdquK8.jpg",
     "year": "2026",
     "rating": 9.3,
     "folder": "tv",
@@ -99,15 +99,6 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
@@ -117,22 +108,13 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 287527,
-    "title": "The Testaments",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "year": "2026",
-    "rating": 7.5,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "287527-the-testaments"
-  },
-  {
-    "tmdb_id": 259702,
-    "title": "The House of the Spirits",
-    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-    "year": "2026",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "259702-the-house-of-the-spirits"
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 256695,
@@ -144,13 +126,22 @@
     "slug": "256695-regular-show-the-lost-tapes"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 259702,
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "year": "2026",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "259702-the-house-of-the-spirits"
+  },
+  {
+    "tmdb_id": 287527,
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "tv",
+    "slug": "287527-the-testaments"
   },
   {
     "tmdb_id": 114922,
@@ -162,15 +153,6 @@
     "slug": "114922-citadel"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 278113,
     "title": "Gold Land",
     "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
@@ -178,5 +160,23 @@
     "rating": 7.8,
     "folder": "tv",
     "slug": "278113-gold-land"
+  },
+  {
+    "tmdb_id": 245318,
+    "title": "Margo's Got Money Troubles",
+    "poster": "https://image.tmdb.org/t/p/w500/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "245318-margos-got-money-troubles"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
   }
 ]
