@@ -45,22 +45,13 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 855435,
-    "title": "Faces of Death",
-    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
     "year": "2026",
-    "rating": 5.1,
+    "rating": 9.0,
     "folder": "movie",
-    "slug": "855435-faces-of-death"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1226863,
@@ -72,13 +63,22 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 855435,
+    "title": "Faces of Death",
+    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
     "year": "2026",
-    "rating": 9.0,
+    "rating": 5.3,
     "folder": "movie",
-    "slug": "1007757-swapped"
+    "slug": "855435-faces-of-death"
+  },
+  {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 8.4,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1455079,
@@ -99,6 +99,15 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
     "tmdb_id": 1122573,
     "title": "In the Grey",
     "poster": "https://image.tmdb.org/t/p/w500/kDAB1LqDroHuzq6tbskKVJGMR1y.jpg",
@@ -117,15 +126,6 @@
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 1400357,
-    "title": "The Christophers",
-    "poster": "https://image.tmdb.org/t/p/w500/s6oUrGMNl8hVh7fn0O8oF2rHwrM.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1400357-the-christophers"
-  },
-  {
     "tmdb_id": 1318447,
     "title": "Apex",
     "poster": "https://image.tmdb.org/t/p/w500/gqpXIE9fQNqMgEza73nOZy3aVMR.jpg",
@@ -133,24 +133,6 @@
     "rating": 6.6,
     "folder": "movie",
     "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1678844,
-    "title": "The Bus: A French Football Mutiny",
-    "poster": "https://image.tmdb.org/t/p/w500/vLYxo8SDMLfroqT3fMVnbvddXRF.jpg",
-    "year": "2026",
-    "rating": 7.9,
-    "folder": "movie",
-    "slug": "1678844-the-bus-a-french-football-mutiny"
   },
   {
     "tmdb_id": 1301421,
@@ -162,15 +144,6 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1292415,
-    "title": "Beast",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1292415-beast"
-  },
-  {
     "tmdb_id": 1140521,
     "title": "The Magic Faraway Tree",
     "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
@@ -178,5 +151,32 @@
     "rating": 6.5,
     "folder": "movie",
     "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
+    "tmdb_id": 1400357,
+    "title": "The Christophers",
+    "poster": "https://image.tmdb.org/t/p/w500/s6oUrGMNl8hVh7fn0O8oF2rHwrM.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1400357-the-christophers"
+  },
+  {
+    "tmdb_id": 1317288,
+    "title": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "year": "2025",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1317288-marty-supreme"
+  },
+  {
+    "tmdb_id": 1292415,
+    "title": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1292415-beast"
   }
 ]
