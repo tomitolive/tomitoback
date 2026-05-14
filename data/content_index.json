@@ -24766,5 +24766,24 @@
       10751
     ],
     "timestamp": 1778779095
+  },
+  {
+    "title": "كيل لا كيل kill la kill / Kill la Kill",
+    "title_ar": "كيل لا كيل kill la kill",
+    "title_en": "Kill la Kill",
+    "slug": "60728-kill-la-kill",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/y2OuQF4oiynNvsTlnyb40jqGMdJ.jpg",
+    "rating": 8.2,
+    "year": "2013",
+    "type": "tv",
+    "tmdb_id": 60728,
+    "genre_ids": [
+      10759,
+      16,
+      35,
+      10765
+    ],
+    "timestamp": 1778786111
   }
 ]
