@@ -1207,6 +1207,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/778855-chickenhare-and-the-hamster-of-darkness</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/778855.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/780382-the-wolf-and-the-lion</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>

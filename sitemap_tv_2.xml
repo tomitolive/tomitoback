@@ -262,6 +262,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/273240-off-campus</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/273240.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/2734-law-order-special-victims-unit</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/61387.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/tv/61440-strike-the-blood</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/61440.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

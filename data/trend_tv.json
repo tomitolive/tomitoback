@@ -27,15 +27,6 @@
     "slug": "71915-good-omens"
   },
   {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "235930-devil-may-cry"
-  },
-  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.8,
     "folder": "tv",
     "slug": "272432-born-with-luck"
+  },
+  {
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "235930-devil-may-cry"
   },
   {
     "tmdb_id": 85552,
@@ -54,6 +54,15 @@
     "slug": "85552-euphoria"
   },
   {
+    "tmdb_id": 254486,
+    "title": "Zhan Zhao Adventures",
+    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "year": "2026",
+    "rating": 5.0,
+    "folder": "tv",
+    "slug": "254486-zhan-zhao-adventures"
+  },
+  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -63,13 +72,13 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "tmdb_id": 321338,
+    "title": "Between Father and Son",
+    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
     "year": "2026",
-    "rating": 5.0,
+    "rating": 9.3,
     "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
+    "slug": "321338-between-father-and-son"
   },
   {
     "tmdb_id": 202555,
@@ -81,13 +90,13 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 321338,
-    "title": "Between Father and Son",
-    "poster": "https://image.tmdb.org/t/p/w500/pSb46kFE74L62zZVblkst83g9KA.jpg",
-    "year": "2026",
-    "rating": 9.3,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "321338-between-father-and-son"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 37854,
@@ -108,24 +117,6 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 256695,
-    "title": "Regular Show: The Lost Tapes",
-    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
-    "year": "2026",
-    "rating": 9.8,
-    "folder": "tv",
-    "slug": "256695-regular-show-the-lost-tapes"
-  },
-  {
     "tmdb_id": 287527,
     "title": "The Testaments",
     "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
@@ -142,6 +133,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "259702-the-house-of-the-spirits"
+  },
+  {
+    "tmdb_id": 256695,
+    "title": "Regular Show: The Lost Tapes",
+    "poster": "https://image.tmdb.org/t/p/w500/jqY3dj70ffSqKpM8XVUEToOEeLG.jpg",
+    "year": "2026",
+    "rating": 9.8,
+    "folder": "tv",
+    "slug": "256695-regular-show-the-lost-tapes"
   },
   {
     "tmdb_id": 79744,
