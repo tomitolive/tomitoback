@@ -25063,5 +25063,40 @@
       35
     ],
     "timestamp": 1778843450
+  },
+  {
+    "title": "Pit Babe / Pit Babe",
+    "title_ar": "Pit Babe",
+    "title_en": "Pit Babe",
+    "slug": "235199-pit-babe",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/qYOc2wXriD98soT8KhEj9sRDjAl.jpg",
+    "rating": 7.8,
+    "year": "2023",
+    "type": "tv",
+    "tmdb_id": 235199,
+    "genre_ids": [
+      18,
+      10765,
+      10759
+    ],
+    "timestamp": 1778850752
+  },
+  {
+    "title": "The Hustler / The Hustler",
+    "title_ar": "The Hustler",
+    "title_en": "The Hustler",
+    "slug": "990-the-hustler",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/snItsSViawjaadW9mlWUmGwR41R.jpg",
+    "rating": 7.7,
+    "year": "1961",
+    "type": "movie",
+    "tmdb_id": 990,
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "timestamp": 1778850758
   }
 ]

@@ -18,9 +18,27 @@
     "slug": "687163-project-hail-mary"
   },
   {
+    "tmdb_id": 1339713,
+    "title": "Obsession",
+    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1339713-obsession"
+  },
+  {
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "1582770-dhurandhar-the-revenge"
+  },
+  {
     "tmdb_id": 936075,
     "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
     "year": "2026",
     "rating": 7.5,
     "folder": "movie",
@@ -36,15 +54,6 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1339713,
-    "title": "Obsession",
-    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
-    "year": "2026",
-    "rating": 7.7,
-    "folder": "movie",
-    "slug": "1339713-obsession"
-  },
-  {
     "tmdb_id": 1330021,
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
@@ -52,24 +61,6 @@
     "rating": 8.4,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
-  },
-  {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
-  },
-  {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
   },
   {
     "tmdb_id": 1007757,
@@ -81,6 +72,15 @@
     "slug": "1007757-swapped"
   },
   {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -88,33 +88,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 855435,
-    "title": "Faces of Death",
-    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
-    "year": "2026",
-    "rating": 5.2,
-    "folder": "movie",
-    "slug": "855435-faces-of-death"
-  },
-  {
-    "tmdb_id": 1455079,
-    "title": "You, Me & Tuscany",
-    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1455079-you-me-tuscany"
-  },
-  {
-    "tmdb_id": 1400357,
-    "title": "The Christophers",
-    "poster": "https://image.tmdb.org/t/p/w500/s6oUrGMNl8hVh7fn0O8oF2rHwrM.jpg",
-    "year": "2026",
-    "rating": 6.8,
-    "folder": "movie",
-    "slug": "1400357-the-christophers"
   },
   {
     "tmdb_id": 1140521,
@@ -126,13 +99,13 @@
     "slug": "1140521-the-magic-faraway-tree"
   },
   {
-    "tmdb_id": 1620034,
-    "title": "Marty, Life Is Short",
-    "poster": "https://image.tmdb.org/t/p/w500/z4QdUukg4FnbcwM6qeP6ZCoQZhf.jpg",
+    "tmdb_id": 855435,
+    "title": "Faces of Death",
+    "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
     "year": "2026",
-    "rating": 8.7,
+    "rating": 5.2,
     "folder": "movie",
-    "slug": "1620034-marty-life-is-short"
+    "slug": "855435-faces-of-death"
   },
   {
     "tmdb_id": 1684226,
@@ -144,31 +117,13 @@
     "slug": "1684226-bride-of-the-year"
   },
   {
-    "tmdb_id": 969681,
-    "title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
+    "tmdb_id": 1455079,
+    "title": "You, Me & Tuscany",
+    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.3,
     "folder": "movie",
-    "slug": "969681-spider-man-brand-new-day"
-  },
-  {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/yPV87cvDabRMTZs6NIbZLOufBLR.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 1122573,
-    "title": "In the Grey",
-    "poster": "https://image.tmdb.org/t/p/w500/83YeicHJqiyGGH1QRbeQdtqegvW.jpg",
-    "year": "2026",
-    "rating": 6.0,
-    "folder": "movie",
-    "slug": "1122573-in-the-grey"
+    "slug": "1455079-you-me-tuscany"
   },
   {
     "tmdb_id": 1301421,
@@ -178,5 +133,50 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/83YeicHJqiyGGH1QRbeQdtqegvW.jpg",
+    "year": "2026",
+    "rating": 6.1,
+    "folder": "movie",
+    "slug": "1122573-in-the-grey"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 969681,
+    "title": "Spider-Man: Brand New Day",
+    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "969681-spider-man-brand-new-day"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
   }
 ]

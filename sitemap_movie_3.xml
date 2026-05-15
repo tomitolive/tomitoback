@@ -2296,6 +2296,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/990-the-hustler</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/990.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/991494-the-spongebob-movie-search-for-squarepants</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
