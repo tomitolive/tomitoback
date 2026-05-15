@@ -25030,5 +25030,38 @@
       18
     ],
     "timestamp": 1778834154
+  },
+  {
+    "title": "II MOVIE / Street Fighter II: The Animated Movie",
+    "title_ar": "II MOVIE",
+    "title_en": "Street Fighter II: The Animated Movie",
+    "slug": "12613-street-fighter-ii-the-animated-movie",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/hFxxXsTa4cYUhF9CBOKXhJVqTEU.jpg",
+    "rating": 7.1,
+    "year": "1994",
+    "type": "movie",
+    "tmdb_id": 12613,
+    "genre_ids": [
+      16,
+      28
+    ],
+    "timestamp": 1778843445
+  },
+  {
+    "title": "The Dick Van Dyke Show / The Dick Van Dyke Show",
+    "title_ar": "The Dick Van Dyke Show",
+    "title_en": "The Dick Van Dyke Show",
+    "slug": "2132-the-dick-van-dyke-show",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/w2Tcx36ybQEczP5zkUhPwaehgeL.jpg",
+    "rating": 7.6,
+    "year": "1961",
+    "type": "tv",
+    "tmdb_id": 2132,
+    "genre_ids": [
+      35
+    ],
+    "timestamp": 1778843450
   }
 ]
