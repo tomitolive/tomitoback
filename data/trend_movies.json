@@ -27,15 +27,6 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -45,22 +36,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
     "year": "2026",
     "rating": 7.5,
     "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
+    "slug": "1582770-dhurandhar-the-revenge"
   },
   {
     "tmdb_id": 1684226,
@@ -70,6 +52,24 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1684226-bride-of-the-year"
+  },
+  {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.2,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1007757,
@@ -90,15 +90,6 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
     "tmdb_id": 1314481,
     "title": "The Devil Wears Prada 2",
     "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -108,6 +99,15 @@
     "slug": "1314481-the-devil-wears-prada-2"
   },
   {
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1226863-the-super-mario-galaxy-movie"
+  },
+  {
     "tmdb_id": 855435,
     "title": "Faces of Death",
     "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
@@ -115,15 +115,6 @@
     "rating": 5.2,
     "folder": "movie",
     "slug": "855435-faces-of-death"
-  },
-  {
-    "tmdb_id": 1455079,
-    "title": "You, Me & Tuscany",
-    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1455079-you-me-tuscany"
   },
   {
     "tmdb_id": 1228710,
@@ -144,22 +135,13 @@
     "slug": "1122573-in-the-grey"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "tmdb_id": 1455079,
+    "title": "You, Me & Tuscany",
+    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 6.3,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1455079-you-me-tuscany"
   },
   {
     "tmdb_id": 1327819,
@@ -171,12 +153,30 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 969681,
-    "title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.6,
     "folder": "movie",
-    "slug": "969681-spider-man-brand-new-day"
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1669050,
+    "title": "Tayuan 2",
+    "poster": "https://image.tmdb.org/t/p/w500/gkHNa8q3RNhgj2EMuoYWJUHsMa6.jpg",
+    "year": "2026",
+    "rating": 4.7,
+    "folder": "movie",
+    "slug": "1669050-tayuan-2"
   }
 ]
