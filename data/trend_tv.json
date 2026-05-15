@@ -18,22 +18,22 @@
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
   },
   {
-    "tmdb_id": 285807,
-    "title": "Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "tv",
-    "slug": "285807-nemesis"
-  },
-  {
     "tmdb_id": 259837,
     "title": "The WONDERfools",
     "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
     "year": "2026",
-    "rating": 4.0,
+    "rating": 5.7,
     "folder": "tv",
     "slug": "259837-the-wonderfools"
+  },
+  {
+    "tmdb_id": 285807,
+    "title": "Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+    "year": "2026",
+    "rating": 5.9,
+    "folder": "tv",
+    "slug": "285807-nemesis"
   },
   {
     "tmdb_id": 76479,
@@ -92,20 +92,11 @@
   {
     "tmdb_id": 235930,
     "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg",
     "year": "2025",
     "rating": 8.1,
     "folder": "tv",
     "slug": "235930-devil-may-cry"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 87917,
@@ -115,6 +106,15 @@
     "rating": 7.7,
     "folder": "tv",
     "slug": "87917-for-all-mankind"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
   },
   {
     "tmdb_id": 37854,
@@ -135,6 +135,15 @@
     "slug": "258063-soul-mate"
   },
   {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
+  },
+  {
     "tmdb_id": 272432,
     "title": "Born with Luck",
     "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
@@ -144,13 +153,13 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
     "rating": 8.2,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "56570-outlander"
   },
   {
     "tmdb_id": 270476,
@@ -162,21 +171,12 @@
     "slug": "270476-widows-bay"
   },
   {
-    "tmdb_id": 280078,
-    "title": "The All-Devouring Whale: Homecoming",
-    "poster": "https://image.tmdb.org/t/p/w500/om6VqS0T8zqbOMMYHKyQxmEmtNJ.jpg",
-    "year": "2025",
-    "rating": 8.4,
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
     "folder": "tv",
-    "slug": "280078-the-all-devouring-whale-homecoming"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
+    "slug": "79744-the-rookie"
   }
 ]

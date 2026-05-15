@@ -22,9 +22,27 @@
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 7.8,
     "folder": "movie",
     "slug": "1339713-obsession"
+  },
+  {
+    "tmdb_id": 1684226,
+    "title": "Bride of the Year",
+    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1684226-bride-of-the-year"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 931285,
@@ -45,22 +63,13 @@
     "slug": "1582770-dhurandhar-the-revenge"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1684226,
-    "title": "Bride of the Year",
-    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1684226-bride-of-the-year"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1140521,
@@ -72,13 +81,13 @@
     "slug": "1140521-the-magic-faraway-tree"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "tmdb_id": 1226863,
+    "title": "The Super Mario Galaxy Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
     "year": "2026",
     "rating": 6.7,
     "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
     "tmdb_id": 1007757,
@@ -99,13 +108,13 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1226863,
-    "title": "The Super Mario Galaxy Movie",
-    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 6.1,
     "folder": "movie",
-    "slug": "1226863-the-super-mario-galaxy-movie"
+    "slug": "1122573-in-the-grey"
   },
   {
     "tmdb_id": 855435,
@@ -126,31 +135,13 @@
     "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
-    "tmdb_id": 1122573,
-    "title": "In the Grey",
-    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 7.7,
     "folder": "movie",
-    "slug": "1122573-in-the-grey"
-  },
-  {
-    "tmdb_id": 1455079,
-    "title": "You, Me & Tuscany",
-    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
-    "year": "2026",
-    "rating": 6.2,
-    "folder": "movie",
-    "slug": "1455079-you-me-tuscany"
-  },
-  {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1301421-the-sheep-detectives"
   },
   {
     "tmdb_id": 1318447,
@@ -162,6 +153,15 @@
     "slug": "1318447-apex"
   },
   {
+    "tmdb_id": 1455079,
+    "title": "You, Me & Tuscany",
+    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
+    "year": "2026",
+    "rating": 6.2,
+    "folder": "movie",
+    "slug": "1455079-you-me-tuscany"
+  },
+  {
     "tmdb_id": 969681,
     "title": "Spider-Man: Brand New Day",
     "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
@@ -171,12 +171,12 @@
     "slug": "969681-spider-man-brand-new-day"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
     "year": "2026",
-    "rating": 7.7,
+    "rating": 8.0,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
+    "slug": "1327819-hoppers"
   }
 ]
