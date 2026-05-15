@@ -45,15 +45,6 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
-  },
-  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -63,13 +54,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
+    "slug": "1582770-dhurandhar-the-revenge"
   },
   {
     "tmdb_id": 1226863,
@@ -88,6 +79,15 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
   },
   {
     "tmdb_id": 1007757,
@@ -121,18 +121,9 @@
     "title": "In the Grey",
     "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 6.5,
     "folder": "movie",
     "slug": "1122573-in-the-grey"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1301421,
@@ -142,6 +133,15 @@
     "rating": 7.7,
     "folder": "movie",
     "slug": "1301421-the-sheep-detectives"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1318447,
@@ -171,12 +171,12 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 969681,
-    "title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/yPV87cvDabRMTZs6NIbZLOufBLR.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "969681-spider-man-brand-new-day"
+    "slug": "1325734-the-drama"
   }
 ]

@@ -25315,5 +25315,42 @@
       14
     ],
     "timestamp": 1778885059
+  },
+  {
+    "title": "Hunters / Hunters",
+    "title_ar": "Hunters",
+    "title_en": "Hunters",
+    "slug": "79622-hunters",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/mjsz10d1abJXZwT9b8CTgniRJh9.jpg",
+    "rating": 7.2,
+    "year": "2020",
+    "type": "tv",
+    "tmdb_id": 79622,
+    "genre_ids": [
+      80,
+      18
+    ],
+    "timestamp": 1778888570
+  },
+  {
+    "title": "سبيريت قائد قبيلة السيمارون / Spirit: Stallion of the Cimarron",
+    "title_ar": "سبيريت قائد قبيلة السيمارون",
+    "title_en": "Spirit: Stallion of the Cimarron",
+    "slug": "9023-spirit-stallion-of-the-cimarron",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/1WNwN5dyu9iE8GhFTDgRi9PtrSg.jpg",
+    "rating": 7.7,
+    "year": "2002",
+    "type": "movie",
+    "tmdb_id": 9023,
+    "genre_ids": [
+      16,
+      12,
+      10751,
+      18,
+      37
+    ],
+    "timestamp": 1778888576
   }
 ]
