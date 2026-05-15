@@ -4,7 +4,7 @@
     "title": "Berlin and the Lady with an Ermine",
     "poster": "https://image.tmdb.org/t/p/w500/kru9Y5uRXdZFcUyeRlcv4bP4hOr.jpg",
     "year": "2026",
-    "rating": 5.7,
+    "rating": 5.5,
     "folder": "tv",
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
   },
@@ -18,22 +18,22 @@
     "slug": "299167-dutton-ranch"
   },
   {
-    "tmdb_id": 259837,
-    "title": "The WONDERfools",
-    "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "tv",
-    "slug": "259837-the-wonderfools"
-  },
-  {
     "tmdb_id": 285807,
     "title": "Nemesis",
     "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
     "year": "2026",
-    "rating": 6.2,
+    "rating": 6.1,
     "folder": "tv",
     "slug": "285807-nemesis"
+  },
+  {
+    "tmdb_id": 259837,
+    "title": "The WONDERfools",
+    "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
+    "year": "2026",
+    "rating": 4.0,
+    "folder": "tv",
+    "slug": "259837-the-wonderfools"
   },
   {
     "tmdb_id": 76479,
@@ -63,15 +63,6 @@
     "slug": "208921-rivals"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 71915,
     "title": "Good Omens",
     "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
@@ -81,13 +72,13 @@
     "slug": "71915-good-omens"
   },
   {
-    "tmdb_id": 278573,
-    "title": "Perfect Crown",
-    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
-    "year": "2026",
-    "rating": 8.2,
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "278573-perfect-crown"
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 85552,
@@ -99,15 +90,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "235930-devil-may-cry"
-  },
-  {
     "tmdb_id": 202555,
     "title": "Daredevil: Born Again",
     "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
@@ -115,24 +97,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
-  },
-  {
-    "tmdb_id": 258063,
-    "title": "Soul Mate",
-    "poster": "https://image.tmdb.org/t/p/w500/koWJdCFLPLI2VSWQhssoF91k5al.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "258063-soul-mate"
   },
   {
     "tmdb_id": 87917,
@@ -144,6 +108,15 @@
     "slug": "87917-for-all-mankind"
   },
   {
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/mX9tqfpjqwreONJHhap7SnSSowe.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "235930-devil-may-cry"
+  },
+  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -151,6 +124,42 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
+  },
+  {
+    "tmdb_id": 278573,
+    "title": "Perfect Crown",
+    "poster": "https://image.tmdb.org/t/p/w500/hpKIZO05WwgAWQlv2VcpqZtg6ap.jpg",
+    "year": "2026",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 258063,
+    "title": "Soul Mate",
+    "poster": "https://image.tmdb.org/t/p/w500/koWJdCFLPLI2VSWQhssoF91k5al.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "258063-soul-mate"
+  },
+  {
+    "tmdb_id": 280078,
+    "title": "The All-Devouring Whale: Homecoming",
+    "poster": "https://image.tmdb.org/t/p/w500/om6VqS0T8zqbOMMYHKyQxmEmtNJ.jpg",
+    "year": "2025",
+    "rating": 8.4,
+    "folder": "tv",
+    "slug": "280078-the-all-devouring-whale-homecoming"
   },
   {
     "tmdb_id": 65942,
@@ -162,21 +171,12 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "tmdb_id": 262280,
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
     "year": "2026",
-    "rating": 5.0,
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "262280-legends"
   }
 ]

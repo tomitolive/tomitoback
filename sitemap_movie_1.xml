@@ -955,6 +955,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/1139087-once-upon-a-studio</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/1139087.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/114150-pitch-perfect</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/1582770.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/movie/158326-sons-and-comrades</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/158326.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -748,6 +748,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/302929-sparkshorts</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/302929.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/303109-fire-and-water-making-the-avatar-films</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/60574.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/tv/60585-bosch</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/60585.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -27,6 +27,15 @@
     "slug": "1339713-obsession"
   },
   {
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+    "year": "2026",
+    "rating": 7.5,
+    "folder": "movie",
+    "slug": "1582770-dhurandhar-the-revenge"
+  },
+  {
     "tmdb_id": 931285,
     "title": "Mortal Kombat II",
     "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
@@ -36,13 +45,13 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
     "year": "2026",
     "rating": 7.5,
     "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 1684226,
@@ -63,13 +72,13 @@
     "slug": "1140521-the-magic-faraway-tree"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/tMy2gc02azAGCskTzbfWPXZsK9w.jpg",
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 8.4,
     "folder": "movie",
-    "slug": "936075-michael"
+    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1007757,
@@ -79,15 +88,6 @@
     "rating": 9.0,
     "folder": "movie",
     "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 8.4,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1314481,
@@ -117,20 +117,11 @@
     "slug": "855435-faces-of-death"
   },
   {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
-  },
-  {
     "tmdb_id": 1122573,
     "title": "In the Grey",
     "poster": "https://image.tmdb.org/t/p/w500/83YeicHJqiyGGH1QRbeQdtqegvW.jpg",
     "year": "2026",
-    "rating": 6.1,
+    "rating": 6.4,
     "folder": "movie",
     "slug": "1122573-in-the-grey"
   },
@@ -139,9 +130,18 @@
     "title": "You, Me & Tuscany",
     "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 6.2,
     "folder": "movie",
     "slug": "1455079-you-me-tuscany"
+  },
+  {
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "year": "2026",
+    "rating": 9.5,
+    "folder": "movie",
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1327819,
@@ -153,13 +153,13 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 969681,
+    "title": "Spider-Man: Brand New Day",
+    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "969681-spider-man-brand-new-day"
   },
   {
     "tmdb_id": 1301421,
@@ -171,12 +171,12 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1669050,
-    "title": "Tayuan 2",
-    "poster": "https://image.tmdb.org/t/p/w500/gkHNa8q3RNhgj2EMuoYWJUHsMa6.jpg",
+    "tmdb_id": 1546855,
+    "title": "It's OK",
+    "poster": "https://image.tmdb.org/t/p/w500/y59gJxZWdiUzVcusxEH8mLKkZZw.jpg",
     "year": "2026",
-    "rating": 4.7,
+    "rating": 6.5,
     "folder": "movie",
-    "slug": "1669050-tayuan-2"
+    "slug": "1546855-its-ok"
   }
 ]
