@@ -1531,6 +1531,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/8363-superbad</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/8363.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/8392-my-neighbor-totoro</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>

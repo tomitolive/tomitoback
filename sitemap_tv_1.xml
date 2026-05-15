@@ -604,6 +604,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/119934-calls</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/119934.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/120089-spy-x-family</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/245842.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/tv/245914-bahar</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/245914.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
