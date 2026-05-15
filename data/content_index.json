@@ -25205,5 +25205,41 @@
       35
     ],
     "timestamp": 1778871730
+  },
+  {
+    "title": "كازينو رويال / Casino Royale",
+    "title_ar": "كازينو رويال",
+    "title_en": "Casino Royale",
+    "slug": "36557-casino-royale",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/xU6xZwqHmqWfK8W5WNbZOGoLO5m.jpg",
+    "rating": 7.6,
+    "year": "2006",
+    "type": "movie",
+    "tmdb_id": 36557,
+    "genre_ids": [
+      12,
+      28,
+      53
+    ],
+    "timestamp": 1778877500
+  },
+  {
+    "title": "Fairy Tail 100 YEARS QUEST / FAIRY TAIL 100 YEARS QUEST",
+    "title_ar": "Fairy Tail 100 YEARS QUEST",
+    "title_en": "FAIRY TAIL 100 YEARS QUEST",
+    "slug": "248947-fairy-tail-100-years-quest",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/u54lCGnP6nhfsG6wuKBwUZtv3sZ.jpg",
+    "rating": 8.0,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 248947,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778877561
   }
 ]
