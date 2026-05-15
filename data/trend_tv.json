@@ -99,6 +99,15 @@
     "slug": "235930-devil-may-cry"
   },
   {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
+  },
+  {
     "tmdb_id": 87917,
     "title": "For All Mankind",
     "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
@@ -115,15 +124,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 258063,
