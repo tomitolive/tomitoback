@@ -222,10 +222,16 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
       "desc_ar": "The unique 3rd-person cinematic narrative...",
       "meta_desc": "Suspenseful hook (max 155 chars)...",
       "seo_title_ar": "Creative SEO Title",
-      "outro": "A natural friendly closing recommendation..."
+      "outro": "A natural friendly closing recommendation...",
+      "opinion": "A 1-2 sentence honest opinion/recommendation...",
+      "faq": [
+        {"q": "Question 1 in Arabic", "a": "Answer 1 in Arabic"},
+        {"q": "Question 2 in Arabic", "a": "Answer 2 in Arabic"},
+        {"q": "Question 3 in Arabic", "a": "Answer 3 in Arabic"}
+      ]
     }}"""
 
-    user = f"Title: {title_ar}. Type: {genres_str}. Original Story: {overview_ar}."
+    user = f"Arabic Title: {title_ar}. English Title: {title_en}. Type: {genres_str}. Arabic Story: {overview_ar}. English Story: {overview_en}."
     res = _call_llm(system, user)
     
     if not res:
@@ -273,8 +279,39 @@ def generate_meta_tags(title_ar, title_en, year, media_type='movie', *args, **kw
         "keywords": get_rising_seo_tags(title_ar)
     }
 
-def generate_faq(*args, **kwargs): return '<div class="faq-item">تفاصيل القصة قريباً...</div>'
-def generate_tomito_opinion(title_ar, *args, **kwargs): return f"رأي توميتو: {title_ar} عمل يستحق الاستكشاف."
+def generate_faq(title_ar, title_en, year, media_type='movie', ai_data=None):
+    """Generates FAQ HTML using AI data or a generic fallback."""
+    faq_items = (ai_data or {}).get('faq', [])
+    if not faq_items or not isinstance(faq_items, list):
+        # Fallback to generic if AI failed
+        label = "فيلم" if media_type == 'movie' else "مسلسل"
+        return f"""
+<div class="faq-item">
+    <div class="faq-question">متى يتوفر {label} {title_ar} على موقع توميتو؟</div>
+    <div class="faq-answer">{label} {title_ar} متاح الآن للمشاهدة والتحميل مباشرةً على موقع توميتو بجودة عالية مترجماً إلى العربية.</div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">هل يمكنني تحميل {title_ar} بجودة عالية؟</div>
+    <div class="faq-answer">نعم، يمكنك تحميل {title_ar} عبر الضغط على زر التحميل في صفحة العرض، وتتوفر جودات متعددة تصل إلى Full HD.</div>
+</div>"""
+    
+    html = ""
+    for item in faq_items:
+        q = item.get('q') or item.get('question')
+        a = item.get('a') or item.get('answer')
+        if q and a:
+            html += f"""
+<div class="faq-item">
+    <div class="faq-question">{q}</div>
+    <div class="faq-answer">{a}</div>
+</div>"""
+    return html
+
+def generate_tomito_opinion(title_ar, title_en, year, media_type='movie', ai_data=None):
+    opinion = (ai_data or {}).get('opinion')
+    if opinion:
+        return opinion
+    return f"رأي توميتو: {title_ar} عمل سينمائي يستحق الاستكشاف والمتابعة."
 
 def generate_page_intro_outro(title_ar, title_en, year, genres_ar, media_type, desc_ar):
     """Placeholder: Now handled by generate_bilingual_description within the same AI call."""
