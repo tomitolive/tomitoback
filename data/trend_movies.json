@@ -38,7 +38,7 @@
   {
     "tmdb_id": 936075,
     "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/tBtqTCimYm3DKck3t8A2mgJaKVK.jpg",
     "year": "2026",
     "rating": 7.5,
     "folder": "movie",
@@ -58,18 +58,9 @@
     "title": "The Magic Faraway Tree",
     "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 6.2,
     "folder": "movie",
     "slug": "1140521-the-magic-faraway-tree"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1226863,
@@ -85,9 +76,18 @@
     "title": "Dhurandhar: The Revenge",
     "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.4,
     "folder": "movie",
     "slug": "1582770-dhurandhar-the-revenge"
+  },
+  {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1007757,
@@ -99,13 +99,13 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "tmdb_id": 1628367,
+    "title": "Kartavya",
+    "poster": "https://image.tmdb.org/t/p/w500/wyJG0JzeZTo37giko4UJVVFktld.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
+    "slug": "1628367-kartavya"
   },
   {
     "tmdb_id": 855435,
@@ -117,13 +117,13 @@
     "slug": "855435-faces-of-death"
   },
   {
-    "tmdb_id": 1628367,
-    "title": "Kartavya",
-    "poster": "https://image.tmdb.org/t/p/w500/wyJG0JzeZTo37giko4UJVVFktld.jpg",
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
     "year": "2026",
-    "rating": 0.0,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1628367-kartavya"
+    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1662317,
@@ -144,13 +144,13 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1398050,
-    "title": "Driver's Ed",
-    "poster": "https://image.tmdb.org/t/p/w500/hHbzSzjJnmcq02l2razSScBEVBf.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
     "year": "2026",
-    "rating": 6.7,
+    "rating": 9.5,
     "folder": "movie",
-    "slug": "1398050-drivers-ed"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1318447,
@@ -162,21 +162,21 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "tmdb_id": 680493,
+    "title": "Return to Silent Hill",
+    "poster": "https://image.tmdb.org/t/p/w500/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 5.4,
     "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "680493-return-to-silent-hill"
   },
   {
-    "tmdb_id": 1325734,
-    "title": "The Drama",
-    "poster": "https://image.tmdb.org/t/p/w500/yPV87cvDabRMTZs6NIbZLOufBLR.jpg",
-    "year": "2026",
-    "rating": 6.9,
+    "tmdb_id": 1688177,
+    "title": "An Enemy Within",
+    "poster": "https://image.tmdb.org/t/p/w500/r7IaQDH6kbeVKxtJjH25QgSnh1U.jpg",
+    "year": "2025",
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1325734-the-drama"
+    "slug": "1688177-an-enemy-within"
   }
 ]

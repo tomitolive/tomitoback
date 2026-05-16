@@ -25490,5 +25490,40 @@
       18
     ],
     "timestamp": 1778916622
+  },
+  {
+    "title": "Michael Jacksons Thriller / Michael Jacksons Thriller",
+    "title_ar": "Michael Jacksons Thriller",
+    "title_en": "Michael Jacksons Thriller",
+    "slug": "92060-michael-jacksons-thriller",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/dYHGoPMkZMVuBA4EydmDQMo1EEv.jpg",
+    "rating": 8.2,
+    "year": "1983",
+    "type": "movie",
+    "tmdb_id": 92060,
+    "genre_ids": [
+      27,
+      53,
+      10402
+    ],
+    "timestamp": 1778922685
+  },
+  {
+    "title": "Judge Dees Mystery / Judge Dees Mystery",
+    "title_ar": "Judge Dees Mystery",
+    "title_en": "Judge Dees Mystery",
+    "slug": "235349-judge-dees-mystery",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/aPxCTMSloncr0JWceVodgDhE1iU.jpg",
+    "rating": 8.2,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 235349,
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "timestamp": 1778922705
   }
 ]

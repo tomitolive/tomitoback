@@ -1972,6 +1972,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/92060-michael-jacksons-thriller</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/92060.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/926393-the-equalizer-3</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
