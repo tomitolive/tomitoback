@@ -36,15 +36,6 @@
     "slug": "76479-the-boys"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 273240,
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
@@ -54,6 +45,15 @@
     "slug": "273240-off-campus"
   },
   {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "124364-from"
+  },
+  {
     "tmdb_id": 285807,
     "title": "Nemesis",
     "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
@@ -61,6 +61,15 @@
     "rating": 6.0,
     "folder": "tv",
     "slug": "285807-nemesis"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 278573,
@@ -81,6 +90,24 @@
     "slug": "208921-rivals"
   },
   {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
+    "tmdb_id": 4057,
+    "title": "Criminal Minds",
+    "poster": "https://image.tmdb.org/t/p/w500/gigxjNnACiXAfrwoMox5WJFgc0I.jpg",
+    "year": "2005",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "4057-criminal-minds"
+  },
+  {
     "tmdb_id": 235930,
     "title": "Devil May Cry",
     "poster": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg",
@@ -88,33 +115,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "235930-devil-may-cry"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
-    "tmdb_id": 95479,
-    "title": "JUJUTSU KAISEN",
-    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-    "year": "2020",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95479-jujutsu-kaisen"
   },
   {
     "tmdb_id": 71915,
@@ -126,31 +126,13 @@
     "slug": "71915-good-omens"
   },
   {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
-    "year": "2014",
-    "rating": 8.2,
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
     "folder": "tv",
-    "slug": "56570-outlander"
-  },
-  {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
+    "slug": "85552-euphoria"
   },
   {
     "tmdb_id": 37854,
@@ -162,21 +144,39 @@
     "slug": "37854-one-piece"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.2,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "95557-invincible"
   },
   {
-    "tmdb_id": 303143,
-    "title": "My Royal Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
-    "year": "2026",
-    "rating": 8.7,
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "303143-my-royal-nemesis"
+    "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 1416,
+    "title": "Grey's Anatomy",
+    "poster": "https://image.tmdb.org/t/p/w500/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
+    "year": "2005",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "1416-greys-anatomy"
   }
 ]

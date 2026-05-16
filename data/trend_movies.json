@@ -27,22 +27,22 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "tmdb_id": 1198994,
+    "title": "Send Help",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
+    "slug": "1198994-send-help"
   },
   {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
     "year": "2026",
-    "rating": 8.5,
+    "rating": 8.1,
     "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
+    "slug": "1297842-goat"
   },
   {
     "tmdb_id": 1339713,
@@ -63,6 +63,24 @@
     "slug": "1684226-bride-of-the-year"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.1,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
+  },
+  {
     "tmdb_id": 1327819,
     "title": "Hoppers",
     "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
@@ -70,51 +88,6 @@
     "rating": 8.0,
     "folder": "movie",
     "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/te3zACrsYkS2x3mkjG6htLqhMo4.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-here-i-come"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.4,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
-  },
-  {
-    "tmdb_id": 1198994,
-    "title": "Send Help",
-    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1198994-send-help"
   },
   {
     "tmdb_id": 936075,
@@ -126,31 +99,22 @@
     "slug": "936075-michael"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.5,
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.4,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1140521-the-magic-faraway-tree"
   },
   {
-    "tmdb_id": 1292695,
-    "title": "They Will Kill You",
-    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
     "year": "2026",
-    "rating": 6.9,
+    "rating": 8.5,
     "folder": "movie",
-    "slug": "1292695-they-will-kill-you"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "movie",
-    "slug": "1297842-goat"
+    "slug": "1330021-remarkably-bright-creatures"
   },
   {
     "tmdb_id": 1628367,
@@ -162,21 +126,57 @@
     "slug": "1628367-kartavya"
   },
   {
-    "tmdb_id": 1084242,
-    "title": "Zootopia 2",
-    "poster": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
-    "year": "2025",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
     "rating": 7.6,
     "folder": "movie",
-    "slug": "1084242-zootopia-2"
+    "slug": "1266127-ready-or-not-here-i-come"
   },
   {
-    "tmdb_id": 1662317,
-    "title": "The Crash",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/te3zACrsYkS2x3mkjG6htLqhMo4.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 9.0,
     "folder": "movie",
-    "slug": "1662317-the-crash"
+    "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1601797,
+    "title": "¿Quieres ser mi novia?",
+    "poster": "https://image.tmdb.org/t/p/w500/oscW8xV8EhRYj7iAhyVlBohKqxo.jpg",
+    "year": "2026",
+    "rating": 8.6,
+    "folder": "movie",
+    "slug": "1601797-quieres-ser-mi-novia"
+  },
+  {
+    "tmdb_id": 1239198,
+    "title": "My Dearest Señorita",
+    "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
+    "year": "2026",
+    "rating": 6.1,
+    "folder": "movie",
+    "slug": "1239198-my-dearest-señorita"
+  },
+  {
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
   }
 ]

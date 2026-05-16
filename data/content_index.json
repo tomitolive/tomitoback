@@ -25751,5 +25751,41 @@
       10759
     ],
     "timestamp": 1778953511
+  },
+  {
+    "title": "الطريق الى الدورادو / The Road to El Dorado",
+    "title_ar": "الطريق الى الدورادو",
+    "title_en": "The Road to El Dorado",
+    "slug": "10501-the-road-to-el-dorado",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/tQuqhUBACMcGqCvliHxpJreBfXC.jpg",
+    "rating": 7.3,
+    "year": "2000",
+    "type": "movie",
+    "tmdb_id": 10501,
+    "genre_ids": [
+      10751,
+      12,
+      16,
+      35,
+      14
+    ],
+    "timestamp": 1778957206
+  },
+  {
+    "title": "Youngins / Youngins",
+    "title_ar": "Youngins",
+    "title_en": "Youngins",
+    "slug": "258384-youngins",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/jXVFM80xHuqH2ffMa5sZreP2aej.jpg",
+    "rating": 7.2,
+    "year": "2024",
+    "type": "tv",
+    "tmdb_id": 258384,
+    "genre_ids": [
+      18
+    ],
+    "timestamp": 1778957268
   }
 ]
