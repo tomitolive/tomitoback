@@ -1342,6 +1342,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/153293-a-personal-journey-with-martin-scorsese-through-american-movies</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/153293.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/153312-tulsa-king</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/241372.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/tv/241609-your-friends-neighbors</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/241609.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
