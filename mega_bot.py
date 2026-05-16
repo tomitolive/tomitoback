@@ -696,6 +696,7 @@ def create_page(item_data, media_type, is_trend=False):
     youtube_key = fetch_trailer_key(tmdb_id, media_type)
 
     # ── V7 Trilingual Description (OpenRouter large model) ───────────────────
+    tri = None
     try:
         from ai_engine import (
             generate_bilingual_description, 

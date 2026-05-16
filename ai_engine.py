@@ -225,9 +225,9 @@ def generate_bilingual_description(title_ar, title_en, overview_ar, overview_en,
       "outro": "A natural friendly closing recommendation...",
       "opinion": "A 1-2 sentence honest opinion/recommendation...",
       "faq": [
-        {"q": "Question 1 in Arabic", "a": "Answer 1 in Arabic"},
-        {"q": "Question 2 in Arabic", "a": "Answer 2 in Arabic"},
-        {"q": "Question 3 in Arabic", "a": "Answer 3 in Arabic"}
+        {{"q": "Question 1 in Arabic", "a": "Answer 1 in Arabic"}},
+        {{"q": "Question 2 in Arabic", "a": "Answer 2 in Arabic"}},
+        {{"q": "Question 3 in Arabic", "a": "Answer 3 in Arabic"}}
       ]
     }}"""
 
