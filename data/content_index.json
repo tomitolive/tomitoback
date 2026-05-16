@@ -25419,5 +25419,42 @@
       35
     ],
     "timestamp": 1778896051
+  },
+  {
+    "title": "The WONDERfools / The WONDERfools",
+    "title_ar": "The WONDERfools",
+    "title_en": "The WONDERfools",
+    "slug": "259837-the-wonderfools",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/9uvKFCbPrLzRRGwLuCzvaH62zYp.jpg",
+    "rating": 6.8,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 259837,
+    "genre_ids": [
+      10759,
+      35,
+      10765,
+      18
+    ],
+    "timestamp": 1778908637
+  },
+  {
+    "title": "SSSS.GRIDMAN / SSSS.GRIDMAN",
+    "title_ar": "SSSS.GRIDMAN",
+    "title_en": "SSSS.GRIDMAN",
+    "slug": "82895-ssssgridman",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/mV3AOQptdjJDPhmnZN0rUBtutlt.jpg",
+    "rating": 7.2,
+    "year": "2018",
+    "type": "tv",
+    "tmdb_id": 82895,
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "timestamp": 1778908656
   }
 ]

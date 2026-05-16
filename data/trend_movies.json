@@ -54,15 +54,6 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-    "year": "2026",
-    "rating": 7.5,
-    "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
-  },
-  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -72,22 +63,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
     "year": "2026",
-    "rating": 9.0,
+    "rating": 7.5,
     "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
+    "slug": "1582770-dhurandhar-the-revenge"
   },
   {
     "tmdb_id": 1330021,
@@ -99,13 +81,22 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1122573,
-    "title": "In the Grey",
-    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.3,
     "folder": "movie",
-    "slug": "1122573-in-the-grey"
+    "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 1314481,
@@ -126,13 +117,22 @@
     "slug": "855435-faces-of-death"
   },
   {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
     "year": "2026",
-    "rating": 9.5,
+    "rating": 6.6,
     "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "1318447-apex"
+  },
+  {
+    "tmdb_id": 1628367,
+    "title": "Kartavya",
+    "poster": "https://image.tmdb.org/t/p/w500/wyJG0JzeZTo37giko4UJVVFktld.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1628367-kartavya"
   },
   {
     "tmdb_id": 1301421,
@@ -144,39 +144,39 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "tmdb_id": 1455079,
+    "title": "You, Me & Tuscany",
+    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
     "year": "2026",
-    "rating": 6.6,
+    "rating": 6.4,
     "folder": "movie",
-    "slug": "1318447-apex"
+    "slug": "1455079-you-me-tuscany"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 9.5,
     "folder": "movie",
-    "slug": "1327819-hoppers"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1325734,
     "title": "The Drama",
     "poster": "https://image.tmdb.org/t/p/w500/yPV87cvDabRMTZs6NIbZLOufBLR.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 6.9,
     "folder": "movie",
     "slug": "1325734-the-drama"
   },
   {
-    "tmdb_id": 680493,
-    "title": "Return to Silent Hill",
-    "poster": "https://image.tmdb.org/t/p/w500/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
     "year": "2026",
-    "rating": 5.4,
+    "rating": 7.6,
     "folder": "movie",
-    "slug": "680493-return-to-silent-hill"
+    "slug": "1266127-ready-or-not-here-i-come"
   }
 ]
