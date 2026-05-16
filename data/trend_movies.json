@@ -40,18 +40,9 @@
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/tBtqTCimYm3DKck3t8A2mgJaKVK.jpg",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
   },
   {
     "tmdb_id": 1140521,
@@ -72,6 +63,15 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1582770,
     "title": "Dhurandhar: The Revenge",
     "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
@@ -90,15 +90,6 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
     "tmdb_id": 1628367,
     "title": "Kartavya",
     "poster": "https://image.tmdb.org/t/p/w500/wyJG0JzeZTo37giko4UJVVFktld.jpg",
@@ -106,6 +97,15 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1628367-kartavya"
+  },
+  {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
   },
   {
     "tmdb_id": 855435,
@@ -135,22 +135,13 @@
     "slug": "1662317-the-crash"
   },
   {
-    "tmdb_id": 1301421,
-    "title": "The Sheep Detectives",
-    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
-    "year": "2026",
-    "rating": 7.7,
+    "tmdb_id": 1688177,
+    "title": "An Enemy Within",
+    "poster": "https://image.tmdb.org/t/p/w500/r7IaQDH6kbeVKxtJjH25QgSnh1U.jpg",
+    "year": "2025",
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1301421-the-sheep-detectives"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
+    "slug": "1688177-an-enemy-within"
   },
   {
     "tmdb_id": 1318447,
@@ -162,6 +153,15 @@
     "slug": "1318447-apex"
   },
   {
+    "tmdb_id": 1301421,
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
+    "year": "2026",
+    "rating": 7.7,
+    "folder": "movie",
+    "slug": "1301421-the-sheep-detectives"
+  },
+  {
     "tmdb_id": 680493,
     "title": "Return to Silent Hill",
     "poster": "https://image.tmdb.org/t/p/w500/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
@@ -171,12 +171,12 @@
     "slug": "680493-return-to-silent-hill"
   },
   {
-    "tmdb_id": 1688177,
-    "title": "An Enemy Within",
-    "poster": "https://image.tmdb.org/t/p/w500/r7IaQDH6kbeVKxtJjH25QgSnh1U.jpg",
-    "year": "2025",
-    "rating": 6.7,
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+    "year": "2026",
+    "rating": 9.5,
     "folder": "movie",
-    "slug": "1688177-an-enemy-within"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   }
 ]
