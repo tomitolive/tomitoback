@@ -54,6 +54,24 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -70,24 +88,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "1582770-dhurandhar-the-revenge"
-  },
-  {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-    "year": "2026",
-    "rating": 8.5,
-    "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
   },
   {
     "tmdb_id": 1007757,
@@ -112,18 +112,9 @@
     "title": "Faces of Death",
     "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
     "year": "2026",
-    "rating": 5.2,
+    "rating": 5.1,
     "folder": "movie",
     "slug": "855435-faces-of-death"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1628367,
@@ -135,6 +126,15 @@
     "slug": "1628367-kartavya"
   },
   {
+    "tmdb_id": 1662317,
+    "title": "The Crash",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "year": "2026",
+    "rating": 7.2,
+    "folder": "movie",
+    "slug": "1662317-the-crash"
+  },
+  {
     "tmdb_id": 1301421,
     "title": "The Sheep Detectives",
     "poster": "https://image.tmdb.org/t/p/w500/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU.jpg",
@@ -144,13 +144,22 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
-    "tmdb_id": 1455079,
-    "title": "You, Me & Tuscany",
-    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
+    "tmdb_id": 1398050,
+    "title": "Driver's Ed",
+    "poster": "https://image.tmdb.org/t/p/w500/hHbzSzjJnmcq02l2razSScBEVBf.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 6.7,
     "folder": "movie",
-    "slug": "1455079-you-me-tuscany"
+    "slug": "1398050-drivers-ed"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1228710,
@@ -169,14 +178,5 @@
     "rating": 6.9,
     "folder": "movie",
     "slug": "1325734-the-drama"
-  },
-  {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "1266127-ready-or-not-here-i-come"
   }
 ]
