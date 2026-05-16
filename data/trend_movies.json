@@ -27,15 +27,6 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1684226,
-    "title": "Bride of the Year",
-    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1684226-bride-of-the-year"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/tBtqTCimYm3DKck3t8A2mgJaKVK.jpg",
@@ -43,6 +34,15 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
+  },
+  {
+    "tmdb_id": 1684226,
+    "title": "Bride of the Year",
+    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1684226-bride-of-the-year"
   },
   {
     "tmdb_id": 931285,
@@ -63,6 +63,15 @@
     "slug": "1327819-hoppers"
   },
   {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.4,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -72,13 +81,13 @@
     "slug": "1226863-the-super-mario-galaxy-movie"
   },
   {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "tmdb_id": 1628367,
+    "title": "Kartavya",
+    "poster": "https://image.tmdb.org/t/p/w500/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
     "year": "2026",
-    "rating": 6.4,
+    "rating": 7.0,
     "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
+    "slug": "1628367-kartavya"
   },
   {
     "tmdb_id": 1007757,
@@ -90,15 +99,6 @@
     "slug": "1007757-swapped"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
-    "year": "2026",
-    "rating": 5.1,
-    "folder": "movie",
-    "slug": "1651233-son-in-law"
-  },
-  {
     "tmdb_id": 1330021,
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
@@ -106,6 +106,15 @@
     "rating": 8.5,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "year": "2026",
+    "rating": 5.1,
+    "folder": "movie",
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 1318447,
@@ -126,15 +135,6 @@
     "slug": "1266127-ready-or-not-here-i-come"
   },
   {
-    "tmdb_id": 1628367,
-    "title": "Kartavya",
-    "poster": "https://image.tmdb.org/t/p/w500/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1628367-kartavya"
-  },
-  {
     "tmdb_id": 83533,
     "title": "Avatar: Fire and Ash",
     "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
@@ -142,24 +142,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "83533-avatar-fire-and-ash"
-  },
-  {
-    "tmdb_id": 1601797,
-    "title": "¿Quieres ser mi novia?",
-    "poster": "https://image.tmdb.org/t/p/w500/oscW8xV8EhRYj7iAhyVlBohKqxo.jpg",
-    "year": "2026",
-    "rating": 8.6,
-    "folder": "movie",
-    "slug": "1601797-quieres-ser-mi-novia"
-  },
-  {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-    "year": "2026",
-    "rating": 7.4,
-    "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
   },
   {
     "tmdb_id": 1662317,
@@ -171,6 +153,15 @@
     "slug": "1662317-the-crash"
   },
   {
+    "tmdb_id": 1582770,
+    "title": "Dhurandhar: The Revenge",
+    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+    "year": "2026",
+    "rating": 7.4,
+    "folder": "movie",
+    "slug": "1582770-dhurandhar-the-revenge"
+  },
+  {
     "tmdb_id": 1198994,
     "title": "Send Help",
     "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
@@ -178,5 +169,14 @@
     "rating": 7.0,
     "folder": "movie",
     "slug": "1198994-send-help"
+  },
+  {
+    "tmdb_id": 1601797,
+    "title": "¿Quieres ser mi novia?",
+    "poster": "https://image.tmdb.org/t/p/w500/oscW8xV8EhRYj7iAhyVlBohKqxo.jpg",
+    "year": "2026",
+    "rating": 8.6,
+    "folder": "movie",
+    "slug": "1601797-quieres-ser-mi-novia"
   }
 ]

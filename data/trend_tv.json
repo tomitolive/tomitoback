@@ -13,7 +13,7 @@
     "title": "The WONDERfools",
     "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 8.0,
     "folder": "tv",
     "slug": "259837-the-wonderfools"
   },
@@ -27,15 +27,6 @@
     "slug": "299167-dutton-ranch"
   },
   {
-    "tmdb_id": 273240,
-    "title": "Off Campus",
-    "poster": "https://image.tmdb.org/t/p/w500/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "tv",
-    "slug": "273240-off-campus"
-  },
-  {
     "tmdb_id": 76479,
     "title": "The Boys",
     "poster": "https://image.tmdb.org/t/p/w500/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
@@ -43,6 +34,15 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 273240,
+    "title": "Off Campus",
+    "poster": "https://image.tmdb.org/t/p/w500/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
+    "year": "2026",
+    "rating": 8.9,
+    "folder": "tv",
+    "slug": "273240-off-campus"
   },
   {
     "tmdb_id": 124364,
@@ -72,15 +72,6 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 208921,
-    "title": "Rivals",
-    "poster": "https://image.tmdb.org/t/p/w500/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
-    "year": "2024",
-    "rating": 7.4,
-    "folder": "tv",
-    "slug": "208921-rivals"
-  },
-  {
     "tmdb_id": 56570,
     "title": "Outlander",
     "poster": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
@@ -90,6 +81,15 @@
     "slug": "56570-outlander"
   },
   {
+    "tmdb_id": 208921,
+    "title": "Rivals",
+    "poster": "https://image.tmdb.org/t/p/w500/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
+    "year": "2024",
+    "rating": 7.4,
+    "folder": "tv",
+    "slug": "208921-rivals"
+  },
+  {
     "tmdb_id": 71915,
     "title": "Good Omens",
     "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
@@ -97,6 +97,15 @@
     "rating": 8.0,
     "folder": "tv",
     "slug": "71915-good-omens"
+  },
+  {
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
+    "folder": "tv",
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 235930,
@@ -117,15 +126,6 @@
     "slug": "85552-euphoria"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
-    "rating": 8.7,
-    "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
     "tmdb_id": 79744,
     "title": "The Rookie",
     "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -135,31 +135,13 @@
     "slug": "79744-the-rookie"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
+    "tmdb_id": 270476,
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "year": "2026",
     "rating": 8.2,
     "folder": "tv",
-    "slug": "202555-daredevil-born-again"
+    "slug": "270476-widows-bay"
   },
   {
     "tmdb_id": 87917,
@@ -178,5 +160,23 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
   }
 ]
