@@ -1,28 +1,28 @@
 [
   {
+    "tmdb_id": 259837,
+    "title": "The WONDERfools",
+    "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "tv",
+    "slug": "259837-the-wonderfools"
+  },
+  {
     "tmdb_id": 308014,
     "title": "Berlin and the Lady with an Ermine",
-    "poster": "https://image.tmdb.org/t/p/w500/2iHu6RnNEzVixgzms1sZMCFPwKF.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/kru9Y5uRXdZFcUyeRlcv4bP4hOr.jpg",
     "year": "2026",
     "rating": 7.0,
     "folder": "tv",
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
   },
   {
-    "tmdb_id": 259837,
-    "title": "The WONDERfools",
-    "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
-    "year": "2026",
-    "rating": 7.2,
-    "folder": "tv",
-    "slug": "259837-the-wonderfools"
-  },
-  {
     "tmdb_id": 299167,
     "title": "Dutton Ranch",
     "poster": "https://image.tmdb.org/t/p/w500/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
     "year": "2026",
-    "rating": 9.7,
+    "rating": 9.1,
     "folder": "tv",
     "slug": "299167-dutton-ranch"
   },
@@ -34,6 +34,15 @@
     "rating": 8.5,
     "folder": "tv",
     "slug": "76479-the-boys"
+  },
+  {
+    "tmdb_id": 124364,
+    "title": "FROM",
+    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+    "year": "2022",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "124364-from"
   },
   {
     "tmdb_id": 273240,
@@ -54,15 +63,6 @@
     "slug": "285807-nemesis"
   },
   {
-    "tmdb_id": 124364,
-    "title": "FROM",
-    "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-    "year": "2022",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "124364-from"
-  },
-  {
     "tmdb_id": 208921,
     "title": "Rivals",
     "poster": "https://image.tmdb.org/t/p/w500/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
@@ -81,40 +81,13 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
-    "year": "2014",
-    "rating": 8.2,
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
     "folder": "tv",
-    "slug": "56570-outlander"
-  },
-  {
-    "tmdb_id": 71915,
-    "title": "Good Omens",
-    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
-    "year": "2019",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "71915-good-omens"
-  },
-  {
-    "tmdb_id": 85552,
-    "title": "Euphoria",
-    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
-    "year": "2019",
-    "rating": 8.3,
-    "folder": "tv",
-    "slug": "85552-euphoria"
-  },
-  {
-    "tmdb_id": 235930,
-    "title": "Devil May Cry",
-    "poster": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "235930-devil-may-cry"
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 65942,
@@ -126,6 +99,60 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
+    "tmdb_id": 235930,
+    "title": "Devil May Cry",
+    "poster": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg",
+    "year": "2025",
+    "rating": 8.1,
+    "folder": "tv",
+    "slug": "235930-devil-may-cry"
+  },
+  {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
+    "tmdb_id": 85552,
+    "title": "Euphoria",
+    "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
+    "year": "2019",
+    "rating": 8.3,
+    "folder": "tv",
+    "slug": "85552-euphoria"
+  },
+  {
+    "tmdb_id": 71915,
+    "title": "Good Omens",
+    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
+    "year": "2019",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "71915-good-omens"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 95479,
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "year": "2020",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95479-jujutsu-kaisen"
+  },
+  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -133,33 +160,6 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
-    "year": "2019",
-    "rating": 7.7,
-    "folder": "tv",
-    "slug": "87917-for-all-mankind"
-  },
-  {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 272432,
@@ -171,12 +171,12 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.2,
     "folder": "tv",
-    "slug": "79744-the-rookie"
+    "slug": "202555-daredevil-born-again"
   }
 ]
