@@ -22,7 +22,7 @@
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 8.0,
     "folder": "movie",
     "slug": "1339713-obsession"
   },
@@ -72,6 +72,24 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "year": "2026",
+    "rating": 9.0,
+    "folder": "movie",
+    "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1628367,
+    "title": "Kartavya",
+    "poster": "https://image.tmdb.org/t/p/w500/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
+    "year": "2026",
+    "rating": 0.0,
+    "folder": "movie",
+    "slug": "1628367-kartavya"
+  },
+  {
     "tmdb_id": 1582770,
     "title": "Dhurandhar: The Revenge",
     "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
@@ -90,24 +108,6 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1628367,
-    "title": "Kartavya",
-    "poster": "https://image.tmdb.org/t/p/w500/wyJG0JzeZTo37giko4UJVVFktld.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1628367-kartavya"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "movie",
-    "slug": "1007757-swapped"
-  },
-  {
     "tmdb_id": 855435,
     "title": "Faces of Death",
     "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
@@ -115,15 +115,6 @@
     "rating": 5.1,
     "folder": "movie",
     "slug": "855435-faces-of-death"
-  },
-  {
-    "tmdb_id": 1314481,
-    "title": "The Devil Wears Prada 2",
-    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
-    "year": "2026",
-    "rating": 6.7,
-    "folder": "movie",
-    "slug": "1314481-the-devil-wears-prada-2"
   },
   {
     "tmdb_id": 1662317,
@@ -135,6 +126,15 @@
     "slug": "1662317-the-crash"
   },
   {
+    "tmdb_id": 1314481,
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "year": "2026",
+    "rating": 6.7,
+    "folder": "movie",
+    "slug": "1314481-the-devil-wears-prada-2"
+  },
+  {
     "tmdb_id": 1688177,
     "title": "An Enemy Within",
     "poster": "https://image.tmdb.org/t/p/w500/r7IaQDH6kbeVKxtJjH25QgSnh1U.jpg",
@@ -142,15 +142,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1688177-an-enemy-within"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1301421,
@@ -162,6 +153,24 @@
     "slug": "1301421-the-sheep-detectives"
   },
   {
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1122573-in-the-grey"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
+  },
+  {
     "tmdb_id": 680493,
     "title": "Return to Silent Hill",
     "poster": "https://image.tmdb.org/t/p/w500/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
@@ -169,14 +178,5 @@
     "rating": 5.4,
     "folder": "movie",
     "slug": "680493-return-to-silent-hill"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   }
 ]

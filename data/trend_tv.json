@@ -2,9 +2,9 @@
   {
     "tmdb_id": 308014,
     "title": "Berlin and the Lady with an Ermine",
-    "poster": "https://image.tmdb.org/t/p/w500/kru9Y5uRXdZFcUyeRlcv4bP4hOr.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/2iHu6RnNEzVixgzms1sZMCFPwKF.jpg",
     "year": "2026",
-    "rating": 6.1,
+    "rating": 6.3,
     "folder": "tv",
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
   },
@@ -38,7 +38,7 @@
   {
     "tmdb_id": 285807,
     "title": "Nemesis",
-    "poster": "https://image.tmdb.org/t/p/w500/vqOMdF8XdP0SMZqLoWdfyH4uXyz.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
     "year": "2026",
     "rating": 6.0,
     "folder": "tv",
@@ -81,13 +81,13 @@
     "slug": "124364-from"
   },
   {
-    "tmdb_id": 87917,
-    "title": "For All Mankind",
-    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "tmdb_id": 71915,
+    "title": "Good Omens",
+    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
     "year": "2019",
-    "rating": 7.7,
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "87917-for-all-mankind"
+    "slug": "71915-good-omens"
   },
   {
     "tmdb_id": 278573,
@@ -97,6 +97,15 @@
     "rating": 7.9,
     "folder": "tv",
     "slug": "278573-perfect-crown"
+  },
+  {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
   },
   {
     "tmdb_id": 85552,
@@ -117,13 +126,13 @@
     "slug": "235930-devil-may-cry"
   },
   {
-    "tmdb_id": 71915,
-    "title": "Good Omens",
-    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
-    "year": "2019",
-    "rating": 8.0,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "71915-good-omens"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 37854,
@@ -144,15 +153,6 @@
     "slug": "272432-born-with-luck"
   },
   {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
-  },
-  {
     "tmdb_id": 270476,
     "title": "Widow's Bay",
     "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
@@ -171,12 +171,12 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 254486,
-    "title": "Zhan Zhao Adventures",
-    "poster": "https://image.tmdb.org/t/p/w500/jeSvTYUjRtV0xNjEupHpMgrBwsZ.jpg",
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
     "year": "2026",
-    "rating": 5.0,
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "254486-zhan-zhao-adventures"
+    "slug": "303143-my-royal-nemesis"
   }
 ]
