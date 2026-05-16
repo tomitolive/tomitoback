@@ -334,6 +334,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/10439-hocus-pocus</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/10439.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/1047041-detective-conan-black-iron-submarine</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2689,15 +2698,6 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://image.tomito.xyz/t/p/w500/155.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tomito.xyz/movie/156022-the-equalizer</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://image.tomito.xyz/t/p/w500/156022.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
