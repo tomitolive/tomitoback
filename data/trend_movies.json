@@ -22,7 +22,7 @@
     "title": "Obsession",
     "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 7.9,
     "folder": "movie",
     "slug": "1339713-obsession"
   },
@@ -36,15 +36,6 @@
     "slug": "1684226-bride-of-the-year"
   },
   {
-    "tmdb_id": 931285,
-    "title": "Mortal Kombat II",
-    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "931285-mortal-kombat-ii"
-  },
-  {
     "tmdb_id": 936075,
     "title": "Michael",
     "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
@@ -54,6 +45,15 @@
     "slug": "936075-michael"
   },
   {
+    "tmdb_id": 931285,
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "931285-mortal-kombat-ii"
+  },
+  {
     "tmdb_id": 1582770,
     "title": "Dhurandhar: The Revenge",
     "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
@@ -61,33 +61,6 @@
     "rating": 7.5,
     "folder": "movie",
     "slug": "1582770-dhurandhar-the-revenge"
-  },
-  {
-    "tmdb_id": 1140521,
-    "title": "The Magic Faraway Tree",
-    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
-    "year": "2026",
-    "rating": 6.3,
-    "folder": "movie",
-    "slug": "1140521-the-magic-faraway-tree"
-  },
-  {
-    "tmdb_id": 1122573,
-    "title": "In the Grey",
-    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
-    "year": "2026",
-    "rating": 6.5,
-    "folder": "movie",
-    "slug": "1122573-in-the-grey"
-  },
-  {
-    "tmdb_id": 1228710,
-    "title": "Star Wars: The Mandalorian and Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
-    "year": "2026",
-    "rating": 9.5,
-    "folder": "movie",
-    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1226863,
@@ -108,6 +81,15 @@
     "slug": "1007757-swapped"
   },
   {
+    "tmdb_id": 1140521,
+    "title": "The Magic Faraway Tree",
+    "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+    "year": "2026",
+    "rating": 6.3,
+    "folder": "movie",
+    "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
     "tmdb_id": 1330021,
     "title": "Remarkably Bright Creatures",
     "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
@@ -115,6 +97,15 @@
     "rating": 8.5,
     "folder": "movie",
     "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
+    "tmdb_id": 1122573,
+    "title": "In the Grey",
+    "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1122573-in-the-grey"
   },
   {
     "tmdb_id": 1314481,
@@ -135,22 +126,13 @@
     "slug": "855435-faces-of-death"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "tmdb_id": 1228710,
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
     "year": "2026",
-    "rating": 8.0,
+    "rating": 9.5,
     "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
-    "tmdb_id": 969681,
-    "title": "Spider-Man: Brand New Day",
-    "poster": "https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "969681-spider-man-brand-new-day"
+    "slug": "1228710-star-wars-the-mandalorian-and-grogu"
   },
   {
     "tmdb_id": 1301421,
@@ -171,12 +153,30 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 83533,
-    "title": "Avatar: Fire and Ash",
-    "poster": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-    "year": "2025",
-    "rating": 7.4,
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 8.0,
     "folder": "movie",
-    "slug": "83533-avatar-fire-and-ash"
+    "slug": "1327819-hoppers"
+  },
+  {
+    "tmdb_id": 1325734,
+    "title": "The Drama",
+    "poster": "https://image.tmdb.org/t/p/w500/yPV87cvDabRMTZs6NIbZLOufBLR.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1325734-the-drama"
+  },
+  {
+    "tmdb_id": 680493,
+    "title": "Return to Silent Hill",
+    "poster": "https://image.tmdb.org/t/p/w500/mdw7bSnE11WpwWf3ViXtnavuqiT.jpg",
+    "year": "2026",
+    "rating": 5.4,
+    "folder": "movie",
+    "slug": "680493-return-to-silent-hill"
   }
 ]

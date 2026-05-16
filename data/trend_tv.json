@@ -1,14 +1,5 @@
 [
   {
-    "tmdb_id": 299167,
-    "title": "Dutton Ranch",
-    "poster": "https://image.tmdb.org/t/p/w500/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
-    "year": "2026",
-    "rating": 9.8,
-    "folder": "tv",
-    "slug": "299167-dutton-ranch"
-  },
-  {
     "tmdb_id": 308014,
     "title": "Berlin and the Lady with an Ermine",
     "poster": "https://image.tmdb.org/t/p/w500/kru9Y5uRXdZFcUyeRlcv4bP4hOr.jpg",
@@ -16,6 +7,15 @@
     "rating": 6.1,
     "folder": "tv",
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
+  },
+  {
+    "tmdb_id": 299167,
+    "title": "Dutton Ranch",
+    "poster": "https://image.tmdb.org/t/p/w500/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+    "year": "2026",
+    "rating": 9.8,
+    "folder": "tv",
+    "slug": "299167-dutton-ranch"
   },
   {
     "tmdb_id": 259837,
@@ -72,15 +72,6 @@
     "slug": "235930-devil-may-cry"
   },
   {
-    "tmdb_id": 202555,
-    "title": "Daredevil: Born Again",
-    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "year": "2025",
-    "rating": 8.1,
-    "folder": "tv",
-    "slug": "202555-daredevil-born-again"
-  },
-  {
     "tmdb_id": 124364,
     "title": "FROM",
     "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
@@ -99,6 +90,15 @@
     "slug": "87917-for-all-mankind"
   },
   {
+    "tmdb_id": 56570,
+    "title": "Outlander",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "year": "2014",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "56570-outlander"
+  },
+  {
     "tmdb_id": 85552,
     "title": "Euphoria",
     "poster": "https://image.tmdb.org/t/p/w500/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
@@ -112,7 +112,7 @@
     "title": "Soul Mate",
     "poster": "https://image.tmdb.org/t/p/w500/koWJdCFLPLI2VSWQhssoF91k5al.jpg",
     "year": "2026",
-    "rating": 8.5,
+    "rating": 8.8,
     "folder": "tv",
     "slug": "258063-soul-mate"
   },
@@ -126,15 +126,6 @@
     "slug": "71915-good-omens"
   },
   {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
-    "year": "2014",
-    "rating": 8.2,
-    "folder": "tv",
-    "slug": "56570-outlander"
-  },
-  {
     "tmdb_id": 37854,
     "title": "One Piece",
     "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -142,15 +133,6 @@
     "rating": 8.7,
     "folder": "tv",
     "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 280078,
-    "title": "The All-Devouring Whale: Homecoming",
-    "poster": "https://image.tmdb.org/t/p/w500/om6VqS0T8zqbOMMYHKyQxmEmtNJ.jpg",
-    "year": "2025",
-    "rating": 8.4,
-    "folder": "tv",
-    "slug": "280078-the-all-devouring-whale-homecoming"
   },
   {
     "tmdb_id": 278573,
@@ -162,21 +144,39 @@
     "slug": "278573-perfect-crown"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
     "folder": "tv",
-    "slug": "95557-invincible"
+    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 254953,
-    "title": "Rooster",
-    "poster": "https://image.tmdb.org/t/p/w500/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
-    "year": "2026",
-    "rating": 7.6,
+    "tmdb_id": 280078,
+    "title": "The All-Devouring Whale: Homecoming",
+    "poster": "https://image.tmdb.org/t/p/w500/om6VqS0T8zqbOMMYHKyQxmEmtNJ.jpg",
+    "year": "2025",
+    "rating": 8.4,
     "folder": "tv",
-    "slug": "254953-rooster"
+    "slug": "280078-the-all-devouring-whale-homecoming"
+  },
+  {
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
+    "rating": 8.2,
+    "folder": "tv",
+    "slug": "202555-daredevil-born-again"
+  },
+  {
+    "tmdb_id": 272432,
+    "title": "Born with Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "272432-born-with-luck"
   }
 ]
