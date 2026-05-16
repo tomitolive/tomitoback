@@ -25787,5 +25787,40 @@
       18
     ],
     "timestamp": 1778957268
+  },
+  {
+    "title": "برلين ولوحة ليوناردو دا فينشي / Berlin and the Lady with an Ermine",
+    "title_ar": "برلين ولوحة ليوناردو دا فينشي",
+    "title_en": "Berlin and the Lady with an Ermine",
+    "slug": "308014-berlin-and-the-lady-with-an-ermine",
+    "folder": "tv",
+    "poster": "https://tomito.xyz/t/p/w500/2D05OU4TJromu7Bo192YZSTpPkr.jpg",
+    "rating": 7.2,
+    "year": "2026",
+    "type": "tv",
+    "tmdb_id": 308014,
+    "genre_ids": [
+      18,
+      80
+    ],
+    "timestamp": 1778961342
+  },
+  {
+    "title": "Crayon Shin-chan: The Hidden Treasure of the Buri Buri Kingdom / Crayon Shin-chan: The Hidden Treasure of the Buri Buri Kingdom",
+    "title_ar": "Crayon Shin-chan: The Hidden Treasure of the Buri Buri Kingdom",
+    "title_en": "Crayon Shin-chan: The Hidden Treasure of the Buri Buri Kingdom",
+    "slug": "109526-crayon-shin-chan-the-hidden-treasure-of-the-buri-buri-kingdom",
+    "folder": "movie",
+    "poster": "https://tomito.xyz/t/p/w500/fqtuRbxbF17ufRziuXSXU87QhE5.jpg",
+    "rating": 7.0,
+    "year": "1994",
+    "type": "movie",
+    "tmdb_id": 109526,
+    "genre_ids": [
+      35,
+      16,
+      12
+    ],
+    "timestamp": 1778961388
   }
 ]

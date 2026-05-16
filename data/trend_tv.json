@@ -4,7 +4,7 @@
     "title": "Berlin and the Lady with an Ermine",
     "poster": "https://image.tmdb.org/t/p/w500/kru9Y5uRXdZFcUyeRlcv4bP4hOr.jpg",
     "year": "2026",
-    "rating": 7.0,
+    "rating": 7.2,
     "folder": "tv",
     "slug": "308014-berlin-and-the-lady-with-an-ermine"
   },
@@ -40,7 +40,7 @@
     "title": "Off Campus",
     "poster": "https://image.tmdb.org/t/p/w500/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
     "year": "2026",
-    "rating": 8.9,
+    "rating": 9.0,
     "folder": "tv",
     "slug": "273240-off-campus"
   },
@@ -58,18 +58,9 @@
     "title": "Nemesis",
     "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
     "year": "2026",
-    "rating": 6.0,
+    "rating": 5.9,
     "folder": "tv",
     "slug": "285807-nemesis"
-  },
-  {
-    "tmdb_id": 65942,
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
-    "year": "2016",
-    "rating": 7.8,
-    "folder": "tv",
-    "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
     "tmdb_id": 278573,
@@ -99,13 +90,13 @@
     "slug": "56570-outlander"
   },
   {
-    "tmdb_id": 4057,
-    "title": "Criminal Minds",
-    "poster": "https://image.tmdb.org/t/p/w500/gigxjNnACiXAfrwoMox5WJFgc0I.jpg",
-    "year": "2005",
-    "rating": 8.3,
+    "tmdb_id": 71915,
+    "title": "Good Omens",
+    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
+    "year": "2019",
+    "rating": 8.0,
     "folder": "tv",
-    "slug": "4057-criminal-minds"
+    "slug": "71915-good-omens"
   },
   {
     "tmdb_id": 235930,
@@ -115,15 +106,6 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "235930-devil-may-cry"
-  },
-  {
-    "tmdb_id": 71915,
-    "title": "Good Omens",
-    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
-    "year": "2019",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "71915-good-omens"
   },
   {
     "tmdb_id": 85552,
@@ -144,6 +126,33 @@
     "slug": "37854-one-piece"
   },
   {
+    "tmdb_id": 65942,
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "poster": "https://image.tmdb.org/t/p/w500/5MrRCj7z92YLWMXHeWKp19eJPYv.jpg",
+    "year": "2016",
+    "rating": 7.8,
+    "folder": "tv",
+    "slug": "65942-rezero-starting-life-in-another-world-"
+  },
+  {
+    "tmdb_id": 79744,
+    "title": "The Rookie",
+    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+    "year": "2018",
+    "rating": 8.5,
+    "folder": "tv",
+    "slug": "79744-the-rookie"
+  },
+  {
+    "tmdb_id": 87917,
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "year": "2019",
+    "rating": 7.7,
+    "folder": "tv",
+    "slug": "87917-for-all-mankind"
+  },
+  {
     "tmdb_id": 95557,
     "title": "INVINCIBLE",
     "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
@@ -162,21 +171,12 @@
     "slug": "95479-jujutsu-kaisen"
   },
   {
-    "tmdb_id": 79744,
-    "title": "The Rookie",
-    "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-    "year": "2018",
-    "rating": 8.5,
-    "folder": "tv",
-    "slug": "79744-the-rookie"
-  },
-  {
-    "tmdb_id": 1416,
-    "title": "Grey's Anatomy",
-    "poster": "https://image.tmdb.org/t/p/w500/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
-    "year": "2005",
+    "tmdb_id": 202555,
+    "title": "Daredevil: Born Again",
+    "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+    "year": "2025",
     "rating": 8.2,
     "folder": "tv",
-    "slug": "1416-greys-anatomy"
+    "slug": "202555-daredevil-born-again"
   }
 ]
