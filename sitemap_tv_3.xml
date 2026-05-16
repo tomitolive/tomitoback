@@ -1459,6 +1459,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/tv/79525-the-last-dance</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/79525.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/tv/79593-magnum-pi</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>

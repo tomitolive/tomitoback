@@ -27,15 +27,6 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 936075,
-    "title": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/tBtqTCimYm3DKck3t8A2mgJaKVK.jpg",
-    "year": "2026",
-    "rating": 7.6,
-    "folder": "movie",
-    "slug": "936075-michael"
-  },
-  {
     "tmdb_id": 1684226,
     "title": "Bride of the Year",
     "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
@@ -43,6 +34,15 @@
     "rating": 0.0,
     "folder": "movie",
     "slug": "1684226-bride-of-the-year"
+  },
+  {
+    "tmdb_id": 936075,
+    "title": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/tBtqTCimYm3DKck3t8A2mgJaKVK.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "936075-michael"
   },
   {
     "tmdb_id": 931285,
@@ -54,15 +54,6 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
-    "tmdb_id": 1327819,
-    "title": "Hoppers",
-    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "movie",
-    "slug": "1327819-hoppers"
-  },
-  {
     "tmdb_id": 1140521,
     "title": "The Magic Faraway Tree",
     "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
@@ -70,6 +61,15 @@
     "rating": 6.4,
     "folder": "movie",
     "slug": "1140521-the-magic-faraway-tree"
+  },
+  {
+    "tmdb_id": 1327819,
+    "title": "Hoppers",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "year": "2026",
+    "rating": 8.0,
+    "folder": "movie",
+    "slug": "1327819-hoppers"
   },
   {
     "tmdb_id": 1226863,
@@ -108,13 +108,13 @@
     "slug": "1330021-remarkably-bright-creatures"
   },
   {
-    "tmdb_id": 1651233,
-    "title": "Son-in-Law",
-    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
+    "tmdb_id": 1266127,
+    "title": "Ready or Not: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
     "year": "2026",
-    "rating": 5.1,
+    "rating": 7.6,
     "folder": "movie",
-    "slug": "1651233-son-in-law"
+    "slug": "1266127-ready-or-not-here-i-come"
   },
   {
     "tmdb_id": 1318447,
@@ -126,13 +126,13 @@
     "slug": "1318447-apex"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "tmdb_id": 1651233,
+    "title": "Son-in-Law",
+    "poster": "https://image.tmdb.org/t/p/w500/fRE3KlLo0tBBRtwxThqClvSgk0J.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 5.1,
     "folder": "movie",
-    "slug": "1266127-ready-or-not-here-i-come"
+    "slug": "1651233-son-in-law"
   },
   {
     "tmdb_id": 83533,
