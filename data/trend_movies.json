@@ -27,6 +27,15 @@
     "slug": "931285-mortal-kombat-ii"
   },
   {
+    "tmdb_id": 1330021,
+    "title": "Remarkably Bright Creatures",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "year": "2026",
+    "rating": 8.5,
+    "folder": "movie",
+    "slug": "1330021-remarkably-bright-creatures"
+  },
+  {
     "tmdb_id": 1226863,
     "title": "The Super Mario Galaxy Movie",
     "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
@@ -34,15 +43,6 @@
     "rating": 6.7,
     "folder": "movie",
     "slug": "1226863-the-super-mario-galaxy-movie"
-  },
-  {
-    "tmdb_id": 1684226,
-    "title": "Bride of the Year",
-    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
-    "year": "2026",
-    "rating": 0.0,
-    "folder": "movie",
-    "slug": "1684226-bride-of-the-year"
   },
   {
     "tmdb_id": 1339713,
@@ -54,31 +54,13 @@
     "slug": "1339713-obsession"
   },
   {
-    "tmdb_id": 1330021,
-    "title": "Remarkably Bright Creatures",
-    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "tmdb_id": 1684226,
+    "title": "Bride of the Year",
+    "poster": "https://image.tmdb.org/t/p/w500/2AiO7wnTrY5ktq0pLco3eS6g8NL.jpg",
     "year": "2026",
-    "rating": 8.5,
+    "rating": 0.0,
     "folder": "movie",
-    "slug": "1330021-remarkably-bright-creatures"
-  },
-  {
-    "tmdb_id": 1318447,
-    "title": "Apex",
-    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
-    "year": "2026",
-    "rating": 6.6,
-    "folder": "movie",
-    "slug": "1318447-apex"
-  },
-  {
-    "tmdb_id": 1007757,
-    "title": "Swapped",
-    "poster": "https://image.tmdb.org/t/p/w500/te3zACrsYkS2x3mkjG6htLqhMo4.jpg",
-    "year": "2026",
-    "rating": 9.0,
-    "folder": "movie",
-    "slug": "1007757-swapped"
+    "slug": "1684226-bride-of-the-year"
   },
   {
     "tmdb_id": 1327819,
@@ -90,13 +72,22 @@
     "slug": "1327819-hoppers"
   },
   {
-    "tmdb_id": 1266127,
-    "title": "Ready or Not: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "tmdb_id": 1007757,
+    "title": "Swapped",
+    "poster": "https://image.tmdb.org/t/p/w500/te3zACrsYkS2x3mkjG6htLqhMo4.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 9.0,
     "folder": "movie",
-    "slug": "1266127-ready-or-not-here-i-come"
+    "slug": "1007757-swapped"
+  },
+  {
+    "tmdb_id": 1318447,
+    "title": "Apex",
+    "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+    "year": "2026",
+    "rating": 6.6,
+    "folder": "movie",
+    "slug": "1318447-apex"
   },
   {
     "tmdb_id": 1198994,
@@ -108,11 +99,20 @@
     "slug": "1198994-send-help"
   },
   {
+    "tmdb_id": 1266127,
+    "title": "Ready or Not: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "year": "2026",
+    "rating": 7.6,
+    "folder": "movie",
+    "slug": "1266127-ready-or-not-here-i-come"
+  },
+  {
     "tmdb_id": 1140521,
     "title": "The Magic Faraway Tree",
     "poster": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
     "year": "2026",
-    "rating": 6.3,
+    "rating": 6.4,
     "folder": "movie",
     "slug": "1140521-the-magic-faraway-tree"
   },
@@ -124,24 +124,6 @@
     "rating": 7.6,
     "folder": "movie",
     "slug": "936075-michael"
-  },
-  {
-    "tmdb_id": 1628367,
-    "title": "Kartavya",
-    "poster": "https://image.tmdb.org/t/p/w500/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
-    "year": "2026",
-    "rating": 7.0,
-    "folder": "movie",
-    "slug": "1628367-kartavya"
-  },
-  {
-    "tmdb_id": 1297842,
-    "title": "GOAT",
-    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-    "year": "2026",
-    "rating": 8.1,
-    "folder": "movie",
-    "slug": "1297842-goat"
   },
   {
     "tmdb_id": 83533,
@@ -162,6 +144,24 @@
     "slug": "1292695-they-will-kill-you"
   },
   {
+    "tmdb_id": 1297842,
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "year": "2026",
+    "rating": 8.1,
+    "folder": "movie",
+    "slug": "1297842-goat"
+  },
+  {
+    "tmdb_id": 1628367,
+    "title": "Kartavya",
+    "poster": "https://image.tmdb.org/t/p/w500/9VQvX7a05FgDKAiSGg71MHTXsyF.jpg",
+    "year": "2026",
+    "rating": 7.0,
+    "folder": "movie",
+    "slug": "1628367-kartavya"
+  },
+  {
     "tmdb_id": 1084242,
     "title": "Zootopia 2",
     "poster": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
@@ -171,12 +171,12 @@
     "slug": "1084242-zootopia-2"
   },
   {
-    "tmdb_id": 1582770,
-    "title": "Dhurandhar: The Revenge",
-    "poster": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+    "tmdb_id": 1613798,
+    "title": "Vengeance",
+    "poster": "https://image.tmdb.org/t/p/w500/ygWXPL0RS91JyJPNOfK34eV3bRE.jpg",
     "year": "2026",
-    "rating": 7.4,
+    "rating": 7.3,
     "folder": "movie",
-    "slug": "1582770-dhurandhar-the-revenge"
+    "slug": "1613798-vengeance"
   }
 ]

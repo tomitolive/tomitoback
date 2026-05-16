@@ -298,6 +298,15 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tomito.xyz/movie/575452-the-traitor</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tomito.xyz/t/p/w500/575452.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tomito.xyz/movie/57627-a-little-thing-called-love</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
