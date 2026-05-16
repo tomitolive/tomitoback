@@ -13,7 +13,7 @@
     "title": "The WONDERfools",
     "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
     "year": "2026",
-    "rating": 7.6,
+    "rating": 7.8,
     "folder": "tv",
     "slug": "259837-the-wonderfools"
   },
@@ -81,15 +81,6 @@
     "slug": "208921-rivals"
   },
   {
-    "tmdb_id": 95557,
-    "title": "INVINCIBLE",
-    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
-    "year": "2021",
-    "rating": 8.6,
-    "folder": "tv",
-    "slug": "95557-invincible"
-  },
-  {
     "tmdb_id": 235930,
     "title": "Devil May Cry",
     "poster": "https://image.tmdb.org/t/p/w500/kRdImlrsRmSSVrdsD1nUTddihL8.jpg",
@@ -97,6 +88,15 @@
     "rating": 8.1,
     "folder": "tv",
     "slug": "235930-devil-may-cry"
+  },
+  {
+    "tmdb_id": 95557,
+    "title": "INVINCIBLE",
+    "poster": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+    "year": "2021",
+    "rating": 8.6,
+    "folder": "tv",
+    "slug": "95557-invincible"
   },
   {
     "tmdb_id": 85552,
@@ -115,6 +115,15 @@
     "rating": 8.6,
     "folder": "tv",
     "slug": "95479-jujutsu-kaisen"
+  },
+  {
+    "tmdb_id": 71915,
+    "title": "Good Omens",
+    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
+    "year": "2019",
+    "rating": 8.0,
+    "folder": "tv",
+    "slug": "71915-good-omens"
   },
   {
     "tmdb_id": 56570,
@@ -144,13 +153,13 @@
     "slug": "65942-rezero-starting-life-in-another-world-"
   },
   {
-    "tmdb_id": 71915,
-    "title": "Good Omens",
-    "poster": "https://image.tmdb.org/t/p/w500/nO68XVx5of8hlBwEOGOkPC8Mveu.jpg",
-    "year": "2019",
-    "rating": 8.0,
+    "tmdb_id": 37854,
+    "title": "One Piece",
+    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
+    "year": "1999",
+    "rating": 8.7,
     "folder": "tv",
-    "slug": "71915-good-omens"
+    "slug": "37854-one-piece"
   },
   {
     "tmdb_id": 202555,
@@ -162,21 +171,12 @@
     "slug": "202555-daredevil-born-again"
   },
   {
-    "tmdb_id": 37854,
-    "title": "One Piece",
-    "poster": "https://image.tmdb.org/t/p/w500/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
-    "year": "1999",
+    "tmdb_id": 303143,
+    "title": "My Royal Nemesis",
+    "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+    "year": "2026",
     "rating": 8.7,
     "folder": "tv",
-    "slug": "37854-one-piece"
-  },
-  {
-    "tmdb_id": 272432,
-    "title": "Born with Luck",
-    "poster": "https://image.tmdb.org/t/p/w500/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg",
-    "year": "2026",
-    "rating": 8.0,
-    "folder": "tv",
-    "slug": "272432-born-with-luck"
+    "slug": "303143-my-royal-nemesis"
   }
 ]
